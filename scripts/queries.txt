@@ -1,0 +1,28 @@
+// Find the top 3 most cited papers of each conference
+MATCH (p1:paper)
+OPTIONAL MATCH (p1)-[:CITES]->(p2:paper)
+WITH p1, COALESCE(count(p2), 0) AS citation_count
+ORDER BY citation_count DESC
+RETURN p1.paperId AS paperId, citation_count
+LIMIT 3;
+
+
+
+// For each conference nd its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
+MATCH (p:paper)-[:WRITTEN_BY]->(a:author)
+MATCH (p)-[pi:PUBLISHED_IN]->(c:conference)
+WITH a.authorId AS authorId, c.name AS conferenceName, COUNT(DISTINCT pi.edition) AS numDistinctEditions
+WHERE numDistinctEditions >= 4
+RETURN conferenceName, COLLECT(authorId) AS community
+
+
+
+// Find the h-indexes of the authors in your graph
+MATCH (p:paper)-[:WRITTEN_BY]->(a:author)
+WITH a.authorId AS AuthorId, toInteger(p.citationCount) AS CitationCount
+ORDER BY AuthorId, CitationCount DESC
+WITH AuthorId, collect(CitationCount) AS CitationCounts
+WITH AuthorId, CitationCounts, reduce(s = 0, x IN CitationCounts | CASE WHEN x = CitationCounts[0] THEN 1 ELSE s + 1 END) AS Rank
+WITH AuthorId, CitationCounts, Rank, CitationCounts[-1] - toInteger(Rank) AS Difference
+WHERE CitationCounts[-1] > Difference
+RETURN AuthorId, count(*) as h_index

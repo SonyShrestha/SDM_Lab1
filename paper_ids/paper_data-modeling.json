@@ -1,0 +1,407 @@
+{
+    "total": 32948903,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "a2ec47b9bcc95d2456a8a42199233e5d9129ef18",
+            "title": "TabTransformer: Tabular Data Modeling Using Contextual Embeddings"
+        },
+        {
+            "paperId": "a85c45ce7c893388e8eafa8a653b042e1497db48",
+            "title": "Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling"
+        },
+        {
+            "paperId": "b04550f0722e9614163855ab36fc2430b931a3fe",
+            "title": "Bridge condition rating data modeling using deep learning algorithm"
+        },
+        {
+            "paperId": "0456ed94f6c455f99cb67abe8a28aeb3ef9f489b",
+            "title": "Neural Networks-Based Aerodynamic Data Modeling: A Comprehensive Review"
+        },
+        {
+            "paperId": "417326e51d78ba8bd2621f23e539b41bbdd336d6",
+            "title": "Dynamic Probabilistic Latent Variable Model for Process Data Modeling and Regression Application"
+        },
+        {
+            "paperId": "627d7d631fd4e0e2179f82199f014deb7ff0ea0b",
+            "title": "Bayesian synthesis of probabilistic programs for automatic data modeling"
+        },
+        {
+            "paperId": "ad10ef93675513a68b93d54f3a461160b53318a3",
+            "title": "Data modeling"
+        },
+        {
+            "paperId": "b6a7226e5f6d618370995eccad68af195ef32da2",
+            "title": "Data Modeling"
+        },
+        {
+            "paperId": "f1300d9be8254b028337d9757755ba906fe6955b",
+            "title": "Data Modeling"
+        },
+        {
+            "paperId": "2582ab7c70c9e7fcb84545944eba8f3a7f253248",
+            "title": "Translating Embeddings for Modeling Multi-relational Data"
+        },
+        {
+            "paperId": "cd8a9914d50b0ac63315872530274d158d6aff09",
+            "title": "Modeling Relational Data with Graph Convolutional Networks"
+        },
+        {
+            "paperId": "d4ae73ac17c6bc8a537df2cebf50c9b4a6b420d5",
+            "title": "An Effective and Scalable Data Modeling for Enterprise Big Data Platform"
+        },
+        {
+            "paperId": "0ac0025529c1f9056036be43c561ba67fb8d12a5",
+            "title": "Applied Longitudinal Data Analysis Modeling Change And Event Occurrence"
+        },
+        {
+            "paperId": "965359b3008ab50dd04e171551220ec0e7f83aba",
+            "title": "Generative Modeling by Estimating Gradients of the Data Distribution"
+        },
+        {
+            "paperId": "63adc1e5086481e36b19b62707a96b799da51e59",
+            "title": "Data modeling versus simulation modeling in the big data era: case study of a greenhouse control system"
+        },
+        {
+            "paperId": "e3b94a5f28522e6825aff16ff07d56bd70d26c96",
+            "title": "The YANG 1.1 Data Modeling Language"
+        },
+        {
+            "paperId": "56ae2837b6cd4d143bbfa4a4b06811d70126106f",
+            "title": "Unevenly Sampled Dynamic Data Modeling and Monitoring With an Industrial Application"
+        },
+        {
+            "paperId": "adc180e1fe404b650fca3bb7970e43bdce34a611",
+            "title": "A Big Data Modeling Methodology for Apache Cassandra"
+        },
+        {
+            "paperId": "7909428ca7d813331bbe4d33d07ab09e984b41b4",
+            "title": "Data Modeling"
+        },
+        {
+            "paperId": "d8a5474f450330ad25c1e22f27e88f3630cb840d",
+            "title": "Structural Equation Modeling"
+        },
+        {
+            "paperId": "96023195e889fc258e6ff30aa99d250982dfae01",
+            "title": "Digital Twin Data Modeling with AutomationML and a Communication Methodology for Data Exchange"
+        },
+        {
+            "paperId": "7171a0e9b07ebc98a32eb912262613efc20f283a",
+            "title": "Data Modeling"
+        },
+        {
+            "paperId": "c9f320789e98d2c7a798a9705e26dbe317677966",
+            "title": "Data Modeling and Data Analytics: A Survey from a Big Data Perspective"
+        },
+        {
+            "paperId": "d1bb57da8593a2071b3ea8026865352ab3f7206a",
+            "title": "Data Modeling"
+        },
+        {
+            "paperId": "f9367342405a73ab8d6de704a149babfc0edb5fe",
+            "title": "Moving beyond basic numeracy: data modeling in the early years of schooling"
+        },
+        {
+            "paperId": "91d24a94a276f5b226b07fe294561482b1d4104d",
+            "title": "Data Modeling for NoSQL Document-Oriented Databases"
+        },
+        {
+            "paperId": "a0afa4ec10b2b060aff0ec676a661c8013c7df1d",
+            "title": "Hierarchical Modeling and Analysis for Spatial Data"
+        },
+        {
+            "paperId": "d382b9c11e5c6a8e173fbeb442545e3be8d3e3a5",
+            "title": "Modeling By Shortest Data Description*"
+        },
+        {
+            "paperId": "e7f3478fd8aac6940a4bf4f5eb60ac38f6b0b85b",
+            "title": "Modeling Tabular data using Conditional GAN"
+        },
+        {
+            "paperId": "f31c2ddb7bb3f3f6ef4219143901cc0cddca5968",
+            "title": "Modeling Survival Data Extending The Cox Model"
+        },
+        {
+            "paperId": "2d0eeceb249d89e0f2a313aa3c01da5479a48866",
+            "title": "NoSQL Data Modeling Techniques"
+        },
+        {
+            "paperId": "d4fd7d4acf194c6f8aceb1b868586802f8444103",
+            "title": "QODM: A query-oriented data modeling approach for NoSQL databases"
+        },
+        {
+            "paperId": "73452deffbdc7636502756e3961ab657ddb0ccc2",
+            "title": "Atmospheric Modeling, Data Assimilation and Predictability"
+        },
+        {
+            "paperId": "9c0e320b78f0d0c110cb6deb3586605a0a687e77",
+            "title": "Testing mediational models with longitudinal data: questions and tips in the use of structural equation modeling."
+        },
+        {
+            "paperId": "cd74acb268404cde24f5131a22d04d48776b283e",
+            "title": "Turbulence Modeling in the Age of Data"
+        },
+        {
+            "paperId": "cc4a48e5180151ca0e398a0bf9307afebb6f6e10",
+            "title": "The statistical analysis of multi-environment data: modeling genotype-by-environment interaction and its genetic basis"
+        },
+        {
+            "paperId": "f72d3f58ff73353978e224af348448b34d27cf7b",
+            "title": "Dynamic Mode Decomposition: Data-Driven Modeling of Complex Systems"
+        },
+        {
+            "paperId": "836192fb39196b7b3c1e3fb5b9b21bb75036a714",
+            "title": "Applied Survival Analysis: Regression Modeling of Time-to-Event Data"
+        },
+        {
+            "paperId": "d31884b9f1ec4469e477043c9c524d7d251a68ee",
+            "title": "Temporal Autocorrelation in Univariate Linear Modeling of FMRI Data"
+        },
+        {
+            "paperId": "82870bc488b57cdf5ea62877109a7278af2926b3",
+            "title": "Big Data and Artificial Intelligence Modeling for Drug Discovery."
+        },
+        {
+            "paperId": "24031dc0ae86a805764281cf0d5dc01d8d5b9fa5",
+            "title": "Chemical kinetics and photochemical data for use in stratospheric modeling"
+        },
+        {
+            "paperId": "38616b5587cdd51a212d09d5fa6e1863626fb79e",
+            "title": "Mobility Data: Modeling, Management, and Understanding"
+        },
+        {
+            "paperId": "9efd70d2c06733704220313fb67720aa45c6362a",
+            "title": "DADA2: High resolution sample inference from Illumina amplicon data"
+        },
+        {
+            "paperId": "381c7853690a0fee6f00d2608a7779737f1365f9",
+            "title": "Data Center Energy Consumption Modeling: A Survey"
+        },
+        {
+            "paperId": "cabb029247487d754cc553cbc9767a125122e779",
+            "title": "Modeling Survival Data: Extending the Cox Model"
+        },
+        {
+            "paperId": "05b8b67451fb105576c58af960e6e6d98f9103e7",
+            "title": "Geographic Data Analysis and Modeling"
+        },
+        {
+            "paperId": "9b28e87091b5ddcb944a923116f1fe94b9dbe03b",
+            "title": "Applied Longitudinal Data Analysis Modeling Change And Event Occurrence"
+        },
+        {
+            "paperId": "36b40e07dbd0fd44e16328154469011b8c1f8b0f",
+            "title": "Singular value decomposition for genome-wide expression data processing and modeling."
+        },
+        {
+            "paperId": "e873fea9fce1a0ae7383f6678980c14d84ff2456",
+            "title": "MySQL to NoSQL: data modeling challenges in supporting scalability"
+        },
+        {
+            "paperId": "f12ea2b37862738605236add280919c762aeebcd",
+            "title": "Principles and Practice of Structural Equation Modeling"
+        },
+        {
+            "paperId": "076b2962e03b42f2e997fdf6e3fce6a29ccf936d",
+            "title": "Modeling and Analysis of Compositional Data"
+        },
+        {
+            "paperId": "f645c4f753a163940594e0e2118220f209f4d24b",
+            "title": "Modeling Count Data"
+        },
+        {
+            "paperId": "0ca8808e961f72afa91320535af5fba0fcb4e467",
+            "title": "Scientific Workflow, Provenance, and Data Modeling Challenges and Approaches"
+        },
+        {
+            "paperId": "ad83a410f55efe20f7aeecfed481f3dc3df5f0d7",
+            "title": "Latent variable modeling of differences and changes with longitudinal data."
+        },
+        {
+            "paperId": "f3b2f75d1dc7ad25741e1ad2d20b6776c570d8e8",
+            "title": "Hybrid Generative/Discriminative Approaches for Proportional Data Modeling and Classification"
+        },
+        {
+            "paperId": "726d1b0a80a6fa17b3ce21042ac8865e0798007e",
+            "title": "Modeling psychopathology: From data models to formal theories."
+        },
+        {
+            "paperId": "a60c571ffeceab5029e3a762838fb7b5e52fdb7b",
+            "title": "Latent Variable Analysis: Growth Mixture Modeling and Related Techniques for Longitudinal Data"
+        },
+        {
+            "paperId": "62c43ddfa7ac333185cb0a941d495c026eba1226",
+            "title": "Nonnormal and categorical data in structural equation modeling"
+        },
+        {
+            "paperId": "6a07739fec31199b20d4a9dec61ad29d0d45bb84",
+            "title": "Modeling of Experimental Adsorption Isotherm Data"
+        },
+        {
+            "paperId": "d79eeb61bc8960242550234e7a801d6863c58aec",
+            "title": "Fuzzy identification of systems and its applications to modeling and control"
+        },
+        {
+            "paperId": "f69cb27b06ebec710ae5c71d2e87671b9f27c10e",
+            "title": "Back to the Future: Modeling Time Dependence in Binary Data"
+        },
+        {
+            "paperId": "d4dafb2f797630d1ff45d7833e385a848380e449",
+            "title": "Big data technologies and Management: What conceptual modeling can do"
+        },
+        {
+            "paperId": "b4b3d39dd7be4a1bed4b3f6694552899256ecf66",
+            "title": "Regression analysis of multivariate incomplete failure time data by modeling marginal distributions"
+        },
+        {
+            "paperId": "89fe2ca0bc4ea3f53f5745de6a88e094b8734a2b",
+            "title": "Multivariate data analysis : a global perspective"
+        },
+        {
+            "paperId": "1ae7218ebdba84549f12828eeffbdc4fb7f67c67",
+            "title": "Modeling Survival Data: Extending the Cox Model"
+        },
+        {
+            "paperId": "43d231bb2534bcbd3b13ca731eca7a82dd6a8e09",
+            "title": "A global soil data set for earth system modeling"
+        },
+        {
+            "paperId": "0000233de254693ff6577c5e8d3bf15b456d72be",
+            "title": "Data MULEs: modeling a three-tier architecture for sparse sensor networks"
+        },
+        {
+            "paperId": "48678feba1399c828d6f599f1b218a4ce1f16679",
+            "title": "Data Augmentation for deep neural network acoustic modeling"
+        },
+        {
+            "paperId": "c99628ea7b5fe2eb9dfbd6524af4c4b0dcfd9821",
+            "title": "All-atom empirical potential for molecular modeling and dynamics studies of proteins."
+        },
+        {
+            "paperId": "9f0e9a0b3fa90c638ff1f5a13d39e070b523ef0f",
+            "title": "Multilevel analysis : an introduction to basic and advanced multilevel modeling"
+        },
+        {
+            "paperId": "473f4b7f8ae2b03dda2593f54b316ff7d55db26b",
+            "title": "Modeling annotated data"
+        },
+        {
+            "paperId": "1a8436b9cb989f0d8aba060cac506b6b70ab5cc4",
+            "title": "Complex Sample Data in Structural Equation Modeling"
+        },
+        {
+            "paperId": "394093800e023970138ec6beae479b5b86bb9573",
+            "title": "Particle Swarm Optimization Aided Orthogonal Forward Regression for Unified Data Modeling"
+        },
+        {
+            "paperId": "40f5327ce854392e22fbd219a0ed2c86b6c9a834",
+            "title": "A Dirichlet Process Mixture of Generalized Dirichlet Distributions for Proportional Data Modeling"
+        },
+        {
+            "paperId": "1517e9695cb0bf98ad69ad7fcbff720dd4f79d7d",
+            "title": "Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation"
+        },
+        {
+            "paperId": "893d4cda7d3fe72f3e46cbea90fc1feda7212555",
+            "title": "Patterns of Data Modeling"
+        },
+        {
+            "paperId": "e537f5c05bc6fef338f852afd10c5747157301a7",
+            "title": "Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays"
+        },
+        {
+            "paperId": "62f2a0d676a2260a400c7ba675338958c5e95706",
+            "title": "Modeling Multilevel Data Structures"
+        },
+        {
+            "paperId": "cb7e82676960d7e8f0a835d9351a876c005f0b97",
+            "title": "Modeling human location data with mixtures of kernel densities"
+        },
+        {
+            "paperId": "5545c31794f94df31778192fbba2f409070f84e0",
+            "title": "Forward and Inverse Modeling of Low-Temperature Thermochronometry Data"
+        },
+        {
+            "paperId": "8d372a9d7d71fc923c638d504b06729e1af648b1",
+            "title": "Applied Survival Analysis: Regression Modeling of Time to Event Data"
+        },
+        {
+            "paperId": "bf15a0ccc14ac1deb5cea570c870389c16be019c",
+            "title": "Modeling wine preferences by data mining from physicochemical properties"
+        },
+        {
+            "paperId": "e5df6bc6da5653ad98e754b08f63326c2e52b372",
+            "title": "Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)"
+        },
+        {
+            "paperId": "f413aa73cc076db9bf185ab75646105d7aade9a5",
+            "title": "A Literature Overview of Fuzzy Conceptual Data Modeling"
+        },
+        {
+            "paperId": "4083958684292f6fa2f5c7fd4f9be975e80145b6",
+            "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow"
+        },
+        {
+            "paperId": "912a2dc05a3e0f5fc778f4d0ed18286d005c1ab1",
+            "title": "AMPL: A Modeling Language for Mathematical Programming"
+        },
+        {
+            "paperId": "2fdcd4456b740aaf63c7a88697ebd8ecfe86eb99",
+            "title": "Hierarchical Modeling and Inference in Ecology: The Analysis of Data from Populations, Metapopulations and Communities"
+        },
+        {
+            "paperId": "6c22369598059d7c191db52006d697ef7d07c352",
+            "title": "Missing data techniques for structural equation modeling."
+        },
+        {
+            "paperId": "7c1bb3f136310d95e4732da60d6130d7eb4a7fc5",
+            "title": "The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling"
+        },
+        {
+            "paperId": "ccf2123fcfd4bf4443eaa3f03c992b60a9bbc449",
+            "title": "Modeling valuations for EuroQol health states."
+        },
+        {
+            "paperId": "44ba38111877147c19c8c68079c811bff03e7b8d",
+            "title": "PUF Modeling Attacks on Simulated and Silicon Data"
+        },
+        {
+            "paperId": "6f70b087bca4423cc29a1f752fd8e60ba289f94e",
+            "title": "Multivariate data analysis"
+        },
+        {
+            "paperId": "c699296526581428ba3a3248a66e504f38c7d1da",
+            "title": "Multilevel and Longitudinal Modeling Using Stata"
+        },
+        {
+            "paperId": "d4e8bed3b50a035e1eabad614fe4218a34b3b178",
+            "title": "An Empirical Study of Smoothing Techniques for Language Modeling"
+        },
+        {
+            "paperId": "236fe437af4b7d0bdfac70142782a904ee5c6921",
+            "title": "Regression Modeling Strategies: With Applications to Linear Models, Logistic Regression, and Survival Analysis"
+        },
+        {
+            "paperId": "d31243c3ed032d2a8625cc028a74264e435873fc",
+            "title": "The RooFit Toolkit for Data Modeling"
+        },
+        {
+            "paperId": "5bdf06e3b89bc32884de31f4322c73770ba6d39a",
+            "title": "Robust Sequential Data Modeling Using an Outlier Tolerant Hidden Markov Model"
+        },
+        {
+            "paperId": "eab4b53cf7442f8d6955d5d1a6bb7fbc7670bfb4",
+            "title": "Inferring high-resolution human mixing patterns for disease modeling"
+        },
+        {
+            "paperId": "391a5f286f814d852dddcab1b2b68e5c1af6c79e",
+            "title": "Data mining with big data"
+        },
+        {
+            "paperId": "18bc1d4271abe8dd6e16179cdb06524a4f396e16",
+            "title": "Snorkel: Rapid Training Data Creation with Weak Supervision"
+        }
+    ]
+}

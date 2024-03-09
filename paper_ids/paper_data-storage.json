@@ -1,0 +1,407 @@
+{
+    "total": 20098721,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "66781e11f7de7302cac2ec6fd6a0d9f77030687e",
+            "title": "3 Dimensional analysis of holographic photopolymers based memories"
+        },
+        {
+            "paperId": "182acc7a1c9a63cfdef9f86ee9df43fd75e05060",
+            "title": "Memristive technologies for data storage, computation, encryption, and radio-frequency communication"
+        },
+        {
+            "paperId": "7c8bd41e9cebdb01f445a51ba43839c8d9b3ab91",
+            "title": "Emerging Approaches to DNA Data Storage: Challenges and Prospects"
+        },
+        {
+            "paperId": "eccad1576e6c67b2c93a5cb8d384d038fbb161d6",
+            "title": "DNA stability: a central design consideration for DNA data storage systems"
+        },
+        {
+            "paperId": "287a7da1801a07cf7fd85ffcc23c79504876ecc0",
+            "title": "An artificial chromosome for data storage"
+        },
+        {
+            "paperId": "10d89b13a6309a531c35701d37d3bd76a27a3942",
+            "title": "Big Data Storage"
+        },
+        {
+            "paperId": "c9cc6a3c50b32e801f20b4f0ed5daf3e9550f9c1",
+            "title": "Molecular digital data storage using DNA"
+        },
+        {
+            "paperId": "1e1cf81a1113482be3f0c280db994a832cb9426a",
+            "title": "Secure Data Storage and Recovery in Industrial Blockchain Network Environments"
+        },
+        {
+            "paperId": "7669fca7fbc071b4ca78b4c326ff8f3a4b6ae616",
+            "title": "Random access in large-scale DNA data storage"
+        },
+        {
+            "paperId": "f7b69b8babfa607f2e8b0371f24cb720a7a827d6",
+            "title": "Blockchain for Large-Scale Internet of Things Data Storage and Protection"
+        },
+        {
+            "paperId": "18d87bff073687c025f9bd23ab2dfb20d5f72a66",
+            "title": "BIM Big Data Storage in WebVRGIS"
+        },
+        {
+            "paperId": "3f43bcb910df8c1a76de79057a63195e6c6bc258",
+            "title": "Spintronic devices for energy-efficient data storage and energy harvesting"
+        },
+        {
+            "paperId": "11be2469ab1d1c508e7b6e14148990741ba87884",
+            "title": "Nanopore-Based DNA Hard Drives for Rewritable and Secure Data Storage."
+        },
+        {
+            "paperId": "64c4c6cb66457c79f89ba4f2529b57bfce19ced4",
+            "title": "Collinear holographic data storage technologies"
+        },
+        {
+            "paperId": "8c33ca066e2ab615e24c65198c794114436053dd",
+            "title": "Hybrid encryption framework for securing big data storage in multi-cloud environment"
+        },
+        {
+            "paperId": "9bbcb01e7a6bc28ef6e2cda8ffe1ac8fb86def47",
+            "title": "Enabling Optical Steganography, Data Storage, and Encryption with Plasmonic Colors"
+        },
+        {
+            "paperId": "a81ba6a07bf7a2ecff871e3362a77404501d0927",
+            "title": "Robust direct digital-to-biological data storage in living cells"
+        },
+        {
+            "paperId": "00d1f3423a33f73ca6aee884a58834547475d2f0",
+            "title": "Three-dimensional integration of nanotechnologies for computing and data storage on a single chip"
+        },
+        {
+            "paperId": "647c4a9331e01e31a4350361d3460f0397fe694f",
+            "title": "3D Janus plasmonic helical nanoapertures for polarization-encrypted data storage"
+        },
+        {
+            "paperId": "df1a2539afbad27c4c80115a6f8f59a089024865",
+            "title": "High density DNA data storage library via dehydration with digital microfluidic retrieval"
+        },
+        {
+            "paperId": "147c868b721c8d29df7c61db7f2360114c760614",
+            "title": "Digital Data Storage Using DNA Nanostructures and Solid-State Nanopores."
+        },
+        {
+            "paperId": "8fcbd1cd1ee2211bd183b986900042470ee7f440",
+            "title": "Secure data storage based on blockchain and coding in edge computing."
+        },
+        {
+            "paperId": "0ae18b28d8dc00cd4641488084ead5df2a449c89",
+            "title": "A survey on data storage and placement methodologies for Cloud-Big Data ecosystem"
+        },
+        {
+            "paperId": "c5d3fbc024ad9a0d28669b6030de23fc5c3f7888",
+            "title": "DNA assembly for nanopore data storage readout"
+        },
+        {
+            "paperId": "b9b639522465cc606df878eee62e7f9c4bf19e62",
+            "title": "Quantifying molecular bias in DNA data storage"
+        },
+        {
+            "paperId": "156d8e2aa90b5ccc9be10477ca70deaad0151387",
+            "title": "MongoDB - The Definitive Guide: Powerful and Scalable Data Storage"
+        },
+        {
+            "paperId": "facd5f5deb152229ceb1803434d8690a09ab4129",
+            "title": "High information capacity DNA-based data storage with augmented encoding characters using degenerate bases"
+        },
+        {
+            "paperId": "14dd50979af27bd2574c8068db11d27028b56afd",
+            "title": "Data Storage Based on DNA"
+        },
+        {
+            "paperId": "1986318d8a565fbff8fde545b8d0c2012c6462d8",
+            "title": "Construction of Bio-Constrained Code for DNA Data Storage"
+        },
+        {
+            "paperId": "4895c430c7810b45840b58cc9182f12143013a43",
+            "title": "Magnetic Nanofiber Mats for Data Storage and Transfer"
+        },
+        {
+            "paperId": "d2efa91bd7d076a66bc1d1c570f6aa2da944dd88",
+            "title": "Data storage in DNA with fewer synthesis cycles using composite DNA letters"
+        },
+        {
+            "paperId": "742747c7a453b293352b772d0d99541c96a351c3",
+            "title": "Heterogeneous Data Storage Management with Deduplication in Cloud Computing"
+        },
+        {
+            "paperId": "11c3154d709c74dbbe702e7f7c46a37224f9cc36",
+            "title": "Secure Data Storage and Searching for Industrial IoT by Integrating Fog Computing and Cloud Computing"
+        },
+        {
+            "paperId": "ba687027ed6012f613e1f9a9cefe7683bb192934",
+            "title": "Optical Data Storage and Multicolor Emission Readout on Flexible Films Using Deep\u2010Trap Persistent Luminescence Materials"
+        },
+        {
+            "paperId": "a781cea542e99c6bb9422858e7c04eaef18c7673",
+            "title": "Data Storage"
+        },
+        {
+            "paperId": "90e4330fed2da147dd41490e8ad638b618112b3d",
+            "title": "Fast Erasure Coding for Data Storage"
+        },
+        {
+            "paperId": "afe3e7d85e3eb46fe23f64518bb5f7006d5b1b84",
+            "title": "IoT-Based Big Data Storage Systems in Cloud Computing: Perspectives and Challenges"
+        },
+        {
+            "paperId": "286c7c61fbe92e933cc2711fbb7d17dc297fa2b0",
+            "title": "Incentive Mechanism of Data Storage Based on Blockchain for Wireless Sensor Networks"
+        },
+        {
+            "paperId": "2c0f56f60716bc6b1ae1ea33a00fe0dcb5100cf8",
+            "title": "Recent Advances of Flexible Data Storage Devices Based on Organic Nanoscaled Materials."
+        },
+        {
+            "paperId": "ee33bbe1ec73aaf61b0430dc9e30e0acfcce301e",
+            "title": "Multifunctional sequence-defined macromolecules for chemical data storage"
+        },
+        {
+            "paperId": "79e32a69edbb6cafe61ed9977aec3a1672fde644",
+            "title": "Demonstration of End-to-End Automation of DNA Data Storage"
+        },
+        {
+            "paperId": "f89b6873e639eb4c316187ffeca8c5094c017eba",
+            "title": "A Secure and Verifiable Access Control Scheme for Big Data Storage in Clouds"
+        },
+        {
+            "paperId": "9fb20560a81d376b33d425c970a7f87ae2cbcc79",
+            "title": "RDF Data Storage and Query Processing Schemes"
+        },
+        {
+            "paperId": "ee96d4f9b3f98f7f1df19c7de441b05e0892021e",
+            "title": "A Characterization of the DNA Data Storage Channel"
+        },
+        {
+            "paperId": "3205e105a55a8b15edb905b28c9d515fb2634e9d",
+            "title": "Auditing Big Data Storage in Cloud Computing Using Divide and Conquer Tables"
+        },
+        {
+            "paperId": "cebbbf712b1cc181819281bc14f4194bf8c31b19",
+            "title": "Emerging perovskite materials for high density data storage and artificial synapses"
+        },
+        {
+            "paperId": "50357836e1519b36d1efcd06728998562367c17d",
+            "title": "A Blockchain-Based Decentralized Data Storage and Access Framework for PingER"
+        },
+        {
+            "paperId": "7457ef01faf6e496dde840572947decdbb0a68c0",
+            "title": "Blockchain-Based System for Secure Data Storage with Private Keyword Search"
+        },
+        {
+            "paperId": "e0b13402e1ef75599c38aa2412bd60788fe0eeec",
+            "title": "Data Storage"
+        },
+        {
+            "paperId": "23fcf002eb37aa7631392396433dc22441d5d53d",
+            "title": "Data Storage"
+        },
+        {
+            "paperId": "011839b3c0b8206a04aad8e2d750d1df923f956e",
+            "title": "Flexible and Fine-Grained Attribute-Based Data Storage in Cloud Computing"
+        },
+        {
+            "paperId": "8ec529b9b6d10c4fcc2ff4c7c8dc67e0713b5c8d",
+            "title": "From biomaterial-based data storage to bio-inspired artificial synapse"
+        },
+        {
+            "paperId": "712bbfed1aacf8fad8276866f79880127c4fca76",
+            "title": "A Data Storage Method Based on Blockchain for Decentralization DNS"
+        },
+        {
+            "paperId": "34798e9ccdd626441b2a45c83a8efc6b1bb805ae",
+            "title": "Phase-change materials for rewriteable data storage."
+        },
+        {
+            "paperId": "e7e74f07c4b4ba72bee6f8f06bc1c544508937ba",
+            "title": "Data Storage"
+        },
+        {
+            "paperId": "663360ba2abf32f081322f571a5718c82ec64e41",
+            "title": "Big data storage technologies: a survey"
+        },
+        {
+            "paperId": "809578d333ba3e54db1def738986ba3ce4af41f4",
+            "title": "Towards rewritable multilevel optical data storage in single nanocrystals."
+        },
+        {
+            "paperId": "d09f2bfb0680bd3ebcf0fb3e04fdc1069896103a",
+            "title": "Secured Data Storage Scheme Based on Block Chain for Agricultural Products Tracking"
+        },
+        {
+            "paperId": "9f9b19b9d8eaa86437f2bf69f3c3d2b684e1c450",
+            "title": "Portable and Error-Free DNA-Based Data Storage"
+        },
+        {
+            "paperId": "b3cd477e7b4316a35d4943ab09da3aaab101e315",
+            "title": "Clustering Billions of Reads for DNA Data Storage"
+        },
+        {
+            "paperId": "7f415e318928fdad206b2984994a5a5ed58a2b35",
+            "title": "Privacy-Preserving Public Auditing for Data Storage Security in Cloud Computing"
+        },
+        {
+            "paperId": "da4aa8e75bc723866442dc5f417ef0b14fd780ef",
+            "title": "Dynamic remote data auditing for securing big data storage in cloud computing"
+        },
+        {
+            "paperId": "2a3ebc6d371a55a926fdd15e1ee1bdc32ec05f0e",
+            "title": "Intelligent cryptography approach for secure distributed big data storage in cloud computing"
+        },
+        {
+            "paperId": "6c3d28625eafc900cf91f57d84e1e91e0c4611bb",
+            "title": "Nanomaterials for optical data storage"
+        },
+        {
+            "paperId": "bc1a0450c3c6a8f534cd4c6b5cead841922d601e",
+            "title": "Mutually Uncorrelated Primers for DNA-Based Data Storage"
+        },
+        {
+            "paperId": "18a5f443299784479e78d9e77f175af57cb2fa2b",
+            "title": "Bigtable: a distributed storage system for structured data"
+        },
+        {
+            "paperId": "8735ab3ca5c0d299276b9042f475cc9c10869e4c",
+            "title": "Pulse-modulated multilevel data storage in an organic ferroelectric resistive memory diode"
+        },
+        {
+            "paperId": "fb225d57a4f367ccf0ae8e4c5d187014cd809e08",
+            "title": "A Study of Data Storage Security Issues in Cloud Computing"
+        },
+        {
+            "paperId": "d77ea9a5082081ab0e69f1dfda40546ea332ec3d",
+            "title": "Forward Error Correction for DNA Data Storage"
+        },
+        {
+            "paperId": "cddfb34a35924b2958950deac3a6075f450e4519",
+            "title": "The TileDB Array Data Storage Manager"
+        },
+        {
+            "paperId": "96b76b8dce4fd84160db7ba7c4eb3dcb3243b448",
+            "title": "New Trends of Digital Data Storage in DNA"
+        },
+        {
+            "paperId": "af8c6c9ab0d869e799340b442526544c81c3f30a",
+            "title": "Ultra-high density optical data storage in common transparent plastics"
+        },
+        {
+            "paperId": "42e2aa12af2441f4728b3304b8ac674741298495",
+            "title": "Eternal 5D data storage by ultrafast laser writing in glass"
+        },
+        {
+            "paperId": "0ebcbbd46f0dc0aa95417263e70d2371b9c84d90",
+            "title": "Privacy-Preserving Ciphertext Multi-Sharing Control for Big Data Storage"
+        },
+        {
+            "paperId": "780e12d009976f32b99d3ae6158e6f863eab9fae",
+            "title": "Energy-Efficient Fault-Tolerant Data Storage and Processing in Mobile Cloud"
+        },
+        {
+            "paperId": "399f524be265b524336576658a3cce34324adbd4",
+            "title": "Cooler: scalable storage for Hi-C data and other genomically-labeled arrays"
+        },
+        {
+            "paperId": "d617d6cd0123cd06c633ce0db9d4c369d50b7620",
+            "title": "TaoStore: Overcoming Asynchronicity in Oblivious Data Storage"
+        },
+        {
+            "paperId": "d6da16424d3b639ba4058b443506bdc3f8bd3702",
+            "title": "Ensuring Data Storage Security in Cloud Computing"
+        },
+        {
+            "paperId": "3d03f61704693c9854be7b81e4a1816752ef372d",
+            "title": "Facebook Data Storage Centers as the Archive\u2019s Underbelly"
+        },
+        {
+            "paperId": "4a25ae08ab95d4d038a001fa780f28f28ae73164",
+            "title": "Challenges of big data storage and management"
+        },
+        {
+            "paperId": "40f789e71f90fa03f296e552a0aa24ec793ea623",
+            "title": "Long-term data storage in diamond"
+        },
+        {
+            "paperId": "78a868e0395ae6a3830f78774c4e9e584d3a0276",
+            "title": "A Survey of Public Auditing for Secure Data Storage in Cloud Computing"
+        },
+        {
+            "paperId": "c4fdf78774cef95d434ad6184bca22246f1a7d81",
+            "title": "EOS as the present and future solution for data storage at CERN"
+        },
+        {
+            "paperId": "b983247c7029508ecff56a5052027c6689d7fb27",
+            "title": "Ten Simple Rules for Digital Data Storage"
+        },
+        {
+            "paperId": "03c8beceda4a4a94fe71fe9e09bf53fee024c5e2",
+            "title": "Optical storage arrays: a perspective for future big data storage"
+        },
+        {
+            "paperId": "a9893ca86f7e9940df7141365c023b7722974efd",
+            "title": "Optimized dynamic storage of data (ODSD) in IoT based on blockchain for wireless sensor networks"
+        },
+        {
+            "paperId": "a24d373bd33788640e95c117ebd5d78c88e8ce92",
+            "title": "An IoT-Oriented Data Storage Framework in Cloud Computing Platform"
+        },
+        {
+            "paperId": "1670f1ccd977b34de6e70493f687011136626a14",
+            "title": "The emergence of spin electronics in data storage."
+        },
+        {
+            "paperId": "367530ee89468522f6fbe4fb87dad47dba4eb33a",
+            "title": "Energy Storage Data Reporting in Perspective\u2014Guidelines for Interpreting the Performance of Electrochemical Energy Storage Systems"
+        },
+        {
+            "paperId": "003a22bb2573d3b7215f5d9116a25a75e3a38009",
+            "title": "Lightweight and Privacy-Preserving Delegatable Proofs of Storage with Data Dynamics in Cloud Storage"
+        },
+        {
+            "paperId": "593784aa3525e3c875e125c68cfbbb1da72a1005",
+            "title": "A Blockchain-Based Framework for Data Sharing With Fine-Grained Access Control in Decentralized Storage Systems"
+        },
+        {
+            "paperId": "6b69ce2827b39bdf2187a4fede2aa9430e0ca0ab",
+            "title": "Inorganic\u2013organic hybrid polymer with multiple redox for high-density data storage"
+        },
+        {
+            "paperId": "96f20779771c81109f6b07ab8faff33b13c68d9b",
+            "title": "Data Security and Privacy Protection for Cloud Storage: A Survey"
+        },
+        {
+            "paperId": "eaa1fa9b26d0652e7bd906320670c3953323aad5",
+            "title": "A User-Centric Data Protection Method for Cloud Storage Based on Invertible DWT"
+        },
+        {
+            "paperId": "16259bd9ba5a93f831f1a52857400ac0debb468b",
+            "title": "Multibit data storage states formed in plasma-treated MoS\u2082 transistors."
+        },
+        {
+            "paperId": "19db6146643697f12c54ad8791a9c50a7b7bc30f",
+            "title": "An Efficient Cost Model for Data Storage with Horizontal Layout in the Cloud"
+        },
+        {
+            "paperId": "7a6b0d87d486178ca8665e3dfc66c61a99fadb8b",
+            "title": "Data storage method and data storage device"
+        },
+        {
+            "paperId": "90f5b54bbab2b71f737bf8b0a40d660f2baa267f",
+            "title": "An Efficient and Secure Dynamic Auditing Protocol for Data Storage in Cloud Computing"
+        },
+        {
+            "paperId": "56c1a3caa225e45bbbf44d583459d86284031aac",
+            "title": "Two-photon polymerization initiators for three-dimensional optical data storage and microfabrication"
+        },
+        {
+            "paperId": "0c19c0612a86ac0bb4fe8c4d765aaaa6e9a5b5aa",
+            "title": "Seemingly unlimited lifetime data storage in nanostructured glass."
+        }
+    ]
+}

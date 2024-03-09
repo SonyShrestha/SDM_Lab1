@@ -1,0 +1,407 @@
+{
+    "total": 24030567,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "e936f248b2c0489316ed1521656af2564c3502c3",
+            "title": "The FAIR Guiding Principles for scientific data management and stewardship"
+        },
+        {
+            "paperId": "8dd0c1e955c66092ff951941a151336211e6e171",
+            "title": "PhyloSuite: An integrated and scalable desktop platform for streamlined molecular sequence data management and evolutionary phylogenetics studies"
+        },
+        {
+            "paperId": "761020759f7e9f84c3ac77f59a42862cc6a6004e",
+            "title": "Active Database Systems Triggers And Rules For Advanced Database Processing The Morgan Kaufmann Series In Data Management Systems"
+        },
+        {
+            "paperId": "04eaa03dc670afa88c9f3c83fc8da08ef4d31cdd",
+            "title": "TM4: a free, open-source system for microarray data management and analysis."
+        },
+        {
+            "paperId": "34302d9a7a6d90b205f4464a9ddb5a5ad8c04a15",
+            "title": "Bmc Medical Research Methodology Open Access Data Management for Prospective Research Studies Using Sas \u00ae Software"
+        },
+        {
+            "paperId": "6548106035c7208ad498730627874a482734b9ac",
+            "title": "Blockchain for healthcare data management: opportunities, challenges, and future recommendations"
+        },
+        {
+            "paperId": "4be9368abc2474d6fd38639e523cf03af1873fd9",
+            "title": "From Smart Farming towards Agriculture 5.0: A Review on Crop Data Management"
+        },
+        {
+            "paperId": "c96fc88631f2b8e2fe192027a8a237445635328c",
+            "title": "Pipeline In-Line Inspection Method, Instrumentation and Data Management"
+        },
+        {
+            "paperId": "06ba782753bad19254db5d28ad4155556f286ee0",
+            "title": "Data Management and Analysis Methods"
+        },
+        {
+            "paperId": "d008893e01fa7f6c5fb01dadf3f97ee96835c303",
+            "title": "An Overview of Platforms for Big Earth Observation Data Management and Analysis"
+        },
+        {
+            "paperId": "0df5a4f9cc8a244715fe9968732497d2ac2a7cd1",
+            "title": "A Survey on Trajectory Data Management, Analytics, and Learning"
+        },
+        {
+            "paperId": "1ff76ab0fcf22110df62337d462e15d79a2a2593",
+            "title": "A Blockchain-Based Trusted Data Management Scheme in Edge Computing"
+        },
+        {
+            "paperId": "e8b7a9be9f2d0578a95319ed5841978e10429967",
+            "title": "Big data management in the mining industry"
+        },
+        {
+            "paperId": "b795c74a0150ec091003ffbaa5bd7d74487c137b",
+            "title": "Responsible data management"
+        },
+        {
+            "paperId": "799d5a8271887adede035644d878c7bd555576df",
+            "title": "Geospatial Data Management Research: Progress and Future Directions"
+        },
+        {
+            "paperId": "8d67b76222d84dcd337b8a2c78f13837070a79ce",
+            "title": "Blockchain-based data management for digital twin of product"
+        },
+        {
+            "paperId": "fa26a6d434450b185e669170e79fd3e1d29716bf",
+            "title": "Data management techniques for Internet of Things"
+        },
+        {
+            "paperId": "4bad6ed9a4cdec5912dcd21d12c0cf9291fe04c8",
+            "title": "Data Management in Industry 4.0: State of the Art and Open Challenges"
+        },
+        {
+            "paperId": "ac4350d3a2673a4c34fa949714ede8b45fd04f1d",
+            "title": "Big data management in healthcare: Adoption challenges and implications"
+        },
+        {
+            "paperId": "28cc044d5ba938472bc53d87240583982ad21663",
+            "title": "Data Management for Data Science - Towards Embedded Analytics"
+        },
+        {
+            "paperId": "ca0e479ba2327f71e842d033b6b48b082962cc6a",
+            "title": "Big data and analytics: a data management perspective in public administration"
+        },
+        {
+            "paperId": "9e66ae24a541255c2d931184498ee116ce81478a",
+            "title": "A Cross-Chain Solution to Integrating Multiple Blockchains for IoT Data Management"
+        },
+        {
+            "paperId": "d9b5194f3f959eda2e95df6a340254f52ced46f4",
+            "title": "Controllable and trustworthy blockchain-based cloud data management"
+        },
+        {
+            "paperId": "a830083704284c8c5ddaf04f676c6ce23d583942",
+            "title": "Blockchain Applications for Healthcare Data Management"
+        },
+        {
+            "paperId": "ec2f9076448ba25a225618603adde60caa76c4df",
+            "title": "Big data management challenges in health research - a literature review"
+        },
+        {
+            "paperId": "eebf1a2705bf4ac256d141b0067f1b0ea1dc7632",
+            "title": "Data Management Challenges for Deep Learning"
+        },
+        {
+            "paperId": "90aca7b4cdd728b28b2fb5b4dc3ae3e37daa5b94",
+            "title": "Requirements of Health Data Management Systems for Biomedical Care and Research: Scoping Review"
+        },
+        {
+            "paperId": "545f108575314031f35c617c4ac35a10133c50e3",
+            "title": "Big Earth data: disruptive changes in Earth observation data management and analysis?"
+        },
+        {
+            "paperId": "bcc9245ebf57072c07c5a9d4eff3aaaac36cb7c6",
+            "title": "Rucio: Scientific Data Management"
+        },
+        {
+            "paperId": "6ba00c2386f2edc0b43eec442cd1923b5d964633",
+            "title": "\"Data Stewardship Wizard\": A Tool Bringing Together Researchers, Data Stewards, and Data Experts around Data Management Planning"
+        },
+        {
+            "paperId": "312b1067d89f598c4c5c0799aa18b48d0926bed8",
+            "title": "Big data management: implications of dynamic capabilities and data incubator"
+        },
+        {
+            "paperId": "4ab38afa44f1da43746cd4a01344c8ec212b9de3",
+            "title": "Data Management in Machine Learning Systems"
+        },
+        {
+            "paperId": "cd20ed8e70f6459f5617350f6b84c5c6d5929cb7",
+            "title": "Guides: Data Management: Data Management Plans"
+        },
+        {
+            "paperId": "c419ee7315b9edfd8fc55bab16534fc55a564fcd",
+            "title": "Smart Cities: A Survey on Data Management, Security, and Enabling Technologies"
+        },
+        {
+            "paperId": "9727206903eb40d4fa42606711bad3402f2ba9aa",
+            "title": "Decentralized IoT Data Management Using BlockChain and Trusted Execution Environment"
+        },
+        {
+            "paperId": "60119658af638693f6de23d8466968e60c428ac7",
+            "title": "Agricultural remote sensing big data: Management and applications"
+        },
+        {
+            "paperId": "eac27f6155105f5b461d52874632d66b24262df9",
+            "title": "UlTraMan: A Unified Platform for Big Trajectory Data Management and Analytics"
+        },
+        {
+            "paperId": "becbe26a12c5a23a9fc94afd3439c7afb542edf9",
+            "title": "Developments in research data management in academic libraries: Towards an understanding of research data service maturity"
+        },
+        {
+            "paperId": "72d194dda60affd2728deca833a10028960d28a2",
+            "title": "Data Management Challenges in Production Machine Learning"
+        },
+        {
+            "paperId": "18682ba1feb27958f96bea076bdd7decca7c4d96",
+            "title": "Big Data management in smart grid: concepts, requirements and implementation"
+        },
+        {
+            "paperId": "712f78db141a106bd21c24667bc967fd0576aa1f",
+            "title": "The Myria Big Data Management and Analytics System and Cloud Services"
+        },
+        {
+            "paperId": "3590f4d44434c6a9d27441546cf6cbd003a632ce",
+            "title": "LeanStore: In-Memory Data Management beyond Main Memory"
+        },
+        {
+            "paperId": "6555977f0d5f993e0bee7c2ec3d1fc819057da15",
+            "title": "Data Management in Machine Learning: Challenges, Techniques, and Systems"
+        },
+        {
+            "paperId": "d7dc257883aaf61fce867c40af978585b9700b59",
+            "title": "Crowdsourced Data Management: Overview and Challenges"
+        },
+        {
+            "paperId": "43068e2af093077d7dd06c4191be42fe3633fbb4",
+            "title": "Integrated Data Management for a Fleet of Search\u2010and\u2010rescue Robots"
+        },
+        {
+            "paperId": "14c71d0c83d8e74f71e58d619861c9e8de0f3064",
+            "title": "Research Data Management Services in Academic Libraries in the US: A Content Analysis of Libraries' Websites"
+        },
+        {
+            "paperId": "391500db9c59c840de8722f41e338071661520da",
+            "title": "Research data management in academic institutions: A scoping review"
+        },
+        {
+            "paperId": "9a784a8608a9f3755d7c54a85833d41d6b21355c",
+            "title": "Crowdsourced Data Management: A Survey"
+        },
+        {
+            "paperId": "a670efacf71d8c6bcd682b0e38322d2ced33da55",
+            "title": "Data management and best practice for plant science"
+        },
+        {
+            "paperId": "c8babd5eadefa3db82b5a62829ff0ca79d038ff0",
+            "title": "camtrapR: an R package for efficient camera trap data management"
+        },
+        {
+            "paperId": "e5d9809beb3ba4887585fccc6283521f43fb21d6",
+            "title": "In-Memory Big Data Management and Processing: A Survey"
+        },
+        {
+            "paperId": "5fec50ec7c3241183bacc18fc00203909ac52c00",
+            "title": "Research Data Management in Research Institutions in Zimbabwe"
+        },
+        {
+            "paperId": "4740d555a17f0d200074d158e62019aa44cdc72e",
+            "title": "An introduction to Graph Data Management"
+        },
+        {
+            "paperId": "f375f5627a1df32eb6fbff25c4d43df0bd755ea1",
+            "title": "A survey of RDF data management systems"
+        },
+        {
+            "paperId": "4bdfa6ca4ecf534862bda71cb573d16c0ab84df9",
+            "title": "Research data management."
+        },
+        {
+            "paperId": "f8bd21b93080318a0e0a8a440febdc67a07e42cd",
+            "title": "The LSST Data Management System"
+        },
+        {
+            "paperId": "087095f4825c0adb1ec747990c8bc9e12385d939",
+            "title": "LocationSpark: A Distributed In-Memory Data Management System for Big Spatial Data"
+        },
+        {
+            "paperId": "49149bd7c772b77937f459f56e5bf01c1ac4675f",
+            "title": "The advantages of an Ontology-Based Data Management approach: openness, interoperability and data quality"
+        },
+        {
+            "paperId": "932b3e29addc099031efd26e2d075aca871b5315",
+            "title": "A comparison of research data management platforms: architecture, flexible metadata and interoperability"
+        },
+        {
+            "paperId": "f917152f98bff628e315ab0bd7dc05e3a849a32d",
+            "title": "Ten Simple Rules for Creating a Good Data Management Plan"
+        },
+        {
+            "paperId": "efb802f5cb3926f9bee6c41ea898dc7134297a0e",
+            "title": "Best practices for missing data management in counseling psychology."
+        },
+        {
+            "paperId": "11127e1cc7ef7ff510cde906fb5cf24735195a4f",
+            "title": "Data Narratives: Uncovering tensions in personal data management"
+        },
+        {
+            "paperId": "ede9ba2e3ee16ca709fc4fe314aa66776ce76f28",
+            "title": "Effective Big Data Management and Opportunities for Implementation"
+        },
+        {
+            "paperId": "b656558175947d339acfba31813aed4c4684ca86",
+            "title": "A survey of big data management: Taxonomy and state-of-the-art"
+        },
+        {
+            "paperId": "86846fdca1eec1ccf6ca9e75c974989b6554c263",
+            "title": "A Data Management Perspective on Vehicular Networks"
+        },
+        {
+            "paperId": "1b117efcc4e13c8d87833e02c32fd5c4de751c67",
+            "title": "A Cognitive Adopted Framework for IoT Big-Data Management and Knowledge Discovery Prospective"
+        },
+        {
+            "paperId": "efc051a2ca5676c656bed9267d0b262a99aa9e38",
+            "title": "Crowdsourced Data Management: Industry and Academic Perspectives"
+        },
+        {
+            "paperId": "c49131dc223cdf72a63e02a996cec61b1f71e9dd",
+            "title": "Managing data lakes in big data era: What's a data lake and why has it became popular in data management ecosystem"
+        },
+        {
+            "paperId": "bf5a42b53d156c0811e88e60d2a49f9fd9367cae",
+            "title": "Big data: the management revolution."
+        },
+        {
+            "paperId": "7997de31547b8592bd65be33865fbede3d843956",
+            "title": "Research Data Management Practices: A Snapshot in Time"
+        },
+        {
+            "paperId": "8eaf87086d05433021462886267c6bf9b5b5e6b7",
+            "title": "Data Management Practices Across an Institution: Survey and Report"
+        },
+        {
+            "paperId": "c559298dbe9e8fd559cd322bf7306890ff017a38",
+            "title": "signac - A Simple Data Management Framework"
+        },
+        {
+            "paperId": "92107475ac35be893541baf0579f8b03826d948c",
+            "title": "Diversified Stress Testing of RDF Data Management Systems"
+        },
+        {
+            "paperId": "f306c95d6314f7625907ad4c720cd76f96e38ff8",
+            "title": "Just-In-Time Data Virtualization: Lightweight Data Management with ViDa"
+        },
+        {
+            "paperId": "b1e7b48f71745cb81e9a48c82243edbe3015b1d9",
+            "title": "Big data management"
+        },
+        {
+            "paperId": "374e237039728cda59a7f9209ea884273c5aa699",
+            "title": "qBase relative quantification framework and software for management and automated analysis of real-time quantitative PCR data"
+        },
+        {
+            "paperId": "fbef7249582f8842da0b50febe797fffb152f24c",
+            "title": "Research data management and libraries: Current activities and future priorities"
+        },
+        {
+            "paperId": "0b528c56c2d1b1eb079792be87526a42fc0eec7c",
+            "title": "Distributed data management using MapReduce"
+        },
+        {
+            "paperId": "383d346b4a978cbe69bc67c0b99d17b221781f0a",
+            "title": "Data management and analysis methods."
+        },
+        {
+            "paperId": "315e85089fc27666df73c20992f035207e6143fe",
+            "title": "Improving the quality of health information: a qualitative assessment of data management and reporting systems in Botswana"
+        },
+        {
+            "paperId": "afaa3c7d2db073ed9e6a26be6607bc53a23cca4d",
+            "title": "A survey on communication and data management issues in mobile sensor networks"
+        },
+        {
+            "paperId": "70124df4674dd9862dffa50a833fcda2b3af09bf",
+            "title": "Crop Variety Trials: Data Management and Analysis"
+        },
+        {
+            "paperId": "5a92ccd20e551c191ff19bdd8e75bf1b64faa54b",
+            "title": "Dealing with Data: Science Librarians' Participation in Data Management at Association of Research Libraries Institutions"
+        },
+        {
+            "paperId": "5143b97d3fe8b881d0baa50984e3b99b7f13626e",
+            "title": "NoSQL Systems for Big Data Management"
+        },
+        {
+            "paperId": "83037e8acee6946596c8792fd22829051a03c75c",
+            "title": "Towards an Integrated Biodiversity and Ecological Research Data Management and Archiving Platform: The German Federation for the Curation of Biological Data (GFBio)"
+        },
+        {
+            "paperId": "00e6e8a8dc5c4100584af8175e24616a8a5efab1",
+            "title": "Demonstration of the Myria big data management service"
+        },
+        {
+            "paperId": "39b8e691599762e6eb11897b982816cd9968dd1a",
+            "title": "Bolt: Data Management for Connected Homes"
+        },
+        {
+            "paperId": "e1640f6c556f5ff6060c626c870f3c68a0731503",
+            "title": "Secure Data Management in Decentralized Systems"
+        },
+        {
+            "paperId": "f1f25228e0285e615b84a150dec2279785bc7dc6",
+            "title": "Mobility Data Management and Exploration"
+        },
+        {
+            "paperId": "72a2ec4ffe53e5caa54656b23e1967318e5404c5",
+            "title": "The CMS Data Management System"
+        },
+        {
+            "paperId": "04ab0c05680d496b99cd7f56125b2ce32a6584ec",
+            "title": "Energy-aware resource allocation heuristics for efficient management of data centers for Cloud computing"
+        },
+        {
+            "paperId": "bd8a307efcffbf57d2e5c3c23577de44d883d865",
+            "title": "MedRec: Using Blockchain for Medical Data Access and Permission Management"
+        },
+        {
+            "paperId": "4d8e9d309cfb83f78aa99ea39a43e0910624e70f",
+            "title": "Linked Data Management"
+        },
+        {
+            "paperId": "81989b39f66bd930a20768013a22460e9b0476af",
+            "title": "Data management in cloud environments: NoSQL and NewSQL data stores"
+        },
+        {
+            "paperId": "50f1415d55e99276d21966771a09ac8d13ee78da",
+            "title": "Big data challenge: a data management perspective"
+        },
+        {
+            "paperId": "a93ebcb96ee0949e63a086a431ddec996674b829",
+            "title": "LibGuides: Data Management: Data Management"
+        },
+        {
+            "paperId": "2115ed68ca6aae31b057e5c11d4a231ed09eb2e5",
+            "title": "Data Management for the Internet of Things: Design Primitives and Solution"
+        },
+        {
+            "paperId": "fa406ea5adb1d9900df80027d25b46586fbbaf30",
+            "title": "Bibliometrics and Research Data Management Services: Emerging Trends in Library Support for Research"
+        },
+        {
+            "paperId": "c458f6bee40f731fb768833a10a7945c11c2bc6d",
+            "title": "Disciplinary differences in faculty research data management practices and perspectives"
+        },
+        {
+            "paperId": "ebee45fb6edc360ec3434533e4cb024f3e041cb2",
+            "title": "Data Management for Internet of Things: Challenges, Approaches and Opportunities"
+        }
+    ]
+}

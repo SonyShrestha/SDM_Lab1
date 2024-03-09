@@ -1,0 +1,407 @@
+{
+    "total": 16523670,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "2d867297dfe0d3ce2ed5b1d0f2dff88cac46ee94",
+            "title": "Pregel: a system for large-scale graph processing"
+        },
+        {
+            "paperId": "da923d1ccfd4927fae7c2a835c7979e3a4dec159",
+            "title": "Graph Neural Networks for Natural Language Processing: A Survey"
+        },
+        {
+            "paperId": "d6adbafb07c7a5590516404208fe8776f1363eb3",
+            "title": "GraphX: Graph Processing in a Distributed Dataflow Framework"
+        },
+        {
+            "paperId": "13d38e22daa7e1b0844e785c4e51dd1789cadc14",
+            "title": "ThunderGP: HLS-based Graph Processing Framework on FPGAs"
+        },
+        {
+            "paperId": "862b475d2602000bac075513eec35f3de668f9fe",
+            "title": "PolyGraph: Exposing the Value of Flexibility for Graph Processing Accelerators"
+        },
+        {
+            "paperId": "fecd5bd7c6ffd7b1c9efca939113de8b7054af5d",
+            "title": "GraphScope: A Unified Engine For Big Graph Processing"
+        },
+        {
+            "paperId": "63d21dd45efc4c1d302ad088b5c76b5eba388dae",
+            "title": "LightNE: A Lightweight Graph Processing System for Network Embedding"
+        },
+        {
+            "paperId": "341b47125034ffd3792fae05d91b1baea990cd30",
+            "title": "Tripoline: generalized incremental graph processing via graph triangle inequality"
+        },
+        {
+            "paperId": "05f587341a403ba2efb8836d5dc89fad16a29f77",
+            "title": "Krill: A Compiler and Runtime System for Concurrent Graph Processing"
+        },
+        {
+            "paperId": "174431e6440cac14422393f591d4a47c0b5cbe71",
+            "title": "An analysis of the graph processing landscape"
+        },
+        {
+            "paperId": "c130448814f002df3d82df61533d7f8a1d434e68",
+            "title": "DepGraph: A Dependency-Driven Accelerator for Efficient Iterative Graph Processing"
+        },
+        {
+            "paperId": "4bd669b70ec1d1fa2d7825bdf7a17ae7c80f4480",
+            "title": "A scalable processing-in-memory accelerator for parallel graph processing"
+        },
+        {
+            "paperId": "1db81594a3660c06a6819e349cbae47d0ca27213",
+            "title": "GraphH: A Processing-in-Memory Architecture for Large-Scale Graph Processing"
+        },
+        {
+            "paperId": "6408b5935d3c6a1a405c944c70def8b2e0e2ac0f",
+            "title": "GraphQ: Scalable PIM-Based Graph Processing"
+        },
+        {
+            "paperId": "8691eeb5bb957050c69bd698b96e050bbe78aaba",
+            "title": "Subway: minimizing data transfer during out-of-GPU-memory graph processing"
+        },
+        {
+            "paperId": "7d435b6fa2c5814a72b82d83d029cc480085d253",
+            "title": "GraphPulse: An Event-Driven Hardware Accelerator for Asynchronous Graph Processing"
+        },
+        {
+            "paperId": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+            "title": "A Comprehensive Survey on Graph Neural Networks"
+        },
+        {
+            "paperId": "b333be37cc7e11ca5429a1ace443f244bd94d240",
+            "title": "HitGraph: High-throughput Graph Processing Framework on FPGA"
+        },
+        {
+            "paperId": "723eb030b702832dcae4461584f1196c49b3aef6",
+            "title": "Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads"
+        },
+        {
+            "paperId": "2690525126650d32e21e38c4566be2018d6f134f",
+            "title": "SEP-graph: finding shortest execution paths for graph processing under a hybrid framework on GPU"
+        },
+        {
+            "paperId": "a537aefdef489945a2e76c419d38fa94fd75ef6e",
+            "title": "GraphiDe: A Graph Processing Accelerator leveraging In-DRAM-Computing"
+        },
+        {
+            "paperId": "32604282b8e53584a906d31ab1238f7b41d0dd39",
+            "title": "A Survey on Graph Processing Accelerators: Challenges and Opportunities"
+        },
+        {
+            "paperId": "f5932c579281b63333df77d7b5a2e3bda78ac3e4",
+            "title": "A Heterogeneous PIM Hardware-Software Co-Design for Energy-Efficient Graph Processing"
+        },
+        {
+            "paperId": "0b9078c176ded3a7d46dd56f242a74ab3e92a241",
+            "title": "Graph Processing on FPGAs: Taxonomy, Survey, Challenges"
+        },
+        {
+            "paperId": "767ad42da2e1dcd79dba2e5822eed65ac2fe1dea",
+            "title": "GraphP: Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition"
+        },
+        {
+            "paperId": "037f6cbd6a73578d08b19ca7c20befa3d7c8d16e",
+            "title": "Cost-Aware Partitioning for Efficient Large Graph Processing in Geo-Distributed Datacenters"
+        },
+        {
+            "paperId": "50f4d04747d1f91e6d750631e10a24a20f22a0fc",
+            "title": "Large-scale graph processing systems: a survey"
+        },
+        {
+            "paperId": "5fba1a83247ba37c71fee5cbed5b307e4a26f572",
+            "title": "A pattern based algorithmic autotuner for graph processing on GPUs"
+        },
+        {
+            "paperId": "5355687e1dab8b770e7c79c8a626d8a4052eff43",
+            "title": "Ligra: a lightweight graph processing framework for shared memory"
+        },
+        {
+            "paperId": "0e286793a890086a47fa313ea7dff95f8c6209e8",
+            "title": "GraphS: A Graph Processing Accelerator Leveraging SOT-MRAM"
+        },
+        {
+            "paperId": "923da3bc69c6ed6a2b0b155b6cd759ede373d933",
+            "title": "Gunrock: a high-performance graph processing library on the GPU"
+        },
+        {
+            "paperId": "3231d62bec8e8cc1d837e85893889855767c3b13",
+            "title": "Gemini: A Computation-Centric Distributed Graph Processing System"
+        },
+        {
+            "paperId": "e5badcfa663c30a983da24dd682288141d00fcc3",
+            "title": "GraphSAR: a sparsity-aware processing-in-memory architecture for large-scale graph processing on ReRAMs"
+        },
+        {
+            "paperId": "cc95830a57010a960fda72531e1f811cafc14b77",
+            "title": "GraphR: Accelerating Graph Processing Using ReRAM"
+        },
+        {
+            "paperId": "627359084a1e5796ac10e423444a35896aecb151",
+            "title": "Improving Performance of Graph Processing on FPGA-DRAM Platform by Two-level Vertex Caching"
+        },
+        {
+            "paperId": "344141f900dc77e9e75e911dddfe13c2f9d02879",
+            "title": "GRAM: graph processing in a ReRAM-based computational memory"
+        },
+        {
+            "paperId": "82e331cec90a1cf601c16ee5be1da40dc3a865ca",
+            "title": "Large-Scale Graph Processing on Emerging Storage Devices"
+        },
+        {
+            "paperId": "ba7e3767594d2dcefcde605b43f823f783dbd5a0",
+            "title": "GraphM: an efficient storage system for high throughput of concurrent graph processing"
+        },
+        {
+            "paperId": "a1b4b9fb2467f9e660fb4a172c6c8024976be344",
+            "title": "Graphless: Toward Serverless Graph Processing"
+        },
+        {
+            "paperId": "ba1ef46165f539326111c7a3468774216a25c2f6",
+            "title": "Combining Data Duplication and Graph Reordering to Accelerate Parallel Graph Processing"
+        },
+        {
+            "paperId": "33558f35e826af941c4c919cb50fb75a265f4879",
+            "title": "DiGraph: An Efficient Path-based Iterative Directed Graph Processing System on Multiple GPUs"
+        },
+        {
+            "paperId": "663475b0ea12e123afff6d7ccd75488cc19ea79c",
+            "title": "Slim graph: practical lossy graph compression for approximate graph processing, storage, and analytics"
+        },
+        {
+            "paperId": "7cf3b3861daa851e2d7f8c7a80ff43928345d55d",
+            "title": "Graph Processing on GPUs"
+        },
+        {
+            "paperId": "1f0572f47be66c2c0fbf3fd0f98f25e5b5f88361",
+            "title": "Tigr: Transforming Irregular Graphs for GPU-Friendly Graph Processing"
+        },
+        {
+            "paperId": "194c5faa7a715ab5563782f488ea794912c72be5",
+            "title": "GraphTinker: A High Performance Data Structure for Dynamic Graph Processing"
+        },
+        {
+            "paperId": "1ed069f94344d4e3ba0743a39cf8b013d02857ca",
+            "title": "On-The-Fly Parallel Data Shuffling for Graph Processing on OpenCL-Based FPGAs"
+        },
+        {
+            "paperId": "8abf777d25c7dd3abbf8227aee20984f84b994d0",
+            "title": "ForeGraph: Exploring Large-scale Graph Processing on Multi-FPGA Architecture"
+        },
+        {
+            "paperId": "ea2aa8e3af28d910ab65fcc52f281e6909d9b6a4",
+            "title": "Making pull-based graph processing performant"
+        },
+        {
+            "paperId": "8fee8103ec32f8629a64aba2497b4c2b29c1ada0",
+            "title": "GraphMap: scalable iterative graph processing using NoSQL"
+        },
+        {
+            "paperId": "3b57c7bcece47f2a3198e6adec38f712f2914be5",
+            "title": "Wonderland: A Novel Abstraction-Based Out-Of-Core Graph Processing System"
+        },
+        {
+            "paperId": "420a0e5fc398f197bca3dfe40291a82b2c65655a",
+            "title": "One Trillion Edges: Graph Processing at Facebook-Scale"
+        },
+        {
+            "paperId": "da4e2841527a68abc9375457d5c8b87db35fa8e2",
+            "title": "The ubiquity of large graphs and surprising challenges of graph processing: extended survey"
+        },
+        {
+            "paperId": "ac90920fee742959cfd58b8b1c3b956694940ee5",
+            "title": "An Experimental Comparison of Partitioning Strategies in Distributed Graph Processing"
+        },
+        {
+            "paperId": "ca905ebb8da43c9ab654b7f9e600af288224bd63",
+            "title": "Squeezing out All the Value of Loaded Data: An Out-of-core Graph Processing System with Reduced Disk I/O"
+        },
+        {
+            "paperId": "a35ab87d813dd87a6f1eb81e27f03e32b849d6e0",
+            "title": "GraphD: Distributed Vertex-Centric Graph Processing Beyond the Memory Limit"
+        },
+        {
+            "paperId": "5d137be96e0358fc8ee572234b718478a11c5bec",
+            "title": "A Distributed Multi-GPU System for Fast Graph Processing"
+        },
+        {
+            "paperId": "0074e55e67c74420b725fbb09a8f2f351d6947a9",
+            "title": "Frog: Asynchronous Graph Processing on GPU with Hybrid Coloring Model"
+        },
+        {
+            "paperId": "b92d80a7da668d40457b2d91b097704c75dfcf9f",
+            "title": "Garaph: Efficient GPU-accelerated Graph Processing on a Single Machine with Balanced Replication"
+        },
+        {
+            "paperId": "98a576874f99447baf07c0e4118853a7be7c9b31",
+            "title": "Everything you always wanted to know about multicore graph processing but were afraid to ask"
+        },
+        {
+            "paperId": "a0a79f30fcd29a6e3094f03cdde4eac8c995ff80",
+            "title": "Contextual Graph Markov Model: A Deep and Generative Approach to Graph Processing"
+        },
+        {
+            "paperId": "0aff4619429d452ae182112d7ad547c13153f276",
+            "title": "CGraph: A Correlations-aware Approach for Efficient Concurrent Iterative Graph Processing"
+        },
+        {
+            "paperId": "96f927ca20b614b3387b1187258e9a6877dbee53",
+            "title": "GridGraph: Large-Scale Graph Processing on a Single Machine Using 2-Level Hierarchical Partitioning"
+        },
+        {
+            "paperId": "0a009279fcd11f3d908c9dd49d899cc2d59d231f",
+            "title": "HyVE: Hybrid vertex-edge memory hierarchy for energy-efficient graph processing"
+        },
+        {
+            "paperId": "8ad79568e16d991b719cf84893c6b5bc8108ff9e",
+            "title": "EmptyHeaded: A Relational Engine for Graph Processing"
+        },
+        {
+            "paperId": "28c04ab5ae0ec0815e480b318e6363632289163d",
+            "title": "Graphphi: efficient parallel graph processing on emerging throughput-oriented architectures"
+        },
+        {
+            "paperId": "74987280d779904505fdad94277591bf0cc2ff5d",
+            "title": "GrapH: Traffic-Aware Graph Processing"
+        },
+        {
+            "paperId": "0eebd7a7991160d5b87bc06d9a2497d83753cafe",
+            "title": "Start Late or Finish Early: A Distributed Graph Processing System with Redundancy Reduction"
+        },
+        {
+            "paperId": "06c06b223a04b63b22257e09e9378d264ee77297",
+            "title": "ExtraV: Boosting Graph Processing Near Storage with a Coherent Accelerator"
+        },
+        {
+            "paperId": "46fcff1cdc444a82a203fff4a9a5a3409c6232d3",
+            "title": "Parallel Graph Processing"
+        },
+        {
+            "paperId": "c08de1c411aec1129f530f609044d6fc1e2bb1f4",
+            "title": "All-in-One: Graph Processing in RDBMSs Revisited"
+        },
+        {
+            "paperId": "e506ea867b105d23d2be9ebbe463552a89a8b1e9",
+            "title": "ADWISE: Adaptive Window-Based Streaming Edge Partitioning for High-Speed Graph Processing"
+        },
+        {
+            "paperId": "5045484d9947ecaedb116ad6c36b59e0f200b8da",
+            "title": "An FPGA framework for edge-centric graph processing"
+        },
+        {
+            "paperId": "51bdf4b7da2df62bc35582f4093b13996d787cea",
+            "title": "Chaos: scale-out graph processing from secondary storage"
+        },
+        {
+            "paperId": "eb3a9ba41add01e72583908a7d9f2ab89c66963e",
+            "title": "FPGP: Graph Processing Framework on FPGA A Case Study of Breadth-First Search"
+        },
+        {
+            "paperId": "9185f230566261b08ea6f80e20259e18a26a1707",
+            "title": "A Survey of Benchmarks for Graph-Processing Systems"
+        },
+        {
+            "paperId": "55b3e22b56599ed8520deb1d7cb9ac460f4fa6bb",
+            "title": "Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Server"
+        },
+        {
+            "paperId": "4c5bb8a7bf3aadcc5caedece3a367e8f1c4d04ce",
+            "title": "Large-Scale Graph Processing Using Apache Giraph"
+        },
+        {
+            "paperId": "02a79d754082009d5ab0708613818838b1a0e740",
+            "title": "An effective framework for asynchronous incremental graph processing"
+        },
+        {
+            "paperId": "1b03a3f1083dbd16d727cbfd963508c353cdb8d4",
+            "title": "GAS: A Heterogeneous Memory Architecture for Graph Processing"
+        },
+        {
+            "paperId": "228406a6cc8e3bd7f0386f8be19e370459d25bc4",
+            "title": "A survey of graph processing on graphics processing units"
+        },
+        {
+            "paperId": "c61e7cc717959304f0b7ce4168f88529dff25ae5",
+            "title": "Giraph Unchained: Barrierless Asynchronous Parallel Execution in Pregel-like Graph Processing Systems"
+        },
+        {
+            "paperId": "79d68db415c56f5641cd645173f7d3f0b5307035",
+            "title": "MultiGraph: Efficient Graph Processing on GPUs"
+        },
+        {
+            "paperId": "d700df1ca00147cda45ef0517376e2da8e1e011e",
+            "title": "CoRAL: Confined Recovery in Distributed Asynchronous Graph Processing"
+        },
+        {
+            "paperId": "190b71bec3eb79623ec363ac3f2c04ad7234a29c",
+            "title": "Time-evolving graph processing at scale"
+        },
+        {
+            "paperId": "cbdfbaf171ee31a17ff347b1b4a2d53223f6afcd",
+            "title": "TuNao: A High-Performance and Energy-Efficient Reconfigurable Accelerator for Graph Processing"
+        },
+        {
+            "paperId": "52f6746eae98db21a082594b7dd62a3b91d1bee8",
+            "title": "Scalable Graph Processing Frameworks"
+        },
+        {
+            "paperId": "4bc31853ab9de45df2e03a0ea991f89d9449e42b",
+            "title": "X-Stream: edge-centric graph processing using streaming partitions"
+        },
+        {
+            "paperId": "fd773e66ef6368af711430b8dee94e04ce60f21f",
+            "title": "On Achieving Efficient Data Transfer for Graph Processing in Geo-Distributed Datacenters"
+        },
+        {
+            "paperId": "b831229e904502687b5c844c611ac424e731c28d",
+            "title": "Elasticity in Graph Analytics? A Benchmarking Framework for Elastic Graph Processing"
+        },
+        {
+            "paperId": "494a2f8162dcec0f65df44a91e391cfbe606f9a6",
+            "title": "Combining Vertex-Centric Graph Processing with SPARQL for Large-Scale RDF Data Analytics"
+        },
+        {
+            "paperId": "33f818fb992688d035957eaeaa11f559f218da01",
+            "title": "Speedup Graph Processing by Graph Ordering"
+        },
+        {
+            "paperId": "28613f311914cbb7737692673c2385bf16f50091",
+            "title": "ReCALL: Reordered Cache Aware Locality Based Graph Processing"
+        },
+        {
+            "paperId": "467ac3fc0810d0db6a7342945c478bf19adcfdf7",
+            "title": "High-Throughput and Energy-Efficient Graph Processing on FPGA"
+        },
+        {
+            "paperId": "e2a0d4591c657a93de26b184e0cba980fd5e1738",
+            "title": "GTS: A Fast and Scalable Graph Processing Method based on Streaming Topology to GPUs"
+        },
+        {
+            "paperId": "586414efa54ba9f4a7def0dc5322b7723f22c552",
+            "title": "Scalable SIMD-Efficient Graph Processing on GPUs"
+        },
+        {
+            "paperId": "c37b47e4b4ec305618b5a49200a2a97691b24c9b",
+            "title": "Optimizing Graph Processing on GPUs"
+        },
+        {
+            "paperId": "4e88d42dc5f5efe565d87af3b999c43165e42dce",
+            "title": "GraphIn: An Online High Performance Incremental Graph Processing Framework"
+        },
+        {
+            "paperId": "354e6fb778152ad9db706354a1d1d02284a62587",
+            "title": "NXgraph: An efficient graph processing system on a single machine"
+        },
+        {
+            "paperId": "bdc97d4982782a2b636b367708f0ce9a17a5f28b",
+            "title": "PGX.D: a fast distributed graph processing engine"
+        },
+        {
+            "paperId": "8836d53df884c566e1792791296842c178fb62b1",
+            "title": "Graphalytics: A Big Data Benchmark for Graph-Processing Platforms"
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "total": 5720071,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "f9c602cc436a9ea2f9e7db48c77d924e09ce3c32",
+            "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms"
+        },
+        {
+            "paperId": "4954fa180728932959997a4768411ff9136aac81",
+            "title": "TensorFlow: A system for large-scale machine learning"
+        },
+        {
+            "paperId": "9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d",
+            "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems"
+        },
+        {
+            "paperId": "f9c990b1b5724e50e5632b94fdb7484ece8a6ce7",
+            "title": "Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting"
+        },
+        {
+            "paperId": "bc00ff34ec7772080c7039b17f7069a2f7df0889",
+            "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead"
+        },
+        {
+            "paperId": "d422df8bff4e677a3077635db116679d25142bfc",
+            "title": "Machine learning: Trends, perspectives, and prospects"
+        },
+        {
+            "paperId": "9f5b82d9915d0752957602224c5056be7e749c83",
+            "title": "Foundations of Machine Learning"
+        },
+        {
+            "paperId": "794b3ffd28d28606230efc975eeec9f0522fb139",
+            "title": "An Introduction to Machine Learning"
+        },
+        {
+            "paperId": "0090023afc66cd2741568599057f4e82b566137c",
+            "title": "A Survey on Bias and Fairness in Machine Learning"
+        },
+        {
+            "paperId": "730ca170962a58607e092035beb2afc4b5fa6242",
+            "title": "Data Mining Practical Machine Learning Tools and Techniques"
+        },
+        {
+            "paperId": "360ca02e6f5a5e1af3dce4866a257aafc2d6d6f5",
+            "title": "Machine learning - a probabilistic perspective"
+        },
+        {
+            "paperId": "168f28ac3c8c7ea63bf7ed25f2288e8b67e2fe74",
+            "title": "Scikit-learn: Machine Learning in Python"
+        },
+        {
+            "paperId": "554894f70b28dba58b396c2d84080ac01051261b",
+            "title": "Gaussian Processes For Machine Learning"
+        },
+        {
+            "paperId": "807c1f19047f96083e13614f7ce20f2ac98c239a",
+            "title": "C4.5: Programs for Machine Learning"
+        },
+        {
+            "paperId": "597bd2e45427563cdf025e53a3239006aa364cfc",
+            "title": "Open Graph Benchmark: Datasets for Machine Learning on Graphs"
+        },
+        {
+            "paperId": "2e2089ae76fe914706e6fa90081a79c8fe01611e",
+            "title": "Practical Bayesian Optimization of Machine Learning Algorithms"
+        },
+        {
+            "paperId": "b0c34618ffd1154f35863e2ce7250ac6b6f2c424",
+            "title": "Interpretable Machine Learning"
+        },
+        {
+            "paperId": "668b1277fbece28c4841eeab1c97e4ebd0079700",
+            "title": "Pattern Recognition and Machine Learning"
+        },
+        {
+            "paperId": "2e62d1345b340d5fda3b092c460264b9543bc4b5",
+            "title": "Genetic Algorithms in Search Optimization and Machine Learning"
+        },
+        {
+            "paperId": "f0dcc9aa31dc9b31b836bcac1b140c8c94a2982d",
+            "title": "Membership Inference Attacks Against Machine Learning Models"
+        },
+        {
+            "paperId": "5c39e37022661f81f79e481240ed9b175dec6513",
+            "title": "Towards A Rigorous Science of Interpretable Machine Learning"
+        },
+        {
+            "paperId": "53b047e503f4c24602f376a774d653f7ed56c024",
+            "title": "Practical Black-Box Attacks against Machine Learning"
+        },
+        {
+            "paperId": "7872f34e2a164c5cf3c34a7a7433dc3342b6c7ea",
+            "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions"
+        },
+        {
+            "paperId": "12d0353ce8b41b7e5409e5a4a611110aee33c7bc",
+            "title": "Thumbs up? Sentiment Classification using Machine Learning Techniques"
+        },
+        {
+            "paperId": "6a6ad9eb495739f4c80e7c09598720c3d5c5dff7",
+            "title": "Federated Learning: Collaborative Machine Learning without\nCentralized Training Data"
+        },
+        {
+            "paperId": "e8b30ebe3351680c3b039555ae0a8d0865ad829b",
+            "title": "Neural Networks And Machine Learning"
+        },
+        {
+            "paperId": "53c9f3c34d8481adaf24df3b25581ccf1bc53f5c",
+            "title": "Physics-informed machine learning"
+        },
+        {
+            "paperId": "2936cbd6a90d7153a9fa34e8e4fd947907fe7f6c",
+            "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems"
+        },
+        {
+            "paperId": "6b20af22b0734757d9ead382b201a65f9dd637cc",
+            "title": "Machine learning in automated text categorization"
+        },
+        {
+            "paperId": "eb9e0da8b7170e3ca4364f2f9010599c2d2556f1",
+            "title": "Machine Learning With Python"
+        },
+        {
+            "paperId": "e068be31ded63600aea068eacd12931efd2a1029",
+            "title": "UCI Repository of machine learning databases"
+        },
+        {
+            "paperId": "e2a85a6766b982ff7c8980e57ca6342d22493827",
+            "title": "Adversarial Machine Learning at Scale"
+        },
+        {
+            "paperId": "fbc6562814e08e416e28a268ce7beeaa3d0708c8",
+            "title": "Large-Scale Machine Learning with Stochastic Gradient Descent"
+        },
+        {
+            "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+            "title": "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation"
+        },
+        {
+            "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+            "title": "Neural Machine Translation by Jointly Learning to Align and Translate"
+        },
+        {
+            "paperId": "7feb0fc888cd55360949554db032d7d1cba9e947",
+            "title": "Programs for Machine Learning"
+        },
+        {
+            "paperId": "ab06951251e0abfdb866694f9a23a79c72784317",
+            "title": "Challenges and opportunities in quantum machine learning"
+        },
+        {
+            "paperId": "d21703674ae562bae4a849a75847cdd9ead417df",
+            "title": "Optimization Methods for Large-Scale Machine Learning"
+        },
+        {
+            "paperId": "36eb6fea39ce06e2807f074fa3d5e79ed0f2bcef",
+            "title": "Probabilistic Graphical Models: Principles and Techniques - Adaptive Computation and Machine Learning"
+        },
+        {
+            "paperId": "9e27190f2d9b2167d4a66b88696def4585072fd5",
+            "title": "SoilGrids250m: Global gridded soil information based on machine learning"
+        },
+        {
+            "paperId": "2097ff87df3cb9427c7388bc7b997ed56907d45b",
+            "title": "Optimization and Machine Learning"
+        },
+        {
+            "paperId": "5d433da6d0f143f20936379910104d2bb139d4ae",
+            "title": "ilastik: interactive machine learning for (bio)image analysis"
+        },
+        {
+            "paperId": "e0408181bccb7e3754dd5e6785ec47d8beb8b6bd",
+            "title": "Machine Learning for High-Speed Corner Detection"
+        },
+        {
+            "paperId": "c292e473b3825eeb9db03c70b2e1c033aea190d5",
+            "title": "Machine learning for molecular and materials science"
+        },
+        {
+            "paperId": "62ccd99a65bfc7c735ae1f33b75b107665de95df",
+            "title": "Federated Machine Learning"
+        },
+        {
+            "paperId": "e24b8a9531573d284647239affc6c855505b0de4",
+            "title": "Adversarial machine learning"
+        },
+        {
+            "paperId": "60caa5b3d066e13feac496fd0736e976970eb09f",
+            "title": "Overview of Machine Learning"
+        },
+        {
+            "paperId": "a8d76d84408c1fe6b1543084e6cec3dfc4ede429",
+            "title": "Stable learning establishes some common ground between causal inference and machine learning"
+        },
+        {
+            "paperId": "db0cc2f21b20cbc0ab8946090967399c25709614",
+            "title": "Practical Secure Aggregation for Privacy-Preserving Machine Learning"
+        },
+        {
+            "paperId": "2afa490dde7a8c582d889530c7f8b042fef6a8b7",
+            "title": "Machine learning\u2013accelerated computational fluid dynamics"
+        },
+        {
+            "paperId": "7ae2783a9196fb4bc2a610ae812d19722daddce5",
+            "title": "Applications of machine learning to machine fault diagnosis: A review and roadmap"
+        },
+        {
+            "paperId": "f75b70c9d7078724b592ec3e21de705e7b6ff73f",
+            "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters"
+        },
+        {
+            "paperId": "62df84d6a4d26f95e4714796c2337c9848cc13b5",
+            "title": "MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems"
+        },
+        {
+            "paperId": "bb0cec8f2d34cfb9dbf8bffd1a5de499311ae098",
+            "title": "Understanding Machine Learning"
+        },
+        {
+            "paperId": "c5c4142a01981787a71bf6ebcb791520c458ab5d",
+            "title": "FedML: A Research Library and Benchmark for Federated Machine Learning"
+        },
+        {
+            "paperId": "6bc43977fb11cceed0b9aa55b23c6dd29dd9a132",
+            "title": "Correlation-based Feature Selection for Machine Learning"
+        },
+        {
+            "paperId": "57e6cca1479a4642f867e69b4dee93d14259dc3d",
+            "title": "Power of data in quantum machine learning"
+        },
+        {
+            "paperId": "f1b962fb4070fedd46758e334db3ba4f00ddc3ec",
+            "title": "Supervised Machine Learning: A Review of Classification Techniques"
+        },
+        {
+            "paperId": "a9cbbef8f4426329d0687025b34287c35bdd8b38",
+            "title": "Machine learning and the physical sciences"
+        },
+        {
+            "paperId": "6068d39e92aef1bb0e1291e9931894c35692a85e",
+            "title": "Counterfactual Explanations for Machine Learning: A Review"
+        },
+        {
+            "paperId": "4087e84fc695bb6433d0104ee94f9d7e9f4b7da5",
+            "title": "Machine Learning for Fluid Mechanics"
+        },
+        {
+            "paperId": "f156ecbbb9243522275490d698c6825f4d2e01af",
+            "title": "Explainable AI: A Review of Machine Learning Interpretability Methods"
+        },
+        {
+            "paperId": "0273507eb05f1135f3a05f9c7adc9a56f12c7c5c",
+            "title": "Recent advances and applications of machine learning in solid-state materials science"
+        },
+        {
+            "paperId": "8ca86e941da7254613a5d03dd7a6c36886fadc1d",
+            "title": "Gaussian Processes for Machine Learning (Adaptive Computation and Machine Learning)"
+        },
+        {
+            "paperId": "48ddd9101a90fe65e3061de69626741b843ff5e4",
+            "title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms"
+        },
+        {
+            "paperId": "46f74231b9afeb0c290d6d550043c55045284e5f",
+            "title": "The MNIST Database of Handwritten Digit Images for Machine Learning Research [Best of the Web]"
+        },
+        {
+            "paperId": "6bc4b1376ec2812b6d752c4f6bc8d8fd0512db91",
+            "title": "Multimodal Machine Learning: A Survey and Taxonomy"
+        },
+        {
+            "paperId": "1800404340d43ba185f2b0e2b4f94201c2eeadaa",
+            "title": "Machine Learning"
+        },
+        {
+            "paperId": "80d9f0eb47b712988d19cbe29a7bfa63f2a175d0",
+            "title": "A guide to machine learning for biologists"
+        },
+        {
+            "paperId": "256db9dba1978f004a67c86ffc321563b1aee79a",
+            "title": "Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges"
+        },
+        {
+            "paperId": "a0f303b6e22ef52943355993f57d65938997066a",
+            "title": "Machine learning and deep learning"
+        },
+        {
+            "paperId": "24d21ecaeb2d2ecc20e26a5e3f5128247704ccfe",
+            "title": "Swarm Learning for decentralized and confidential clinical machine learning"
+        },
+        {
+            "paperId": "2b7f9117eb6608a58be4c078ca3d69c0e5ccb875",
+            "title": "SecureML: A System for Scalable Privacy-Preserving Machine Learning"
+        },
+        {
+            "paperId": "b5904cd5dbf73b8d5ff13517de490c292d877ee0",
+            "title": "Applications of machine learning in drug discovery and development"
+        },
+        {
+            "paperId": "287ba5bf00d96af1596aaf80c178392a9c4fcc28",
+            "title": "Machine Learning Basics"
+        },
+        {
+            "paperId": "f381c53aeb7742e4047d06d84f9e0c4f523231a3",
+            "title": "Coronavirus disease (COVID-19) cases analysis using machine-learning applications"
+        },
+        {
+            "paperId": "4d8f0ae904779a50b2e18fec49e51a5661a98d8a",
+            "title": "MRI-Based Brain Tumor Classification Using Ensemble of Deep Features and Machine Learning Classifiers"
+        },
+        {
+            "paperId": "2e5d2f2dc01b150dffc163a9f457848e9b5b5c38",
+            "title": "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice"
+        },
+        {
+            "paperId": "69d49a06f09cf934310ccbf3bb2a360fa719272d",
+            "title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans"
+        },
+        {
+            "paperId": "97ac11e5a6440eccb70ae7146392ac138c36fa6c",
+            "title": "Fairness in Machine Learning"
+        },
+        {
+            "paperId": "fee8f63972906214b77f16cfeca0b93ee8f36ba2",
+            "title": "Fairness in Machine Learning: A Survey"
+        },
+        {
+            "paperId": "f1664bbaddedea8c250873e7610ab07e53fa7132",
+            "title": "Machine learning pipeline for battery state-of-health estimation"
+        },
+        {
+            "paperId": "d1e701665e73faa648cb15473952576f40e8e122",
+            "title": "The Machine\u2010Learning Approach"
+        },
+        {
+            "paperId": "b9518627db25f05930e931f56497602363a75491",
+            "title": "Definitions, methods, and applications in interpretable machine learning"
+        },
+        {
+            "paperId": "739769f4862753fc80057194456d758d2a148ee3",
+            "title": "Extreme Learning Machine for Regression and Multiclass Classification"
+        },
+        {
+            "paperId": "f86f1748d1b6d22870f4347fd5d65314ba800583",
+            "title": "Reconciling modern machine-learning practice and the classical bias\u2013variance trade-off"
+        },
+        {
+            "paperId": "609471b915f5764f63148c1195590b1085a5067b",
+            "title": "The Changing Landscape of Machine Learning: A Comparative Analysis of Centralized Machine Learning, Distributed Machine Learning and Federated Machine Learning"
+        },
+        {
+            "paperId": "74b4f16c5ac91e3e7c88ae81cc8c91416b71d151",
+            "title": "Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning"
+        },
+        {
+            "paperId": "46c266b3d1274dacd7fce27ee8cb4d587f087a58",
+            "title": "Machine Learning Interpretability: A Survey on Methods and Metrics"
+        },
+        {
+            "paperId": "b7a717233ec3ff37385ab1b06816d0ca375f5bb3",
+            "title": "Data Shapley: Equitable Valuation of Data for Machine Learning"
+        },
+        {
+            "paperId": "f70b2f20be241f445a61f33c4b8e76e554760340",
+            "title": "Software Engineering for Machine Learning: A Case Study"
+        },
+        {
+            "paperId": "b55e490637babd50dab3cdaaa3a60a2be6eb1cbb",
+            "title": "Automated Machine Learning - Methods, Systems, Challenges"
+        },
+        {
+            "paperId": "71a85e735a3686bef8cce3725ae5ba82e2cabb1b",
+            "title": "Underspecification Presents Challenges for Credibility in Modern Machine Learning"
+        },
+        {
+            "paperId": "d3f9a39e49abfdf084da558e305be5473c8740e5",
+            "title": "Machine learning for alloys"
+        },
+        {
+            "paperId": "218062f45c15f39bc8f4fb2c930ddf20b5809b11",
+            "title": "Machine Learning Testing: Survey, Landscapes and Horizons"
+        },
+        {
+            "paperId": "20f63033e8775cbab0692aed92d38da7e725d64e",
+            "title": "Understanding Machine Learning - From Theory to Algorithms"
+        },
+        {
+            "paperId": "d0ab11de3077490c80a08abd0fb8827bac84c454",
+            "title": "MoleculeNet: A Benchmark for Molecular Machine Learning"
+        },
+        {
+            "paperId": "6e23398447a022fb9495c44fa80e9de593a574bc",
+            "title": "Machine Learning in Agriculture: A Review"
+        },
+        {
+            "paperId": "4a7eea3ec3080ecb277bfe466afce4822a1071d7",
+            "title": "Quantum embeddings for machine learning"
+        },
+        {
+            "paperId": "b3ea2d9c8e5ea3b87ace121f0bece71565abc187",
+            "title": "Quantifying the Carbon Emissions of Machine Learning"
+        }
+    ]
+}

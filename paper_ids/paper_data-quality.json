@@ -1,0 +1,407 @@
+{
+    "total": 23920859,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "5ba56419b68b844acb3df79f5b5aec3228b8b2f9",
+            "title": "BUSCO: Assessing Genomic Data Quality and Beyond"
+        },
+        {
+            "paperId": "e264de275694c5ecee23fa80a8eedbb00ed06c4c",
+            "title": "The Danish National Patient Registry: a review of content, data quality, and research potential"
+        },
+        {
+            "paperId": "b057cc625984119d48846dbf08f30b565f8c263d",
+            "title": "Beyond Accuracy: What Data Quality Means to Data Consumers"
+        },
+        {
+            "paperId": "c6086d39bec8de527c8144f3d560d29f65d6f17a",
+            "title": "Data quality of platforms and panels for online behavioral research"
+        },
+        {
+            "paperId": "4672c6cf14ce2e49cc39f9361b9e73d9442361c5",
+            "title": "Data Quality in Citizen Science"
+        },
+        {
+            "paperId": "8f0d7df1e34867682d0816a38ef4a9bf4a74509c",
+            "title": "Big data quality framework: a holistic approach to continuous quality management"
+        },
+        {
+            "paperId": "305edc10dc375f2c10f11e9e865eb3d039f80f9c",
+            "title": "Data Quality for Machine Learning Tasks"
+        },
+        {
+            "paperId": "050da4d1a0ba405e01287dd70e53dfd530a0c5d7",
+            "title": "A Data Quality-Driven View of MLOps"
+        },
+        {
+            "paperId": "46d801efa051c36be099e27d0deea6593d1303ec",
+            "title": "A survey on data compression techniques: From the perspective of data quality, coding schemes, data type and applications"
+        },
+        {
+            "paperId": "a3149afa3b6a168d12c776032ffead4fedd715ec",
+            "title": "Scaling and assessment of data quality."
+        },
+        {
+            "paperId": "2ebdbb50e1c693b019f0263b3a7f6263c41625e8",
+            "title": "Microplastics in freshwaters and drinking water: Critical review and assessment of data quality"
+        },
+        {
+            "paperId": "0aeafde5ec25e6c2326db7c509373417ed641357",
+            "title": "An MTurk Crisis? Shifts in Data Quality and the Impact on Study Results"
+        },
+        {
+            "paperId": "736adb079d54516505e41eaa4a43d7185b20c730",
+            "title": "Sensor data quality: a systematic review"
+        },
+        {
+            "paperId": "68a6515b48e29e60d7993083a37090b8cfa36d4f",
+            "title": "Overview and Importance of Data Quality for Machine Learning Tasks"
+        },
+        {
+            "paperId": "96e5f157d707c01d7f13ee1f3c71259b2fe281e3",
+            "title": "Facilitating harmonized data quality assessments. A data quality framework for observational health research data collections with software implementations in R"
+        },
+        {
+            "paperId": "061ec9690b679ecae1ed9f000e7497d50fe844a4",
+            "title": "ATLAS data quality operations and performance for 2015-2018 data-taking"
+        },
+        {
+            "paperId": "ae81b867d8788ab94ae69ff2d178132bd2259546",
+            "title": "An Overview of Data Quality Frameworks"
+        },
+        {
+            "paperId": "93e98f8b6232f93513548b16abbf4e8009b5214f",
+            "title": "Data Quality and Explainable AI"
+        },
+        {
+            "paperId": "7941cd0e4ecc2a9dea30c5e84cd3da3f7951841d",
+            "title": "The MOS 36-ltem Short-Form Health Survey (SF-36): III. Tests of Data Quality, Scaling Assumptions, and Reliability Across Diverse Patient Groups"
+        },
+        {
+            "paperId": "33ce792e04d46bd54d1aec90c8bafdb6a85509c8",
+            "title": "A Survey of Data Quality Measurement and Monitoring Tools"
+        },
+        {
+            "paperId": "be78d6151c5724854a034aad204d20902c5d013f",
+            "title": "An Analysis of Data Quality: Professional Panels, Student Subject Pools, and Amazon's Mechanical Turk"
+        },
+        {
+            "paperId": "515193e0624c4b6583e48c098e16551cb7a12e0c",
+            "title": "Data quality and the Internet of Things"
+        },
+        {
+            "paperId": "053f82ae28f2af2897f21e7b07d384c321cdcb47",
+            "title": "Discovering Data Quality Problems"
+        },
+        {
+            "paperId": "35f992b1f4e6b37045bd906100fbb0f433747cc6",
+            "title": "Can big data improve firm decision quality? The role of data quality and data diagnosticity"
+        },
+        {
+            "paperId": "3606af912be399c789c40c1a1a5f16bd9bb84b6e",
+            "title": "Automating Large-Scale Data Quality Verification"
+        },
+        {
+            "paperId": "e2bc01813d6ef50194588086e2adea42bdf2323b",
+            "title": "The Dataset Nutrition Label: A Framework To Drive Higher Data Quality Standards"
+        },
+        {
+            "paperId": "27ea4b7b4f0e38d363aa7d3e8dc3c7c282bf0603",
+            "title": "Ethical Dimensions for Data Quality"
+        },
+        {
+            "paperId": "5717139f63bb18064649dd8df911a04c24b6acee",
+            "title": "Linking Crystallographic Model and Data Quality"
+        },
+        {
+            "paperId": "a531fb4d4e91c79adf6d81928e1ca5e64dcab3e8",
+            "title": "Linked data quality of DBpedia, Freebase, OpenCyc, Wikidata, and YAGO"
+        },
+        {
+            "paperId": "48a322818b215866277b2568930b7d46970ae4b0",
+            "title": "Data Quality Guided Incentive Mechanism Design for Crowdsensing"
+        },
+        {
+            "paperId": "472d3a102ee6c6fb5f3e6991a6009e71a5d370ed",
+            "title": "Requirements for Data Quality Metrics"
+        },
+        {
+            "paperId": "b0511cf2cd71b58355c8a2283de2a6bad1321095",
+            "title": "Characterizing the clinical relevance of digital phenotyping data quality with applications to a cohort with schizophrenia"
+        },
+        {
+            "paperId": "7b6f963de94fd4976311eb52eefb640e74818813",
+            "title": "Data Quality in Electronic Health Records Research: Quality Domains and Assessment Methods"
+        },
+        {
+            "paperId": "cbe6b1066a9a9489b9b52d7f59af97141828fe58",
+            "title": "The Challenges of Data Quality and Data Quality Assessment in the Big Data Era"
+        },
+        {
+            "paperId": "3fd6e9736a36c11c67cca54137b235f9b3df6f14",
+            "title": "Data quality: \u201cGarbage in \u2013 garbage out\u201d"
+        },
+        {
+            "paperId": "432c172e73949fac6bdd8788115140553ceff26a",
+            "title": "Data quality aware analysis of differential expression in RNA-seq with NOISeq R/Bioc package"
+        },
+        {
+            "paperId": "ee013b1477e8f81cb5c66a9a93a342281f740042",
+            "title": "Assessing data quality in citizen science (preprint)"
+        },
+        {
+            "paperId": "a0451cbb1f17a94716efd8f580288efbe8289b58",
+            "title": "Incentivizing Truthful Data Quality for Quality-Aware Mobile Data Crowdsourcing"
+        },
+        {
+            "paperId": "d68c8b93827a6e28d0e4a9acdc7d5792d5b208dc",
+            "title": "A grounding-based ontology of data quality measures"
+        },
+        {
+            "paperId": "af93348b33e37de95b785bd597e3304032ab586a",
+            "title": "Data Quality and Data Quality Dimensions"
+        },
+        {
+            "paperId": "625a9e9822603b79f754c4ce044760f7363b5eb6",
+            "title": "Data Quality Considerations for Big Data and Machine Learning: Going Beyond Data Cleaning and Transformations"
+        },
+        {
+            "paperId": "4190ac7578a24c561a66c4f2f5a3be654f3262fd",
+            "title": "Context-aware data quality assessment for big data"
+        },
+        {
+            "paperId": "ceac5739cedbad9a124c987e98530e6d48ab01ac",
+            "title": "Data Quality Influences Observed Links Between Functional Connectivity and Behavior"
+        },
+        {
+            "paperId": "e3e3eaa0834ae16afc78641650bab979d7561821",
+            "title": "Data Quality: The Role of Empiricism"
+        },
+        {
+            "paperId": "b9def5bc30d872889a34bfa33f8664295bf6d67c",
+            "title": "A classification of response scale characteristics that affect data quality: a literature review"
+        },
+        {
+            "paperId": "7d54ce102b510f5429df9b46930af6a86fa33651",
+            "title": "A Data Quality Assessment Guideline for Electronic Health Record Data Reuse"
+        },
+        {
+            "paperId": "d7c2931b8e48aa791ddbffb7120b4762c45f20d9",
+            "title": "Big Data Quality: A Survey"
+        },
+        {
+            "paperId": "14fdc18d9c164e5b0d6d946b3238c04e81921358",
+            "title": "Analyzing and Improving the Image Quality of StyleGAN"
+        },
+        {
+            "paperId": "9fffaf5e8a1699ed6dd4484bb272013a67caf3bd",
+            "title": "Reputation as a sufficient condition for data quality on Amazon Mechanical Turk"
+        },
+        {
+            "paperId": "123ac851adb58624668d6685c032b73db858d96b",
+            "title": "Assessing VGI Data Quality"
+        },
+        {
+            "paperId": "29fea37d722b0e1925de1e82ab7fdfcfc61615a0",
+            "title": "Spatial Data Quality"
+        },
+        {
+            "paperId": "bc0ed1f8a1eac058ecc748de534a89cf40d622b1",
+            "title": "Data Quality in Rare Diseases Registries."
+        },
+        {
+            "paperId": "34f2bb32be4d71aedefd30ab5256e0cabc4bde02",
+            "title": "Improving the quality of EHR recording in primary care: a data quality feedback tool"
+        },
+        {
+            "paperId": "ecacb4f208635f11f8f3ac68c81bb749205e0b58",
+            "title": "Data quality evaluation for observational multiple sclerosis registries"
+        },
+        {
+            "paperId": "abbb7e6712f3bde191c713626ded389a75fc88e4",
+            "title": "Open data: Quality over quantity"
+        },
+        {
+            "paperId": "ae4bde838e928666f88a8f6dbb29c236227607a2",
+            "title": "A Harmonized Data Quality Assessment Terminology and Framework for the Secondary Use of Electronic Health Record Data"
+        },
+        {
+            "paperId": "1f6bc3e83860538db3c56fd1e3a652c12ebca93e",
+            "title": "Context-aware data quality estimation in mobile crowdsensing"
+        },
+        {
+            "paperId": "7b7fe5a2d457cfc067ce7dc504c7a4ed08d7ae63",
+            "title": "A longitudinal analysis of data quality in a large pediatric data research network"
+        },
+        {
+            "paperId": "fa6f4739a23f9973a0e80bd0bdc191c847ddbf1e",
+            "title": "Effects of undetected data quality issues on climatological analyses"
+        },
+        {
+            "paperId": "9da94acbc8f407b0ef29abf15c440fd1b613592a",
+            "title": "The Evolution of Data Quality: Understanding the Transdisciplinary Origins of Data Quality Concepts and Approaches"
+        },
+        {
+            "paperId": "6cc63eae49af1d85b0403e1536bab12c8bc6fb97",
+            "title": "Grand challenges in altmetrics: heterogeneity, data quality and dependencies"
+        },
+        {
+            "paperId": "5397f717f6767fd30c95e00043c8da470d15c58f",
+            "title": "Ontological Multidimensional Data Models and Contextual Data Quality"
+        },
+        {
+            "paperId": "1aca3006beb13a1bb1a0f29b7a4f39cf1ba0f5fc",
+            "title": "Luzzu\u2014A Methodology and Framework for Linked Data Quality Assessment"
+        },
+        {
+            "paperId": "3bde4151a2edbe217402a5d61e5a3eae08c11108",
+            "title": "Open data quality measurement framework: Definition and application to Open Government Data"
+        },
+        {
+            "paperId": "494f901ab46bd67de8ce46c7325822d43dffd8ce",
+            "title": "On the Meaningfulness of \u201cBig Data Quality\u201d (Invited Paper)"
+        },
+        {
+            "paperId": "823f01704db0b8ad0ef5106a50925504be91cb4b",
+            "title": "Data quality in internet of things: A state-of-the-art survey"
+        },
+        {
+            "paperId": "07c3f2cbbb351b25d7bea9ca82896c01e3484dba",
+            "title": "SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB"
+        },
+        {
+            "paperId": "6f5548422bc8bd23954f9d13af84a6b51d9ca557",
+            "title": "Data governance, data literacy and the management of data quality"
+        },
+        {
+            "paperId": "6b0b366e92ca779d5a290fe165424fd1f19f5dd2",
+            "title": "Improving data quality in neuronal population recordings"
+        },
+        {
+            "paperId": "f053bd2256be428cbf789c6bb8538ee058c82c7a",
+            "title": "A Survey on Data Quality: Classifying Poor Data"
+        },
+        {
+            "paperId": "c956361b88fe61a0e55d628457957816e825d34d",
+            "title": "Influence of volunteer and project characteristics on data quality of biological surveys"
+        },
+        {
+            "paperId": "49149bd7c772b77937f459f56e5bf01c1ac4675f",
+            "title": "The advantages of an Ontology-Based Data Management approach: openness, interoperability and data quality"
+        },
+        {
+            "paperId": "d9028543259d8d094c34723beabc0836d193ec59",
+            "title": "Data quality issues for synchrophasor applications Part I: a review"
+        },
+        {
+            "paperId": "b598b8dd79654dc865b02c2af0a0bdb565d24049",
+            "title": "Taking a \u2018Big Data\u2019 approach to data quality in a citizen science project"
+        },
+        {
+            "paperId": "407388e4d16ac19bd04ed34114fc24cbe81b93ac",
+            "title": "Big Data Quality: A Quality Dimensions Evaluation"
+        },
+        {
+            "paperId": "bfabf37c8d2b19dd92c181df1b467febba0bf0f6",
+            "title": "From Data Quality to Big Data Quality"
+        },
+        {
+            "paperId": "83711c7c682c15bf8edfe01668aac50ee2d7edb6",
+            "title": "A Data Quality in Use model for Big Data"
+        },
+        {
+            "paperId": "b1b1c259ecedd386ced26e419bdde28ab2087fa1",
+            "title": "Large-scale epigenome imputation improves data quality and disease variant enrichment"
+        },
+        {
+            "paperId": "37095b714dad5895d946b1f8435a3a38dee1be8b",
+            "title": "Data quality for data science, predictive analytics, and big data in supply chain management: An introduction to the problem and suggestions for research and applications"
+        },
+        {
+            "paperId": "78605b129cfc99baa5da85a1f031b02e74b9adcc",
+            "title": "Sports Injury Surveillance Systems: A Review of Methods and Data Quality"
+        },
+        {
+            "paperId": "d3b4b69571ea197b694e486a963b81513f4ee44c",
+            "title": "Application of an Ontology for Characterizing Data Quality for a Secondary Use of EHR Data"
+        },
+        {
+            "paperId": "39af39e8fe254399daaab327628293cf5a32ce4b",
+            "title": "Rethinking big data: A review on the data quality and usage issues"
+        },
+        {
+            "paperId": "19fb4ce8dc2cbaf6c0e5e4fadf6a2b0d99a9a9ab",
+            "title": "Transparent Reporting of Data Quality in Distributed Data Networks"
+        },
+        {
+            "paperId": "88a55ee54aae117f06441459d1ad2330ce18d7e0",
+            "title": "Emerging problems of data quality in citizen science"
+        },
+        {
+            "paperId": "f19983b3e9b7fe8106c0375ebbd9f73a53295a28",
+            "title": "Data quality management, data usage experience and acquisition intention of big data analytics"
+        },
+        {
+            "paperId": "d42dcfde84b8f5cef5f5c1c9d2e730d7bf0ed006",
+            "title": "Data Quality: From Theory to Practice"
+        },
+        {
+            "paperId": "06d54d0fdc8ba0b19c7c32fbedc61e54f82e3c93",
+            "title": "A Data Quality Ontology for the Secondary Use of EHR Data"
+        },
+        {
+            "paperId": "0d3061e4b25eeb480be189f8a3a478422d67979e",
+            "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes"
+        },
+        {
+            "paperId": "b23e8b913019b1627daf2015156975a1f93d8572",
+            "title": "Assessing and maximizing data quality in macromolecular crystallography."
+        },
+        {
+            "paperId": "758db88987fd8bc8811e800fabe8257dbd3a23f5",
+            "title": "An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics"
+        },
+        {
+            "paperId": "ad95f617f62286a5b6f31d9d4940952ec7059ab1",
+            "title": "Ontology-Based Data Quality Management for Data Streams"
+        },
+        {
+            "paperId": "e59b152462487ea69fbd7931b686de209a205e94",
+            "title": "Understanding movement data quality"
+        },
+        {
+            "paperId": "4f001914a919258f56ed324d702044eb76f0e60c",
+            "title": "Big data, big data quality problem"
+        },
+        {
+            "paperId": "3d9ac49f03b3e4bebae7c0e7eb20d7fde7222a9c",
+            "title": "An analysis of data quality dimensions"
+        },
+        {
+            "paperId": "71f024baaf17ba29eedc9b5aeab83b19225d1b58",
+            "title": "Overview of data quality challenges in the context of Big Data"
+        },
+        {
+            "paperId": "1f248f991d22a236325b1cc4f4d2e38a0797496c",
+            "title": "Data quality in the Causes of Death Registry."
+        },
+        {
+            "paperId": "2d464b614414038d405a0a88bc61a10d30bf5a33",
+            "title": "Methods and dimensions of electronic health record data quality assessment: enabling reuse for clinical research"
+        },
+        {
+            "paperId": "664532c9d62eefd63b38e110005c3aa4de57f732",
+            "title": "Overview and methodology: Data quality guideline for the ecoinvent database version 3"
+        },
+        {
+            "paperId": "c528303b613ff6a30b63f72d306a9bd54c6cd061",
+            "title": "Mode of questionnaire administration can have serious effects on data quality."
+        },
+        {
+            "paperId": "12f6740219732dfb13a60d3b22f2cbbadbe7d1c6",
+            "title": "Data quality issues in big data"
+        }
+    ]
+}

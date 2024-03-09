@@ -1,0 +1,407 @@
+{
+    "total": 8261709,
+    "offset": 0,
+    "next": 100,
+    "data": [
+        {
+            "paperId": "2ac3791b6a89763c509976d1f876eecc00e64fd5",
+            "title": "DuckPGQ: Efficient Property Graph Queries in an analytical RDBMS"
+        },
+        {
+            "paperId": "31b07ceea9316fb8b2945e8c409a18639125a9d1",
+            "title": "DiscoPG: Property Graph Schema Discovery and Exploration"
+        },
+        {
+            "paperId": "388423474f9fd71de70c9328ca48caa26277b50f",
+            "title": "Hierarchical Clustering for Property Graph Schema Discovery"
+        },
+        {
+            "paperId": "79d77cf59739fbf09f48b421f84fd5ea65d743c6",
+            "title": "Vu1SPG: Vulnerability detection based on slice property graph representation learning"
+        },
+        {
+            "paperId": "a11a7c37cc8f958ab9f16c7b8a0722ff5177b4d4",
+            "title": "Cloud Property Graph: Connecting Cloud Security Assessments with Static Code Analysis"
+        },
+        {
+            "paperId": "2d95c27d4ed8cfb8379164888cd79c6b239250b4",
+            "title": "Mapping RDF Databases to Property Graph Databases"
+        },
+        {
+            "paperId": "91d6e8ba5dd90b02fe3bd870b19da13a6167af53",
+            "title": "The Property Graph Database Model"
+        },
+        {
+            "paperId": "6351590cf37eef826b89383fd8ccf8f1ab276559",
+            "title": "Semantic Property Graph for Scalable Knowledge Graph Analytics"
+        },
+        {
+            "paperId": "0ebd0ad7fbedde936390eeac6aed1356876cbeff",
+            "title": "Data Profiling in Property Graph Databases"
+        },
+        {
+            "paperId": "47bca586abefde3b796b65c986269f082fcb59c5",
+            "title": "Property Graph Schema Optimization for Domain-Specific Knowledge Graphs"
+        },
+        {
+            "paperId": "bcad76ae5cea05bad85fd6b2b08aa30a801d9a3b",
+            "title": "PGQL: a property graph query language"
+        },
+        {
+            "paperId": "39af4070dca3221d275898c55884167bc03fe73d",
+            "title": "Singleton Property Graph: Adding A Semantic Web Abstraction Layer to Graph Databases"
+        },
+        {
+            "paperId": "501b6c76007e700e1b82f34930d24fc04709fc9d",
+            "title": "A Property Graph Data Model for a Context-Aware Design Assistant"
+        },
+        {
+            "paperId": "0534fc2dd13c781f02df2931d651fd39d03b8355",
+            "title": "Property Graph Exchange Format"
+        },
+        {
+            "paperId": "8640a08cdb759d52da026f6d89521e36c61b5910",
+            "title": "CPGVA: Code Property Graph based Vulnerability Analysis by Deep Learning"
+        },
+        {
+            "paperId": "f47def30face829e8034a292c2e3e7a9f4240d34",
+            "title": "SQLGraph: An Efficient Relational-Based Property Graph Store"
+        },
+        {
+            "paperId": "d154d986c3a402c207c6c0e22093f2e1a878fe71",
+            "title": "Two for one: querying property graph databases using SPARQL via gremlinator"
+        },
+        {
+            "paperId": "d427db1ba2cc92b36d16a5e5114f1027c90fff68",
+            "title": "Model driven reverse engineering of NoSQL property graph databases: The case of Neo4j"
+        },
+        {
+            "paperId": "a8370aaa0ba9d69b7e83d5785c27b11be973cd84",
+            "title": "Who Controls the Internet?: Analyzing Global Threats using Property Graph Traversals"
+        },
+        {
+            "paperId": "2742192c8d7248be8423e0333a9ab1c62c98bbbd",
+            "title": "openCypher: New Directions in Property Graph Querying"
+        },
+        {
+            "paperId": "30bf7d1694641f6bb3289d980a2326183ad560f0",
+            "title": "Cytosm: Declarative Property Graph Queries Without Data Migration"
+        },
+        {
+            "paperId": "82181d5c33590a81ab3b773c3948141eb22d89fb",
+            "title": "Property Graph vs RDF Triple Store: A Comparison on Glycan Substructure Search"
+        },
+        {
+            "paperId": "fa9645e0491164fe78890073548284604958f383",
+            "title": "When Labels Fall Short: Property Graph Simulation via Blending of Network Structure and Vertex Attributes"
+        },
+        {
+            "paperId": "6fa2d1873bc12d1a698ec8d0e5e32e4236f3bd2b",
+            "title": "Incremental View Maintenance for Property Graph Queries"
+        },
+        {
+            "paperId": "28b5dfe6035013e9345ec4a3eef5f0c5307a3fcb",
+            "title": "Atomistic Line Graph Neural Network for improved materials property predictions"
+        },
+        {
+            "paperId": "4d044f0c84be360b26398b58027e618d5f08a83f",
+            "title": "Towards a property graph generator for benchmarking"
+        },
+        {
+            "paperId": "6998e4ae3f1e037128bc57a56dd5d7707098e6bf",
+            "title": "RDF Data in Property Graph Model"
+        },
+        {
+            "paperId": "bc9fde639ceaceafe84c0ad94a2cd7badef141d3",
+            "title": "GraphTrek: Asynchronous Graph Traversal for Property Graph-Based Metadata Management"
+        },
+        {
+            "paperId": "2ced2ac19a88439b52e519d2e6ce44cccf08e191",
+            "title": "Motif-based Graph Self-Supervised Learning for Molecular Property Prediction"
+        },
+        {
+            "paperId": "eb8dba325534da472170293b054596a17558c7f2",
+            "title": "Few-Shot Graph Learning for Molecular Property Prediction"
+        },
+        {
+            "paperId": "56092013ab20394725719910fc7d4fe2274f3d54",
+            "title": "GPS-Net: Graph Property Sensing Network for Scene Graph Generation"
+        },
+        {
+            "paperId": "1f47d68fe87d0b1317b34a71f98548df3f5da5ff",
+            "title": "Algebraic graph-assisted bidirectional transformers for molecular property prediction"
+        },
+        {
+            "paperId": "0a3764d605a317c5618a8cc4e83589d87bfff3b9",
+            "title": "GeomGCL: Geometric Graph Contrastive Learning for Molecular Property Prediction"
+        },
+        {
+            "paperId": "a50f37cdd0614567ef52ffa63c70285d97630ce4",
+            "title": "A compact review of molecular property prediction with graph neural networks."
+        },
+        {
+            "paperId": "8b229216a36507730f9911433effab08c700195a",
+            "title": "ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction"
+        },
+        {
+            "paperId": "9c96a700a7abff857df936783f9e12a1ab38eee5",
+            "title": "Graph convolutional neural networks with global attention for improved materials property prediction."
+        },
+        {
+            "paperId": "873b045dea18c2092b2c11e7b9542dd93ce84d65",
+            "title": "Molecule Property Prediction Based on Spatial Graph Embedding"
+        },
+        {
+            "paperId": "ae365c85a23f422300b89ef646bf6b04f2edb94e",
+            "title": "Molecular contrastive learning of representations via graph neural networks"
+        },
+        {
+            "paperId": "e259ee075998eedc0b0c91c17769bf9dffeba46f",
+            "title": "Graph Self-Supervised Learning: A Survey"
+        },
+        {
+            "paperId": "9acd1892e2e299a30fa99f82bf60fc12cfa7aad3",
+            "title": "Graph Data: RDF, Property Graphs"
+        },
+        {
+            "paperId": "2a47759c48bf8d14d2caa54bcc4bd03c1eee6135",
+            "title": "Geometry-enhanced molecular representation learning for property prediction"
+        },
+        {
+            "paperId": "08257eb1faa19c29ddcc31d7d749c9bd262213c5",
+            "title": "Could graph neural networks learn better molecular representation for drug discovery? A comparison study of descriptor-based and graph-based models"
+        },
+        {
+            "paperId": "d9f836a2062864e4808e12224e2286a353498202",
+            "title": "Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation"
+        },
+        {
+            "paperId": "07627bf7eb649220ffbcdf6bf233e3a4a76e8590",
+            "title": "Asymmetric Transitivity Preserving Graph Embedding"
+        },
+        {
+            "paperId": "3323a47e69832301f8f434119b0346fc69708915",
+            "title": "GraphDF: A Discrete Flow Model for Molecular Graph Generation"
+        },
+        {
+            "paperId": "0ff76855604fc150ecd36bc8c3197780a8ea2b23",
+            "title": "Analyzing Learned Molecular Representations for Property Prediction"
+        },
+        {
+            "paperId": "d8b65198c37ada92cada81fe315508fc5bdbab8f",
+            "title": "Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals"
+        },
+        {
+            "paperId": "44842bba66366522de782f537d9bc61d8868bf08",
+            "title": "Revisiting Graph Neural Networks: All We Have is Low-Pass Filters"
+        },
+        {
+            "paperId": "01c32c563dbf823708c706f9abe9753d54aeed28",
+            "title": "MOTIF-Driven Contrastive Learning of Graph Representations"
+        },
+        {
+            "paperId": "70f7cd54b5918aed60c3d8c3a8e4aa7e8d634c41",
+            "title": "AliGraph: A Comprehensive Graph Neural Network Platform"
+        },
+        {
+            "paperId": "d4408e4e99c74913c7bf4b7a0aacf5bf67557c96",
+            "title": "Graph Pattern Matching in GQL and SQL/PGQ"
+        },
+        {
+            "paperId": "7c70459d56214a7a3202732670f5ce726508eff6",
+            "title": "Cypher: An Evolving Query Language for Property Graphs"
+        },
+        {
+            "paperId": "ce8a567f7578e8b6c9dc6510e2b058bd3a02019c",
+            "title": "Testing for the Consecutive Ones Property, Interval Graphs, and Graph Planarity Using PQ-Tree Algorithms"
+        },
+        {
+            "paperId": "86e9b0585c8b866665de18b2744d69aefff3e16d",
+            "title": "A model and query language for temporal graph databases"
+        },
+        {
+            "paperId": "69381b5efd97e7c55f51c2730caccab3d632d4d2",
+            "title": "Graph Embedding and Extensions: A General Framework for Dimensionality Reduction"
+        },
+        {
+            "paperId": "38e80ecf905f74e734f8177f663310ac74072a99",
+            "title": "PG-Schema: Schemas for Property Graphs"
+        },
+        {
+            "paperId": "3cc9c49e2680eb8396d32e1390e2d384560f2dd4",
+            "title": "Normalizing Property Graphs"
+        },
+        {
+            "paperId": "af05f2553a9d0484a28c722811eb4993068bb5ed",
+            "title": "Property Graphs in Arachne"
+        },
+        {
+            "paperId": "da95d02a50b8208a17127987dde3cdf8da455114",
+            "title": "Graph convolutional networks for computational drug development and discovery"
+        },
+        {
+            "paperId": "1a901533b09269bafa1222ad5f2f5eb0279915ac",
+            "title": "Graph Information Bottleneck for Subgraph Recognition"
+        },
+        {
+            "paperId": "a2e52a7e9c0862d2d841e5a788f1e975e736d7c5",
+            "title": "PG-Keys: Keys for Property Graphs"
+        },
+        {
+            "paperId": "7e631773b14d7203eb0d85742b2a850f51eb1616",
+            "title": "GEOM: Energy-annotated molecular conformations for property prediction and molecular generation"
+        },
+        {
+            "paperId": "6289d1271ff8176888d971bd8468dc5495b533f0",
+            "title": "Graph Structure Fusion for Multiview Clustering"
+        },
+        {
+            "paperId": "59f1df2f60280eea79d195b9c561d52a77fb24de",
+            "title": "Foundations of Modern Query Languages for Graph Databases"
+        },
+        {
+            "paperId": "15748c0437c3be2e464dfb6aa42d2ff5dbd5d7f7",
+            "title": "Understanding the Representation Power of Graph Neural Networks in Learning Graph Topology"
+        },
+        {
+            "paperId": "8f7a7aea33c942e626832f014a831361b7fa39c7",
+            "title": "PotentialNet for Molecular Property Prediction"
+        },
+        {
+            "paperId": "28816b148281af9ba41469b4c69dd69c2afd2b95",
+            "title": "Introduction to Property Testing"
+        },
+        {
+            "paperId": "09430c7080172d50a591cef44d85fd16e58d945e",
+            "title": "Convolutional Embedding of Attributed Molecular Graphs for Physical Property Prediction"
+        },
+        {
+            "paperId": "5d8b271c412f4be0c689bdfde93916efa0951deb",
+            "title": "Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective"
+        },
+        {
+            "paperId": "b8aecf918f1c729eb2a2fa88da9eb16835daca5a",
+            "title": "Learning Laplacian Matrix in Smooth Graph Signal Representations"
+        },
+        {
+            "paperId": "07c4549be429a52274bc0ec083bf5598a3e5c365",
+            "title": "Modeling and Discovering Vulnerabilities with Code Property Graphs"
+        },
+        {
+            "paperId": "32c1e0f9ef6f1e337fe4aa2a4907314e5a3f4a5b",
+            "title": "Graphflow: An Active Graph Database"
+        },
+        {
+            "paperId": "689c7a86d973895a14feb984b8faa3d5581038ef",
+            "title": "Demystifying Graph Databases: Analysis and Taxonomy of Data Organization, System Designs, and Graph Queries"
+        },
+        {
+            "paperId": "7ad94b0ec31d38b7915e88f743b573edb8efce5b",
+            "title": "Stationary Graph Processes and Spectral Estimation"
+        },
+        {
+            "paperId": "d71c0365685300539109e0fd07e34c9dd9beff75",
+            "title": "The Multiscale Laplacian Graph Kernel"
+        },
+        {
+            "paperId": "db9967871249ffd77adc0c0cc16154ccc37d09ad",
+            "title": "A property of eigenvectors of nonnegative symmetric matrices and its application to graph theory"
+        },
+        {
+            "paperId": "b5aea8c6ebaab339b4e190decab80ab607815e8b",
+            "title": "Schema Inference for Property Graphs"
+        },
+        {
+            "paperId": "1f9058eb0b639d0dffae192b3ffd5d80adabf0e9",
+            "title": "Management and Analysis of Big Graph Data: Current Systems and Open Challenges"
+        },
+        {
+            "paperId": "122a535ae02d4e0fa2512f9c3be77eae6a007266",
+            "title": "RDF and Property Graphs Interoperability: Status and Issues"
+        },
+        {
+            "paperId": "dba7c73503c4b7abad96aaa4a167fd7e701c4059",
+            "title": "Graph Databases: New Opportunities for Connected Data"
+        },
+        {
+            "paperId": "30acd43e62dbbdbe823bcc321ca1a1660ec7a622",
+            "title": "PGO: Describing Property Graphs in RDF"
+        },
+        {
+            "paperId": "42fe18be6e9ff2c11e5b2347c93e131c9abc7a51",
+            "title": "Graph Databases for Knowledge Management"
+        },
+        {
+            "paperId": "63dc64fc2d23be98100f4c59e82278d838c78ef9",
+            "title": "A Representation Learning Framework for Property Graphs"
+        },
+        {
+            "paperId": "a91e67f6b72a3bb9b5f0f054a252c8ee0cbfd898",
+            "title": "The Perception of Graph Properties in Graph Layouts"
+        },
+        {
+            "paperId": "8cfb3412f1bd6025e14f4665c5723ed60a5d8061",
+            "title": "Graph sample and hold: a framework for big-graph analytics"
+        },
+        {
+            "paperId": "61aec24ce3ce839bf08ce98e061099f2a20a50d6",
+            "title": "Logic on MARS: Ontologies for Generalised Property Graphs"
+        },
+        {
+            "paperId": "b15e942e526e4a03ecd0af31cbdf9b43bf81a829",
+            "title": "Deemon: Detecting CSRF with Dynamic Analysis and Property Graphs"
+        },
+        {
+            "paperId": "59a268ee97ba83c04abbe02769bd61dcd3747d25",
+            "title": "What is the furthest graph from a hereditary property?"
+        },
+        {
+            "paperId": "1c2de5fc71be2be3af28545e873605ead4d7d79b",
+            "title": "GRADOOP: Scalable Graph Data Management and Analytics with Hadoop"
+        },
+        {
+            "paperId": "cf4068a73d72ced9809a5e2462bb450bbbd47a64",
+            "title": "Symbolic Model Generation for Graph Properties"
+        },
+        {
+            "paperId": "e3b9ffde49c9b4a57b09a651187a2e194cb35693",
+            "title": "The chain graph Markov property"
+        },
+        {
+            "paperId": "5ccd1eefd94af0a20e10a0a5e0da22aa2f481c76",
+            "title": "Every monotone graph property has a sharp threshold"
+        },
+        {
+            "paperId": "bfdc1a7d5aab0f4bce4afc9723192937c24ef5ff",
+            "title": "Defining Schemas for Property Graphs by using the GraphQL Schema Definition Language"
+        },
+        {
+            "paperId": "7b663c42dd72e2585eed4bf7fc41739e07ce9ff3",
+            "title": "Grasper: A High Performance Distributed System for OLAP on Property Graphs"
+        },
+        {
+            "paperId": "093e777e08d3a5474e225bbdb1a124d30434d416",
+            "title": "Analyzing extended property graphs with Apache Flink"
+        },
+        {
+            "paperId": "be88a24e9b6e26f10d4d84183c8f05ba33eb60c0",
+            "title": "A Stitch in Time Saves Nine - SPARQL querying of Property Graphs using Gremlin Traversals"
+        },
+        {
+            "paperId": "0fbe5e2f2e2b8e2b2e2f0013e2e07cac2e5ce926",
+            "title": "Every monotone graph property is testable"
+        },
+        {
+            "paperId": "b31ce19f12bbf6058f4fe849d9f3654932353f20",
+            "title": "A graph-theoretical approach to structure-property relationships"
+        },
+        {
+            "paperId": "7a62457a9942e45429d4b5d9d8370210df3875ec",
+            "title": "The Small Index Property for \u03c9\u2010Stable (\u03c9\u2010Categorical Structures and for the Random Graph"
+        },
+        {
+            "paperId": "a4c5339f3f31c4a4406a1d82d3b0f3c63386166e",
+            "title": "On Directly Mapping Relational Databases to Property Graphs"
+        }
+    ]
+}
