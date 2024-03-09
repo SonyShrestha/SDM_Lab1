@@ -25,12 +25,10 @@ def top_3_cited_paper(connector):
     # Top 3 most cited papers of each conference.
     query="""
         MATCH (p:paper)-[:PUBLISHED_IN]->(c:conference)
-        OPTIONAL MATCH (p1:paper)-[:CITES]->(p)
-        WITH c, p, count(p1) AS citationCount
-        ORDER BY citationCount DESC
-        WITH c, COLLECT({paperId: p.paperId, citationCount: citationCount}) AS papers
-        RETURN c.name AS Conference, 
-            [paper IN papers | paper][..3] AS Top3Papers
+        WITH c, p.paperId AS paperId, toInteger(p.citationCount) AS citationCount
+        ORDER BY c.name ASC, citationCount DESC
+        WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByConference
+        RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers
     """    
     result_data = connector.run_query(query)
     df = pd.DataFrame(result_data)

@@ -1,20 +1,39 @@
 // Find the top 3 most cited papers of each conference
-MATCH (p1:paper)
-OPTIONAL MATCH (p1)-[:CITES]->(p2:paper)
-WITH p1, COALESCE(count(p2), 0) AS citation_count
-ORDER BY citation_count DESC
-RETURN p1.paperId AS paperId, citation_count
-LIMIT 3;
+MATCH (p:paper)-[:PUBLISHED_IN]->(c:conference)
+WITH c, p.paperId AS paperId, toInteger(p.citationCount) AS citationCount
+ORDER BY c.name ASC, citationCount DESC
+WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByConference
+RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers
 
 
 
-// For each conference nd its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
+// For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
 MATCH (p:paper)-[:WRITTEN_BY]->(a:author)
 MATCH (p)-[pi:PUBLISHED_IN]->(c:conference)
 WITH a.authorId AS authorId, c.name AS conferenceName, COUNT(DISTINCT pi.edition) AS numDistinctEditions
 WHERE numDistinctEditions >= 4
 RETURN conferenceName, COLLECT(authorId) AS community
 
+
+
+// Find impact factor 
+// Calculate the number of citations for each paper in each year and by journal
+MATCH (paper:paper)-[:CITES]->(citedPaper:paper)
+MATCH (paper)->[:PUBLISHED_IN]->(journal:journal)
+WITH paper, citedPaper.year AS citedYear, journal.name AS journal, count(citedPaper) AS citationsCount
+
+// Calculate the total number of publications for each journal in each year
+MATCH (papersY1:paper)
+WHERE papersY1.year = citedYear - 1 AND papersY1.journal = journal
+WITH journal, citedYear, count(papersY1) AS publicationsY1, citationsCount
+
+MATCH (papersY2:paper)
+WHERE papersY2.year = citedYear - 2 AND papersY2.journal = journal
+WITH journal, citedYear, publicationsY1, count(papersY2) AS publicationsY2, citationsCount
+
+// Calculate the impact factor for each journal in each year
+RETURN journal AS Journal, citedYear AS Year,
+       citationsCount / (publicationsY1 + publicationsY2) AS ImpactFactor
 
 
 // Find the h-indexes of the authors in your graph

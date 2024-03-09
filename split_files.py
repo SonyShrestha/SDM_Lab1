@@ -12,12 +12,12 @@ output_folder='splitted_files'
 
 
 # Extract edition from conference name
-def extract_edition(text):
-    match = re.search(r'\b(\d+)(?=th\b)', str(text)) 
+def extract_edition(year):
+    match = re.search(r'\b(\d+)(?=th\b)', str(year)) 
     if match:
         number = match.group(1)
         return number 
-    return  
+    return str(year)[-2:] 
 
 
 
@@ -231,7 +231,7 @@ def get_conference_papers():
 
     
     # Apply extract_edition function to 'journalName' column
-    conference_df["edition"] = conference_df['jcwName'].apply(extract_edition)
+    conference_df["edition"] = conference_df['year'].apply(extract_edition)
 
     # Convert 'authorId' column to list of lists
     #conference_df["authorId"] = conference_df["authorId"].str.split(',')
@@ -260,7 +260,7 @@ def get_workshop_papers():
     workshop_df.drop(columns=columns_to_drop, inplace=True)
 
     # Apply extract_edition function to 'journalName' column
-    workshop_df["edition"] = workshop_df['jcwName'].apply(extract_edition)
+    workshop_df["edition"] = workshop_df['year'].apply(extract_edition)
 
     # Convert 'authorId' column to list of lists
     #workshop_df["authorId"] = workshop_df["authorId"].str.split(',')

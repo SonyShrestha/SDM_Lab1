@@ -189,7 +189,7 @@ SET   
     p.year = line[3],
     p.citationCount = line[4],  
     p.publicationDate = line[5]
-WITH p, line[7] AS journalName, line[11] as journalVolume
+WITH p, line[7] AS journalName, line[12] as journalVolume
 MERGE (j:journal {name: journalName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(j)
 SET pin.volume = journalVolume;
@@ -207,7 +207,7 @@ SET   
     p.year = line[3],
     p.citationCount = line[4],  
     p.publicationDate = line[5]
-WITH p, line[7] AS conferenceName, line[11] as edition
+WITH p, line[7] AS conferenceName, line[12] as edition
 MERGE (c:conference {name: conferenceName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(c)
 SET pin.edition = edition;
@@ -225,7 +225,7 @@ SET   
     p.year = line[3],
     p.citationCount = line[4],  
     p.publicationDate = line[5]
-WITH p, line[7] AS workshopName, line[11] as edition
+WITH p, line[7] AS workshopName, line[12] as edition
 MERGE (w:workshop {name:  workshopName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(w)
 SET pin.edition = edition;
