@@ -67,6 +67,39 @@ def h_index(connector):
     df = pd.DataFrame(result_data)
     print(df)
 
+def recommender(connector):
+    # h-indexes of the authors in graph
+    query="""
+        // Define keywords for database community
+        WITH ['Data Management', 'Indexing', 'Data Modeling', 'Big Data', 'Data Processing', 'Data Storage', 'Data Querying', ' Property Graph'] AS databaseCommunityKeywords
+        UNWIND databaseCommunityKeywords AS keyword
+
+        // if 90% of the papers published  in a conference/journal contain one of the keywords of the database community we consider that conference/journal as related to that community
+        MATCH (p:paper)-[:PUBLISHED_IN]->(jc:journal|conference)
+        OPTIONAL MATCH (p)-[:HAS_KEYWORD]->(k:keyword{keyword: keyword})
+        WITH
+            jc.name AS journalOrConference, 
+            COUNT(DISTINCT p.paperId) AS numPaperPublished, SUM(CASE WHEN k.keyword IS NOT NULL THEN 1 ELSE 0 END) AS numPaperPublishedComm
+        WHERE numPaperPublishedComm > 0 AND (numPaperPublishedComm / numPaperPublished) * 100 > 90
+
+        //  Identify the top papers of these conferences/journals
+        WITH journalOrConference
+        MATCH (p1:paper)-[:PUBLISHED_IN]->(jc1:journal|conference {name: journalOrConference})
+        WITH jc1, p1.paperId AS paper_Id, toInteger(p1.citationCount) AS citationCount
+        ORDER BY jc1.name ASC, citationCount DESC
+        WITH jc1.name AS conferenceName, collect({paperId: paper_Id, citationCount: citationCount}) AS papersByConference
+        WITH conferenceName AS ConferenceName, REDUCE(acc = [], paperData IN papersByConference | acc + paperData)[0..100] AS TopPapers
+        UNWIND TopPapers AS paper
+
+        // Identify good match to review database papers and gurus
+        WITH paper.paperId AS PaperId
+        MATCH (p2:paper{paperId: PaperId})-[:WRITTEN_BY]->(a1:author)
+        RETURN a1.name AS potentialGoodMatch, CASE WHEN count(distinct p2.paperId) >= 2 THEN 'Yes' ELSE 'No' END AS isGuru
+    """    
+    result_data = connector.run_query(query)
+    df = pd.DataFrame(result_data)
+    print(df)
+
 
 if __name__ == "__main__":
     # Example usage
@@ -80,6 +113,8 @@ if __name__ == "__main__":
     top_3_cited_paper(connector)
     conference_community(connector)
     h_index(connector)
+
+    recommender(connector)
 
     # Convert the result to a DataFrame
     connector.close()
