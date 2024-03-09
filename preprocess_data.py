@@ -62,6 +62,8 @@ def determine_type(row):
 def preprocess_data():
     df = combine_csv_files(input_folder, output_folder+'/papers.csv')
 
+    paper_ids_list= df['paperId'].tolist()
+
     # Extract Publication Venue and Publication Type
     df['publicationVenue'] = df['publicationVenue'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
     df['publicationVenueType'] = df['publicationVenue'].apply(lambda x:x.get('type')  if isinstance(x, dict) else None)
@@ -74,10 +76,12 @@ def preprocess_data():
     df['authorName'] = df['authors'].apply(lambda x: ','.join(str(author['name']) for author in x))
     df['correspondingAuthorId'] = df['authorId'].str.split(',').str[0]
 
+    # Set citationCount
+    df['citationCount'] = df['citationCount'].apply(lambda x: random.randint(1, len(paper_ids_list)-1) if x > len(paper_ids_list)-1 else x)
+
     # Extract cited paper details
     df['citations'] = df['citations'].apply(ast.literal_eval)
-    df['citations'] = df['citations'].apply(lambda x: x[:10] if isinstance(x, list) else [])
-    df['citedPaperId'] = df['citations'].apply(lambda x: ','.join(str(citation['paperId']) for citation in x))
+    df['citedPaperId'] = df.apply(lambda row: ', '.join(map(str, random.sample([id_ for id_ in paper_ids_list if id_ != row['paperId']], row['citationCount']))), axis=1)
 
     # Extract journal details
     df['journal'] = df['journal'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
@@ -90,7 +94,6 @@ def preprocess_data():
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
     df.to_csv(output_folder+'/papers.csv', index=False)
-
     
 
 preprocess_data()
