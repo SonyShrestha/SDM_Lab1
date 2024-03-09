@@ -16,7 +16,7 @@ RETURN conferenceName, COLLECT(authorId) AS community
 
 
 
-// Find impact factor 
+// Find impact factor -- TO BE REWRITTEN
 // Calculate the number of citations for each paper in each year and by journal
 MATCH (paper:paper)-[:CITES]->(citedPaper:paper)
 MATCH (paper)->[:PUBLISHED_IN]->(journal:journal)

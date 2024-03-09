@@ -1,0 +1,20 @@
+Centrality algorithms are used in graph theory to identify the most important nodes within a network. 
+
+PageRank:
+PageRank is a centrality algorithm originally developed by Larry Page and Sergey Brin, the co-founders of Google. 
+It was initially used to rank web pages in search engine results.
+PageRank assigns a score to each node in the graph based on the importance of the incoming edges. 
+Nodes with higher PageRank scores are considered more important or influential.
+It works on the principle that a node's importance is determined by the importance of the nodes that point to it. 
+Nodes with more incoming edges from other important nodes receive higher PageRank scores.
+
+Betweenness Centrality:
+Betweenness centrality measures the extent to which a node lies on the shortest paths between other nodes in the graph.
+Nodes with high betweenness centrality act as bridges or intermediaries between different parts of the network. 
+They have a significant influence on the flow of information or resources within the network.
+Betweenness centrality is calculated by counting the number of shortest paths that pass through each node in the graph.
+
+Closeness Centrality:
+Closeness centrality measures how close a node is to all other nodes in the graph in terms of shortest path distances.
+Nodes with high closeness centrality are close to all other nodes in the graph and can quickly interact or exchange information with other nodes.
+Closeness centrality is calculated by taking the reciprocal of the sum of the shortest path distances from a node to all other nodes in the graph.
