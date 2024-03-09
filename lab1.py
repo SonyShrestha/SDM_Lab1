@@ -52,14 +52,16 @@ def conference_community(connector):
 def h_index(connector):
     # h-indexes of the authors in graph
     query="""
-        MATCH (p:paper)-[:WRITTEN_BY]->(a:author)
-        WITH a.authorId AS AuthorId, toInteger(p.citationCount) AS CitationCount
-        ORDER BY AuthorId, CitationCount DESC
-        WITH AuthorId, collect(CitationCount) AS CitationCounts
-        WITH AuthorId, CitationCounts, reduce(s = 0, x IN CitationCounts | CASE WHEN x = CitationCounts[0] THEN 1 ELSE s + 1 END) AS Rank
-        WITH AuthorId, CitationCounts, Rank, CitationCounts[-1] - toInteger(Rank) AS Difference
-        WHERE CitationCounts[-1] > Difference
-        RETURN AuthorId, count(*) as h_index
+        MATCH (p:paper)-[:WRITTEN_BY]->(a:author) // MATCH (p:paper)-[:WRITTEN_BY]->(a:author{authorId:"144245703"})
+        MATCH (citedByPaper:paper)-[:CITES]->(p)
+        WITH a.authorId AS authorId, p.paperId AS paperId, count(distinct citedByPaper.paperId) AS citationCount
+        ORDER BY authorId, paperId, citationCount DESC
+        WITH authorId, collect(citationCount) AS citationCounts
+        WITH authorId, citationCounts, [x IN range(0, size(citationCounts)-1) | x+1] AS idx
+        WITH authorId, citationCounts, idx
+        WITH authorId, citationCounts, idx, [i IN range(0, size(citationCounts)-1) | citationCounts[i] - idx[i]] AS differences
+        WITH authorId, size([d IN differences WHERE d >= 0]) AS h_index
+        RETURN authorId, h_index
     """    
     result_data = connector.run_query(query)
     df = pd.DataFrame(result_data)
