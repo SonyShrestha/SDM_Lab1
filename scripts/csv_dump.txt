@@ -243,7 +243,7 @@ SET   
     p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
-WITH p, split(line[11],',') AS citedPaperIds
+WITH p, split(line[11],',') AS citedPaperIds
 UNWIND citedPaperIds AS citedPaperId
 MERGE (p1:paper {paperId: trim(citedPaperId)}) 
 MERGE (p)-[:CITES]->(p1);

@@ -76,8 +76,6 @@ def preprocess_data():
 
     # Extract journal details
     df['journal'] = df['journal'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
-    df['journalVolume'] = df['journal'].apply(lambda x:x.get('volume')  if isinstance(x, dict) else None)
-
 
     # Identify workshop, conference or journal
     df['type_indicator'] = df.apply(determine_type, axis=1)
@@ -89,6 +87,7 @@ def preprocess_data():
     # Extract cited paper details
     df['citations'] = df['citations'].apply(ast.literal_eval)
     df['citedPaperId'] = df.apply(lambda row: ', '.join(map(str, random.sample([id_ for id_ in paper_ids_list if id_ != row['paperId']], row['citationCount']))), axis=1)
+    df['journalVolume'] = df['journal'].apply(lambda x:x.get('volume')  if isinstance(x, dict) else None)
 
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
