@@ -1,3 +1,4 @@
+// Load Data
 // Delete everything 
 match(n) detach delete n; 
 
@@ -12,58 +13,58 @@ CREATE (y:year {year: toInteger(line[0])});
 LOAD CSV FROM 'file:///authors.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (a:author {authorId: line[0], name: line[1]});
+CREATE (a:author {authorId: trim(line[0]), name: line[1]});
 
 
 // Create node keywords
 LOAD CSV FROM 'file:///keywords.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (k:keyword {keyword: line[0]});
+CREATE (k:keyword {keyword: trim(line[0])});
 
 
 // Create node journal 
 LOAD CSV FROM 'file:///journals.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (j:journal{name: line[0]});
+CREATE (j:journal{name: trim(line[0])});
 
 
 // Create node conference 
 LOAD CSV FROM 'file:///conferences.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (c:conference{name: line[0]});
+CREATE (c:conference{name: trim(line[0])});
 
 
 // Create node workshop 
 LOAD CSV FROM 'file:///workshops.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (w:workshop{name: line[0]});
+CREATE (w:workshop{name: trim(line[0])});
 
 // Create node journal paper
 LOAD CSV FROM 'file:///journal_paper.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (p:paper{paperId: line[0],title: line[1],abstract: line[2], year: toInteger(line[3]),
-citationCount: toInteger(line[4]),publicationDate: line[5]});
+CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), year: toInteger(line[3]),
+citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
 // Create node conference paper
 LOAD CSV FROM 'file:///conference_paper.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (p:paper{paperId: line[0],title: line[1],abstract: line[2], year: toInteger(line[3]),
-citationCount: toInteger(line[4]),publicationDate: line[5]});
+CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), year: toInteger(line[3]),
+citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
 // Create node workshop paper
 LOAD CSV FROM 'file:///workshop_paper.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (p:paper{paperId: line[0],title: line[1],abstract: line[2], year: toInteger(line[3]),
-citationCount: toInteger(line[4]),publicationDate: line[5]});
+CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), year: toInteger(line[3]),
+citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
 
@@ -72,17 +73,17 @@ citationCount: toInteger(line[4]),publicationDate: line[5]});
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
 UNWIND authorIds AS aId
 //return aId;
-MERGE (a:author {authorId: aId}) 
+MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
 
@@ -92,15 +93,15 @@ WITH line
 SKIP 1
 MERGE (p:paper {paperId : line[0]})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
 UNWIND authorIds AS aId
 //return aId;
-MERGE (a:author {authorId: aId}) 
+MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
 
@@ -108,17 +109,17 @@ MERGE (p)-[:WRITTEN_BY]->(a);
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
 UNWIND authorIds AS aId
 //return aId;
-MERGE (a:author {authorId: aId}) 
+MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
 
@@ -128,16 +129,16 @@ MERGE (p)-[:WRITTEN_BY]->(a);
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[6],',') AS keywords
 UNWIND keywords AS kId
-MERGE (k:keyword {keyword: kId}) 
+MERGE (k:keyword {keyword: trim(kId)}) 
 MERGE (p)-[:HAS_KEYWORD]->(k);
 
 
@@ -146,16 +147,16 @@ MERGE (p)-[:HAS_KEYWORD]->(k);
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[6],',') AS keywords
 UNWIND keywords AS kId
-MERGE (k:keyword {keyword: kId}) 
+MERGE (k:keyword {keyword: trim(kId)}) 
 MERGE (p)-[:HAS_KEYWORD]->(k);
 
 
@@ -164,16 +165,16 @@ MERGE (p)-[:HAS_KEYWORD]->(k);
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[6],',') AS keywords
 UNWIND keywords AS kId
-MERGE (k:keyword {keyword: kId}) 
+MERGE (k:keyword {keyword: trim(kId)}) 
 MERGE (p)-[:HAS_KEYWORD]->(k);
 
 
@@ -182,14 +183,14 @@ MERGE (p)-[:HAS_KEYWORD]->(k);
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],  
-    p.publicationDate = line[5]
-WITH p, line[7] AS journalName, line[12] as journalVolume
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),  
+    p.publicationDate = trim(line[5])
+WITH p, trim(line[7]) AS journalName, trim(line[12]) as journalVolume
 MERGE (j:journal {name: journalName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(j)
 SET pin.volume = journalVolume;
@@ -200,14 +201,14 @@ SET pin.volume = journalVolume;
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],  
-    p.publicationDate = line[5]
-WITH p, line[7] AS conferenceName, line[12] as edition
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),  
+    p.publicationDate = trim(line[5])
+WITH p, trim(line[7]) AS conferenceName, trim(line[12]) as edition
 MERGE (c:conference {name: conferenceName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(c)
 SET pin.edition = edition;
@@ -218,14 +219,14 @@ SET pin.edition = edition;
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],  
-    p.publicationDate = line[5]
-WITH p, line[7] AS workshopName, line[12] as edition
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),  
+    p.publicationDate = trim(line[5])
+WITH p, trim(line[7]) AS workshopName, trim(line[12]) as edition
 MERGE (w:workshop {name:  workshopName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(w)
 SET pin.edition = edition;
@@ -235,16 +236,16 @@ SET pin.edition = edition;
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
-WITH p, split(line[11],',') AS citedPaperIds
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
+WITH p, split(line[11],',') AS citedPaperIds
 UNWIND citedPaperIds AS citedPaperId
-MERGE (p1:paper {paperId:citedPaperId}) 
+MERGE (p1:paper {paperId: trim(citedPaperId)}) 
 MERGE (p)-[:CITES]->(p1);
 
 
@@ -252,16 +253,16 @@ MERGE (p)-[:CITES]->(p1);
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[11],',') AS citedPaperIds
 UNWIND citedPaperIds AS citedPaperId
-MERGE (p1:paper {paperId:citedPaperId}) 
+MERGE (p1:paper {paperId: trim(citedPaperId)}) 
 MERGE (p)-[:CITES]->(p1);
 
 
@@ -270,16 +271,16 @@ MERGE (p)-[:CITES]->(p1);
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[11],',') AS citedPaperIds
 UNWIND citedPaperIds AS citedPaperId
-MERGE (p1:paper {paperId:citedPaperId}) 
+MERGE (p1:paper {paperId: trim(citedPaperId)}) 
 MERGE (p)-[:CITES]->(p1);
 
 
@@ -288,17 +289,17 @@ MERGE (p)-[:CITES]->(p1);
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[12],',') AS authorIds
 UNWIND authorIds AS aId
 //return aId;
-MERGE (a:author {authorId: aId}) 
+MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 
 
@@ -307,17 +308,17 @@ MERGE (p)-[:REVIEWED_BY]->(a);
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
 //return aId;
-MERGE (a:author {authorId: aId}) 
+MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 
 
@@ -327,17 +328,17 @@ MERGE (p)-[:REVIEWED_BY]->(a);
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
 //return aId;
-MERGE (a:author {authorId: aId}) 
+MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 
 
@@ -346,14 +347,14 @@ MERGE (p)-[:REVIEWED_BY]->(a);
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
-WITH p, line[10] as correnspondingAuthor
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
+WITH p, trim(line[10]) as correnspondingAuthor
 MERGE (a:author {authorId: correnspondingAuthor}) 
 MERGE (p)-[:CORRESPONDING_AUTHOR]->(a);
 
@@ -362,14 +363,14 @@ MERGE (p)-[:CORRESPONDING_AUTHOR]->(a);
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
-WITH p, line[10] as correnspondingAuthor
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
+WITH p, trim(line[10]) as correnspondingAuthor
 MERGE (a:author {authorId: correnspondingAuthor}) 
 MERGE (p)-[:CORRESPONDING_AUTHOR]->(a);
 
@@ -378,13 +379,13 @@ MERGE (p)-[:CORRESPONDING_AUTHOR]->(a);
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
-MERGE (p:paper {paperId : line[0]})
+MERGE (p:paper {paperId : trim(line[0])})
 SET   
-    p.title = line[1],
-    p.abstract = line[2],
-    p.year = line[3],
-    p.citationCount = line[4],
-    p.publicationDate = line[5]
-WITH p, line[10] as correnspondingAuthor
+    p.title = trim(line[1]),
+    p.abstract = trim(line[2]),
+    p.year = trim(line[3]),
+    p.citationCount = trim(line[4]),
+    p.publicationDate = trim(line[5])
+WITH p, trim(line[10]) as correnspondingAuthor
 MERGE (a:author {authorId: correnspondingAuthor}) 
 MERGE (p)-[:CORRESPONDING_AUTHOR]->(a);

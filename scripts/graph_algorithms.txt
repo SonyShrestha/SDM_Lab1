@@ -1,0 +1,35 @@
+// Find similarity between papers based on keywords they have 
+CALL gds.graph.project(
+    'paper_has_keyword_graph',
+    ['paper', 'keyword'],
+    {
+        HAS_KEYWORD: {
+            properties: {
+                strength: {
+                    property: 'strength',
+                    defaultValue: 1.0
+                }
+            }
+        }
+    }
+);
+
+
+CALL gds.nodeSimilarity.stream('paper_has_keyword_graph')
+YIELD node1, node2, similarity
+RETURN distinct gds.util.asNode(node1).title AS Paper1, gds.util.asNode(node2).title AS Paper2, similarity
+ORDER BY similarity DESCENDING, Paper1, Paper2
+
+
+
+// PageRank Algorithm Need to Validate
+CALL gds.graph.project(
+  'paper_cites_graph',
+  'paper',
+  'CITES'
+)
+
+CALL gds.pageRank.stream('paper_cites_graph')
+YIELD nodeId, score
+RETURN gds.util.asNode(nodeId).paperId AS title, score
+ORDER BY score DESC, title ASC
