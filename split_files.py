@@ -200,7 +200,7 @@ def get_journal_papers():
     # Extract only records where publicationVenueType="journal
     journal_df = df[df['type_indicator'] == "Journal"]
 
-    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','authorId','authorName','correspondingAuthorId','citedPaperId','jcwName','journalVolume','reviewers']
+    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','journalVolume','reviewers']
     
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in journal_df.columns if col not in column_to_keep]
@@ -212,7 +212,7 @@ def get_journal_papers():
     # Apply assign_reviewers function to each element of 'authorId' column
     journal_df["reviewers"] = journal_df["authorId"].apply(assign_reviewers)
 
-    journal_df.to_csv(output_folder + '/journal_paper.csv', index=False)
+    journal_df.to_csv(output_folder + '/journal_paper.csv', index=False, columns=column_to_keep)
 
 
 
@@ -223,7 +223,7 @@ def get_conference_papers():
     # Extract only records where publicationVenueType="conference"
     conference_df = df[df['type_indicator'] == "Conference"]
 
-    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','authorId','authorName','correspondingAuthorId','citedPaperId','jcwName','reviewers']
+    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','edition','reviewers']
     
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in conference_df.columns if col not in column_to_keep]
@@ -242,7 +242,7 @@ def get_conference_papers():
     conference_df["reviewers"] = conference_df["authorId"].apply(lambda row: assign_reviewers(row))
 
     # Save the updated DataFrame to CSV
-    conference_df.to_csv(output_folder + '/conference_paper.csv', index=False)
+    conference_df.to_csv(output_folder + '/conference_paper.csv', index=False, columns=column_to_keep)
 
 
 
@@ -253,7 +253,7 @@ def get_workshop_papers():
     # Extract only records where publicationVenueType="journal"
     workshop_df = df[df['type_indicator'] == "Workshop"]
 
-    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','authorId','authorName','correspondingAuthorId','citedPaperId','jcwName','reviewers']
+    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','edition','reviewers']
     
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in workshop_df.columns if col not in column_to_keep]
@@ -268,7 +268,7 @@ def get_workshop_papers():
     # Apply assign_reviewers function to each element of 'authorId' column
     workshop_df["reviewers"] = workshop_df["authorId"].apply(lambda row: assign_reviewers(row))
 
-    workshop_df.to_csv(output_folder+'/workshop_paper.csv', index=False)
+    workshop_df.to_csv(output_folder+'/workshop_paper.csv', index=False, columns=column_to_keep)
 
 
 get_years()

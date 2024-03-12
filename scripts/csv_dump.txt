@@ -47,7 +47,7 @@ CREATE (w:workshop{name: trim(line[0])});
 LOAD CSV FROM 'file:///journal_paper.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), year: toInteger(line[3]),
+CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), 
 citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
@@ -55,7 +55,7 @@ citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 LOAD CSV FROM 'file:///conference_paper.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), year: toInteger(line[3]),
+CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), 
 citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
@@ -63,7 +63,7 @@ citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 LOAD CSV FROM 'file:///workshop_paper.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
-CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), year: toInteger(line[3]),
+CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(line[2]), 
 citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
@@ -77,7 +77,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
@@ -95,7 +94,6 @@ MERGE (p:paper {paperId : line[0]})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
@@ -113,7 +111,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
@@ -133,7 +130,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[6],',') AS keywords
@@ -151,7 +147,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[6],',') AS keywords
@@ -169,7 +164,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[6],',') AS keywords
@@ -187,13 +181,13 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),  
     p.publicationDate = trim(line[5])
-WITH p, trim(line[7]) AS journalName, trim(line[12]) as journalVolume
+WITH p, trim(line[7]) AS journalName, trim(line[12]) as journalVolume, toInteger(line[3]) as year
 MERGE (j:journal {name: journalName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(j)
-SET pin.volume = journalVolume;
+SET pin.volume = journalVolume,
+pin.year = year;
 
 
 
@@ -208,10 +202,11 @@ SET   
     p.year = trim(line[3]),
     p.citationCount = trim(line[4]),  
     p.publicationDate = trim(line[5])
-WITH p, trim(line[7]) AS conferenceName, trim(line[12]) as edition
+WITH p, trim(line[7]) AS conferenceName, trim(line[12]) as edition, toInteger(line[3]) as year
 MERGE (c:conference {name: conferenceName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(c)
-SET pin.edition = edition;
+SET pin.edition = edition,
+pin.year = year;
 
 
 
@@ -223,13 +218,13 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),  
     p.publicationDate = trim(line[5])
-WITH p, trim(line[7]) AS workshopName, trim(line[12]) as edition
+WITH p, trim(line[7]) AS workshopName, trim(line[12]) as edition, toInteger(line[3]) as year
 MERGE (w:workshop {name:  workshopName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(w)
-SET pin.edition = edition;
+SET pin.edition = edition,
+pin.year = year;
 
 
 // Create Relationship Paper -> CITES -> Paper [Journal]
@@ -240,10 +235,9 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
-WITH p, split(line[11],',') AS citedPaperIds
+WITH p, split(line[11],',') AS citedPaperIds
 UNWIND citedPaperIds AS citedPaperId
 MERGE (p1:paper {paperId: trim(citedPaperId)}) 
 MERGE (p)-[:CITES]->(p1);
@@ -257,7 +251,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[11],',') AS citedPaperIds
@@ -275,7 +268,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[11],',') AS citedPaperIds
@@ -293,7 +285,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[12],',') AS authorIds
@@ -312,7 +303,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
@@ -332,7 +322,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
@@ -351,7 +340,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, trim(line[10]) as correnspondingAuthor
@@ -367,7 +355,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, trim(line[10]) as correnspondingAuthor
@@ -383,7 +370,6 @@ MERGE (p:paper {paperId : trim(line[0])})
 SET   
     p.title = trim(line[1]),
     p.abstract = trim(line[2]),
-    p.year = trim(line[3]),
     p.citationCount = trim(line[4]),
     p.publicationDate = trim(line[5])
 WITH p, trim(line[10]) as correnspondingAuthor

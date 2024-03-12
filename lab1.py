@@ -25,7 +25,8 @@ def top_3_cited_paper(connector):
     # Top 3 most cited papers of each conference.
     query="""
         MATCH (p:paper)-[:PUBLISHED_IN]->(c:conference)
-        WITH c, p.paperId AS paperId, toInteger(p.citationCount) AS citationCount
+        MATCH (p1:paper)-[:CITES]->(p)
+        WITH c, p.paperId AS paperId, count(distinct p1.paperId) AS citationCount
         ORDER BY c.name ASC, citationCount DESC
         WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByConference
         RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers

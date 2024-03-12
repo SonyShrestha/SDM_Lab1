@@ -1,10 +1,10 @@
 // Find the top 3 most cited papers of each conference
 MATCH (p:paper)-[:PUBLISHED_IN]->(c:conference)
-WITH c, p.paperId AS paperId, toInteger(p.citationCount) AS citationCount
+MATCH (p1:paper)-[:CITES]->(p)
+WITH c, p.paperId AS paperId, count(distinct p1.paperId) AS citationCount
 ORDER BY c.name ASC, citationCount DESC
 WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByConference
 RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers
-
 
 
 // For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
@@ -16,24 +16,18 @@ RETURN conferenceName, COLLECT(authorId) AS community
 
 
 
-// Find impact factor -- TO BE REWRITTEN
-// Calculate the number of citations for each paper in each year and by journal
-MATCH (paper:paper)-[:CITES]->(citedPaper:paper)
-MATCH (paper)->[:PUBLISHED_IN]->(journal:journal)
-WITH paper, citedPaper.year AS citedYear, journal.name AS journal, count(citedPaper) AS citationsCount
-
-// Calculate the total number of publications for each journal in each year
-MATCH (papersY1:paper)
-WHERE papersY1.year = citedYear - 1 AND papersY1.journal = journal
-WITH journal, citedYear, count(papersY1) AS publicationsY1, citationsCount
-
-MATCH (papersY2:paper)
-WHERE papersY2.year = citedYear - 2 AND papersY2.journal = journal
-WITH journal, citedYear, publicationsY1, count(papersY2) AS publicationsY2, citationsCount
-
-// Calculate the impact factor for each journal in each year
-RETURN journal AS Journal, citedYear AS Year,
-       citationsCount / (publicationsY1 + publicationsY2) AS ImpactFactor
+// Find the impact factors of the journals in your graph 
+MATCH (j:journal)
+WITH j.name AS journalName, datetime().year AS year
+OPTIONAL MATCH (last1_p:paper)-[last1:PUBLISHED_IN{year:year-1}]->(j:journal{name:journalName})
+OPTIONAL MATCH (last2_p:paper)-[last2:PUBLISHED_IN{year:year-2}]->(j:journal{name:journalName})
+with journalName, year, collect(last1_p.paperId)+ collect(last2_p.paperId) as paperIds,count(distinct last1_p.paperId) + count(distinct last2_p.paperId) as numPaperPublished_last2yrs
+UNWIND paperIds AS paperId
+with journalName,year, paperId, numPaperPublished_last2yrs
+OPTIONAL MATCH (p1:paper)-[:CITES]-(p2:paper{paperId:paperId})
+MATCH (p1)-[:PUBLISHED_IN]-(j:journal{year:year})
+with journalName,year,numPaperPublished_last2yrs,count(distinct p1.paperId) AS numCitations
+return journalName,year,numCitations/numPaperPublished_last2yrs AS impact_factor
 
 
 // Find the h-indexes of the authors in your graph
