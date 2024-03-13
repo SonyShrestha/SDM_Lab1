@@ -86,7 +86,7 @@ MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
 
-// Create Relationship (Paper -> WRITTEN_BY -> Author) [FOR CONFERERENCE PAPER]
+// Create Relationship (Paper -> WRITTEN_BY -> Author) [FOR CONFERENCE PAPER]
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
@@ -139,7 +139,7 @@ MERGE (p)-[:HAS_KEYWORD]->(k);
 
 
 
-// Create Relationship (Paper -> HAS_KEYWORD -> Author) [FOR CONFERERENCE PAPER]
+// Create Relationship (Paper -> HAS_KEYWORD -> Author) [FOR CONFERENCE PAPER]
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
@@ -295,7 +295,7 @@ MERGE (p)-[:REVIEWED_BY]->(a);
 
 
 
-// Create Relationship (Paper -> REVIEWED_BY -> Author) [FOR CONFERERENCE PAPER]
+// Create Relationship (Paper -> REVIEWED_BY -> Author) [FOR CONFERENCE PAPER]
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
@@ -347,7 +347,7 @@ MERGE (a:author {authorId: correnspondingAuthor}) 
 MERGE (p)-[:CORRESPONDING_AUTHOR]->(a);
 
 
-// Create relationship Paper -> CORRESPONDING_AUTHOR -> Author [CONFERERENCE]
+// Create relationship Paper -> CORRESPONDING_AUTHOR -> Author [CONFERENCE]
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
