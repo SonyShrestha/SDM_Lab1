@@ -182,6 +182,7 @@ def get_authors():
 
     # Concatenate the list of DataFrames into a single DataFrame
     result_df = pd.concat(new_dfs, ignore_index=True)
+    result_df.drop_duplicates(subset=['authorId', 'authorName'], inplace=True)
 
     # Assign affiliated organization
     result_df['affiliatedOrg'] = result_df.apply(get_affiliated_org, axis=1)

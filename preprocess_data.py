@@ -58,9 +58,22 @@ def determine_type(row):
         return 'Unknown'
 
 
+def extract_citation_id(df_row,date_paper_dict):
+    filtered_paper_ids = [paper_id for paper_ids in {publicationDate: paper_ids for publicationDate, paper_ids in date_paper_dict.items() if publicationDate < df_row["publicationDate"]}.values() for paper_id in paper_ids]
+    if df_row["paperId"] in filtered_paper_ids:
+            filtered_paper_ids.remove(df_row["paperId"])
+    return random.sample(filtered_paper_ids,min(len(filtered_paper_ids), df_row['citationCount']))
+    
     
 def preprocess_data():
     df = combine_csv_files(input_folder, output_folder+'/papers.csv')
+
+    # Convert 'date_column' to datetime format with a custom format
+    df['publicationDate'] = pd.to_datetime(df['publicationDate'], format='%Y-%m-%d')
+
+# Convert 'year' to string, concatenate with '01-01', and convert to datetime
+    default_date = pd.to_datetime(df['year'].astype(str) + '-01-01')    
+    df['publicationDate'] = df['publicationDate'].fillna(default_date)
 
     # Extract Publication Venue and Publication Type
     df['publicationVenue'] = df['publicationVenue'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
@@ -86,11 +99,14 @@ def preprocess_data():
 
     # Extract cited paper details
     df['citations'] = df['citations'].apply(ast.literal_eval)
-    df['citedPaperId'] = df.apply(lambda row: ', '.join(map(str, random.sample([id_ for id_ in paper_ids_list if id_ != row['paperId']], row['citationCount']))), axis=1)
+    date_paper_dict = df.groupby('publicationDate')['paperId'].apply(list).to_dict()
+    df['citedPaperId'] = df.apply(lambda row: ','.join(str(i) for i in extract_citation_id(row, date_paper_dict)), axis=1)
     df['journalVolume'] = df['journal'].apply(lambda x:x.get('volume')  if isinstance(x, dict) else None)
+    df['citationCount'] = df['citedPaperId'].apply(lambda x: len(x.split(',')))
 
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
+    df = df[df['type_indicator'] != 'Unknown']
     df.to_csv(output_folder+'/papers.csv', index=False)
     
 
