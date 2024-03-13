@@ -91,6 +91,7 @@ def preprocess_data():
 
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
+    df = df[df['type_indicator'] != 'Unknown']
     df.to_csv(output_folder+'/papers.csv', index=False)
     
 
