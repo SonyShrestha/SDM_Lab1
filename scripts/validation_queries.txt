@@ -1,0 +1,17 @@
+// Cited Paper should be published before paper citing it
+MATCH (p:paper)-[:CITES]->(p1:paper)
+MATCH (p)-[pin1:PUBLISHED_IN]->(j1:workshop)
+MATCH (p1)-[pin2:PUBLISHED_IN]->(j2:workshop)
+WHERE pin2.year<pin1.year
+RETURN p.paperId,p1.paperId,pin1.year,pin2.year
+
+
+
+// Query to validate impact factor
+match (p:paper)-[:PUBLISHED_IN{year:2019}]->(j:journal{name:"Physical Chemistry, Chemical Physics - PCCP"})
+return COLLECT(distinct p.paperId)
+// 9c96a700a7abff857df936783f9e12a1ab38eee5
+
+match (p:paper)-[:CITES]->(p1:paper{paperId:"9c96a700a7abff857df936783f9e12a1ab38eee5"})
+match (p)-[:PUBLISHED_IN{year:2021}]->(j:journal)
+return count(p.paperId)
