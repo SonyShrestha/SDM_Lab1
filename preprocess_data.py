@@ -58,6 +58,11 @@ def determine_type(row):
         return 'Unknown'
 
 
+def extract_citation_id(df_row,year_paper_dict):
+    filtered_paper_ids = [paper_id for paper_ids in {year: paper_ids for year, paper_ids in year_paper_dict.items() if year >= df_row["year"]}.values() for paper_id in paper_ids]
+    filtered_paper_ids.remove(df_row["paperId"])
+    return random.sample(filtered_paper_ids,min(len(filtered_paper_ids), df_row['citationCount']))
+    
     
 def preprocess_data():
     df = combine_csv_files(input_folder, output_folder+'/papers.csv')
@@ -86,8 +91,10 @@ def preprocess_data():
 
     # Extract cited paper details
     df['citations'] = df['citations'].apply(ast.literal_eval)
-    df['citedPaperId'] = df.apply(lambda row: ', '.join(map(str, random.sample([id_ for id_ in paper_ids_list if id_ != row['paperId']], row['citationCount']))), axis=1)
+    year_paper_dict = df.groupby('year')['paperId'].apply(list).to_dict()
+    df['citedPaperId'] = df.apply(lambda row: ','.join(str(i) for i in extract_citation_id(row, year_paper_dict)), axis=1)
     df['journalVolume'] = df['journal'].apply(lambda x:x.get('volume')  if isinstance(x, dict) else None)
+    df['citationCount'] = df['citedPaperId'].apply(lambda x: len(x.split(',')))
 
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
