@@ -1,6 +1,6 @@
 // QUERY 1
 // Match papers that are cited and are published in a conference
-MATCH (citingPaper:Paper)-[:CITES]->(citedPaper:Paper)-[:PUBLISHED_IN]->(conference:Conference)
+MATCH (citingPaper:paper)-[:CITES]->(citedPaper:paper)-[:PUBLISHED_IN]->(conference:conference)
 WITH citedPaper, conference, COUNT(citingPaper) AS citations
 ORDER BY conference.name, citations DESC
 // Group the results by conference and collect cited papers and their citations
