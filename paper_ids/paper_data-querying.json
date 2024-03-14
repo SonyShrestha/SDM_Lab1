@@ -1,407 +1,407 @@
 {
-    "total": 19166407,
-    "offset": 0,
-    "next": 100,
+    "total": 19185671,
+    "offset": 150,
+    "next": 250,
     "data": [
         {
-            "paperId": "714f47bbedcadd7ebc44d2d5010f13323fc6a256",
-            "title": "GraphQL-LD: Linked Data Querying with GraphQL"
+            "paperId": "89b1645beadbd58851c246fd736599d1b4f609de",
+            "title": "Meet Charles, big data query advisor"
         },
         {
-            "paperId": "4419c5720e30d5ca5158795d4c848125650b8db1",
-            "title": "Opportunistic Linked Data Querying Through Approximate Membership Metadata"
+            "paperId": "c2565746c6332a94e824994106ca27b211ab5c6e",
+            "title": "The BigDAWG Polystore System"
         },
         {
-            "paperId": "398af3c05b9d3e194d419c3af049a76fb4e3afbb",
-            "title": "Defining Energy Consumption Plans for Data Querying Processes"
+            "paperId": "3b191386bf16b18dcf0c532b5fb40ac961a73ed7",
+            "title": "Optimized index structures for querying RDF from the Web"
         },
         {
-            "paperId": "1fa4936fb06319c3f4536c26a447d5507c92bd48",
-            "title": "A Privacy-Preserving and Verifiable Querying Scheme in Vehicular Fog Data Dissemination"
+            "paperId": "5e93850f8039dbe8bd771405d6bf883556361e28",
+            "title": "Storing semistructured data with STORED"
         },
         {
-            "paperId": "4bedaac1acb45ec28d06db7cf49f9b77faf9f652",
-            "title": "Private-HERMES: a benchmark framework for privacy-preserving mobility data querying and mining methods"
+            "paperId": "3eb91e3a753bd9c165551a3696fb1ea443752d56",
+            "title": "Representing and Querying Correlated Tuples in Probabilistic Databases"
         },
         {
-            "paperId": "babc3d8ddb6436511cc013cb3bbd57a59f3e872a",
-            "title": "Improving the Recall of Live Linked Data Querying through Reasoning"
+            "paperId": "e2e1734776ad064983bf3dc5ecda0269e37544d1",
+            "title": "Linked Data query processing"
         },
         {
-            "paperId": "d9c6b474fb2f303391b50c9fd59a5f2ce4becc0b",
-            "title": "BimSPARQL: Domain-specific functional SPARQL extensions for querying RDF building data"
+            "paperId": "96aa5f0196b6ca96340f55e229c37ba8e106ddb7",
+            "title": "LHD: Optimising Linked Data Query Processing Using Parallelisation"
         },
         {
-            "paperId": "ac67d5f9c89d8d72fbd074f94079608220348f3f",
-            "title": "ATHENA: An Ontology-Driven System for Natural Language Querying over Relational Data Stores"
+            "paperId": "4edb9586eba943c3003cd084614d93ba084528dc",
+            "title": "On the representation and querying of sets of possible worlds"
         },
         {
-            "paperId": "fa77a44f3f1857361a50c3137d623c35ef8a5739",
-            "title": "Querying Graphs with Data"
+            "paperId": "efa9473b74de6c9897ddf5b8245dd90921815b6d",
+            "title": "Landmarks: a new model for similarity-based pattern querying in time series databases"
         },
         {
-            "paperId": "c7660220afe8c91b726a012ceac194f4940bd893",
-            "title": "Informating HRM: a comparison of data querying and data mining"
+            "paperId": "f7f8e96b4d64f7789136dc482cde0e27d9a1cac8",
+            "title": "Materializing and Querying Learned Knowledge"
         },
         {
-            "paperId": "256ccb81d8c3bb63f4299195584b8e9f9d60187a",
-            "title": "CloudMdsQL: querying heterogeneous cloud data stores with a common language"
+            "paperId": "e05bc8bd1f3174bea226ce5de453f14d050560d1",
+            "title": "Regular path queries on graphs with data"
         },
         {
-            "paperId": "19b93280f17696a4ddfa2c75490a50ab107addf2",
-            "title": "SHAHED: A MapReduce-based system for querying and visualizing spatio-temporal satellite data"
+            "paperId": "913beb8d70383bacaf7f0133d9a88ca592542af7",
+            "title": "Region-based image querying"
         },
         {
-            "paperId": "5b34752817bc0d6aa96466dabcbc24a83dd071fe",
-            "title": "SPARQLByE: Querying RDF data by example"
+            "paperId": "183b282fc000f213791aa25fc75c0bcae43fc564",
+            "title": "Modeling and querying moving objects in networks"
         },
         {
-            "paperId": "fd0496ab020acf366375615ab40235e6dd3c5897",
-            "title": "Querying Geo-Textual Data: Spatial Keyword Queries and Beyond"
+            "paperId": "d76161ad7565a83258493b0e6a16af5cd494b54e",
+            "title": "Querying and Managing Provenance through User Views in Scientific Workflows"
         },
         {
-            "paperId": "52e510271b172d098ec9b107a4159216ec08527e",
-            "title": "Querying Big Data by Accessing Small Data"
+            "paperId": "fbcaf5839425a0fbaef2ea32899c457f84139b98",
+            "title": "Semiring-annotated data: queries and provenance?"
         },
         {
-            "paperId": "8332d7dfa45120e880acf81694204ece421e8270",
-            "title": "Querying and mining of time series data: experimental comparison of representations and distance measures"
+            "paperId": "88b98d7b20ede342fe471b2889ace70d082e4db7",
+            "title": "Query by humming: musical information retrieval in an audio database"
         },
         {
-            "paperId": "a992c8fd24587f12d41f48df84b29d847634c0e4",
-            "title": "HTSeq\u2014a Python framework to work with high-throughput sequencing data"
+            "paperId": "ebfb0576a320089983158ab64e8e8c69bdc303bc",
+            "title": "The Combined Approach to Ontology-Based Data Access"
         },
         {
-            "paperId": "d280cf82a6144b3e168840802b1a8a14d4eaccb9",
-            "title": "A Hierarchical Tensor-Based Approach to Compressing, Updating and Querying Geospatial Data"
+            "paperId": "e07642636a1ef8fe95237652005c35e03da018c9",
+            "title": "Data Models and Query Languages for Linked Geospatial Data"
         },
         {
-            "paperId": "6ce09faa9784319003a5015daaace16ed587d983",
-            "title": "Web-Scale Querying through Linked Data Fragments"
+            "paperId": "d3c8324fa4861531686db0cf2fa279bd313541d9",
+            "title": "FleXPath: flexible structure and full-text querying for XML"
         },
         {
-            "paperId": "1d2d3fa967d7688e352a86ed77ff762fc6c555ec",
-            "title": "Fuzzy functional dependency and its application to approximate data querying"
+            "paperId": "484bd0dbcf40f45052929bd31ee646d8c8672477",
+            "title": "\u03a1-Queries: enabling querying for semantic associations on the semantic web"
         },
         {
-            "paperId": "27e6790501a3da84ec6a6ae86411f5bfe4ac7a9d",
-            "title": "Multimedia Data Querying"
+            "paperId": "085da455c184cf0ca1828b4125a88ea5e8e8ad90",
+            "title": "Matrix \"Bit\" loaded: a scalable lightweight join query processor for RDF data"
         },
         {
-            "paperId": "1ba68866c7348f465d8558175a0109260c90a4a8",
-            "title": "Looping caterpillars [semistructured data querying]"
+            "paperId": "58d8efd380226ce09ce815da88dfae13ec215cf6",
+            "title": "Data summaries for on-demand queries over linked data"
         },
         {
-            "paperId": "dc39c68a00e38f2993b450eb01c96e1d032ab850",
-            "title": "imMens: Real\u2010time Visual Querying of Big Data"
+            "paperId": "f88c68975c9fbaf1bf35004558d5228d95121ab8",
+            "title": "EnsMart: a generic system for fast and flexible access to biological data."
         },
         {
-            "paperId": "a561fc7b480243c7b8ef227e0c6ae3de81cc23d3",
-            "title": "Querying fuzzy spatiotemporal data using XQuery"
+            "paperId": "1059fd0af6e6d8ac8962cb0c1899e4b027541402",
+            "title": "QNet: A Tool for Querying Protein Interaction Networks"
         },
         {
-            "paperId": "790bec3288a7b0b640dbba62c08efb0650003f54",
-            "title": "The ACE theorem for querying the web of data"
+            "paperId": "3d7a9edf9ef874cde4754f35d5e88c29ef1163eb",
+            "title": "RQL: a declarative query language for RDF"
         },
         {
-            "paperId": "8e3d116c7404afd1e66a51e11472bcd3b1e62180",
-            "title": "Modeling and querying data in NoSQL databases"
+            "paperId": "d06b1a521cc1553ea8e823702005f33283074360",
+            "title": "A declarative language for querying and restructuring the Web"
         },
         {
-            "paperId": "02f7521297669e25517fa210b0c800e5963528d2",
-            "title": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data"
+            "paperId": "234d93b62ecdf02249333cad9ba4e528842dc02f",
+            "title": "Comparing data summaries for processing live queries over Linked Data"
         },
         {
-            "paperId": "808b0d1adc45c16fe9b3e66554fa56b2be407f79",
-            "title": "Representation and Querying of Valid Time of Triples in Linked Geospatial Data"
+            "paperId": "074896a318b651212c4a08099fc33b5a3c26a2f9",
+            "title": "Federated Data Management and Query Optimization for Linked Open Data"
         },
         {
-            "paperId": "737daf891e128a5e30a7d8de41589e5ace0aff1a",
-            "title": "Querying encrypted data"
+            "paperId": "b9da38f57b7caf258c2a28790c52c905f61e4db3",
+            "title": "Cleaning and querying noisy sensors"
         },
         {
-            "paperId": "1dd11ece66b16c066d98fc7be7370448c1f28186",
-            "title": "European Semantic Web Conference 2009-Jonas Tappolet and Abraham Bernstein. Applied Temporal RDF: Efficient Temporal Querying of RDF Data with SPARQL"
+            "paperId": "9d4286884928d59fbaf1edbca41f5c5266e42b70",
+            "title": "Working Models for Uncertain Data"
         },
         {
-            "paperId": "4d8ef8422a32666406964d9195b6bedacb5e7bf2",
-            "title": "Alignment-Based Querying of Linked Open Data"
+            "paperId": "400198c40e1131047b8408fe9921e310a3f5bb6d",
+            "title": "Querying Shapes of Histories"
         },
         {
-            "paperId": "76a89394b1d50bb7bca34362e9bc279cb59088d4",
-            "title": "Querying Heterogeneous Datasets on the Linked Data Web: Challenges, Approaches, and Trends"
+            "paperId": "4651ee5c01992b7264e488139c982e98101efc48",
+            "title": "Querying with Intrinsic Preferences"
         },
         {
-            "paperId": "043a6bcc7654dcee1315cb62fc311c7fc3ab6fd0",
-            "title": "Querying Uncertain Spatio-Temporal Data"
+            "paperId": "0f555a3b136ba03926b9e76228c2ede255f305c8",
+            "title": "Querying documents in object databases"
         },
         {
-            "paperId": "312d98f1c825f4b6f705014bf3860f56e8a51d65",
-            "title": "Unveiling the complexity of human mobility by querying and mining massive trajectory data"
+            "paperId": "3c73e1410b29e1c761568eeb260ed440c7b1da28",
+            "title": "Electronically Querying for the Provenance of Entities"
         },
         {
-            "paperId": "4b9184937da308914b9e13c43bfd75845eaf910b",
-            "title": "Decentralizing Privacy: Using Blockchain to Protect Personal Data"
+            "paperId": "3fdcb63f3bac5d8a68bf93fc3272b8023c6c302c",
+            "title": "Querying business processes"
         },
         {
-            "paperId": "6dc7b1da99e30592b54f2148c85e8725563011f7",
-            "title": "Storing and querying ordered XML using a relational database system"
+            "paperId": "a0706370b9dd89a55beb0c489bd3127ce6b764f8",
+            "title": "DEVise: integrated querying and visual exploration of large datasets"
         },
         {
-            "paperId": "4d7ba77451f4036a13ffb0d8bf29a6d971d9bfaa",
-            "title": "FREyA: An Interactive Way of Querying Linked Data Using Natural Language"
+            "paperId": "84bdc9bb3d8d04f811da52c3481ef035069a264c",
+            "title": "GraphDB: Modeling and Querying Graphs in Databases"
         },
         {
-            "paperId": "03f2c2b0aab2af0f12c084c8087ed9b7a2b4b09b",
-            "title": "Indexing and Querying XML Data for Regular Path Expressions"
+            "paperId": "671aa6e64bddd3f61166f670f4ec064c7194f0ae",
+            "title": "MONDRIAN: Annotating and Querying Databases through Colors and Blocks"
         },
         {
-            "paperId": "f8655a068ac24eb3a1a369a817077d6f1abf181f",
-            "title": "Querying semantic web data with SPARQL"
+            "paperId": "ec6dbc6c8ec39ae84895321d4aa7f97544880f81",
+            "title": "Querying about the past, the present, and the future in spatio-temporal databases"
         },
         {
-            "paperId": "0c4070272fb7d6b98971a107b022ff8abf0aa55e",
-            "title": "High-performance web services for querying gene and variant annotation"
+            "paperId": "8c5cad7cd96671e8c5cc25b2952ff1af957fde1a",
+            "title": "Representing and querying XML with incomplete information"
         },
         {
-            "paperId": "da5abbdfe36b667d3e1459471289af7c02631d54",
-            "title": "Querying Semi-Structured Data"
+            "paperId": "478707d38e229d8ed8d0828e00d2feee9d15aea3",
+            "title": "On graph query optimization in large networks"
         },
         {
-            "paperId": "fedf7729b620ec2cf4e79705d2898f82e9a2ba66",
-            "title": "Blobworld: Image Segmentation Using Expectation-Maximization and Its Application to Image Querying"
+            "paperId": "35403186e09d23c644d795c162c2664182d6cc82",
+            "title": "Symbolic Description and Visual Querying of Image Sequences Using Spatio-Temporal Logic"
         },
         {
-            "paperId": "c08e5b35281250f928f377515acee1f9271fce58",
-            "title": "Querying Linked Data Using Semantic Relatedness: A Vocabulary Independent Approach"
+            "paperId": "965e2839ad43635c4f2a837a47129c465e1ab51c",
+            "title": "Querying and computing with BioCyc databases"
         },
         {
-            "paperId": "b889b2854ea71db981c719f72860b35b79c8737e",
-            "title": "Querying Distributed RDF Data Sources with SPARQL"
+            "paperId": "13ae94e9f04927bb49bad2ef93ccc413e4c25a4b",
+            "title": "BBQ: A Visual Interface for Integrated Browsing and Querying of XML"
         },
         {
-            "paperId": "07aba6ea790f0c2345b9304f4c379d4a74030956",
-            "title": "SIHJoin: Querying Remote and Local Linked Data"
+            "paperId": "1d19a48cb7d0d3c96c3a8770f50f3e7d8533596a",
+            "title": "RAL: An Algebra for Querying RDF"
         },
         {
-            "paperId": "a0fb5a3920a16748d692d6793a2b7de5cf17a6da",
-            "title": "Querying data provenance"
+            "paperId": "497353d4de82d6c43349e07fe7d579762159d4c6",
+            "title": "Querying Moving Objects in SECONDO"
         },
         {
-            "paperId": "a3636512a48321baab95c94052de2a0a88460602",
-            "title": "Massive mining of publicly available RNA-seq data from human and mouse"
+            "paperId": "142076521067f39aa0f2b86a01150561257c4ec5",
+            "title": "Querying Graph Databases"
         },
         {
-            "paperId": "6cf4909d56f2bf9d5c3a414d6566700d9d44a8fa",
-            "title": "An overview of data warehousing and OLAP technology"
+            "paperId": "482441db1c167bdb91bbbebc71c9bf7069b1e3a6",
+            "title": "Querying Semistructured Heterogeneous Information"
         },
         {
-            "paperId": "1b0659d771135856f06bb84c0cca2ec488b3a070",
-            "title": "Chimera: a virtual data system for representing, querying, and automating data derivation"
+            "paperId": "78b1207b40678edf08d618fab0cc42e5c1f5972c",
+            "title": "Querying multiple sets of discovered rules"
         },
         {
-            "paperId": "647d0e540627c5a903299a90d20530f8e48c18d9",
-            "title": "Representing and querying disease networks using graph databases"
+            "paperId": "9a02fc4650f7d75a6aea07bfaafcfd4fb69ad8d1",
+            "title": "Semantic caching in large scale querying systems"
         },
         {
-            "paperId": "6aece38554190e6ecfe8df3d884621240921a3b6",
-            "title": "SoQL: A Language for Querying and Creating Data in Social Networks"
+            "paperId": "74f812b531ec568a82a5935f53a5c82db466f9d2",
+            "title": "Querying in Highly Mobile Distributed Environments"
         },
         {
-            "paperId": "ab2fb3605fa53582c75972a0741174fb62f32ff7",
-            "title": "Querying Trust in RDF Data with tSPARQL"
+            "paperId": "89f8a1e47d69c1a2236d09d45584b2d85adb7594",
+            "title": "Querying and Updating the File"
         },
         {
-            "paperId": "2b82cc0aac6efb308408e928a26da8cc59e689eb",
-            "title": "YARS2: A Federated Repository for Querying Graph Structured Data from the Web"
+            "paperId": "18e55300f005f4b98d80326a4633fa963230d269",
+            "title": "\"One Size Fits All\": An Idea Whose Time Has Come and Gone?"
         },
         {
-            "paperId": "4e751a9017dbd825418d35afba6442df958a973c",
-            "title": "Tregex and Tsurgeon: tools for querying and manipulating tree data structures"
+            "paperId": "ea32d48a0528d5af7d78f2d0da2d28c7edb6d16c",
+            "title": "A Comparison of Current Graph Database Models"
         },
         {
-            "paperId": "2185d4535d9b3f82477897d2782a15705a53ea22",
-            "title": "Querying Heterogeneous Information Sources Using Source Descriptions"
+            "paperId": "8d539f60917febc52326e3cb6ae88171497e22ca",
+            "title": "Querying database knowledge"
         },
         {
-            "paperId": "ef0d886a8308058e0180bc6ad00e829c96f22f1a",
-            "title": "Querying Data under Access Limitations"
+            "paperId": "c41b39c18e3cd95ab6e4f7881517512fbd810d1d",
+            "title": "An introduction to spatial database systems"
         },
         {
-            "paperId": "d25f720872f17cd06edd1b1d935aab3c40bf34ff",
-            "title": "Querying imprecise data in moving object environments"
+            "paperId": "bcad76ae5cea05bad85fd6b2b08aa30a801d9a3b",
+            "title": "PGQL: a property graph query language"
         },
         {
-            "paperId": "060de746faa56fc69ad6f3c41698cd66e6858fe4",
-            "title": "Approximate querying of RDF graphs via path alignment"
+            "paperId": "53fa7e87d998204b92a31b88be71f6e218f59231",
+            "title": "Distributed top-k monitoring"
         },
         {
-            "paperId": "199dd3037494b45df558ddd72a9ea0de253771ce",
-            "title": "Efficiently Querying Large XML Data Repositories: A Survey"
+            "paperId": "3192f2ac843484855e15ab25abf161e2fe8c5003",
+            "title": "Global Viewing of Heterogeneous Data Sources"
         },
         {
-            "paperId": "45cdc15f53684a2bec77c4057f8542d77f99f982",
-            "title": "ViST: a dynamic index method for querying XML data by tree structures"
+            "paperId": "183603b4fbe3ec3be3efe6aaee58a2567df9b558",
+            "title": "Processing complex aggregate queries over data streams"
         },
         {
-            "paperId": "70efad34f8afce65186353b7d0d88db00f7cfee1",
-            "title": "Storing and Querying XML Data using an RDMBS"
+            "paperId": "e9ff4ec8c381b203955e604076dd471b2ba0f848",
+            "title": "On the provenance of non-answers to queries over extracted data"
         },
         {
-            "paperId": "bfe6821cb82eb17cdd005ec8768dd5b6e36d2cef",
-            "title": "Spatio-Temporal Data Types: An Approach to Modeling and Querying Moving Objects in Databases"
+            "paperId": "f42564f3e8516ac055412f7024c49edb3f14f4e4",
+            "title": "Online Filtering, Smoothing and Probabilistic Modeling of Streaming data"
         },
         {
-            "paperId": "1cf426c2b87df9555b5fe4e5320c757cf7da247f",
-            "title": "A Relational Approach to Incrementally Extracting and Querying Structure in Unstructured Data"
+            "paperId": "ee80cb59cc25f2664521f15525b89a530063aa48",
+            "title": "A Survey on Temporal Data Warehousing"
         },
         {
-            "paperId": "94172bde8adb63d36d9f14b981c8d856316b8d20",
-            "title": "Querying Geographical Data Warehouses With GeoMDQL"
+            "paperId": "bc037b5bf6bb0b64db0b49c762ee8c944d27f89a",
+            "title": "XR-tree: indexing XML data for efficient structural joins"
         },
         {
-            "paperId": "4548b411a40c767e3e08b08deccd23878d810d97",
-            "title": "Mining, indexing, and querying historical spatiotemporal data"
+            "paperId": "55d0b6a8db49630d6b26d2959701745585567717",
+            "title": "OLAP over uncertain and imprecise data"
         },
         {
-            "paperId": "6a5cc7480ee8315886445f25e59ddad5585409e9",
-            "title": "Structured Querying of Web Text Data: A Technical Challenge"
+            "paperId": "eb055c353a195852872fc6714cbb56750bf9f4ba",
+            "title": "Indexing uncertain data"
         },
         {
-            "paperId": "32fffe7e047761d0569e1034896715f3edc0a855",
-            "title": "Storing And Querying XML Data Using RDBMS"
+            "paperId": "05957a6e9398d79f4c855f5029f7cbd735229206",
+            "title": "Brighthouse: an analytic data warehouse for ad-hoc queries"
         },
         {
-            "paperId": "57159db86dfb5f2f2be8b12eab9b44cc950b3b2a",
-            "title": "Querying and mining data streams: you only get one look a tutorial"
+            "paperId": "3fa34251a520679fdf3ea850941e9ccd21a12dd4",
+            "title": "Learning to create data-integrating queries"
         },
         {
-            "paperId": "b5c750b9b971c82ff7897493928235623889ac07",
-            "title": "A foundation for capturing and querying complex multidimensional data"
+            "paperId": "c11169fbf077d8e762a476d3b38b14fc84edd8ab",
+            "title": "Efficiently supporting ad hoc queries in large datasets of time sequences"
         },
         {
-            "paperId": "1f4da401f445d0e5b6bbc69250fddafc82578034",
-            "title": "Querying XML Views of Relational Data"
+            "paperId": "9d1aef4325f73bc5d815db1eb0b2ecb5d0909037",
+            "title": "A data model and query language for EXODUS"
         },
         {
-            "paperId": "edf8ba0793a406972078bdd296efeab9148a298d",
-            "title": "Storage and Querying of E-Commerce Data"
+            "paperId": "e2ad92d7da5149bf1437e7c8ab2172529d85f00d",
+            "title": "XPath queries on streaming data"
         },
         {
-            "paperId": "3038d39f948eb6ae70eccfd57edc438e91ea98fa",
-            "title": "Stream Operators for Querying Data Streams"
+            "paperId": "9bdf6d88187f7773a258c38800dbe2a574132526",
+            "title": "Interactive Analysis of Web-Scale Data"
         },
         {
-            "paperId": "1b740d4bd0a1bfc889accb32e2d6de28adf0de2a",
-            "title": "Querying Regular Graph Patterns"
+            "paperId": "710adbf4cb1a10ba893746e17f662dfd537f0dc5",
+            "title": "Semantic Streams: A Framework for Composable Semantic Interpretation of Sensor Data"
         },
         {
-            "paperId": "03e454a8fb54b96343756d023b452e66cc19c429",
-            "title": "Security Issues in Querying Encrypted Data"
+            "paperId": "3b78e728e4496ef90e279bd17b5614be76dcc42e",
+            "title": "XPRESS: a queriable compression for XML data"
         },
         {
-            "paperId": "6cf3bca1b3bcb75ec75b2faa74dc7e16484565bd",
-            "title": "On querying versions of multiversion data warehouse"
+            "paperId": "552d9aef6d1b7ec3084e8a58b2d74b16d33cabad",
+            "title": "Balancing confidentiality and efficiency in untrusted relational DBMSs"
         },
         {
-            "paperId": "e88faa7b90a2502175a3ec397050211a7a95e760",
-            "title": "The Index-Based XXL Search Engine for Querying XML Data with Relevance Ranking"
+            "paperId": "f3103b548e8ea7d16ab1896339aedf43ad21a5d2",
+            "title": "Towards a Declarative Query and Transformation Language for XML and Semistructured Data: Simulation Unification"
         },
         {
-            "paperId": "36ad838217cb99fd9acd8cd065052e27df5ec316",
-            "title": "A database approach for modeling and querying video data"
+            "paperId": "8ca073f9ab5a4a870f4e31f377e8431c138c1a3f",
+            "title": "Beyond Independence: Probabilistic Models for Query Approximation on Binary Transaction Data"
         },
         {
-            "paperId": "38016013009e6d683ed3e57a5fed9302dad84c04",
-            "title": "Energy efficient index for querying location-dependent data in mobile broadcast environments"
+            "paperId": "05d95ec38ab456314e7468e5fdcce0ceada19c51",
+            "title": "Representative objects: concise representations of semistructured, hierarchical data"
         },
         {
-            "paperId": "80eb727a7f363b8c05875b3bf283f52fe27609b6",
-            "title": "Approximating a data stream for querying and estimation: algorithms and performance evaluation"
+            "paperId": "8db48c6dee55a5d10e1c04c38bfb6780605f6cb7",
+            "title": "An XML query engine for network-bound data"
         },
         {
-            "paperId": "c3b0ea3d2cdffbe3984cd9b41453b4e798e99f2e",
-            "title": "Representing and querying changes in semistructured data"
+            "paperId": "8631ae4a69f409ed09f451867c3ef4bf17129b79",
+            "title": "User-Adaptive Exploration of Multidimensional Data"
         },
         {
-            "paperId": "d9e500859d5cb755fe12209fc1c74d12a0f83dd8",
-            "title": "Querying RDF Data from a Graph Database Perspective"
+            "paperId": "4e0448bb1b94e477f95e82ec8976d24241a5a52e",
+            "title": "An asymptotically optimal multiversion B-tree\n"
         },
         {
-            "paperId": "1b3d55e5f1ee954792124bb01be9458e6e407b82",
-            "title": "Sesame: An Architecture for Storin gand Querying RDF Data and Schema Information"
+            "paperId": "2c8c25f368882393d738c89b68801adda178a783",
+            "title": "PSoup: a system for streaming queries over streaming data"
         },
         {
-            "paperId": "882007b41ba4942b7da3e07a0f7d2f1ba437fa4d",
-            "title": "Approximate tree embedding for querying XML data"
+            "paperId": "0db3d4f4415fb91e6ce8f0d6877809b0b9492d0b",
+            "title": "The Advanced Video Information System: data structures and query processing\n"
         },
         {
-            "paperId": "07bb2064663f36ec202bac943c62a0861a4f1bde",
-            "title": "The complexity of querying indefinite data about linearly ordered domains"
+            "paperId": "6cf33c45a0be03f4fad126f7b604cd6a2961f190",
+            "title": "A Data Transformation System for Biological Data Sources"
         },
         {
-            "paperId": "c6008f9ecab88e5f260c7b7277c9f40f4e1cf3b1",
-            "title": "Modelling and Querying Video Data"
+            "paperId": "fe7bbe91a9d603f2bd65943c5f2fff1bf1543655",
+            "title": "Query rewriting for semistructured data"
         },
         {
-            "paperId": "e0cca9a1f4408f1245c1c48bdec7550ec6ec7e7a",
-            "title": "Querying imprecise data in moving object environments"
+            "paperId": "1f8340db65b7cfb7206d7c95cf78774ccb19b848",
+            "title": "A Survey of Data Management in Peer-to-Peer Systems"
         },
         {
-            "paperId": "0e50525ea29208537aee327d5444ee4a8c290063",
-            "title": "Querying Time Series Data Based on Similarity"
+            "paperId": "00a84392c002e757167539c3768708257c58b707",
+            "title": "Answering Structured Queries on Unstructured Data"
         },
         {
-            "paperId": "71b38ff49c7b8ab7fea237b97616c95acaed456c",
-            "title": "Relative prefix sums: an efficient approach for querying dynamic OLAP data cubes"
+            "paperId": "1cf2ab333eadbd5f4858eea8204ad6ab2962e1d5",
+            "title": "Gram: a graph data model and query languages"
         },
         {
-            "paperId": "05ccb4147e53f6a2645f3b4f9563d268600916f5",
-            "title": "XML Data Warehouse: Modelling and Querying"
+            "paperId": "445514f7e3b9965610d4471eefdb66c977d6e8c8",
+            "title": "Integrated Support for Data Archeology"
         },
         {
-            "paperId": "c90b1b99fb62d3bdaa35fac04cf3d31fc19c58a0",
-            "title": "Querying aggregate data"
+            "paperId": "06e30cbbbdd552ea9a4ced1877308bd4d21a8483",
+            "title": "Flexible queries over semistructured data"
         },
         {
-            "paperId": "33cd4ddeedc9965fce5736f10a4df8d6de5e91c0",
-            "title": "Capturing and Querying Multiple Aspects of Semistructured Data"
+            "paperId": "dd7ae6cb02cd4d5336619251baa1fec7c3b8f20f",
+            "title": "Constraint-based Data Mining"
         },
         {
-            "paperId": "84323be1cfcfd215cfa0b64a630655f8446431c0",
-            "title": "Storing and Querying XML Data in Object-Relational DBMSs"
+            "paperId": "18ddf63c424db2ae98e0fe4a09e81f8e107de23b",
+            "title": "Data Sharing in the Hyperion Peer Database System"
         },
         {
-            "paperId": "86ef5369cb8a769d0ef64e0e902ebf74941c3cd3",
-            "title": "A Schema-Based Approach to Modeling and Querying WWW Data"
+            "paperId": "3dcc5dc2c97b1a75eb19ec00bc6aed080ad54ebb",
+            "title": "WebOQL: restructuring documents, databases and Webs"
         },
         {
-            "paperId": "1caacf553fab9acd97d668d8c55bad02dd59c435",
-            "title": "SemQuery: Semantic Clustering and Querying on Heterogeneous Features for Visual Data"
+            "paperId": "7ffcf06a3919f21642e8460125344b8c86bee747",
+            "title": "Managing Historical Semistructured Data"
         },
         {
-            "paperId": "c953e4d4a31e6deee4e75b82d0941c6140fcd653",
-            "title": "Using Signature Files for Querying Time-Series Data"
+            "paperId": "b37cfb16b31861280ca00c4fbd34d4aa023d69aa",
+            "title": "Programming Constructs for Unstructured Data"
         },
         {
-            "paperId": "a0ee7dabda55a207f6b5ab0ba45da5c236f5248a",
-            "title": "Dynamic Querying of Streaming Data with the dQUOB System"
+            "paperId": "fadd4e73624b16709d446b0b790c6f800017511b",
+            "title": "Oracle8i-the XML enabled data management system"
         },
         {
-            "paperId": "a40accb28924ab7d89c015832765ac89c6c71578",
-            "title": "Querying XML Data"
+            "paperId": "0891e06d61c187e5e81971d0cb0a1f81ec9d5475",
+            "title": "WALRUS: a similarity retrieval algorithm for image databases"
         },
         {
-            "paperId": "e7389d3be8ed3ac744366c7c3a8a3bb8904aba97",
-            "title": "On Querying UML Data Models with OCL"
+            "paperId": "277fc66c995fe0c5b79e68b328259159cb412c85",
+            "title": "TAX: A Tree Algebra for XML"
         },
         {
-            "paperId": "9b9e4f3dcbb0431bd5c7b2ac2464d680a9023942",
-            "title": "Concept based querying of semistructured data"
+            "paperId": "badb7ea964ec4c9dffe03aff8eea28bdc7d190ce",
+            "title": "Quality-Driven Query Answering for Integrated Information Systems"
         },
         {
-            "paperId": "dd01291bcb89b3332e6fae969f9a15256325f004",
-            "title": "PiQA: an algebra for querying protein data sets"
+            "paperId": "a8450a2666891b0fa6be16d0fa320db25abe9bbb",
+            "title": "The Information Manifold"
         }
     ]
 }

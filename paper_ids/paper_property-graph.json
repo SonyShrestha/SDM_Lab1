@@ -1,5 +1,5 @@
 {
-    "total": 8261709,
+    "total": 8267629,
     "offset": 0,
     "next": 100,
     "data": [
@@ -36,16 +36,20 @@
             "title": "Semantic Property Graph for Scalable Knowledge Graph Analytics"
         },
         {
-            "paperId": "0ebd0ad7fbedde936390eeac6aed1356876cbeff",
-            "title": "Data Profiling in Property Graph Databases"
-        },
-        {
             "paperId": "47bca586abefde3b796b65c986269f082fcb59c5",
             "title": "Property Graph Schema Optimization for Domain-Specific Knowledge Graphs"
         },
         {
+            "paperId": "0ebd0ad7fbedde936390eeac6aed1356876cbeff",
+            "title": "Data Profiling in Property Graph Databases"
+        },
+        {
             "paperId": "bcad76ae5cea05bad85fd6b2b08aa30a801d9a3b",
             "title": "PGQL: a property graph query language"
+        },
+        {
+            "paperId": "659d8b24e53e8adfbcb1f16b26ada2cb8afa2c85",
+            "title": "A Schema-First Formalism for Labeled Property Graph Databases: Enabling Structured Data Loading and Analytics"
         },
         {
             "paperId": "39af4070dca3221d275898c55884167bc03fe73d",
@@ -92,12 +96,12 @@
             "title": "Property Graph vs RDF Triple Store: A Comparison on Glycan Substructure Search"
         },
         {
-            "paperId": "fa9645e0491164fe78890073548284604958f383",
-            "title": "When Labels Fall Short: Property Graph Simulation via Blending of Network Structure and Vertex Attributes"
-        },
-        {
             "paperId": "6fa2d1873bc12d1a698ec8d0e5e32e4236f3bd2b",
             "title": "Incremental View Maintenance for Property Graph Queries"
+        },
+        {
+            "paperId": "fa9645e0491164fe78890073548284604958f383",
+            "title": "When Labels Fall Short: Property Graph Simulation via Blending of Network Structure and Vertex Attributes"
         },
         {
             "paperId": "28b5dfe6035013e9345ec4a3eef5f0c5307a3fcb",
@@ -152,16 +156,16 @@
             "title": "Molecule Property Prediction Based on Spatial Graph Embedding"
         },
         {
+            "paperId": "610063bfb7cb1e634f784ebe0799d0cb45f5480c",
+            "title": "A Property Testing Framework for the Theoretical Expressivity of Graph Kernels"
+        },
+        {
             "paperId": "ae365c85a23f422300b89ef646bf6b04f2edb94e",
             "title": "Molecular contrastive learning of representations via graph neural networks"
         },
         {
             "paperId": "e259ee075998eedc0b0c91c17769bf9dffeba46f",
             "title": "Graph Self-Supervised Learning: A Survey"
-        },
-        {
-            "paperId": "9acd1892e2e299a30fa99f82bf60fc12cfa7aad3",
-            "title": "Graph Data: RDF, Property Graphs"
         },
         {
             "paperId": "2a47759c48bf8d14d2caa54bcc4bd03c1eee6135",
@@ -176,12 +180,12 @@
             "title": "Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation"
         },
         {
-            "paperId": "07627bf7eb649220ffbcdf6bf233e3a4a76e8590",
-            "title": "Asymmetric Transitivity Preserving Graph Embedding"
-        },
-        {
             "paperId": "3323a47e69832301f8f434119b0346fc69708915",
             "title": "GraphDF: A Discrete Flow Model for Molecular Graph Generation"
+        },
+        {
+            "paperId": "07627bf7eb649220ffbcdf6bf233e3a4a76e8590",
+            "title": "Asymmetric Transitivity Preserving Graph Embedding"
         },
         {
             "paperId": "0ff76855604fc150ecd36bc8c3197780a8ea2b23",
@@ -200,12 +204,12 @@
             "title": "MOTIF-Driven Contrastive Learning of Graph Representations"
         },
         {
-            "paperId": "70f7cd54b5918aed60c3d8c3a8e4aa7e8d634c41",
-            "title": "AliGraph: A Comprehensive Graph Neural Network Platform"
-        },
-        {
             "paperId": "d4408e4e99c74913c7bf4b7a0aacf5bf67557c96",
             "title": "Graph Pattern Matching in GQL and SQL/PGQ"
+        },
+        {
+            "paperId": "70f7cd54b5918aed60c3d8c3a8e4aa7e8d634c41",
+            "title": "AliGraph: A Comprehensive Graph Neural Network Platform"
         },
         {
             "paperId": "7c70459d56214a7a3202732670f5ce726508eff6",
@@ -216,6 +220,10 @@
             "title": "Testing for the Consecutive Ones Property, Interval Graphs, and Graph Planarity Using PQ-Tree Algorithms"
         },
         {
+            "paperId": "38e80ecf905f74e734f8177f663310ac74072a99",
+            "title": "PG-Schema: Schemas for Property Graphs"
+        },
+        {
             "paperId": "86e9b0585c8b866665de18b2744d69aefff3e16d",
             "title": "A model and query language for temporal graph databases"
         },
@@ -224,16 +232,8 @@
             "title": "Graph Embedding and Extensions: A General Framework for Dimensionality Reduction"
         },
         {
-            "paperId": "38e80ecf905f74e734f8177f663310ac74072a99",
-            "title": "PG-Schema: Schemas for Property Graphs"
-        },
-        {
             "paperId": "3cc9c49e2680eb8396d32e1390e2d384560f2dd4",
             "title": "Normalizing Property Graphs"
-        },
-        {
-            "paperId": "af05f2553a9d0484a28c722811eb4993068bb5ed",
-            "title": "Property Graphs in Arachne"
         },
         {
             "paperId": "da95d02a50b8208a17127987dde3cdf8da455114",
@@ -296,16 +296,16 @@
             "title": "Demystifying Graph Databases: Analysis and Taxonomy of Data Organization, System Designs, and Graph Queries"
         },
         {
+            "paperId": "db9967871249ffd77adc0c0cc16154ccc37d09ad",
+            "title": "A property of eigenvectors of nonnegative symmetric matrices and its application to graph theory"
+        },
+        {
             "paperId": "7ad94b0ec31d38b7915e88f743b573edb8efce5b",
             "title": "Stationary Graph Processes and Spectral Estimation"
         },
         {
             "paperId": "d71c0365685300539109e0fd07e34c9dd9beff75",
             "title": "The Multiscale Laplacian Graph Kernel"
-        },
-        {
-            "paperId": "db9967871249ffd77adc0c0cc16154ccc37d09ad",
-            "title": "A property of eigenvectors of nonnegative symmetric matrices and its application to graph theory"
         },
         {
             "paperId": "b5aea8c6ebaab339b4e190decab80ab607815e8b",
@@ -334,10 +334,6 @@
         {
             "paperId": "63dc64fc2d23be98100f4c59e82278d838c78ef9",
             "title": "A Representation Learning Framework for Property Graphs"
-        },
-        {
-            "paperId": "a91e67f6b72a3bb9b5f0f054a252c8ee0cbfd898",
-            "title": "The Perception of Graph Properties in Graph Layouts"
         },
         {
             "paperId": "8cfb3412f1bd6025e14f4665c5723ed60a5d8061",
@@ -402,6 +398,10 @@
         {
             "paperId": "a4c5339f3f31c4a4406a1d82d3b0f3c63386166e",
             "title": "On Directly Mapping Relational Databases to Property Graphs"
+        },
+        {
+            "paperId": "672af1a4525ff97f2b35368ea003976023152e3f",
+            "title": "A Tale of Two Graphs: Property Graphs as RDF in Oracle"
         }
     ]
 }

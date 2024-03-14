@@ -24,15 +24,18 @@ def assign_keywords(field):
         "indexing":["Database indexing", "Index structure", "Primary index", "Secondary index", "Clustered index", "Non-clustered index", "Indexing methods", "B-tree", "Hash index", "Bitmap index", "Inverted index", "Spatial index", "Text indexing", "Full-text index", "Index optimization", "Index maintenance", "Index utilization", "Index seek", "Index scan", "Covering index", "Composite index"],
         "machine-learning":["Supervised learning", "Unsupervised learning", "Semi-supervised learning", "Reinforcement learning", "Deep learning", "Neural networks", "Artificial neural networks", "Convolutional neural networks (CNN)", "Recurrent neural networks (RNN)", "Long short-term memory (LSTM)", "Decision trees", "Random forests", "Support vector machines (SVM)", "k-Nearest neighbors (k-NN)", "Clustering", "K-means clustering", "Hierarchical clustering", "Dimensionality reduction", "Principal component analysis (PCA)", "Feature selection", "Model evaluation", "Cross-validation", "Hyperparameter tuning"]
     }
-    # Capitalize each word
-    capitalized_words = [word.capitalize() for word in field.split('-')]
+    # Lower each word
+    words = [word.lower() for word in field.split('-')]
 
     # Join the words back together
-    fixed_keyword = ' '.join(capitalized_words)
+    fixed_keyword = ' '.join(words)
 
-    random_keywords = random.sample(keywords[field], 5)
-    random_keywords_text = ', '.join(random_keywords)+', '+fixed_keyword
+    random_keywords = random.sample(keywords[field], 3)
+    random_keywords_lower = [word.lower() for word in random_keywords]
+    random_keywords_text = fixed_keyword + ', ' + ', '.join(random_keywords_lower)
     return random_keywords_text
+
+
 
 
 # Get paper ids from JSON file
@@ -77,6 +80,8 @@ def fetch_publications():
 
     # Write DataFrame to CSV file
     df.to_csv(output_folder+'/paper_' + field + '.csv', index=False, quoting=csv.QUOTE_ALL)
+
+
 
 fetch_publications()
 
