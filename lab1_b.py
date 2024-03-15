@@ -70,6 +70,7 @@ if __name__ == "__main__":
     query_exec_time = connector.execute_commands_from_file("scripts/queries.cypher",True)
     df = pd.DataFrame(query_exec_time, columns=['EXECUTION TIME (in seconds)'])
     df['QUERY'] = df.index+1
+    df = df[['QUERY', 'EXECUTION TIME (in seconds)']]
     print(df)
 
     connector.close()
