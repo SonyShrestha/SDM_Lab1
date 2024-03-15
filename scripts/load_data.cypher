@@ -67,8 +67,6 @@ CREATE (p:paper{paperId: trim(line[0]),title: trim(line[1]),abstract: trim(l
 citationCount: toInteger(line[4]),publicationDate: trim(line[5])});
 
 
-
-
 // Create Relationship (Paper -> WRITTEN_BY -> Author) [FOR JOURNAL PAPER]
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
@@ -81,7 +79,6 @@ SET   
     p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
 UNWIND authorIds AS aId
-//return aId;
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
@@ -98,7 +95,6 @@ SET   
     p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
 UNWIND authorIds AS aId
-//return aId;
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
@@ -115,7 +111,6 @@ SET   
     p.publicationDate = trim(line[5])
 WITH p, split(line[8],',') AS authorIds
 UNWIND authorIds AS aId
-//return aId;
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
@@ -289,7 +284,6 @@ SET   
     p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
-//return aId;
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 
@@ -307,7 +301,6 @@ SET   
     p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
-//return aId;
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 
@@ -326,7 +319,6 @@ SET   
     p.publicationDate = trim(line[5])
 WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
-//return aId;
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 

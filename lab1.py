@@ -35,6 +35,14 @@ class Neo4jConnector:
         with self._driver.session() as session:
             result = session.run(query, parameters)
             return result.data()  # return data only
+    
+    def execute_commands_from_file(self, file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            commands = file.read().split(';')  # Split commands by semicolon
+            with self._driver.session() as session:
+                for command in commands:
+                    if command.strip():  # Skip empty commands
+                        session.run(command)
 
 
 def top_3_cited_paper(connector):
@@ -151,7 +159,7 @@ if __name__ == "__main__":
 
     logger.info("--------------------- PREPROCESSING PAPER DETAILS ---------------------")
     preprocess_data.preprocess_data()
-    
+
 
     logger.info("--------------------- SPLITTING PAPER DETAILS INTO SEPARATE FILES ---------------------")
     split_files.get_years()
@@ -167,11 +175,15 @@ if __name__ == "__main__":
     connector = Neo4jConnector(uri, user, password)
     connector.connect()
 
-    top_3_cited_paper(connector)
-    conference_community(connector)
-    h_index(connector)
+    logger.info("--------------------- Load data into NEO4J Graph ---------------------")
+    connector.execute_commands_from_file("scripts/load_data.cypher")
 
-    recommender(connector)
+
+    # top_3_cited_paper(connector)
+    # conference_community(connector)
+    # h_index(connector)
+
+    # recommender(connector)
 
     # Convert the result to a DataFrame
     connector.close()

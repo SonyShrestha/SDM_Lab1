@@ -1,5 +1,5 @@
 {
-    "total": 8268691,
+    "total": 8268722,
     "offset": 0,
     "next": 100,
     "data": [
@@ -48,20 +48,16 @@
             "title": "PGQL: a property graph query language"
         },
         {
-            "paperId": "b50187eff988dea028d4c4e7ecdfa00ef4ac893d",
-            "title": "Property Graph Schema contributions to WG3"
-        },
-        {
             "paperId": "659d8b24e53e8adfbcb1f16b26ada2cb8afa2c85",
             "title": "A Schema-First Formalism for Labeled Property Graph Databases: Enabling Structured Data Loading and Analytics"
         },
         {
-            "paperId": "501b6c76007e700e1b82f34930d24fc04709fc9d",
-            "title": "A Property Graph Data Model for a Context-Aware Design Assistant"
-        },
-        {
             "paperId": "39af4070dca3221d275898c55884167bc03fe73d",
             "title": "Singleton Property Graph: Adding A Semantic Web Abstraction Layer to Graph Databases"
+        },
+        {
+            "paperId": "501b6c76007e700e1b82f34930d24fc04709fc9d",
+            "title": "A Property Graph Data Model for a Context-Aware Design Assistant"
         },
         {
             "paperId": "0534fc2dd13c781f02df2931d651fd39d03b8355",
@@ -98,10 +94,6 @@
         {
             "paperId": "82181d5c33590a81ab3b773c3948141eb22d89fb",
             "title": "Property Graph vs RDF Triple Store: A Comparison on Glycan Substructure Search"
-        },
-        {
-            "paperId": "b1706b4463701169d339c9c791cae0d4ec367b50",
-            "title": "Reducing Property Graph Queries to Relational Algebra for Incremental View Maintenance"
         },
         {
             "paperId": "6fa2d1873bc12d1a698ec8d0e5e32e4236f3bd2b",
@@ -152,6 +144,10 @@
             "title": "A compact review of molecular property prediction with graph neural networks."
         },
         {
+            "paperId": "8b229216a36507730f9911433effab08c700195a",
+            "title": "ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction"
+        },
+        {
             "paperId": "9c96a700a7abff857df936783f9e12a1ab38eee5",
             "title": "Graph convolutional neural networks with global attention for improved materials property prediction."
         },
@@ -178,10 +174,6 @@
         {
             "paperId": "2a47759c48bf8d14d2caa54bcc4bd03c1eee6135",
             "title": "Geometry-enhanced molecular representation learning for property prediction"
-        },
-        {
-            "paperId": "08257eb1faa19c29ddcc31d7d749c9bd262213c5",
-            "title": "Could graph neural networks learn better molecular representation for drug discovery? A comparison study of descriptor-based and graph-based models"
         },
         {
             "paperId": "d9f836a2062864e4808e12224e2286a353498202",
@@ -242,6 +234,10 @@
         {
             "paperId": "3cc9c49e2680eb8396d32e1390e2d384560f2dd4",
             "title": "Normalizing Property Graphs"
+        },
+        {
+            "paperId": "af05f2553a9d0484a28c722811eb4993068bb5ed",
+            "title": "Property Graphs in Arachne"
         },
         {
             "paperId": "da95d02a50b8208a17127987dde3cdf8da455114",
@@ -402,6 +398,10 @@
         {
             "paperId": "7a62457a9942e45429d4b5d9d8370210df3875ec",
             "title": "The Small Index Property for \u03c9\u2010Stable (\u03c9\u2010Categorical Structures and for the Random Graph"
+        },
+        {
+            "paperId": "a4c5339f3f31c4a4406a1d82d3b0f3c63386166e",
+            "title": "On Directly Mapping Relational Databases to Property Graphs"
         }
     ]
 }

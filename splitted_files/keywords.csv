@@ -467,9 +467,9 @@ Wider Critical Reflection
 Research Practices
 Emerging Epistemological Positions
 Property Graph
-Graph Analytics
-Property Graph Query Languages
-Graph Partitioning
+Graph Storage
+Graph Algorithms
+Graph Indexing
 Property Graph Databases
 Query Languages
 Sqlpgq Sublanguage
@@ -485,7 +485,9 @@ Efficient Sqlpgq Support
 Technical Debt
 Efficient Vectorized Udfs
 Large Graph Data Sets
-Graph Embeddings
+Graph Similarity
+Graph Pattern Matching
+Graph Neural Networks
 Graph Processing Applications
 Interconnected Data
 Encode Multilabeled Nodes
@@ -496,12 +498,14 @@ Properties Discopg
 Schema Discovery
 Suitable Visualization Layouts
 Dedicated Dashboards
-Graph Similarity
-Graph Representation Learning
+Property Graph Query Languages
+Graph Modeling
 Interactive Processes
 Query Optimization Purposes
 Realworld Ones
-Graph Neural Networks
+Graph Partitioning
+Property Graph Schema
+Graph-Based Recommendation
 Vulnerability Detection
 Software Security
 Realworld Vulnerable Code
@@ -530,19 +534,17 @@ Security Experts
 Multiple Vendors
 Publicly Accessible Storages
 Undesired Data Flows
-Graph Modeling
+Graph Clustering
 Graph Mining
-Graph Storage
 Graphlike Data
 Special Features
 Database Interoperability
 Rdf Graphs
 Semantics Preservation
 Information Preservation
-Graph Visualization
+Graph Representation Learning
 Integrity Constraints
-Graph-Based Recommendation
-Graph Pattern Matching
+Graph Database
 Domainspecific Knowledge Graphs
 Multiple Sources Ontologies
 Knowledge Graphs
@@ -555,11 +557,13 @@ Edge Traversals
 Highquality Schemas
 Magnitude Speedup
 Alternative Schema
-Graph Clustering
+Graph Embeddings
 Realworld Scenarios
 Profiling Tasks
 Data Profiling Tasks
 Existing Methods
+Graph Querying
+Graph Visualization
 Graphbased Approaches
 Structured Data
 Typical Graphstyle Applications Reachability Analysis Path Finding
@@ -570,7 +574,7 @@ Regular Path Queries
 Intrinsic Vertex Edge
 Path Types
 Intrinsic Type
-Graph Querying
+Graph Analytics
 Security Breaches
 Direct Result
 Insecure Source Code
@@ -590,8 +594,6 @@ Deep Learning Cpgva Method
 Deep Learning Source Code Defect Analysis Method
 Femeasure Precision False Positive Rate True Positive Rate
 False Negative Rate
-Property Graph Schema
-Graph Indexing
 Recent Events
 Globalscale Security Incidents
 Statesponsored Mass Surveillance Programs
@@ -603,7 +605,6 @@ Transiting Tcp Connections
 Attack Techniques
 Root Cause Vulnerabilities
 Services Providers
-Graph Algorithms
 Graph Data
 Multiple Graphs
 Different Pattern
@@ -707,6 +708,18 @@ Geometric Properties
 Different Levels
 Seven Reallife Molecular Datasets
 Stateoftheart Baselines
+Labeled Molecules
+Density Functional Theory Dft Calculation
+Semisupervised Representation
+Large Amounts
+Active Semisupervised Graph Neural Network
+General Representation
+Molecular Structure
+Molecular Distribution
+Property Prediction Task
+Molecular Diversities
+Informative Data
+Extensive Experiments
 Materials Property Prediction Mpp
 Materials Science
 Physicochemical Features
@@ -722,7 +735,6 @@ Global Attention Layers
 Neighboring Atoms
 Overall Contribution
 Considerably Better Prediction Performance
-Extensive Experiments
 Existing Stateoftheart Gnn Models
 Accurate Prediction
 New Compounds Design
@@ -877,7 +889,22 @@ Redundant Property Values
 Inconsistent Data
 Update Overheads
 Aggregate Queries
-Graph Database
+Largescale Graphs
+Cybersecurity Social Sciences Health Sciences
+Network Sciences
+Humans Neurons
+Malicious Flows
+Hidden Structures
+Numpyrelated Tasks
+Graph Analysis
+Easy Transformation
+Arachne Enriching Arachne
+Data Scientists
+New Problem
+Additional Complexities
+Efficient Storage
+Extra Information
+Labels Relationships
 Interpretable Subgraphs
 Graph Compression
 Graph Neural Networks Gnns
@@ -962,7 +989,6 @@ Signal Observations
 Insecure Code
 Computer Systems
 Significant Expertise
-Large Amounts
 Classic Program Analysis
 Program Dependence Graphs
 Common Vulnerabilities
@@ -1086,3 +1112,10 @@ Independent Interest
 Testable Graph Properties
 Previous Results
 Extremal Graphtheory
+Graphs Property Graphs
+Graph Data Management
+Existing Approaches
+Direct Mappings
+Earlier Graph Data Models
+Future Work
+Fundamental Properties
