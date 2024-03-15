@@ -52,12 +52,11 @@ if __name__ == "__main__":
     uri = config["NEO4J"]["uri"]
     user = config["NEO4J"]["user"]
     password = config["NEO4J"]["password"]
-
-    logger.info("--------------------- EVOLVING GRAPH ---------------------")
+   
     connector = Neo4jConnector(uri, user, password)
     connector.connect()
 
-    logger.info("--------------------- Load data into NEO4J Graph ---------------------")
+    logger.info("--------------------- EVOLVING GRAPH ---------------------")
     connector.execute_commands_from_file("scripts/evolve_graph.cypher")
 
     connector.close()
