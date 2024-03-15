@@ -1,534 +1,3360 @@
 authorId,authorName,affiliatedOrg
-2145774899,Chengjie Chen,Company 16
-2149052058,Hao Chen,Company 8
-2153911296,Yi Zhang,Company 8
-40451574,Hannah R Thomas,Company 10
-143915524,Margaret H. Frank,Company 3
-4098270,Yehua He,University 10
-144304984,Rui Xia,Company 17
-2269971203,Wasnaa Kadhim Jawad,University 6
-2261850659,Abbas M. Al-Bakry,Company 14
-3132693,Andrew P. McAfee,University 15
-2841157,Erik Brynjolfsson,University 5
-2150744,D. Acharjya,Company 6
-2285074747,P. KauserAhmed,University 16
-46251839,Arsalan Zahid Piprani,Company 4
-2237403667,Amjad Ali,Company 5
+2145774899,Chengjie Chen,University 9
+2149052058,Hao Chen,Company 3
+2153911296,Yi Zhang,Company 14
+40451574,Hannah R Thomas,University 17
+143915524,Margaret H. Frank,Company 16
+4098270,Yehua He,Company 16
+144304984,Rui Xia,University 17
+2269971203,Wasnaa Kadhim Jawad,University 11
+2261850659,Abbas M. Al-Bakry,University 16
+3132693,Andrew P. McAfee,University 11
+2841157,Erik Brynjolfsson,Company 12
+2150744,D. Acharjya,University 3
+2285074747,P. KauserAhmed,University 9
+46251839,Arsalan Zahid Piprani,University 13
+2237403667,Amjad Ali,Company 2
 2289912745,Adeel Shah,University 6
-2416504,Kornelia M. Batko,Company 13
-2079538975,A. Ślęzak,University 7
-1764455,A. Gandomi,Company 15
-39060992,Murtaza Haider,University 8
-120550117,T. Doyle,University 14
-50556355,F. Tao,Company 15
-49776606,Jiangfeng Cheng,University 12
-29011153,Qinglin Qi,University 2
-47474337,Meng Zhang,University 15
-2153527172,He Zhang,University 12
-50470670,Fangyuan Sui,Company 2
+2416504,Kornelia M. Batko,University 3
+2079538975,A. Ślęzak,Company 11
+1764455,A. Gandomi,Company 12
+39060992,Murtaza Haider,Company 9
+50556355,F. Tao,University 8
+49776606,Jiangfeng Cheng,University 3
+29011153,Qinglin Qi,University 7
+47474337,Meng Zhang,Company 15
+2153527172,He Zhang,University 6
+50470670,Fangyuan Sui,University 4
 9139705,Amina Adadi,Company 10
-119723024,John T. Hancock,University 10
-1725285,T. Khoshgoftaar,Company 2
-2275848903,Itay Goldstein,University 10
-102309470,Chester Spatt,University 11
-2240347692,Mao Ye,University 17
-39466716,Lida Xu,University 9
-2055791334,Lian Duan,Company 17
-48724197,A. Sandhu,Company 11
-38608914,G. T. Reddy,University 17
-49247239,M. P. K. Reddy,University 8
-51017707,Kuruva Lakshmanna,Company 13
-46234199,Rajesh Kaluri,Company 2
-32336300,D. Rajput,University 17
-2176030144,Gautam Srivastava,University 13
-2287603163,Ieee Thar Baker Senior Member,University 9
-2144586446,Jin Yang,University 12
-12013287,Yuan-jie Li,Company 17
-50384351,Qingqing Liu,University 16
-2156059845,Li Li,Company 6
-1500673788,Aozi Feng,University 7
-2118916449,Tianyi Wang,Company 8
-120615721,Shuai Zheng,University 15
-143908700,Anding Xu,Company 14
-80193067,Jun Lyu,University 11
+119723024,John T. Hancock,Company 15
+1725285,T. Khoshgoftaar,University 10
+2275848903,Itay Goldstein,Company 4
+102309470,Chester Spatt,University 16
+2240347692,Mao Ye,University 16
+39466716,Lida Xu,University 16
+2055791334,Lian Duan,Company 8
+120550117,T. Doyle,Company 14
+48724197,A. Sandhu,Company 5
+38608914,G. T. Reddy,University 6
+49247239,M. P. K. Reddy,University 3
+51017707,Kuruva Lakshmanna,Company 4
+46234199,Rajesh Kaluri,University 8
+32336300,D. Rajput,University 10
+2176030144,Gautam Srivastava,Company 9
+2287603163,Ieee Thar Baker Senior Member,University 12
+2144586446,Jin Yang,University 10
+12013287,Yuan-jie Li,University 12
+50384351,Qingqing Liu,Company 12
+2156059845,Li Li,Company 12
+1500673788,Aozi Feng,University 6
+2118916449,Tianyi Wang,University 12
+120615721,Shuai Zheng,Company 7
+143908700,Anding Xu,Company 5
+80193067,Jun Lyu,University 5
 145963904,I. A. T. Hashem,Company 10
-3264408,Ibrar Yaqoob,University 15
-1940692,N. B. Anuar,University 1
-145463228,Salimah Mokhtar,University 12
-143930319,A. Gani,Company 4
-1740261,S. Khan,University 1
-47212878,Sabyasachi Dash,University 12
-49790135,S. Shakyawar,Company 11
-145451018,Mohit Sharma,University 9
-2066084551,S. Kaushik,Company 17
-2424691,Patrick Mikalef,Company 16
-52222865,Maria Boura,Company 8
-3357578,G. Lekakos,Company 11
-1716522,J. Krogstie,University 13
-2247069462,W. N. Price,Company 5
-2237824370,I. G. Cohen,Company 14
-2051250,Rameshwar Dubey,University 9
-143809890,A. Gunasekaran,Company 7
-2327630,S. Childe,Company 9
-70039026,C. Blome,Company 5
-1879141,T. Papadopoulos,Company 10
-2271668292,Xindong Wu,University 5
+3264408,Ibrar Yaqoob,Company 10
+1940692,N. B. Anuar,Company 3
+145463228,Salimah Mokhtar,University 11
+143930319,A. Gani,University 4
+1740261,S. Khan,Company 11
+47212878,Sabyasachi Dash,University 2
+49790135,S. Shakyawar,University 2
+145451018,Mohit Sharma,Company 3
+2066084551,S. Kaushik,University 3
+2247069462,W. N. Price,Company 10
+2237824370,I. G. Cohen,Company 17
+2051250,Rameshwar Dubey,University 16
+143809890,A. Gunasekaran,Company 8
+2327630,S. Childe,University 8
+70039026,C. Blome,University 6
+1879141,T. Papadopoulos,University 5
+2424691,Patrick Mikalef,University 11
+52222865,Maria Boura,Company 10
+3357578,G. Lekakos,Company 5
+1716522,J. Krogstie,Company 4
+2271668292,Xindong Wu,University 1
 2283098327,Xingquan Zhu,University 9
-2286440807,Gong-Qing Wu,University 12
-2286232238,Wei Ding,University 11
-144984672,N. Misra,Company 15
-144929055,Y. Dixit,University 14
-1403270550,A. Al-Mallahi,University 4
-35436614,Manreet Bhullar,University 16
-47232798,R. Upadhyay,Company 12
-144186679,A. Martynenko,Company 10
-35207612,Alberto Ferraris,University 17
-40119435,A. Mazzoleni,Company 1
-2160518,A. Devalle,University 1
-48704195,Jerome Couturier,Company 3
-8803433,Srikanth Thudumu,Company 13
-1729840,P. Branch,University 6
-38152929,Jiong Jin,University 3
-1490967734,Jugdutt Singh,University 8
-1567584468,Christian Fischer,University 5
-1743903,Z. Pardos,University 2
-144849745,R. Baker,University 14
-1580222881,J. Williams,Company 4
-1630595717,P. Smyth,Company 2
-50846470,Renzhe Yu,Company 10
-36472283,Stefan Slater,University 3
-145155831,Rachel B. Baker,University 3
-2996242,M. Warschauer,University 17
-145153297,Hao Zhu,University 4
-35641358,S. Shilo,Company 1
-1482559324,H. Rossman,Company 1
-143991343,E. Segal,University 15
-145373888,Reihaneh H. Hariri,Company 7
-1891097,Erik M. Fredericks,Company 10
-40647665,Kate M. Bowers,Company 7
-2265002225,Philip Chen,Company 8
-2264425447,Chun-Yang Zhang,Company 14
-7452993,K. Ngiam,University 12
-114139456,Ing Wei Khor,University 4
-107864595,Z. Allam,University 13
-121660594,Zaynah A. Dhunny,Company 3
-145194157,Jianjun Luo,University 2
-2140053420,Ziming Wang,University 4
-2112246116,Liang Xu,Company 1
-9870307,A. Wang,Company 3
-145916712,K. Han,University 3
-153189200,Tao Jiang,University 1
-80938908,Qingsong Lai,University 16
-2141377585,Yu Bai,Company 7
-92015504,Wei-Yao Tang,University 6
-9933376,F. Fan,University 3
-46933871,M.S. Mahmud,University 7
-152292148,J. Huang,University 16
-2128523,Salman Salloum,University 11
-2894178,Tamer Z. Emara,Company 16
-1680649161,Kuanishbay Sadatdiynov,University 7
-120783473,Chong-chong Qi,University 13
-145772858,Zhihan Lv,University 11
-2116431916,Xiaoming Li,Company 3
-38929912,Haibin Lv,Company 9
-9138305,Wenqun Xiu,Company 17
-11918365,N. S. Seyed Tabib,University 12
-89037982,M. Madgwick,University 4
-47798382,P. Sudhakar,University 1
-6050881,B. Verstockt,Company 8
-2961601,T. Korcsmáros,University 7
-3615640,S. Vermeire,Company 1
-1481047992,Abou Zakaria Faroukhi,University 11
-49339941,Imane El Alaoui,Company 1
-2360190,Youssef Gahi,Company 10
-40360441,A. Amine,Company 3
-1979817,M. M. Najafabadi,Company 9
-2142983,Flavio Villanustre,Company 9
-1809915,Naeem Seliya,University 16
-145539319,Randall Wald,Company 8
-50076239,Edin A. Muharemagic,University 4
-103731383,M. Hasan,Company 11
+2286440807,Gong-Qing Wu,University 17
+2286232238,Wei Ding,University 6
+35207612,Alberto Ferraris,University 2
+40119435,A. Mazzoleni,Company 15
+2160518,A. Devalle,University 14
+48704195,Jerome Couturier,Company 13
+144984672,N. Misra,Company 6
+144929055,Y. Dixit,Company 8
+1403270550,A. Al-Mallahi,Company 10
+35436614,Manreet Bhullar,University 8
+47232798,R. Upadhyay,University 13
+144186679,A. Martynenko,University 13
+8803433,Srikanth Thudumu,Company 9
+1729840,P. Branch,Company 4
+38152929,Jiong Jin,Company 16
+1490967734,Jugdutt Singh,Company 3
+145153297,Hao Zhu,University 6
+1567584468,Christian Fischer,Company 15
+1743903,Z. Pardos,Company 8
+144849745,R. Baker,University 1
+1580222881,J. Williams,University 17
+1630595717,P. Smyth,Company 5
+50846470,Renzhe Yu,University 3
+36472283,Stefan Slater,University 2
+145155831,Rachel B. Baker,University 16
+2996242,M. Warschauer,Company 9
+35641358,S. Shilo,University 8
+1482559324,H. Rossman,Company 14
+143991343,E. Segal,University 14
+145373888,Reihaneh H. Hariri,University 10
+1891097,Erik M. Fredericks,University 9
+40647665,Kate M. Bowers,Company 6
+2265002225,Philip Chen,Company 12
+2264425447,Chun-Yang Zhang,Company 4
+7452993,K. Ngiam,University 11
+114139456,Ing Wei Khor,University 1
+107864595,Z. Allam,Company 2
+121660594,Zaynah A. Dhunny,Company 4
+145194157,Jianjun Luo,University 6
+2140053420,Ziming Wang,University 12
+2112246116,Liang Xu,University 15
+9870307,A. Wang,University 12
+145916712,K. Han,Company 1
+153189200,Tao Jiang,University 16
+80938908,Qingsong Lai,University 4
+2141377585,Yu Bai,Company 17
+92015504,Wei-Yao Tang,University 5
+9933376,F. Fan,Company 15
+46933871,M.S. Mahmud,Company 17
+152292148,J. Huang,University 1
+2128523,Salman Salloum,Company 8
+2894178,Tamer Z. Emara,University 4
+1680649161,Kuanishbay Sadatdiynov,Company 15
+120783473,Chong-chong Qi,University 8
+145772858,Zhihan Lv,Company 1
+2116431916,Xiaoming Li,Company 11
+38929912,Haibin Lv,University 9
+9138305,Wenqun Xiu,Company 15
+11918365,N. S. Seyed Tabib,Company 3
+89037982,M. Madgwick,Company 10
+47798382,P. Sudhakar,Company 10
+6050881,B. Verstockt,Company 4
+2961601,T. Korcsmáros,University 10
+3615640,S. Vermeire,Company 3
+1481047992,Abou Zakaria Faroukhi,Company 1
+49339941,Imane El Alaoui,Company 2
+2360190,Youssef Gahi,Company 16
+40360441,A. Amine,Company 2
+1979817,M. M. Najafabadi,Company 1
+2142983,Flavio Villanustre,University 9
+1809915,Naeem Seliya,University 1
+145539319,Randall Wald,Company 12
+50076239,Edin A. Muharemagic,University 14
+103731383,M. Hasan,Company 17
 51218701,J. Popp,Company 17
-144078473,J. Oláh,Company 17
-2144794493,Jie Huang,University 14
+144078473,J. Oláh,Company 7
+2144794493,Jie Huang,Company 4
 50096877,Chengxiang Wang,Company 15
-2075396941,L. Bai,University 14
-None,Jian Sun,Company 15
-2152916916,Yang Yang,University 7
-2149869431,Jie Li,Company 7
-1735048,O. Tirkkonen,University 2
-2236529,Ming-Tuo Zhou,University 16
-101768561,A. Poom,University 14
-4902441,O. Järv,University 12
-32343498,Matthew Zook,Company 14
-4478199,T. Toivonen,University 12
-88493891,A. Ahmad,University 14
-71946151,Assef Jafar,Company 6
-2642350,Kadan Aljoumaa,University 8
-121563830,P. Manning,Company 10
-2464154,Hongning Dai,University 9
-2789275,Hao Wang,Company 15
-7322490,Guangquan Xu,Company 17
-70985296,J. Wan,University 5
-143948775,M. Imran,University 4
-39496312,A. Sîrbu,Company 8
-50663909,G. Andrienko,Company 3
-1780833,N. Andrienko,University 1
-144386157,C. Boldrini,Company 11
-2288804757,M. Conti,University 10
-1685102,F. Giannotti,University 6
-1704327,Riccardo Guidotti,University 16
-30912359,Simone Bertoli,Company 5
-65925190,Jisu Kim,Company 11
-144263850,Cristina Ioana Muntean,University 5
-1752945,Maryam Ghasemaghaei,Company 14
-51202981,G. Calic,Company 11
-2235459675,Karl L€ ofgren,Company 4
-2285816475,C. William,University 6
-2285813122,R. Webster,Company 4
-2193799,Tim Hulsen,Company 3
-34734228,S. Jamuar,University 15
-143920977,A. Moody,University 10
-5190887,J. Karnes,Company 15
-143833453,O. Varga,University 17
-73773486,Stine Hedensted,University 13
-1836456,R. Spreafico,Company 10
-2044599,D. Hafler,Company 12
-15210212,E. McKinney,Company 2
-4488990,M. Mohammadi,University 1
-1404786833,Ala I. Al-Fuqaha,University 2
-1683936,Sameh Sorour,Company 1
-145837053,M. Guizani,Company 3
-48918401,C. Vogel,Company 16
-6660476,S. Zwolinsky,University 16
-3793893,C. Griffiths,University 2
-145569181,M. Hobbs,Company 13
-47757469,E. Henderson,Company 13
-50978529,E. Wilkins,Company 14
-3185333,D. Lazer,University 5
-40379784,Ryan Kennedy,Company 15
-2105789236,Gary King,Company 2
-80273596,A. Vespignani,Company 12
-30387454,Prabhat Mittal,Company 3
-144894714,V. Grover,University 10
-145802082,R. Chiang,University 12
-38804760,Ting-Peng Liang,Company 17
-33006924,Dongsong Zhang,University 7
-1792647,Zhihan Lv,University 13
-2065509293,Liang Qiao,Company 14
-3797258,Z. Obermeyer,Company 17
-39714312,E. Emanuel,Company 11
-40362338,M. Hernán,Company 9
-145607066,J. Robins,University 15
-2118927221,Shivam Gupta,University 14
-32909426,S. Modgil,University 6
-144199974,A. Mohamed,Company 3
-39744835,Maryam Khanian Najafabadi,Company 1
-2633160,B. W. Yap,Company 15
-1414200544,Ezzatul Akmal Kamaru-Zaman,University 3
-2363465,R. Maskat,University 11
-51199953,Riccardo Rialti,Company 11
-3379838,Giacomo Marzi,Company 17
-51200310,Cristiano Ciappei,Company 4
-2071656478,Donatella Busso,Company 14
-51925440,Joffrey L. Leevy,Company 7
-8566633,Richard A. Bauder,Company 8
-1712119,Weina Fu,Company 8
-2108591146,Shuai Liu,Company 11
-2064961834,Gautam Srivastava,University 7
-1794590,Wenchao Xu,Company 2
-2265001,Haibo Zhou,Company 6
-36689599,Nan Cheng,University 4
-15806418,Feng Lyu,Company 2
-48321874,Weisen Shi,University 8
-50762194,Jiayin Chen,Company 17
-145947929,X. Shen,Company 1
-2115815,S. E. Bibri,University 14
-2802655,Omid Alipourfard,University 12
-1925072,H. Liu,Company 2
-1720246,Jianshu Chen,University 16
-2697906,S. Venkataraman,University 10
-2288644920,Minlan Yu,Company 12
-2145177486,Ming Zhang,Company 10
-145878647,Rob Kitchin,Company 17
-2118413239,S. Singh,University 8
-1409970918,A. El-Kassar,Company 5
-2219955175,Daniel ten Wolde,Company 11
-2170409878,Tavneet Singh,University 8
-3254764,Gábor Szárnyas,Company 16
-1687211,P. Boncz,University 3
-1699192,A. Bonifati,University 1
-31359282,Stefania Dumbrava,University 8
-2161651957,Nicolas Mir,University 1
-1443742662,Weining Zheng,University 14
-2117807802,Yuan Jiang,Company 11
-2146501046,Xiaohong Su,Company 14
-3223911,Christian Banse,Company 9
-39391802,Immanuel Kunz,Company 6
-49462068,Angelika Schneider,Company 7
-50460699,Konrad Weiss,University 2
-2772109,Renzo Angles,Company 5
-144245703,Harsh Thakkar,Company 15
-1777646,Dominik Tomaszuk,University 4
-40536846,Chuan Lei,Company 4
-147869186,R. Alotaibi,Company 17
-1949818,A. Quamar,Company 7
-3226264,Vasilis Efthymiou,Company 4
-143972996,Fatma Özcan,Company 7
-2028211867,Sofía Maiolo,University 2
-2586969,Lorena Etcheverry,Company 3
-48916890,Adriana Marotta,Company 14
-3159707,O. V. Rest,University 4
-2207212,Sungpack Hong,University 14
-1681148,Jinha Kim,Company 4
-2115698286,Xu Meng,Company 17
-1694512,Hassan Chafi,Company 1
-2274274,R. Pinquié,University 1
-47464238,P. Véron,University 10
-2581628,Frédéric Segonds,University 8
-1569407237,Thomas Zynda,Company 5
-2108684717,Xiaomeng Wang,Company 3
-2285618955,Tao Zhang,University 13
-2288582453,Runpu Wu,University 11
-2055760745,Wei Xin,Company 6
-2285233261,Changyu Hou,University 13
-2967882,Milivoj Simeonovski,University 6
-35030227,Giancarlo Pellegrino,Company 12
-1701081,C. Rossow,Company 15
-144588806,M. Backes,Company 6
-49061836,Alastair Green,University 14
-2712246,Martin Junghanns,University 13
-2820923,Max Kießling,Company 11
-31846192,Tobias Lindaaker,Company 3
-2748632,Stefan Plantikow,University 17
-2341999,P. Selmer,University 6
-2593963,Davide Alocci,University 5
-24447797,Julien Mariethoz,University 15
-2201329,Oliver Horlacher,University 1
+2075396941,L. Bai,Company 11
+None,Jian Sun,Company 17
+2152916916,Yang Yang,Company 3
+2149869431,Jie Li,University 4
+1735048,O. Tirkkonen,University 9
+2236529,Ming-Tuo Zhou,University 1
+101768561,A. Poom,University 13
+4902441,O. Järv,University 3
+32343498,Matthew Zook,University 9
+4478199,T. Toivonen,Company 13
+121563830,P. Manning,Company 4
+88493891,A. Ahmad,Company 4
+71946151,Assef Jafar,Company 9
+2642350,Kadan Aljoumaa,University 13
+2464154,Hongning Dai,Company 14
+2789275,Hao Wang,Company 7
+7322490,Guangquan Xu,Company 15
+70985296,J. Wan,Company 11
+143948775,M. Imran,Company 1
+2193799,Tim Hulsen,University 15
+34734228,S. Jamuar,Company 8
+143920977,A. Moody,Company 12
+5190887,J. Karnes,Company 14
+143833453,O. Varga,University 2
+73773486,Stine Hedensted,Company 3
+1836456,R. Spreafico,University 17
+2044599,D. Hafler,Company 10
+15210212,E. McKinney,Company 13
+39496312,A. Sîrbu,University 4
+50663909,G. Andrienko,Company 14
+1780833,N. Andrienko,Company 2
+144386157,C. Boldrini,Company 13
+2288804757,M. Conti,University 16
+1685102,F. Giannotti,Company 6
+1704327,Riccardo Guidotti,Company 13
+30912359,Simone Bertoli,University 17
+65925190,Jisu Kim,Company 15
+144263850,Cristina Ioana Muntean,University 11
+1752945,Maryam Ghasemaghaei,University 13
+51202981,G. Calic,University 12
+2235459675,Karl L€ ofgren,Company 14
+2285816475,C. William,Company 7
+2285813122,R. Webster,Company 6
+48918401,C. Vogel,Company 4
+6660476,S. Zwolinsky,University 13
+3793893,C. Griffiths,University 9
+145569181,M. Hobbs,University 12
+47757469,E. Henderson,University 3
+50978529,E. Wilkins,Company 4
+30387454,Prabhat Mittal,Company 1
+144894714,V. Grover,University 7
+145802082,R. Chiang,Company 12
+38804760,Ting-Peng Liang,University 12
+33006924,Dongsong Zhang,Company 17
+3185333,D. Lazer,University 15
+40379784,Ryan Kennedy,University 5
+2105789236,Gary King,University 10
+80273596,A. Vespignani,University 15
+4488990,M. Mohammadi,Company 12
+1404786833,Ala I. Al-Fuqaha,Company 17
+1683936,Sameh Sorour,University 17
+145837053,M. Guizani,University 6
+1792647,Zhihan Lv,Company 3
+2065509293,Liang Qiao,University 10
+3797258,Z. Obermeyer,University 13
+39714312,E. Emanuel,University 13
+40362338,M. Hernán,Company 14
+145607066,J. Robins,University 8
+48058966,A. Sun,University 10
+4944689,B. Scanlon,Company 16
+2118927221,Shivam Gupta,University 17
+32909426,S. Modgil,University 16
+51925440,Joffrey L. Leevy,Company 11
+8566633,Richard A. Bauder,Company 3
+1712119,Weina Fu,Company 11
+2108591146,Shuai Liu,University 12
+2064961834,Gautam Srivastava,Company 8
+144199974,A. Mohamed,University 13
+39744835,Maryam Khanian Najafabadi,University 5
+2633160,B. W. Yap,Company 2
+1414200544,Ezzatul Akmal Kamaru-Zaman,Company 3
+2363465,R. Maskat,University 1
+1794590,Wenchao Xu,University 17
+2265001,Haibo Zhou,University 4
+36689599,Nan Cheng,University 12
+15806418,Feng Lyu,University 5
+48321874,Weisen Shi,Company 5
+50762194,Jiayin Chen,University 11
+145947929,X. Shen,University 11
+2115815,S. E. Bibri,Company 10
+2802655,Omid Alipourfard,Company 10
+1925072,H. Liu,University 14
+1720246,Jianshu Chen,University 7
+2697906,S. Venkataraman,Company 8
+2288644920,Minlan Yu,University 10
+2145177486,Ming Zhang,University 2
+51199953,Riccardo Rialti,Company 9
+3379838,Giacomo Marzi,Company 15
+51200310,Cristiano Ciappei,Company 9
+2071656478,Donatella Busso,Company 2
+145878647,Rob Kitchin,Company 3
+2118413239,S. Singh,University 17
+1409970918,A. El-Kassar,University 10
+31764087,Mark D. Wilkinson,University 15
+1736389,M. Dumontier,University 7
+1975615,I. J. Aalbersberg,Company 10
+74186014,Gabrielle Appleton,Company 10
+4006952,M. Axton,Company 9
+20313879,A. Baak,Company 1
+2776517,N. Blomberg,Company 7
+34945757,J. Boiten,University 10
+115529154,Luiz Olavo Bonino da Silva Santos,Company 10
+2048644,P. Bourne,University 9
+113087456,Dong Zhang,University 1
+3817732,Fangluan Gao,Company 3
+5989466,Ivan Jakovlić,Company 4
+2286418480,Hong Zhou,University 7
+2108930648,Jin Zhang,University 1
+2109050852,Wen X Li,Company 2
+150116413,Gui‐tang Wang,University 1
+31484613,A. Saeed,Company 9
+145887004,V. Sharov,University 3
+2111364371,J. White,Company 15
+46276394,J. Li,Company 13
+2113674994,W. Liang,Company 1
+49569076,N. Bhagabati,Company 4
+2168032,J. Braisted,Company 16
+1460133323,M. Kłapa,University 7
+2092392423,T. Currier,Company 9
+2789936,M. Thiagarajan,Company 15
+1406485922,V. Sáiz-Rubio,Company 7
+1402636333,F. Rovira-Más,Company 15
+1490772997,Q. Ma,Company 14
+2075347074,Guiyun Tian,University 6
+2247227,Yanli Zeng,Company 13
+2150926755,Rui Li,Company 14
+2115232728,Huadong Song,Company 3
+2118452616,Zhen Wang,Company 9
+2067892164,Bin Gao,University 8
+2059911278,Kun Zeng,Company 15
+3372357,V. Gomes,Company 16
+35255977,G. R. Queiroz,University 12
+2355151,K. Ferreira,Company 14
+94385031,Sheng Wang,Company 9
+39505779,Z. Bao,University 10
+144159418,J. Culpepper,University 12
+144145211,G. Cong,Company 16
+31303748,Ma Zhaofeng,University 1
+12717353,W. Xiao-chang,University 13
+32069527,D. Jain,University 10
+47224454,Hamzullah Khan,Company 7
+9195315,Gao Hongmin,University 1
+2061881331,Wang Zhen,Company 10
+1682824,Julia Stoyanovich,Company 14
+1686294,Bill Howe,Company 4
+145531067,H. Jagadish,Company 4
+1871465,Theofanis P. Raptis,Company 5
+1739490,A. Passarella,University 6
+144886793,Peng-Ting Chen,Company 17
+2146084427,Chia-Li Lin,Company 4
+2110051149,Wan-Ning Wu,University 10
+3428490,Mark Raasveldt,University 3
+3011964,H. Mühleisen,University 6
+2146420685,Yiming Jiang,University 9
+143813668,Chenxu Wang,University 15
+2115626527,Yawei Wang,University 17
+2112264042,Lang Gao,Company 3
+1692039,Liehuang Zhu,Company 8
+50118198,Yulu Wu,Company 13
+2529746,Keke Gai,University 13
+2840539,Kim-Kwang Raymond Choo,Company 10
+10995925,D. Dimitrov,University 10
+1423751237,A. Munappy,University 13
+144913779,J. Bosch,University 5
+40225855,H. H. Olsson,Company 5
+1826416,Anders Arpteg,University 7
+1939487,B. Brinne,University 1
+144844353,L. Ismail,University 4
+31209958,Huned Materwala,University 5
+32195988,A. Karduck,University 1
+3468679,A. Adem,Company 11
+9049714,M. Sudmanns,University 5
+2584015,D. Tiede,University 11
+2149915926,S. Lang,Company 16
+49623417,H. Bergstedt,University 6
+82961838,G. Trost,Company 3
+30993494,H. Augustin,University 9
+None,Andrea Baraldi,Company 7
+50594282,T. Blaschke,Company 9
+2810600,R. Pergl,Company 11
+50371588,Rob W.W. Hooft,University 17
+69513411,M. Suchánek,Company 11
+1394243406,Vojtěch Knaisl,Company 7
+1394243478,Jan Slifka,University 13
+144649765,S. Shams,Company 16
+2070769802,L. Solima,University 17
+40537606,Ammar Gharaibeh,Company 10
+10297273,M. A. Salahuddin,University 3
+30679042,Sayed Jahed Hussini,Company 11
+1750196,Abdallah Khreishah,University 4
+1783739,Issa M. Khalil,Company 7
+1389945327,Ala Al-Fuqaha,Company 17
+39712836,G. Ayoade,University 1
+38804742,Vishal M. Karande,University 6
+145155297,L. Khan,Company 2
+3071249,Kevin W. Hamlen,University 16
+1793884,Yanbo Huang,University 6
+46842442,Zhongxin Chen,University 10
+2107105574,Tao Yu,University 13
+51332714,Xiangzhi Huang,Company 7
+9267451,X. Gu,Company 17
+2117433842,Xin Ding,University 13
+2115384591,Lu Chen,University 9
+1409828392,Yunjun Gao,University 13
+145917501,Christian S. Jensen,University 5
+1679542,H. Bao,University 16
+9742942,Houda Daki,Company 4
+9733933,A. Hannani,University 8
+3212020,Abdelhak Aqqal,Company 11
+2842389,A. Haidine,Company 3
+9129510,A. Dahbi,Company 5
+2109839350,Jingjing Wang,Company 15
+153326605,T. Baker,Company 10
+1718134,M. Balazinska,University 4
+145793889,D. Halperin,University 2
+144843868,Brandon Haynes,Company 7
+144011520,D. Hutchison,University 12
+2278389,Shrainik Jain,University 15
+40081201,R. Maas,Company 9
+35207951,Parmita Mehta,University 3
+1787012,Viktor Leis,Company 7
+3452074,Michael Haubenschild,Company 3
+144122431,A. Kemper,Company 2
+143993045,Thomas Neumann,University 4
+15761043,Ayoung Yoon,University 11
+15134462,T. Schultz,University 5
+153628046,L. Perrier,Company 5
+4459519,E. Blondal,University 3
+2239632130,A. Patricia Ayala,University 4
+40774751,Dylanne Dearborn,University 16
+2113860756,Tim Kenny,Company 12
+2058007378,D. Lightfoot,University 8
+11046985,R. Reka,University 10
+11005922,Mindy Thuna,Company 2
+26425038,Leanne Trimble,University 12
+3437656,H. MacDonald,Company 5
+47949377,Guoliang Li,Company 12
+1743709,Jiannan Wang,Company 11
+2985907,Yudian Zheng,University 5
+143666627,M. Franklin,University 5
+2965138,S. Leonelli,University 1
+7729327,Robert P. Davey,University 9
+3148469,E. Arnaud,University 6
+47459955,Geraint Parry,University 4
+1906816,R. Bastow,University 14
+40588148,Hao Zhang,Company 4
+46965289,Gang Chen,University 2
+1693070,B. Ooi,Company 3
+145472073,K. Tan,University 5
+1793178,Meihui Zhang,Company 4
+73617224,Josiline Phiri Chigwada,Company 7
+69503986,Blessing Chiparausha,University 1
+73026555,Justice Kasiroori,Company 10
+4116323,Alisa Surkis,Company 1
+46989434,K. Read,Company 16
+47605128,Mingjie Tang,University 3
+1754544,Yongyang Yu,Company 13
+2404933,Q. Malluhi,University 2
+2168047,M. Ouzzani,University 13
+1709661,W. Aref,Company 5
+35138293,C. Daraio,University 13
+1729232,M. Lenzerini,University 14
+145834075,C. Leporelli,University 14
+1770414,Paolo Naggar,University 8
+2931784,A. Bonaccorsi,University 5
+2664456,A. Bartolucci,Company 9
+31642030,R. C. Amorim,University 17
+38430501,João Aguiar Castro,University 17
+32782673,J. Silva,Company 2
+145747497,Cristina Ribeiro,Company 2
+5744386,G. Schlomer,University 17
+31636476,S. Bauman,University 8
+3464282,Noel A. Card,University 14
+2896002,J. Vertesi,University 17
+50322376,Joseph Kaye,University 1
+3360757,Samantha N. Jarosewski,University 8
+1710018,Vera D. Khovanskaya,Company 5
+2217294515,J. Song,University 10
+1775884,A. Siddiqa,University 13
+38085614,Mohsen Marjani,Company 17
+1758091,Shahaboddin Shamshirband,Company 8
+2215941,F. Nasaruddin,Company 6
+1711832,Sergio Ilarri,University 10
+1702251,Thierry Delot,Company 4
+2041523,Raquel Trillo Lado,University 11
+2113485136,Huang Fang,Company 3
+3215781,Günes Aluç,University 5
+1699014,O. Hartig,Company 12
+1705151,M. Tamer Özsu,University 17
+2176381,Khuzaima S. Daudjee,University 14
+1943226,M. Karpathiotakis,University 14
+2458659,Ioannis Alagiannis,University 5
+2323893,T. Heinis,University 4
+144966319,Miguel Branco,Company 1
+1728318,A. Ailamaki,Company 2
+34652904,J. Hellemans,Company 16
+3226433,G. Mortier,Company 2
+145554538,A. De Paepe,University 7
+144960904,F. Speleman,University 11
+144820005,J. Vandesompele,Company 17
+2053777220,Andrew M. Cox,University 2
+2493686,S. Pinfield,University 16
+49765188,J. Ledikwe,Company 5
+37909882,J. Grignon,Company 9
+6005171,R. Lebelonyane,University 11
+7020161,S. Ludick,University 1
+6263893,Ellah Matshediso,Company 7
+3750019,Baraedi W Sento,Company 11
+2118091058,Anjali Sharma,University 1
+6642629,Bazghina-Werq Semo,Company 14
+1915738,Chunsheng Zhu,Company 11
+1731449,Lei Shu,Company 8
+144337552,T. Hara,Company 10
+145131947,Lei Wang,University 11
+34957142,S. Nishio,Company 16
+1690341,L. Yang,University 5
+49986197,K. Antell,Company 16
+66482554,J. B. Foote,Company 1
+153391620,Jaymie Turner,University 17
+1948630,Brian C. Shults,University 7
+2270088215,Trinabh Gupta,University 10
+2115286576,R. Singh,Company 6
+3078275,Amar Phanishayee,University 15
+2272638997,Jaeyeon Jung,University 1
+2288171917,Ratul Mahajan,University 3
+2441288,A. Beloglazov,Company 16
+1703056,J. Abawajy,University 17
+1709598,R. Buyya,University 16
+1926599,Asaph Azaria,University 2
+3459979,A. Ekblaw,Company 2
+145902555,Thiago Vieira,Company 10
+1808594,A. Lippman,Company 13
+1402984321,Mervat Abu-Elkheir,Company 5
+144060550,M. Hayajneh,University 10
+8739091,N. Ali,University 6
+2808891,S. Corrall,University 2
+1717766,M. Kennan,Company 16
+1819419,Waseem Afzal,University 11
+3224559,K. Akers,Company 6
+144328559,J. Doty,University 14
+27737939,Chuizheng Meng,University 14
+2267664,Sirisha Rambhatla,University 5
+47909531,Yan Liu,Company 8
+2109278431,Heng Liu,University 1
+2108127558,Yunfeng Zhang,Company 17
+49164165,Liwei Hu,Company 11
+2155660014,Jun Zhang,University 4
+145337328,Yu Xiang,Company 7
+47825543,Wenyong Wang,Company 13
+145619185,Zhiqiang Ge,Company 1
+2109110276,Xinru Chen,University 5
+1713934,Antoine Bordes,Company 14
+1746841,Nicolas Usunier,University 10
+1405061488,Alberto García-Durán,Company 10
+145183709,J. Weston,University 11
+2406794,Oksana Yakhnenko,University 14
+8804828,M. Schlichtkrull,Company 7
+41016725,Thomas Kipf,Company 15
+2789097,Peter Bloem,University 6
+9965217,Rianne van den Berg,Company 16
+144889265,Ivan Titov,Company 15
+1678311,M. Welling,University 2
+115504645,Yang Song,University 9
+2490652,Stefano Ermon,Company 7
+2608638,B. Kim,Company 13
+48418805,B. Kang,Company 15
+3160707,S. Choi,Company 10
+1761763,T. Kim,University 15
+103682810,Martina Björklund,University 5
+46581019,Qiang Liu,University 2
+143609842,S. Qin,Company 15
+145011556,T. Chai,Company 1
+2249182100,Michael D Walls,Company 7
+34110040,H. V. Olivera,Company 7
+143906110,M. Holanda,University 17
+2070318495,Valeria Guimarâes,University 16
+2848003,Fernanda Hondo,Company 10
+2550564,Wagner Boaventura,University 6
+2112281287,Lei Xu,Company 2
+2349196,Maria Skoularidou,Company 16
+1402348047,Alfredo Cuesta-Infante,Company 14
+1803567,K. Veeramachaneni,University 10
+2144438851,Xiang Li,Company 1
+1736107,Zhiyi Ma,University 17
+2570825,Hongjie Chen,Company 5
+11158019,D. Cole,Company 12
+1776308,S. Maxwell,University 7
+1974037,K. Duraisamy,University 1
+145114523,G. Iaccarino,Company 10
+41193045,Heng Xiao,Company 8
+5713070,M. Malosetti,University 7
+48259195,J. Ribaut,University 13
+1918088,F. V. van Eeuwijk,Company 5
+1813998,M. Woolrich,Company 5
+2122942,B. Ripley,University 1
+144431498,M. Brady,University 6
+2162210436,Stephen M. Smith,University 14
+2923325,B. Callahan,Company 4
+1787941,Paul J. McMurdie,University 14
+2056082769,Michael J. Rosen,University 12
+3717195,Andrew W. Han,University 13
+47646523,A. J. Johnson,Company 15
+32750186,S. Holmes,Company 10
+2741023,Miyuru Dayarathna,University 5
+145868454,Yonggang Wen,University 5
+None,Rui Fan,University 4
+4274900,O. Alter,Company 7
+32037613,P. Brown,Company 8
+2149626,D. Botstein,Company 6
+35556406,Aaron Schram,University 12
+11604561,K. Anderson,Company 6
+1900211,S. Bowers,University 4
+143705836,J. Mcardle,University 2
+1729109,N. Bouguila,Company 3
+5590544,J. Haslbeck,Company 1
+50473003,O. Ryan,Company 8
+6171759,Donald J. Robinaugh,Company 17
+2936830,L. Waldorp,University 4
+3237553,D. Borsboom,University 5
+31106086,T. Takagi,Company 12
+1717366,M. Sugeno,Company 9
+2082582426,David B. Carter,Company 6
+46192896,Curtis S. Signorino,Company 9
+1764975,V. Storey,Company 7
+144436171,I. Song,Company 17
+153842832,R. Shah,University 8
+2107286282,S. Roy,Company 9
+2169212913,S. Jain,University 8
+2455863,Waylon Brunette,Company 14
+2357983,Xiaodong Cui,University 16
+1782589,Vaibhava Goel,University 10
+144707379,Brian Kingsbury,Company 7
+1688338,Alexander D. MacKerell,University 4
+1984725,D. Bashford,Company 13
+1403103012,M. Bellott,Company 3
+47053167,R. Dunbrack,Company 10
+2233467,J. Evanseck,University 4
+1930264,M. Field,University 7
+47611692,S. Fischer,University 7
+2202746126,J. Gao,University 1
+2107495521,H. Guo,Company 11
+98449500,S. Ha,Company 8
+1796335,D. Blei,University 7
+1694621,Michael I. Jordan,Company 16
+103043132,Sheng Chen,Company 4
+1689945,X. Hong,University 1
+145300338,C. Harris,University 4
+1712019,D. Ziou,University 5
+2312198,M. G. Villalva,University 9
+30977713,J. R. Gazoli,Company 10
+1732714,E. R. Filho,Company 13
+1948189,Moshe Lichman,University 12
+50860274,Padhraic Smyth,Company 7
+145286037,P. Cortez,Company 16
+87429533,A. Cerdeira,Company 1
+2053385052,Fernando Almeida,Company 1
+2074116890,Telmo Matos,Company 1
+2056181012,J. Reis,University 13
+2423230,L. Breiman,Company 5
+144514577,Zongmin Ma,Company 12
+47002265,Li Yan,Company 10
+2278834796,Daya Guo,Company 17
+50052368,Shuo Ren,Company 8
+2115338656,Shuai Lu,University 5
+51056532,Zhangyin Feng,Company 8
+39483833,Duyu Tang,Company 4
+1803054,Shujie Liu,University 10
+2135918679,Long Zhou,Company 17
+46429989,Nan Duan,Company 5
+144926874,Jian Yin,Company 16
+71790825,Daxin Jiang,University 17
+40619959,P. Allison,University 13
+2099445000,P. Dolan,Company 15
+2057173,U. Rührmair,Company 15
+47663455,J. Sölter,Company 9
+1702866,Frank Sehnke,Company 15
+48670629,Xiaolin Xu,Company 3
+2057000684,Ahmed Mahmoud,Company 6
+39972129,V. Stoyanova,University 3
+2088846,G. Dror,University 10
+145341374,J. Schmidhuber,Company 15
+1746650,W. Burleson,Company 17
+1695217,S. Devadas,Company 17
+2110909951,Stanley F. Chen,University 13
+50126864,Joshua Goodman,Company 14
+1690722,S. Chatzis,Company 2
+1750988,D. Kosmopoulos,University 2
+145122221,T. Varvarigou,University 5
+3196739,D. Mistry,Company 3
+47581291,M. Litvinova,Company 4
+7401249,A. P. Y. Piontti,University 4
+1851304,Matteo Chinazzi,Company 16
+3293820,Laura Fumanelli,Company 9
+41231262,M. Gomes,Company 15
+2068956915,S. Haque,Company 15
+8623564,Quan-Hui Liu,Company 14
+1518270846,K. Mu,University 5
+39519033,X. Xiong,University 7
+143711421,Alexander J. Ratner,Company 12
+2870504,Stephen H. Bach,University 13
+33918804,Henry R. Ehrenberg,University 9
+31592365,Jason Alan Fries,University 7
+144766615,Sen Wu,Company 4
+2114485554,C. Ré,University 17
+7589857,Chaogan Yan,University 4
+2000360258,Xindi Wang,University 10
+144055554,X. Zuo,Company 10
+143656578,Y. Zang,University 6
+3422872,Dan Hendrycks,Company 7
+52227748,Norman Mu,Company 4
+8132903,E. D. Cubuk,Company 12
+2368067,Barret Zoph,University 3
+2058362,J. Gilmer,Company 12
+40627523,Balaji Lakshminarayanan,Company 4
+2598130,Jianbo Fu,Company 17
+2153391126,Ying Zhang,Company 13
+2121402780,Yunxia Wang,University 1
+2115996500,Hongning Zhang,Company 12
+2108458186,Jin Liu,Company 11
+145101368,Jing Tang,University 16
+151178570,Qingxia Yang,University 6
+2156232708,Huaicheng Sun,University 16
+2147000717,Wenqi Qiu,University 13
+2158115122,Yinghui Ma,Company 16
+46462891,K. Akiyama,Company 14
+49532874,A. Alberdi,Company 9
+30971409,W. Alef,University 1
+2254233737,K. Asada,University 15
+102934411,R. Azulay,University 7
+104095516,A. Baczko,University 7
+47439845,D. Ball,Company 13
+103023651,M. Baloković,University 1
+2048836799,J. Barrett,University 8
+14762667,D. Bintley,Company 11
+2969659,R. Krishnamurthi,Company 3
+1712222777,Adarsh Kumar,University 17
+1931824459,Dhanalekshmi Gopinathan,University 2
+3286242,A. Nayyar,University 9
+145100089,B. Qureshi,University 15
+2234493,Wenxiu Ding,University 11
+145843577,Zheng Yan,Company 16
+1713669,R. Deng,Company 2
+2512621,Hongzi Mao,Company 12
+1962485,Malte Schwarzkopf,Company 1
+2043402,S. Venkatakrishnan,University 10
+40071013,Zili Meng,University 6
+79404966,Mohammad Alizadeh,Company 11
+51398992,P. Weilbacher,University 8
+68991868,R. Palsa,Company 7
+2707713,O. Streicher,Company 6
+143702015,R. Bacon,Company 6
+7350178,T. Urrutia,Company 17
+4883942,L. Wisotzki,Company 9
+3479847,S. Conseil,University 4
+47685761,B. Husemann,University 10
+71916001,A. Jarno,Company 4
+70407532,A. Kelz,University 1
+1761236,N. Servant,Company 3
+2567677,N. Varoquaux,University 11
+2399615,B. Lajoie,Company 9
+2070897,E. Viara,Company 9
+1859872,Chong-Jian Chen,University 6
+152303545,Jean-Philippe Vert,University 8
+2099250,E. Heard,Company 9
+145696688,J. Dekker,University 17
+1790392,E. Barillot,University 13
+2108227583,Muyuan Chen,University 10
+4176389,James M. Bell,Company 12
+2119204113,Xiaodong Shi,Company 16
+51022218,Stella Y. Sun,Company 8
+152763871,Zhao Wang,University 6
+3132377,S. Ludtke,University 6
+47513708,Junjie Huang,University 15
+2118932732,Zheng Zhu,Company 13
+2065456437,Feng Guo,University 16
+143986385,Guan Huang,Company 13
+98509479,F. Masci,Company 15
+1781751,R. Laher,University 5
+3533262,B. Rusholme,Company 2
+3006546,D. Shupe,Company 2
+144051600,S. Groom,Company 1
+100772029,J. Surace,University 7
+153478396,E. Jackson,Company 4
+8878341,S. Monkewitz,University 17
+122746304,R. Beck,Company 1
+143836959,D. Flynn,University 16
+3088916,Tien Tuan Anh Dinh,University 13
+2186804632,Rui Liu,University 4
+2110218251,Ji Wang,University 17
+9223889,M. Zaliskyi,University 7
+66906393,Y. Petrova,University 2
+9100577,M. Asanov,University 16
+9106080,E. Bekirov,Company 5
+2354124,M. Babiuch,University 11
+151167821,Petr Foltýnek,University 2
+31277482,P. Smutny,Company 15
+3446883,T. Adão,Company 2
+16660204,Jonás Hruska,University 13
+143632492,L. Pádua,University 2
+2060408270,J. Bessa,University 17
+40655700,Emanuel Peres,University 6
+145104644,R. Morais,Company 14
+80240841,J. Sousa,University 1
+2913270,Muhammad Syafrudin,Company 8
+3212733,Ganjar Alfian,Company 9
+31380410,Norma Latif Fitriyani,University 2
+3353468,J. Rhee,Company 15
+2084571753,Erica Forsberg,University 16
+143842977,E. Forsberg,Company 13
+1811090,T. Huan,Company 3
+1939440,Duane Rinehart,Company 5
+143877861,H. P. Benton,University 14
+2809395,B. Warth,Company 11
+10767606,Brian Hilmers,University 1
+2099119,G. Siuzdak,University 16
+3317889,Jeyhun Karimov,Company 5
+1731210,T. Rabl,Company 1
+1680579,Asterios Katsifodimos,Company 14
+7482477,R. Samarev,Company 1
+2868254,Henri Heiskanen,Company 14
+1733290,V. Markl,Company 9
+17563188,S. Singh,Company 4
+49165821,R. Kumar,University 12
+47443371,Anju Sharma,Company 6
+48761825,M. Ijaz,Company 6
+2060154,M. A. Syaekhoni,Company 11
+3181960,Junfei Qiu,University 4
+145447232,Qi-hui Wu,Company 3
+1788703,Guoru Ding,University 4
+1409931639,Yuhua Xu,Company 13
+145340634,S. Feng,Company 10
+2865824,Liang Zhou,University 15
+40259011,Dan Wu,University 15
+2115526972,Jianxin Chen,Company 15
+34665139,Zhenjiang Dong,University 2
+3182634,Tyler Akidau,Company 7
+2061044608,Robert W. Bradshaw,University 11
+145717790,C. Chambers,Company 4
+36393432,Slava Chernyak,University 2
+1403028422,Rafael Fernández-Moctezuma,Company 4
+2075201302,Reuven Lax,Company 4
+2997247,Sam McVeety,University 15
+2064370992,Daniel Mills,Company 5
+48166357,Frances Perry,Company 14
+2084326559,Eric Schmidt,University 4
+2407462,Z. Otwinowski,University 5
+144877760,W. Minor,Company 4
+143970078,D. Agrawal,University 9
+50793091,S. Chawla,Company 13
+1404359012,Bertty Contreras-Rojas,University 11
+145188857,A. Elmagarmid,University 10
+3416143,Yasser Idris,Company 16
+2827559,Zoi Kaoudi,University 4
+143924672,Sebastian Kruse,Company 2
+2081346,J. Lucas,University 1
+1801187,Essam Mansour,University 5
+2565916,D. Roe,University 8
+145258476,T. Cheatham,Company 17
+2118943217,Xiaowei Song,Company 5
+2517497,Zhangye Dong,Company 3
+37417200,X. Long,Company 8
+47319149,Sufang Li,University 10
+7883654,Chaozhe Zhu,Company 12
+145475635,Yong He,Company 6
+47484023,Quoc-Cuong To,University 8
+34415034,Juan Soto,Company 10
+1724392,S. Dolev,Company 4
+2260885,Patricia Florissi,University 16
+1795510,E. Gudes,Company 14
+2028614385,Shantanu Sharma,University 4
+40547215,Ido Singer,University 10
+4237628,N. Biyani,University 13
+40599157,R. Righetto,University 16
+71010078,R. McLeod,Company 10
+1405335669,Daniel Caujolle-Bert,Company 2
+1400077520,D. Castaño-Díez,Company 7
+1987878,K. Goldie,University 11
+2247137,H. Stahlberg,University 7
+2840980,Patrick Stuedi,University 17
+2488489,A. Trivedi,Company 5
+3205436,Jonas Pfefferle,University 16
+145881292,R. Stoica,University 12
+2089988,B. Metzler,University 3
+33372120,Nikolas Ioannou,Company 9
+1714355,Ioannis Koltsidas,University 12
+71720761,Bon-Geun Gu,Company 12
+1381460239,A. Yoon,Company 7
+2618700,Duck-Ho Bae,University 17
+3122792,Insoon Jo,University 16
+2108514045,Jinyoung Lee,University 8
+2116002788,Jonghyun Yoon,University 17
+2232491,Jeong-Uk Kang,University 1
+3360842,Moonsang Kwon,University 7
+2057469329,Chanho Yoon,Company 16
+34226565,Sangyeun Cho,Company 12
+6084073,Riccardo Di Guida,Company 6
+39599280,J. Engel,University 5
+11425569,J. W. Allwood,University 9
+2073815,Ralf J. M. Weber,University 4
+2111037263,Martin R. Jones,Company 7
+50329527,U. Sommer,Company 10
+2313499,M. Viant,University 3
+2234197721,W. Dunn,University 15
+2092402029,Mingyu Gao,University 4
+117272782,Christos Kozyrakis,University 8
+50058359,D. Shuman,University 15
+1799060,S. K. Narang,Company 7
+1703189,P. Frossard,University 12
+145029825,Antonio Ortega,University 14
+1697397,P. Vandergheynst,University 11
+46369381,Grant Ayers,University 6
+33479644,Stephen W. Hartley,Company 16
+143999313,J. Mullikin,Company 10
+49466142,S. Linden,Company 2
+3401042,Andreas Rabe,University 7
+49186701,M. Held,Company 16
+47790903,Benjamin Jakimow,Company 8
+144335550,P. Leitão,University 5
+2206128,A. Okujeni,Company 6
+3463954,M. Schwieder,University 11
+49854623,S. Suess,Company 14
+1812396,P. Hostert,University 11
+7232378,E. Magnier,University 14
+41200687,K. Chambers,University 8
+1380260980,H. Flewelling,Company 3
+2178209,J. Hoblitt,Company 11
+144616010,M. Huber,Company 8
+2055144702,P. Price,University 4
+1388353546,W. Sweeney,Company 8
+143621764,C. Waters,University 15
+27755593,L. Denneau,Company 15
+49729592,P. Draper,Company 16
+2007982,T. Nakane,University 6
+2705260,Y. Joti,Company 10
+49408192,K. Tono,University 7
+145707609,M. Yabashi,University 4
+4622323,E. Nango,University 7
+34673873,S. Iwata,University 3
+5837434,R. Ishitani,University 9
+4949172,O. Nureki,University 8
+4285399,Stephane E. Castel,Company 16
+1400875517,Ami Levy-Moonshine,Company 7
+1906270,P. Mohammadi,Company 12
+145139019,E. Banks,Company 17
+144946488,T. Lappalainen,University 11
+1933858,G. Pastorello,University 11
+38077733,C. Trotta,University 2
+2201530,E. Canfora,University 4
+33295601,H. Chu,University 12
+37626208,D. Christianson,University 15
+37375692,Y. Cheah,Company 14
+48035607,C. Poindexter,Company 10
+88566094,Jiquan Chen,Company 8
+9616561,Abdelrahman Elbashandy,Company 5
+1691920,M. Humphrey,Company 17
+2115646383,Teng Li,Company 13
+144551170,Jian Tang,University 14
+1870303,Jielong Xu,University 16
+2885907,S. Xi,Company 4
+2502888,Oreoluwatomiwa O. Babarinsa,Company 8
+1840402,Manos Athanassoulis,University 10
+2203901,Stratos Idreos,Company 15
+2100212393,Philipp Gölzer,University 13
+2909579,P. Cato,Company 11
+1774815,M. Amberg,University 17
+144489603,Ruben Casado,Company 7
+144465109,M. Younas,Company 11
+144588566,A. Chumak,University 9
+49946978,A. Serga,Company 13
+144271318,B. Hillebrands,Company 15
+2144092657,Colin A. Smith,Company 17
+3197141,E. Want,University 8
+1402654850,Grace O'Maille,University 10
+2692972,R. Abagyan,University 17
+2161388797,Kiran Maharana,Company 2
+2057126056,S. Mondal,University 17
+145474210,B. Nemade,Company 14
+143803467,M. Braverman,University 11
+2133482,A. Garg,University 7
+1901958,Tengyu Ma,University 15
+143679841,Huy L. Nguyen,University 15
+143982862,David P. Woodruff,Company 4
+123398584,Wouter De Coster,University 3
+1409363625,Svenn D’Hert,Company 11
+50155644,D. Schultz,University 13
+6463269,M. Cruts,Company 1
+115112132,C. van Broeckhoven,University 3
+7570825,Qi-yi Tang,Company 14
+2145179412,Chuanquan Zhang,Company 11
+1777422,R. Balasubramonian,Company 9
+1698747,Jichuan Chang,Company 2
+2059906330,Troy Manning,Company 1
+144853146,J. Moreno,Company 8
+103493906,R. Murphy,Company 6
+145093191,R. Nair,University 12
+143846212,S. Swanson,University 2
+1693598,M. Raginsky,Company 17
+144204231,Lin Gu,Company 9
+2288376751,Deze Zeng,Company 15
+143667002,Peng Li,University 10
+144123446,Song Guo,Company 9
+144928956,R. Ranjan,Company 16
+30868748,M. Manni,University 15
+83639236,M. Berkeley,University 9
+7862527,Mathieu Seppey,Company 11
+2182484,E. Zdobnov,University 6
+31820923,M. Schmidt,University 17
+145240485,S. Schmidt,University 12
+3493907,Jakob Sandegaard,University 8
+4384657,V. Ehrenstein,Company 10
+50568899,L. Pedersen,Company 8
+34432960,H. Sørensen,Company 7
+1739768238,Richard Y. Wang,Company 2
+144519071,D. Strong,University 11
+46903095,Eyal Péer,Company 11
+145792941,David M. Rothschild,Company 1
+2054050322,Andrew Gordon,University 6
+2090208526,Zak Evernden,Company 9
+113995588,Ekaterina Damer,Company 7
+1825498,Ikbal Taleb,University 6
+2394689,M. Serhani,Company 7
+1949827,Chafik Bouhaddioui,Company 10
+1741232,R. Dssouli,Company 4
+2115343577,Nitin Gupta,University 17
+33906968,Shashank Mujumdar,Company 3
+1557607422,Hima Patel,Company 15
+2060026640,Satoshi Masuda,University 5
+34065547,Naveen Panwar,University 1
+144171563,S. Bandyopadhyay,University 7
+145640180,S. Mehta,University 7
+52205085,Shanmukha C. Guttula,Company 14
+2099539780,S. Afzal,University 14
+2123019127,Ruhi Sharma Mittal,University 13
+37833666,Cédric Renggli,Company 7
+102638867,Luka Rimanic,University 8
+51274710,Nezihe Merve Gurel,University 10
+1689256538,Bojan Karlavs,University 4
+5072734,Wentao Wu,Company 12
+1776014,Ce Zhang,University 12
+103866044,Uthayakumar Jayasankar,Company 14
+2098699541,Vengattaraman Thirumal,Company 12
+2479110,D. Ponnurangam,Company 1
+2069040101,P. Evans,University 10
+2717408,A. Koelmans,University 3
+26686252,Nur Hazimah Mohamed Nor,University 17
+39294743,E. Hermsen,Company 16
+153547028,M. Kooi,University 17
+15752694,S. Mintenig,Company 17
+5815686,J. De France,Company 11
+1952918,M. Chmielewski,University 10
+7653880,Sarah C. Kucker,Company 6
+1504263542,Hui Yie Teh,Company 10
+1405597277,A. Kempa-Liehr,Company 7
+1781162,K. Wang,University 2
+144243819,Abhinav Jain,University 4
+1505464856,Lokesh Nagalapatti,University 6
+41051307,Ruhi Sharma Mittal,University 13
+1821191,Vitobha Munigala,University 9
+2008708783,C. O. Schmidt,Company 16
+6733411,S. Struckmann,University 15
+4289186,C. Enzenbach,University 1
+47295849,A. Reineke,Company 3
+1798975,J. Stausberg,University 12
+82317852,S. Damerow,University 2
+152491504,M. Huebner,University 16
+34251584,B. Schmidt,Company 6
+32511206,W. Sauerbrei,Company 2
+117654235,A. Richter,Company 8
+81374793,C. Cichy,University 6
+1717963,S. Rass,University 4
+1699123,L. Bertossi,University 7
+1729031,Floris Geerts,University 11
+3663203,C. McHorney,Company 2
+79850669,J. Ware,Company 8
+1820357658,J F Rachel Lu,University 10
+3852593,C. Sherbourne,University 17
+2123592,Caihua Liu,University 1
+153499405,Patrick Nitschke,University 17
+1802084,Susan P. Williams,Company 17
+1740931,Didar Zowghi,Company 1
+2110064099,Ruojin Zhang,Company 17
+1780384,M. Indulska,Company 9
+2092368,S. Sadiq,Company 14
+2180399,Sebastian Schelter,Company 17
+21505601,Dustin Lange,University 1
+144906813,Philipp Schmidt,University 6
+51194821,Meltem Celikel,Company 1
+2170760,F. Biessmann,University 7
+51198759,Andreas Grafberger,University 9
+1728335,D. Firmani,Company 5
+1779997,L. Tanca,University 12
+1718274,Riccardo Torlone,University 1
+145793641,P. Karplus,University 5
+5606764,K. Diederichs,University 9
+2067914991,Dan Peng,University 14
+1739875,Fan Wu,Company 13
+2116378888,Guihai Chen,University 7
+1953018557,Bernd Heinrich,University 1
+2453381,Diana Hristova,Company 12
+2404634,Mathias Klier,University 6
+143989991,Alexander Schiller,Company 13
+36356769,Michael Szubartowicz,University 4
+33107876,S. Feder,University 15
+2112831164,Li Cai,Company 14
+8247706,Yangyong Zhu,Company 14
+1693354,Sonia Tarazona,University 13
+1398809816,P. Furió-Tarí,Company 9
+2920699,David Turrà,University 4
+2537616,A. Pietro,Company 11
+1782366,M. J. Nueda,Company 10
+2056118645,A. Ferrer,Company 2
+143999762,A. Conesa,Company 6
+39459981,M. Kosmala,University 13
+144918359,A. Wiggins,University 1
+49941354,A. Swanson,University 3
+47747416,Brooke D. Simmons,University 13
+1786741,Xiaowen Gong,University 16
+1750487,N. Shroff,University 4
+1739500,D. Ardagna,Company 4
+1723724,C. Cappiello,Company 3
+51058841,Walter Samá,University 13
+143686989,Monica Vitali,Company 5
+3121740,J. Siegel,Company 10
+3220180,A. Mitra,Company 12
+2440512,Timothy O. Laumann,University 16
+5459210,B. Seitzman,University 13
+2057029,M. Raichle,Company 10
+1723344,M. Corbetta,University 12
+143908863,A. Snyder,University 15
+50845836,Anna DeCastellarnau,Company 14
+2976930,Tero Karras,Company 17
+36436218,S. Laine,University 10
+1907688,M. Aittala,Company 1
+1454226629,Janne Hellsten,Company 14
+49244945,J. Lehtinen,University 9
+1761103,Timo Aila,Company 13
+50716116,J. Vosgerau,Company 8
+1683053,A. Acquisti,Company 3
+2285192915,Gary J. Hunter,Company 8
+2288354992,Simon Jones,Company 9
+2270571142,A. Bregt,Company 16
+2287311973,Ewan Masters,University 4
+5681005,Y. Kodra,Company 3
+4948480,M. Posada de la Paz,Company 6
+3590885,A. Coi,Company 10
+47015649,M. Santoro,Company 3
+47712786,F. Bianchi,University 13
+2047542372,Faisal Ahmed,Company 10
+39420255,Y. Rubinstein,University 8
+39895708,J. Weinbach,Company 17
+3618630,D. Taruscio,University 4
+5952794,T. Kalincik,Company 16
+6380447,J. Kuhle,University 12
+34265663,E. Pucci,Company 7
+116356100,J. Rojas,Company 4
+144515297,M. Tsolaki,Company 8
+153930839,C. Sîrbu,Company 15
+47234324,M. Slee,Company 14
+2184228,H. Butzkueven,Company 6
+2152940817,Sheng Liu,Company 13
+1967385,Zhenzhe Zheng,Company 7
+1682309,Shaojie Tang,University 2
+143602360,S. Haustein,Company 11
+40524882,Mostafa Milani,University 17
+3326020,A. Vetrò,University 12
+38675222,L. Canova,Company 15
+2553383,Marco Torchiano,University 3
+9034963,Camilo Orozco Minotas,University 14
+31451963,R. Iemma,University 4
+40477141,Federico Morando,Company 1
+143990588,Massimo Mecella,Company 4
+1789318,M. Scannapieco,Company 14
+1693220,C. Batini,Company 2
+1909879,Aimad Karkouch,University 10
+2431019,H. Mousannif,Company 4
+3266710,H. A. Moatassime,Company 6
+1781910,Thomas Noël,University 14
+2079716,E. Pruesse,University 2
+1980031,Christian Quast,Company 4
+144971797,K. Knittel,Company 6
+2511304,B. Fuchs,University 8
+144827391,W. Ludwig,Company 5
+1889237,J. Peplies,Company 15
+2982449,F. Glöckner,University 7
+144931354,K. Harris,University 15
+144936828,R. Quiroga,Company 10
+144702473,Jeremy Freeman,Company 12
+2110480139,S. L. Smith,Company 8
+2852242,N. Laranjeiro,University 14
+2280610,Seyma Nur Soydemir,Company 16
+1716043,Jorge Bernardino,Company 9
+38039604,Eva J. Lewandowski,Company 10
+32422824,Hannah M. Specht,Company 9
+1767465,S. Kelling,University 11
+144086902,D. Fink,Company 12
+7479156,F. L. La Sorte,University 11
+39535060,A. Johnston,University 14
+49066081,Nicholas E. Bruns,University 16
+2412541,W. Hochachka,Company 7
+2333981,A. Rula,Company 9
+1732475,G. Viscusi,University 11
+143914287,J. Merino,University 8
+1709884,I. Caballero,University 8
+1821479,Bibiano Rivas,Company 2
+144831784,M. Serrano,Company 5
+1702096,M. Piattini,Company 11
+79990255,J. Ernst,University 8
+2809250,Manolis Kellis,Company 3
+4271913,C. Ekegren,University 1
+6527289,B. Gabbe,University 5
+34582833,C. Finch,Company 3
+1725784,S. Speedie,Company 7
+2791563,György J. Simon,University 9
+2107978833,Vipin Kumar,University 17
+7785557,B. Westra,University 4
+2111936357,Steven G. Johnson,Company 12
+3026841,R. Lukyanenko,Company 3
+145008629,J. Parsons,University 15
+2834370,Y. Wiersma,University 1
+2848948,Donovan H. Parks,University 1
+2707355,Michael Imelfort,University 11
+3741656,Connor T. Skennerton,University 7
+1730445,P. Hugenholtz,University 2
+31968669,G. Tyson,University 7
+48211028,Jianfang Liu,Company 14
+2817880,T. Lichtenberg,University 13
+3590526,K. Hoadley,Company 4
+34578782,L. Poisson,University 11
+2063985933,A. Lazar,Company 12
+4659177,A. Cherniack,University 6
+1755163,A. Kovatich,University 14
+1860145,C. Benz,Company 12
+1919795,D. Levine,Company 9
+145263625,Adrian V. Lee,University 12
+1803284,Sandra Geisler,Company 1
+1761310,C. Quix,Company 8
+2070431983,Sven Weber,University 14
+1744383,M. Jarke,University 6
+2020035393,G. Fuchs,University 9
+9271959,Suraj Juddoo,University 16
+48705568,A. Pedersen,University 14
+3730735,C. Ellingsen,University 3
+144682745,A. Bowling,University 8
+145450400,Thibault Sellam,University 7
+8826771,M. Kersten,University 15
+50136367,Alin Deutsch,University 16
+35941003,M. Fernández,Company 4
+144823759,Dan Suciu,University 14
+40655309,Prithviraj Sen,University 2
+144520191,A. Deshpande,University 9
+69026873,S. Abiteboul,University 12
+2310222,P. Kanellakis,University 13
+1788571,G. Grahne,University 3
+1681226,L. Libkin,University 9
+2434366,D. Vrgoc,Company 8
+2969789,C. Carson,Company 17
+50172592,Serge J. Belongie,Company 6
+143942875,H. Greenspan,University 1
+153652147,J. Malik,University 5
+3068011,R. H. Güting,University 10
+34906132,Victor Teixeira de Almeida,University 4
+40508288,Zhiming Ding,Company 7
+2476931,Olivier Biton,University 12
+1783625,Sarah Cohen Boulakia,University 9
+49702692,S. Davidson,University 16
+1785445,Carmem S. Hara,Company 10
+1721171,R. Kontchakov,Company 8
+144350265,C. Lutz,University 9
+1725663,David Toman,University 13
+1681559,F. Wolter,Company 10
+1749505,M. Zakharyaschev,Company 12
+1746733,Manolis Koubarakis,University 4
+1792820,K. Kyzirakos,University 17
+1725631,C. Nikolaou,University 12
+1806203,Michael Sioutis,Company 16
+1403657578,S. Amer-Yahia,Company 3
+1708593,L. Lakshmanan,Company 16
+40652387,Shashank Pandit,University 3
+1846932,Kemafor Anyanwu,University 6
+144463965,A. Sheth,Company 10
+2371592,Medha Atre,University 3
+2603519,Vineet Chaoji,Company 4
+1693515,Mohammed J. Zaki,Company 8
+1701341,J. Hendler,Company 7
+1775662,A. Harth,University 5
+1682407,K. Hose,University 15
+1734216,Marcel Karnstedt,University 15
+1708607,A. Polleres,Company 13
+1716839,K. Sattler,Company 14
+1710966,Jürgen Umbrich,University 7
+2845452,A. Kasprzyk,Company 8
+39352522,Damian Keefe,University 6
+1899930,D. Smedley,Company 11
+107760486,D. London,University 3
+2496349,W. Spooner,Company 15
+2616554,Craig Melsopp,University 16
+144795336,M. Hammond,Company 2
+1397958214,P. Rocca-Serra,Company 1
+49398233,Tony Cox,Company 6
+1702103,E. Birney,University 1
+2134119,Banu Dost,Company 9
+2719461,T. Shlomi,University 12
+145994225,Nitin Gupta,Company 13
+1779370,E. Ruppin,Company 4
+7553330,V. Bafna,Company 15
+1725953,R. Sharan,Company 14
+1829246,G. Karvounarakis,Company 17
+2189454,S. Alexaki,University 15
+3009404,V. Christophides,University 12
+1705358,D. Plexousakis,University 11
+144911319,M. Scholl,University 4
+1713262,F. Sadri,University 13
+2026217,Iyer N. Subramanian,University 9
+3152326,Eiman Elnahrawy,Company 1
+145008332,B. Nath,Company 1
+1753537,A. Sarma,Company 3
+1792867,Omar Benjelloun,University 6
+1770962,A. Halevy,Company 8
+1737896,J. Widom,University 4
+144947410,R. Agrawal,Company 16
+2493367,G. Psaila,Company 16
+2855601,E. Wimmers,Company 14
+1693487,Mohamed Zaït,Company 16
+1706198,J. Chomicki,University 5
+1759150,S. Cluet,University 9
+1702212,Tova Milo,University 11
+1809585,G. Moerkotte,University 3
+1753075,Jérôme Siméon,University 16
+145116379,S. Miles,University 15
+1722047,C. Beeri,University 6
+143658928,Anat Eyal,University 6
+2280824,Simon Kamenkovich,Company 6
+1684336,M. Livny,Company 1
+2066044800,R. Ramakrishnan,University 5
+38690711,K. Beyer,University 3
+2117886471,G. Chen,Company 16
+40252028,Donko Donjerkovic,Company 7
+2602792,Shilpa Lawande,Company 6
+2612119,Jussi Myllymaki,University 6
+2286143358,Kent Wenger,University 10
+2182067810,Ralf Hartmut Güting,Company 13
+2258286666,Anastasios Kementsietsidis,Company 5
+2636213,D. Milano,University 2
+2969169,L. Segoufin,University 16
+1765187,V. Vianu,University 6
+2198707,Peixiang Zhao,University 3
+145325584,Jiawei Han,University 16
+8196487,A. Bimbo,Company 11
+1680785,E. Vicario,University 5
+1787305,Daniele Zingoni,Company 10
+2417821,Kevin D. Munroe,Company 1
+1786049,Y. Papakonstantinou,Company 6
+34657646,T. Behr,University 10
+1730314,S. Flesca,University 12
+145042418,S. Greco,Company 8
+144259075,D. Quass,Company 17
+69484854,A. Rajaraman,Company 15
+1742391,J. Ullman,Company 7
+1714472,Y. Sagiv,University 11
+1680593,Alexander Tuzhilin,Company 8
+145321667,B. Liu,University 16
+1733797,T. Imielinski,Company 17
+1704649,B. R. Badrinath,University 17
+1794108,J. Dittrich,University 13
+1708337,Franz Färber,Company 2
+1799376,G. Graefe,University 13
+72666857,H. Loeser,Company 7
+2093976514,Wilfried Reimann,University 16
+1704487,Harald Schöning,University 4
+2772109,Renzo Angles,Company 2
+3115735,Amihai Motro,University 13
+2079390,Qiuhui Yuan,University 15
+1452726253,Ralf Hartmut Güting Dr.rer.nat,University 14
+3159707,O. V. Rest,Company 16
+2207212,Sungpack Hong,Company 17
+1681148,Jinha Kim,University 14
+2115698286,Xu Meng,University 7
+1694512,Hassan Chafi,University 8
+143827115,Brian Babcock,University 8
+2072569,Christopher Olston,Company 8
+143916599,S. Castano,Company 15
+1716333,V. D. Antonellis,University 11
+144794379,S. Vimercati,Company 6
+144787754,Alin Dobra,University 7
+1738210,Minos N. Garofalakis,Company 11
+143614516,J. Gehrke,Company 3
+1696519,R. Rastogi,University 8
+9395892,Jiansheng Huang,University 17
+2117182555,Ting Chen,University 2
+3030274,A. Doan,Company 6
+5151034,J. Naughton,University 8
+3015985,Bhargav Kanagal,Company 5
+1711320,M. Golfarelli,University 4
+2652412,S. Rizzi,University 12
+143894459,D. Burdick,University 3
+143722566,Prasad Deshpande,University 13
+2545727,T. S. Jayram,University 9
+1709145,R. Ramakrishnan,University 15
+2066721,Shivakumar Vaithyanathan,University 10
+48905676,Sunil Prabhakar,University 16
+1966497,Reynold Cheng,University 17
+145514740,D. Ślęzak,University 6
+34707164,J. Wróblewski,University 14
+2453092,Victoria Eastwood,Company 3
+1742332,P. Synak,University 8
+2408872,P. Talukdar,University 6
+40076282,Marie Jacob,University 9
+3110183,Muhammad Salman Mehmood,Company 17
+1693407,K. Crammer,University 15
+1804315,Z. Ives,University 16
+145366908,Fernando C Pereira,Company 11
+144392463,S. Guha,University 16
+144430493,Flip Korn,University 3
+1702392,C. Faloutsos,University 1
+1703347,M. Carey,University 12
+1765659,D. DeWitt,University 14
+2060722884,Scott L. Vandenberg,University 12
+145285837,Feng Peng,University 10
+9086294,S. Chawathe,University 13
+1685240,Edward Bortnikov,Company 4
+3000027,Khaled Elmeleegy,Company 12
+1865700,F. Junqueira,Company 7
+143698368,B. Reed,University 16
+1760250,K. Whitehouse,Company 16
+2152226444,Feng Zhao,University 16
+2146651037,Jie Liu,Company 1
+1835828,Jun-Ki Min,Company 3
+2754379,Myung-Jae Park,Company 9
+1733783,C. Chung,Company 5
+145522617,E. Damiani,University 5
+1699357,S. Jajodia,University 12
+1690714,S. Paraboschi,University 12
+1705830,P. Samarati,Company 8
+1767012,François Bry,Company 4
+1777556,Sebastian Schaffert,University 4
+145253305,Dmitry Pavlov,University 8
+1712654,H. Mannila,University 12
+1780531,Daniel S. Weld,University 6
+1770124,Sunita Sarawagi,Company 11
+2064483219,Bruno Becker,University 3
+2091812,S. Gschwind,Company 10
+1813778,T. Ohler,University 4
+3279660,B. Seeger,Company 4
+1692856,P. Widmayer,University 14
+1762174,Sirish Chandrasekaran,Company 7
+3139418,Sibel Adali,University 4
+1720972,K. Candan,University 2
+96599574,Su-shing Chen,Company 12
+33936364,K. Erol,Company 6
+1728462,V. S. Subrahmanian,University 5
+5963711,P. Buneman,Company 10
+153503092,Kyle Hart,Company 16
+2248447709,G. C. Overton,Company 3
+2246843328,Limsoon Wong,University 10
+1715463,V. Vassalos,University 10
+46701354,J. Liu,University 17
+145867172,X. Dong,Company 3
+1747227,B. Amann,University 9
+2777533,R. Brachman,University 10
+1690361,P. Selfridge,University 4
+1739628,L. Terveen,University 9
+2072288919,Boris Altman,Company 4
+47772402,Fern Halper,University 1
+2076231991,T. Kirk,University 4
+46852414,Alan Lazar,University 14
+1679913,D. McGuinness,Company 6
+39520145,Lori Alperin Resnick,Company 10
+1742591,Y. Kanza,Company 5
+2983610,Patricia C. Arocena,University 7
+3138075,Maddalena Garzetti,University 2
+38240158,Lei Jiang,Company 1
+1687892,Anastasios Kementsietsidis,University 5
+2648782,I. Kiringa,University 6
+144314447,Mehedi Masud,Company 11
+2110417078,Renée J. Miller,University 1
+1750566,J. Mylopoulos,University 12
+2065116855,A. Natsev,University 16
+144232630,Kyuseok Shim,Company 2
+145860176,D. Srivastava,Company 15
+2072707929,Keith Thompson,Company 17
+1683688,Felix Naumann,Company 15
+6391996,Evan Bolyen,University 1
+6307534,J. Rideout,University 12
+40950692,Matthew R. Dillon,Company 11
+4230536,Nicholas A. Bokulich,University 9
+5538503,C. Abnet,University 11
+1402012502,Gabriel A. Al-Ghalith,Company 16
+39168440,Harriet Alexander,Company 9
+1777308,E. Alm,University 12
+144893958,Manimozhiyan Arumugam,Company 7
+3088847,F. Asnicar,Company 12
+2290931964,Bill Cresko,University 7
+2257435815,Yin Yang,Company 1
+1746885,K. Siau,Company 12
+2257563351,Wen Xie,Company 13
+2257337884,Yan Lindsay Sun,Company 17
+1394049881,The Genomic Observatories Network,University 4
+37032036,Rosa M Alcazar,Company 16
+150202115,Maria Alvarez,Company 2
+2133918109,Rachel Arnold,University 14
+20779472,Mentewab Ayalew,Company 12
+5561234,L. Best,Company 6
+2114675387,M. Campbell,Company 5
+47760854,K. Chowdhury,Company 5
+2052609304,Katherine E. L. Cox,Company 7
+1485435660,Christina R. Daulton,University 8
+1399205325,Fernando Martínez-Plumed,University 12
+1572944977,Lidia Contreras-Ochando,Company 10
+1785006,C. Ferri,University 4
+66969655,José Hernández Orallo,Company 17
+66368615,Meelis Kull,University 5
+2605200,N. Lachiche,Company 2
+2065857867,M. J. R. Quintana,Company 13
+144474086,P. Flach,Company 13
+1399162888,David Lähnemann,Company 7
+46584000,Johannes Köster,Company 11
+1713701,E. Szczurek,University 2
+1947387,Davis J. McCarthy,University 11
+35099275,S. Hicks,University 5
+144630231,M. Robinson,University 13
+49688447,C. Vallejos,Company 4
+7993996,Kieran R. Campbell,Company 3
+2337683,N. Beerenwinkel,University 6
+143674431,A. Mahfouz,University 5
+145507543,Juan C. Caicedo,University 14
+47348021,A. Goodman,Company 16
+8606450,Kyle W. Karhohs,University 11
+6648707,B. Cimini,University 3
+147015068,Jeanelle Ackerman,Company 2
+2057582064,Marzieh Haghighi,Company 14
+2030964,Cherkeng Heng,University 17
+143934208,Tim Becker,Company 4
+144810428,M. Doan,Company 9
+51043865,C. McQuin,University 13
+1882065,W. Budiharto,University 14
+36743361,Dakuo Wang,Company 8
+2055456335,Josh Andres,University 17
+1927553,Justin D. Weisz,Company 17
+1506548883,Erick Oduor,University 9
+2391727,Casey Dugan,Company 6
+1782525,S. Subrahmanya,Company 3
+21766681,Dasharathraj K. Shetty,University 10
+13966665,Vathsala Patil,University 5
+2005420621,B. Hameed,University 12
+2057278194,R. Paul,University 4
+8556033,Komal Smriti,University 13
+116246793,Nithesh Naik,University 14
+4149364,B. Somani,Company 2
+3456687,Iqbal H. Sarker,University 8
+144366819,A. Kayes,University 11
+49696663,S. Badsha,University 6
+15597895,Hamed Alqahtani,University 1
+1682100,P. Watters,University 11
+46201673,Alex Ng,Company 1
+2555876,Sumon Biswas,University 14
+2340436,Mohammad Wardat,Company 9
+144212535,Hridesh Rajan,Company 2
+134251468,K. Jablonka,Company 14
+17711197,D. Ongari,Company 7
+144683061,S. M. Moosavi,University 16
+144189527,B. Smit,University 12
+7327503,Tijl De Bie,Company 11
+138078008,Luc de Raedt,University 6
+1398777358,J. Hernández-Orallo,Company 7
+2470869,H. Hoos,University 3
+2107299006,C. Williams,University 17
+2092542,Valerio Grossi,Company 1
+1693341,D. Pedreschi,Company 8
+1799502,P. Manghi,University 16
+1769599,P. Pagano,University 9
+2671645,M. Assante,University 16
+24040678,S. Latif,University 5
+143997402,Muhammad Usman,University 2
+1483726395,Sanaullah Manzoor,Company 3
+14577774,Waleed Iqbal,Company 17
+1734917,Junaid Qadir,Company 4
+1749012,Gareth Tyson,University 10
+2085689125,Ignacio Castro,Company 3
+1740639,Adeel Razi,University 9
+49143963,M. Boulos,University 16
+145689461,Adrian Weller,Company 16
+31904485,Samir Passi,University 9
+1771108,Phoebe Sengers,University 13
+1783400,P. Combettes,University 17
+1737505,J. Pesquet,Company 9
+145872183,Huadong Guo,Company 14
+1987744,S. Nativi,University 17
+2087749667,Dong Liang,University 9
+2196719,M. Craglia,Company 3
+2108594617,Lizhe Wang,University 12
+1681824,S. Schade,Company 16
+2074418,C. Corbane,University 5
+3327178,G. He,University 4
+1981923,M. Pesaresi,Company 6
+46276515,Jianhui Li,University 1
+1706010,C. Brunsdon,Company 12
+48982395,A. Comber,Company 12
+144440084,Michael J. Muller,Company 1
+73685318,Ingrid Lange,University 13
+2752280,David Piorkowski,Company 6
+2052949,Jason Tsay,University 9
+144921048,Q. Liao,Company 10
+32421869,T. Erickson,University 12
+1397958668,L. Maier-Hein,Company 7
+145472146,M. Wagner,University 13
+118012992,T. Ross,Company 7
+47131776,Annika Reinke,Company 14
+2462340,S. Bodenstedt,Company 15
+93088018,Peter M. Full,University 6
+1585780832,Hellena Hempe,University 2
+65841662,D. Filimon,University 5
+2062880835,Patrick Scholz,Company 16
+1585890027,T. Tran,Company 11
+2148761004,Longbing Cao,Company 12
+153096457,Qiang Yang,Company 15
+144019071,Philip S. Yu,Company 15
+145106564,Thomas Donoghue,Company 4
+1961145,Bradley Voytek,University 16
+2068671667,Shannon E. Ellis,University 17
+3212908,Daniel L. Oberski,University 17
+145525190,J. Pei,University 5
+144923779,Bin Yu,University 5
+3077876,Zeynep Engin,Company 13
+1761192,P. Treleaven,Company 15
+1398914668,Mine Çetinkaya-Rundel,University 6
+31453285,Victoria Ellison,University 14
+5178086,A. Chiolero,University 15
+144795713,D. Buckeridge,Company 1
+1413944992,Aimee Schwab-McCoy,Company 11
+27492553,C. Baker,University 2
+2058680586,Rebecca E. Gasper,Company 16
+2598812,V. Stodden,Company 15
+47714322,J. Polonsky,Company 17
+6565832,A. Baidjoe,Company 7
+5365043,Zhian N. Kamvar,Company 13
+2120479,A. Cori,Company 17
+39117790,K. Durski,University 15
+47647620,W. Edmunds,Company 16
+4673329,R. Eggo,University 16
+2262177,S. Funk,Company 13
+143836878,L. Kaiser,Company 7
+49955399,Y. Bao,University 5
+49865252,Zhicheng Chen,Company 2
+46199115,Shiyin Wei,Company 6
+2115684309,Yang Xu,Company 2
+48859109,Zhiyi Tang,University 4
+None,Hui Li,University 12
+2630296,Sean Kross,University 14
+33270118,Philip J. Guo,University 9
+40237241,Matthias Boehm,Company 12
+1388063052,I. Antonov,University 2
+33641807,Mark Dokter,Company 5
+1388063044,Robert Ginthoer,Company 4
+1388063032,Kevin Innerebner,Company 6
+2083651327,Florijan Klezin,Company 15
+48965924,Stefanie N. Lindstaedt,Company 2
+39454224,Arnab Phani,Company 9
+2053062532,Benjamin Rath,University 15
+2541723,J. Prüfer,University 8
+52113800,Patricia Prüfer,Company 10
+2027648,J. Saltz,Company 2
+2065605006,Neil I. Dewar,Company 15
+83201140,Kevin M. Mendez,Company 5
+2313947,L. Pritchard,Company 17
+4114666,S. Reinke,Company 5
+49934155,D. Broadhurst,Company 1
+1700173,G. Blair,University 15
+144598189,P. Henrys,University 9
+20520552,A. Leeson,Company 14
+49186479,J. Watkins,University 10
+11805340,E. Eastoe,University 4
+153809986,S. Jarvis,University 8
+1922284334,P. Young,Company 14
+65991810,Alexandre Ribas Semeler,Company 11
+2082407039,A. L. Pinto,University 16
+2085348595,Helen Beatriz Frota Rozados,Company 8
+51208883,J. McPadden,University 16
+48946116,T. Durant,Company 11
+5328311,Dustin R. Bunch,University 6
+38385690,A. Coppi,Company 14
+144696683,Nathaniel Price,University 15
+15671883,Kris Rodgerson,University 5
+51219288,C. Torre,University 7
+1412757151,William Byron,University 5
+2474559,A. Hsiao,Company 15
+2467795,H. Krumholz,Company 1
+1403076106,Michelle Wilkerson,University 17
+145750440,J. Polman,Company 7
+32826718,Henry E. Brady,University 14
+152575374,Fábio C. P. Navarro,University 5
+1699259,Hussein Mohsen,Company 2
+34764116,Chengfei Yan,University 17
+3291146,Shantao Li,University 4
+39345350,Mengting Gu,Company 5
+41219567,W. Meyerson,University 13
+1717018,M. Gerstein,University 12
+2631572,B. Daniel,Company 1
+39908645,A. Singleton,Company 10
+1403960481,Daniel Arribas-Bel,University 1
+4603017,Sudarshan A. Shetty,University 10
+3294751,L. Lahti,Company 8
+145261717,H. Fröhlich,University 11
+46916438,R. Balling,Company 8
+143998072,O. Kohlbacher,Company 14
+46574709,Santosh Kumar,Company 7
+49370597,Thomas Lengauer,Company 15
+1950729,M. Maathuis,University 8
+1732750,Y. Moreau,University 11
+144180010,S. Murphy,Company 12
+1939433,T. Przytycka,University 6
+2072740070,J. Hsu,University 4
+2411193,B. Healy,University 15
+3240918,S. Dodge,University 13
+34814856,R. Peng,University 17
+1886238,B. Caffo,University 6
+23579626,Ira Gooding,University 10
+46550919,J. Leek,University 15
+2525772,A. Danyluk,University 10
+38959541,Paul M. Leidig,University 3
+144761176,L. Cassel,Company 16
+3178042,C. Servin,Company 15
+3044529,Leo Liberti,University 10
+49028813,L. Taylor,Company 16
+3473834,Nadezhda Purtova,Company 2
+48596333,J. Oliver,Company 8
+72466489,Chris Kollen,Company 4
+79734689,B. Hickson,Company 15
+144139288,F. Rios,University 9
+144008442,Jonathan Bright,Company 13
+36838735,B. Ganesh,Company 10
+51906013,Cathrine F. Seidelin,Company 17
+1445301871,Thomas M. Vogl,University 7
+2548167,A. Karpatne,University 7
+3119819,G. Atluri,University 7
+1986735,James H. Faghmous,Company 1
+1707756,M. Steinbach,Company 4
+144205696,A. Banerjee,University 11
+143669775,A. Ganguly,University 5
+145072875,S. Shekhar,Company 3
+1726428,N. Samatova,University 8
+2781539,F. Berman,University 2
+1722400,Rob A. Rutenbar,University 15
+2341622,B. Hailpern,Company 14
+2105998204,Henrik Christensen,Company 15
+153468945,D. Estrin,University 14
+101251726,Michael J. Franklin,University 12
+1708269,M. Martonosi,Company 11
+2059337676,Padma Raghavan,University 14
+87122962,Ben Green,University 4
+2288483979,Leo Lahti,University 11
+3297552,Randal S. Olson,University 6
+39248319,Nathan Bartley,Company 8
+1800213,R. Urbanowicz,Company 9
+152512193,J. Moore,Company 2
+2288717046,MD L. Nelson Sanchez-Pinto,University 14
+2288719392,PhD Yuan Luo,Company 12
+2288710412,MD Matthew M. Churpek,Company 12
+2062347618,M. Lanza,University 17
+145428675,A. Sebastian,University 6
+145331607,W. Lu,Company 9
+8696815,M. Le Gallo,Company 1
+1739998,M. Chang,University 4
+2349723,D. Akinwande,Company 6
+35863251,F. Puglisi,Company 11
+6440741,H. Alshareef,University 14
+36523639,Meilin Liu,Company 1
+35004726,J. Roldán,University 12
+1637489841,Andrea Doricchi,University 7
+52129294,Casey M. Platnich,University 14
+1960843123,Andreas Gimpel,University 1
+146714837,F. Horn,Company 7
+2169661889,Max Earle,University 3
+2188247966,Germàn Lanzavecchia,Company 16
+3914622,A. Cortajarena,Company 7
+1393630358,L. Liz‐Marzán,Company 8
+2188367935,Na Liu,Company 4
+145639495,Reinhard Heckel,University 9
+2051791774,Karishma Matange,Company 3
+143973917,James M. Tuck,Company 16
+37021971,Albert J. Keung,Company 11
+2154742781,Weigang Chen,Company 7
+1635504630,Mingzhe Han,Company 13
+48129278,Jianting Zhou,University 2
+2089054636,Q. Ge,Company 9
+2108355738,Panpan Wang,Company 15
+2108098765,Xinchen Zhang,University 3
+2110018952,Siyu Zhu,Company 15
+2040448821,Lifu Song,Company 12
+2158141874,Yingjin Yuan,Company 4
+1717411,L. Ceze,University 2
+6450623,Jeff Nivala,University 17
+145033446,K. Strauss,University 8
+97233415,W. Liang,Company 17
+34548938,Yongkai Fan,University 4
+69486668,Kuan-Ching Li,University 7
+40452934,Dafang Zhang,Company 6
+144086037,J. Gaudiot,University 8
+23757022,Lee Organick,Company 7
+29865576,S. Ang,Company 10
+2886004,Yuan-Jyue Chen,Company 4
+32697055,Randolph Lopez,Company 2
+1729804,S. Yekhanin,University 10
+1721446,K. Makarychev,University 5
+150228028,Miklós Z. Rácz,Company 7
+1837061,G. Kamath,Company 4
+1718214,Parikshit Gopalan,University 13
+38697713,Bichlien H. Nguyen,Company 13
+2336789,Ruinian Li,Company 1
+2746913,Tianyi Song,Company 10
+34312176,Bo Mei,University 2
+46382448,Hong Li,Company 9
+143651788,Xiuzhen Cheng,University 5
+2110651504,Limin Sun,Company 5
+2117689925,Xiao Lin,Company 2
+153240174,Jinpeng Liu,Company 8
+1752784087,Jianying Hao,Company 6
+2119043585,Kun Wang,University 7
+2145793656,Yuanying Zhang,University 1
+2155493162,Hui Li,Company 11
+2159065,H. Horimai,University 6
+48391667,X. Tan,Company 1
+144602192,G. Viswanath,Company 17
+50628121,P. V. Krishna,Company 17
+9841411,Maowen Song,Company 13
+2119264540,Di Wang,Company 10
+46993938,Z. Kudyshev,University 2
+145431225,Y. Xuan,University 4
+4633411,Zhuoxian Wang,Company 15
+145921529,A. Boltasseva,University 5
+2209029,V. Shalaev,University 5
+2329819,A. Kildishev,Company 13
+34708074,S. Yim,University 7
+4194401,Ross M. McBee,Company 6
+2046743677,Alan M Song,University 1
+2128676469,Yiming Huang,University 11
+47104434,Ravi U. Sheth,Company 16
+2108884106,Harris H. Wang,University 6
+3123680,M. Shulaker,Company 1
+39375549,G. Hills,Company 8
+39754172,R. Park,Company 14
+2370362,R. Howe,University 7
+1794636,K. Saraswat,Company 8
+144175901,H. Wong,University 10
+145272378,S. Mitra,University 1
+2144355103,Yang Chen,University 16
+144434220,Xiaodong Yang,Company 13
+2110618928,Jie Gao,University 16
+47170423,Sharon Newman,University 7
+83674573,Ashley P. Stephenson,University 7
+8810543,Max Willsey,University 12
+35479753,Christopher N. Takahashi,Company 10
+34462159,Somnath Mazumdar,Company 12
+40596015,Daniel Seybold,University 7
+1718383,K. Kritikos,Company 4
+1780731,Giannis Verginadis,Company 13
+150294933,Siena Dumas Ang,University 9
+49997612,Georg Seelig,Company 3
+1729912945,Callista Bee,Company 11
+120860510,P. Weiss,Company 15
+1770271879,Bill J Peck,Company 9
+73509301,Yeongjae Choi,Company 1
+5430731,Taehoon Ryu,Company 6
+31399475,A. C. Lee,Company 5
+2111389723,Hansol Choi,Company 14
+2143328859,Hansaem Lee,Company 17
+2109101709,Jaejun Park,University 15
+51163989,Suk-Heung Song,Company 11
+2109559620,Seojoo Kim,University 15
+114449847,Hyeli Kim,Company 12
+145720154,W. Park,Company 13
+46875778,Yaya Hao,University 5
+143768623,Qian Li,Company 16
+144593304,C. Fan,University 5
+1810701173,Fei Wang,University 6
+2108734743,Yixin Wang,University 9
+1398730731,Md. Noor-A.-Rahim,Company 14
+143884284,E. Gunawan,Company 3
+1737045,Y. Guan,University 14
+10310238,C. Poh,Company 1
+66770881,C. Döpke,Company 10
+50353334,T. Grothe,Company 1
+65827603,P. Steblinski,Company 17
+66552339,Michaela Klöcker,Company 12
+51312398,Lilia Sabantina,Company 6
+66760366,D. Kosmalska,Company 3
+49746834,T. Błachowicz,University 6
+32559865,A. Ehrmann,Company 1
+5370388,Leon Anavy,University 2
+89596385,Inbal Vaknin,Company 11
+4722422,Orna Atar,University 4
+7690785,R. Amit,University 7
+81546514,Z. Yakhini,University 3
+2108025636,Lifang Zhang,Company 1
+50320297,Q. Zheng,University 5
+1843181,Jun-Song Fu,Company 3
+2144443688,Yun Liu,Company 10
+144861189,H. Chao,University 6
+1712275,B. Bhargava,Company 16
+1831104,Zhenjiang Zhang,University 1
+1500391633,Tianli Zhou,University 14
+143804003,C. Tian,University 14
+1720869,Hongming Cai,University 16
+2219053320,Boyi Xu,Company 4
+30000987,Lihong Jiang,Company 17
+1747034,A. Vasilakos,University 9
+2955771,Yongjun Ren,Company 14
+32007628,Yepeng Liu,Company 8
+1794206,S. Ji,University 3
+3097765,A. K. Sangaiah,Company 5
+2143717442,Jin Wang,Company 6
+2116636014,Li Zhou,Company 10
+49894665,Jing-Yu Mao,Company 3
+2048803973,Yi Ren,Company 9
+6350222,Su‐Ting Han,University 10
+2188986,V. Roy,Company 12
+49455213,Ye Zhou,Company 8
+148090554,Steven A. Martens,University 10
+1403183828,A. Landuyt,University 13
+13669655,Pieter Espeel,University 5
+2149535,B. Devreese,Company 7
+2267807,P. Dawyndt,University 13
+145710659,F. D. Du Prez,Company 1
+120583577,Chun-qiang Hu,University 12
+2157336893,Wei Li,Company 15
+1717436,Jiguo Yu,Company 7
+1712319,Shengling Wang,Company 15
+145149132,R. Bie,University 3
+2108533,Marcin Wylot,University 16
+1733076,M. Hauswirth,Company 14
+1393644275,P. Cudré-Mauroux,University 4
+1783693,Sherif Sakr,Company 8
+50132502,Gediminas Mikutis,Company 2
+48560944,R. Grass,Company 4
+2398506,Mehdi Sookhak,University 7
+1696615,F. Yu,Company 17
+9392149,Albert Y. Zomaya,Company 16
+1858633,H. Do,University 5
+2150369369,W. Ng,University 2
+8549224,Jiguo Li,Company 10
+2114976261,Wei Yao,Company 6
+2018071,Yichen Zhang,Company 12
+2034091,Huiling Qian,Company 17
+2837679,Jinguang Han,University 5
+3233701,Ziyu Lv,Company 16
+9184276,Jingqiang Liu,University 7
+2185909463,Bin Li,Company 7
+2128705160,Lizhang Chen,University 17
+2056835516,Meng Hou,Company 16
+51219112,Feiran Xiang,Company 2
+2118950771,Peijun Wang,Company 12
+34176172,M. Wuttig,University 12
+145097675,N. Yamada,University 6
+6665441,N. Riesen,Company 4
+2151355988,Xuanzhao Pan,Company 5
+14137449,K. Badek,Company 1
+34937333,Y. Ruan,Company 11
+5145583,T. Monro,Company 12
+6596422,J. Zhao,Company 3
+1422137269,H. Ebendorff‐Heidepriem,Company 2
+15026129,H. Riesen,Company 14
+47415615,Chao Xie,University 13
+49696992,Y. Sun,University 3
+144025411,Hong Luo,University 5
+66854220,S. M. Hossein,University 14
+89579186,Tabatabaei Yazdi,University 6
+2524198,Ryan Gabrys,University 17
+1743831,O. Milenkovic,University 4
+3125805,Cyrus Rashtchian,University 11
+2217840,Djordje Jevdjic,Company 10
+117502420,M. Khan,University 4
+29275442,Yibin Li,Company 11
+7653115,Longfei Qiu,University 2
+144326259,Meikang Qiu,Company 3
+2153032129,Hui Zhao,Company 16
+1977220,Han Mao Kiah,University 17
+48445225,Fay W. Chang,University 8
+49959210,J. Dean,Company 3
+1780892,Sanjay Ghemawat,University 4
+35087612,Wilson C. Hsieh,Company 9
+37602570,D. Wallach,Company 4
+32623151,M. Burrows,University 5
+2073806959,Tushar Chandra,University 9
+3056963,A. Fikes,University 12
+73260620,R. Gruber,Company 5
+5420249,Jiyoul Lee,Company 16
+7175581,A. V. van Breemen,Company 9
+7759325,V. Khikhlovskyi,University 16
+30037096,M. Kemerink,University 9
+144578395,R. Janssen,Company 16
+2975905,G. Gelinck,University 6
+52067079,Meinolf Blawat,Company 2
+2409499,K. Gaedke,Company 11
+3420596,I. Huetter,University 8
+2144209654,Xiao‐Ming Chen,University 5
+3420734,B. Turczyk,Company 6
+4646498,Samuel A. Inverso,University 3
+40194059,Benjamin W Pruitt,Company 15
+145892667,G. Church,Company 11
+144094043,Stavros Papadopoulos,University 1
+40025857,Kushal Datta,University 3
+144478906,S. Madden,Company 4
+2682150,T. Mattson,Company 9
+8672550,Pavani Yashodha De Silva,University 1
+7372106,G. U. Ganegoda,University 4
+6507779,D. Kallepalli,Company 15
+47264006,A. Alshehri,University 10
+145910503,Daniela T. Marquez,Company 6
+47061936,Lukasz Andrzejewski,Company 13
+5267391,J. Scaiano,University 8
+2066196454,Ravi Bhardwaj,Company 1
+2505053,K. Liang,Company 2
+2239541229,Willy Susilo,University 12
+1416519437,Joseph K. Liu,University 10
+2109636740,Chien-An Chen,Company 7
+144093170,M. Won,Company 15
+1736776,R. Stoleru,University 17
+145272590,G. Xie,University 2
+88992497,Nezar Abdennur,University 1
+1988955,L. Mirny,Company 9
+1793101,Cetin Sahin,Company 11
+3010003,Victor Zakhary,Company 9
+1709353,A. E. Abbadi,Company 9
+3596858,Huijia Lin,University 15
+2066559728,Stefano Tessaro,University 6
+4197391,S. Dhomkar,Company 7
+40389152,J. Henshaw,Company 12
+50186315,H. Jayakumar,Company 5
+5917233,C. Meriles,Company 10
+1815329,Wei-Fu Hsien,University 11
+9251894,Chou-Chen Yang,University 6
+144091891,M. Hwang,Company 16
+2178439925,M. Gu,University 3
+145309779,Xiangping Li,Company 1
+7186034,Yaoyu Cao,University 17
+116223561,O. Khalaf,University 10
+1389382825,G. Abdulsahib,Company 11
+2157747150,Zuhai Jiang,Company 5
+1732336,Fenglin Bu,University 15
+1801827,C. Chappert,Company 1
+3083436,A. Fert,Company 3
+150105906,F.N. Van Dau,Company 13
+40129693,Tyler S. Mathis,Company 8
+4455509,Narendra Kurra,Company 10
+13866839,Xuehang Wang,Company 10
+2061421223,David Pinto,Company 5
+40238404,P. Simon,Company 8
+144061594,Y. Gogotsi,University 16
+2145970,Anjia Yang,University 13
+119858851,Jia Xu,Company 8
+2070302205,Jian Weng,University 11
+49640041,Jianying Zhou,Company 14
+1801519,D. Wong,Company 3
+118188949,Shangping Wang,University 1
+2129500986,Yinglong Zhang,University 6
+1761413,Yaling Zhang,Company 12
+2118263792,Pan Yang,University 14
+145826495,N. Xiong,Company 2
+46606113,Jingli Ren,Company 14
+51189305,Han Qiu,University 4
+1893258,Hassan N. Noura,University 9
+144039153,Zhong Ming,University 5
+1749624,G. Memmi,University 3
+116014026,Mikai Chen,University 7
+6468565,Hongsuk Nam,University 11
+33669170,Sungjin Wi,University 10
+12268391,Greg Priessnitz,Company 7
+2068310530,Ivan Manuel Gunawan,Company 2
+6292800,Xiaogan Liang,Company 9
+144296149,Kan Yang,University 16
+145727192,X. Jia,University 5
+40801755,B. Cumpston,Company 17
+91757842,S. Ananthavel,University 10
+145567050,S. Barlow,Company 11
+2070085117,D. Dyer,University 15
+2373486,J. Ehrlich,University 5
+40800089,L. Erskine,University 12
+37698475,A. Heikal,Company 16
+2603265,S. Kuebler,Company 2
+2116613099,I. S. Lee,Company 2
+1411232800,D. McCord-Maughon,University 16
+2108123010,Jingyu Zhang,University 7
+6104570,M. Gecevicius,University 13
+6419872,M. Beresna,Company 11
+3543241,P. Kazansky,Company 12
+3407277,Adam Paszke,Company 15
+39793298,Sam Gross,Company 4
+1403239967,Francisco Massa,Company 8
+1977806,Adam Lerer,University 13
+2065251344,James Bradbury,Company 7
+114250963,Gregory Chanan,Company 8
+2059271276,Trevor Killeen,Company 6
+3370429,Zeming Lin,University 3
+3365851,N. Gimelshein,Company 11
+3029482,L. Antiga,University 7
+143826246,A. Madry,University 7
+17775913,Aleksandar Makelov,Company 12
+152772922,Ludwig Schmidt,Company 12
+2754804,Dimitris Tsipras,University 5
+2869958,Adrian Vladu,Company 17
+150064574,Connor Shorten,Company 11
+2681954,Y. Gal,University 9
+1744700,Zoubin Ghahramani,Company 11
+2057642721,Martín Abadi,University 2
+1396184193,Andy Chu,University 5
+153440022,I. Goodfellow,Company 6
+145057514,H. B. McMahan,Company 8
+145591745,Ilya Mironov,Company 10
+35210462,Kunal Talwar,University 9
+2152832173,Li Zhang,Company 16
+2117940996,Ziwei Liu,University 6
+47571885,Ping Luo,University 8
+31843833,Xiaogang Wang,University 5
+50295995,Xiaoou Tang,Company 5
+1565641737,François Chollet,University 16
+2113979381,Xing Hao,University 6
+8273966,Guigang Zhang,Company 8
+2118869556,Shang Ma,University 14
+144329939,C. Qi,University 10
+144914140,Hao Su,Company 10
+2216377,Kaichun Mo,Company 13
+51352814,L. Guibas,Company 1
+151505981,Chiyuan Zhang,University 7
+1751569,Samy Bengio,Company 13
+1775622,Moritz Hardt,Company 14
+9229182,B. Recht,University 4
+1689108,O. Vinyals,Company 13
+7886986,Fabian Isensee,Company 12
+51433108,P. Jaeger,Company 8
+51011129,Simon A. A. Kohl,University 16
+152800798,Jens Petersen,Company 15
+1397951928,Klaus Maier-Hein,Company 10
+2281247548,Laith Alzubaidi,University 9
+1754598,Jinglan Zhang,University 3
+9379106,Amjad J. Humaidi,University 5
+1409267833,Ayad Al-dujaili,Company 13
+145013346,Y. Duan,University 11
+1410016448,O. Al-Shamma,Company 9
+2146732191,José I. Santamaría,University 17
+1412407676,M. Fadhel,Company 8
+1412958882,Muthana Al-Amidie,Company 15
+144121680,Laith Farhan,Company 2
+47645184,Alex Kendall,University 15
+2530948,M. Reichstein,Company 13
+1397959153,Gustau Camps-Valls,Company 13
+121696502,B. Stevens,University 1
+95799904,M. Jung,Company 3
+1728382,Joachim Denzler,Company 10
+116377499,N. Carvalhais,University 6
+1764912,Prabhat,University 3
+1701686,I. Sutskever,University 1
+145704247,James Martens,Company 2
+35188630,George E. Dahl,University 10
+1695689,Geoffrey E. Hinton,Company 13
+1967156,Nicolas Papernot,University 11
+144061974,P. Mcdaniel,Company 17
+1680133,S. Jha,Company 8
+2623167,Matt Fredrikson,University 10
+144643812,Z. B. Celik,Company 10
+144231976,A. Swami,University 15
+47782132,L. Yi,University 3
+2068891,Alexander Mathis,Company 10
+41020817,Pranav Mamidanna,University 8
+50283382,Kevin M. Cury,University 12
+39107109,Taiga Abe,Company 15
+144440610,V. Murthy,Company 17
+4058359,Mackenzie W. Mathis,Company 2
+1731199,M. Bethge,Company 2
+33666044,A. Senior,Company 7
+2115604214,Richard Evans,Company 12
+47921134,J. Jumper,University 9
+2066516991,J. Kirkpatrick,University 11
+2175946,L. Sifre,University 4
+1484039896,Tim Green,Company 9
+32399256,Chongli Qin,University 1
+40501144,Augustin Zídek,University 5
+1387988163,A. W. R. Nelson,Company 1
+1392692054,Alex Bridgland,Company 16
+2164604,Shervin Minaee,Company 7
+1692688,Yuri Boykov,University 14
+29905643,F. Porikli,Company 7
+143767945,A. Plaza,Company 2
+30567641,N. Kehtarnavaz,University 13
+1750924,Demetri Terzopoulos,Company 5
+5770276,Daniel S. Kermany,Company 8
+32618175,M. Goldbaum,University 13
+1742203875,Wenjia Cai,Company 4
+46378481,C. Valentim,University 11
+35889373,Huiying Liang,University 17
+5603320,Sally L. Baxter,Company 14
+2070355043,A. McKeown,University 8
+2109603566,Ge Yang,University 5
+48662003,Xiaokang Wu,University 12
+2587648,Tuomas Haarnoja,Company 8
+35499972,Aurick Zhou,University 14
+1689992,P. Abbeel,University 15
+1736651,S. Levine,University 15
+2268272,Emma Strubell,Company 9
+47079359,Ananya Ganesh,University 13
+143753639,A. McCallum,Company 6
+46881670,Chelsea Finn,University 7
+31449330,Eider Moore,University 14
+1878835,Daniel Ramage,University 13
+37089174,S. Hampson,University 1
+2661025,B. A. Y. Arcas,University 14
+144838425,C. Zuo,Company 16
+80816275,Jiaming Qian,Company 7
+3135366,Shijie Feng,Company 5
+2066489607,Wei Yin,Company 12
+152998476,Yixuan Li,Company 15
+2056304241,Pengfei Fan,University 17
+2156545657,Jing Han,University 13
+1882556,K. Qian,University 9
+48772024,Qian Chen,Company 14
+3255983,Volodymyr Mnih,Company 15
+36045539,Adrià Puigdomènech Badia,University 11
+153583218,Mehdi Mirza,University 13
+1753223,Alex Graves,University 13
+2542999,T. Lillicrap,Company 15
+3367786,Tim Harley,Company 14
+145824029,David Silver,Company 2
+2645384,K. Kavukcuoglu,University 7
+38909097,Alec Radford,Company 13
+2096458,Luke Metz,Company 7
+2127604,Soumith Chintala,University 16
+2323922,Jonathan J. Hunt,Company 10
+1863250,A. Pritzel,Company 15
+2801204,N. Heess,University 11
+1968210,Tom Erez,Company 17
+2109481,Yuval Tassa,University 11
+1688276,Daan Wierstra,Company 2
+39353098,Kaiming He,University 3
+1771551,X. Zhang,Company 11
+3080683,Shaoqing Ren,Company 4
+144110274,K. Zhang,University 14
+1724520,W. Zuo,Company 8
+39773686,Yunjin Chen,University 10
+1803714,Deyu Meng,University 4
+36685537,Lei Zhang,University 14
+2844898,N. Keskar,University 7
+2205699,Dheevatsa Mudigere,University 3
+2784955,J. Nocedal,Company 16
+1711231,M. Smelyanskiy,University 5
+144669504,P. T. P. Tang,Company 14
+30459277,Chao Dong,Company 12
+1717179,Chen Change Loy,Company 17
+2676247,Mang Ye,Company 11
+145953515,Jianbing Shen,University 3
+2004689620,Gaojie Lin,Company 4
+145406421,T. Xiang,University 1
+144082425,Ling Shao,University 5
+1741126,S. Hoi,Company 7
+1811529,A. Esteva,University 16
+2364487,Alexandre Robicquet,Company 7
+2378027,Bharath Ramsundar,Company 16
+145712106,Volodymyr Kuleshov,Company 4
+2446263,M. DePristo,Company 17
+2055632320,Katherine Chou,University 6
+2052275005,Claire Cui,Company 15
+2084098271,Greg S. Corrado,University 13
+144867807,S. Thrun,University 4
+48448318,J. Dean,University 5
+7634925,H. V. Hasselt,Company 17
+35099444,A. Guez,University 10
+145291669,Bolei Zhou,University 4
+2556428,A. Khosla,Company 8
+2677488,Àgata Lapedriza,University 16
+143868587,A. Oliva,Company 13
+143805211,A. Torralba,University 15
+32589702,Gabriele Campanella,Company 11
+6806239,M. Hanna,Company 14
+151089695,Luke Geneslaw,Company 17
+9959596,Allen P. Miraflor,University 12
+151250454,Vitor Werneck Krauss Silva,Company 16
+5024665,K. Busam,University 2
+4703080,E. Brogi,Company 5
+30582790,V. Reuter,University 16
+4220315,D. Klimstra,University 16
+34459632,Thomas J. Fuchs,University 7
+2061649994,Tom Young,Company 13
+8223433,Devamanyu Hazarika,University 5
+1746416,Soujanya Poria,Company 3
+49943757,E. Cambria,University 2
+34917892,Djork-Arné Clevert,University 7
+2465270,Thomas Unterthiner,Company 5
+3308557,Sepp Hochreiter,Company 4
+2594647,A. Voulodimos,University 15
+120205775,N. Doulamis,Company 1
+1746705,A. Doulamis,Company 7
+1806369,Eftychios E. Protopapadakis,University 8
+2213731536,Justin M. Johnson,University 15
+2228824,Andrei A. Rusu,University 2
+144056327,J. Veness,Company 2
+1792298,Marc G. Bellemare,University 8
+3137672,Martin A. Riedmiller,Company 11
+145600108,A. Fidjeland,University 3
+2273072,Georg Ostrovski,University 17
+24178944,S. Mohanty,Company 10
+2068146094,David P. Hughes,Company 5
+3046313,M. Salathé,Company 9
+35776445,Mingsheng Long,University 11
+2146174097,Yue Cao,Company 7
+2144499343,Jianmin Wang,University 16
+51026953,Eric Wong,University 17
+47260842,Leslie Rice,University 6
+117539586,Zico Kolter,University 8
+66320873,Huiqiang Xie,Company 17
+67022972,Zhijin Qin,University 11
+1410112765,Geoffrey Y. Li,Company 8
+143604406,B. Juang,University 8
+144718788,L. Deng,Company 3
+144580027,Dong Yu,Company 9
+4044164,C. Zheng,Company 13
+1733879362,Xianbo Deng,Company 10
+2113772208,Qing Fu,University 15
+73507499,Qiang-feng Zhou,Company 6
+1447030685,Jiapei Feng,Company 15
+2110816404,Hui Ma,Company 9
+None,Wenyu Liu,Company 6
+2443233,Xinggang Wang,University 1
+49832912,Rui Zhao,University 17
+35374692,Ruqiang Yan,Company 3
+48354147,Zhenghua Chen,University 1
+144067957,K. Mao,Company 7
+48319740,Peng Wang,University 16
+1700762,R. Gao,Company 2
+2108850237,Yan Yang,University 7
+2152146009,Jian Sun,Company 8
+1680740,Huibin Li,University 16
+98220533,Zongben Xu,University 6
+19302914,Hassan Ismail Fawaz,Company 5
+2318564,G. Forestier,Company 4
+152947675,J. Weber,University 16
+3482237,L. Idoumghar,Company 10
+145344693,Pierre-Alain Muller,Company 11
+143784287,K. Jaganathan,University 14
+3458649,Sofia Panagiotopoulou,Company 1
+51131068,J. McRae,Company 12
+4467970,S. Darbandi,University 17
+1816298,David G. Knowles,Company 10
+2154897187,Yang I. Li,Company 7
+6084178,J. Kosmicki,Company 3
+51423920,Juan Arbelaez,University 9
+2842877,Wenwu Cui,University 8
+40986133,Grace B. Schwartz,Company 12
+48401711,B. Alipanahi,Company 17
+3203657,Andrew Delong,Company 7
+2671552,M. Weirauch,Company 6
+1749650,B. Frey,Company 17
+1732570,M. Bronstein,University 5
+143627859,Joan Bruna,University 11
+1688882,Yann LeCun,Company 10
+3149531,Arthur Szlam,University 6
+9576855,Xingjun Ma,University 2
+1753845931,Hanxun Huang,Company 16
+1919541,Yisen Wang,Company 9
+9035741,Simone Romano,University 17
+144757691,S. Erfani,Company 15
+145148600,J. Bailey,Company 1
+1764301,A. Kamilaris,Company 2
+1398263014,F. Prenafeta-Boldú,Company 2
+3012649,Christian Janiesch,University 5
+2148733,Patrick Zschech,University 6
+30004936,K. Heinrich,Company 6
+1739543667,Jun Liu,Company 13
+1741555366,Xuewei Wang,University 8
+145441238,J. A. van der Laak,University 4
+145959882,G. Litjens,University 12
+143613202,F. Ciompi,Company 9
+1409846740,Rohan Gupta,University 11
+153610437,Devesh Srivastava,University 8
+2059118408,Mehar Sahu,Company 12
+2072850683,Swati Tiwari,University 6
+2288195,R. K. Ambasta,Company 9
+38183916,Pravir Kumar,Company 7
+46521834,Xiangbin Liu,Company 11
+2150598816,Liping Song,Company 3
+2108592735,Shuai Liu,Company 15
+2145057023,Yudong Zhang,University 14
+151418104,Lucas von Chamier,University 14
+5345848,Romain F. Laine,Company 3
+1601314593,Johanna Jukkala,University 3
+6638274,Christoph Spahn,University 13
+2007325129,Daniel Krentzel,Company 9
+83219544,E. Nehme,Company 15
+12178401,Martina Lerche,University 10
+1617273833,Sara Hernández-Pérez,University 3
+50429153,P. Mattila,Company 2
+1601319034,Eleni Karinou,University 17
+34347677,Khoa A Tran,Company 3
+143619142,O. Kondrashova,Company 14
+2131193529,Andrew Bradley,Company 14
+2074289230,E. Williams,Company 4
+2542404,J. Pearson,Company 3
+2934141,N. Waddell,University 8
+2985328,Yulan Guo,University 10
+2027137715,Hanyun Wang,Company 2
+8163866,Qingyong Hu,University 9
+2052178444,Hao Liu,Company 11
+39695518,Li Liu,Company 9
+1698675,Bennamoun,University 17
+4427645,Zhaoyang Niu,University 17
+2421012,G. Zhong,University 7
+145429878,Hui Yu,Company 9
+48441311,Jianfeng Gao,University 2
+3001348,Wanli Ouyang,Company 12
+1731709,P. Fieguth,University 6
+50762381,Jie Chen,Company 11
+2108754292,Xinwang Liu,University 9
+145962204,M. Pietikäinen,Company 12
+2117010689,Shuo Wang,Company 3
+152457211,Y. Zha,University 10
+1718510,Wei-min Li,University 13
+5043495,Qingxia Wu,Company 11
+50079300,Xiaohu Li,Company 16
+49841350,M. Niu,University 1
+151474549,Meiyun Wang,Company 6
+153422527,Xiaoming Qiu,Company 12
+36745854,Hongjun Li,Company 13
+48003143,He Yu,University 11
+51895170,Laurent Valentin Jospin,Company 3
+70219052,Wray L. Buntine,Company 10
+3417987,F. Boussaid,University 8
+47028380,Hamid Laga,Company 7
+1797022,Hoo-Chang Shin,Company 1
+144531567,H. Roth,Company 6
+39703662,Mingchen Gao,Company 5
+50706692,Le Lu,University 2
+1742135,Ziyue Xu,University 16
+37754137,Isabella Nogues,Company 11
+1722252,Jianhua Yao,Company 16
+1691549,D. Mollura,Company 2
+144838131,R. Summers,Company 13
+1749988,B. Furht,University 7
+1411405900,Ravid Shwartz-Ziv,University 15
+2101139,Amitai Armon,Company 16
+49988044,Joseph E. Gonzalez,Company 11
+2066641,Reynold Xin,University 12
+2959744,Ankur Dave,University 12
+50564124,D. Crankshaw,Company 17
+144467753,I. Stoica,Company 14
+2109081099,Xinyu Chen,University 10
+1703011692,Hongshi Tan,Company 15
+2118360318,Yao Chen,University 5
+143824511,Bingsheng He,Company 1
+3339059,W. Wong,University 9
+1713644,Deming Chen,Company 12
+118691100,Vidushi Dadu,Company 13
+50152441,Sihao Liu,Company 6
+1751579,Tony Nowatzki,Company 9
+144502903,W. Fan,Company 6
+2075420522,Tao He,University 9
+2430095,Longbin Lai,Company 7
+2155784160,Xue Li,Company 12
+1962987077,Yong Li,University 14
+2156264658,Zhao Li,University 7
+2003626,Zhengping Qian,Company 10
+2072927082,Chao Tian,University 4
+2152508555,Lei Wang,University 14
+2724949,Jingbo Xu,University 1
+2144811050,Xiaolin Jiang,Company 16
+93374681,Chengshuo Xu,University 13
+2087076257,Xizhe Yin,University 3
+47122839,Zhijia Zhao,University 14
+2110340773,Rajiv Gupta,Company 13
+40389006,Miguel E. Coimbra,Company 9
+145681423,Alexandre P. Francisco,Company 11
+145894365,L. Veiga,Company 3
+72095113,Yu Zhang,University 16
+144925807,Xiaofei Liao,Company 16
+145914256,Hai Jin,Company 3
+1683219,Ligang He,University 3
+2109500825,Haikun Liu,Company 4
+2447669,Junwhan Ahn,University 1
+1808405,S. Yoo,University 2
+145929920,O. Mutlu,University 6
+144572641,Kiyoung Choi,Company 7
+144290348,Guohao Dai,University 2
+8243043,Tianhao Huang,University 13
+153850982,Yuze Chi,University 14
+2109858015,Jishen Zhao,Company 5
+1695860,Guangyu Sun,Company 2
+2442306,Yongpan Liu,Company 9
+40987227,Yu Wang,Company 12
+1410066063,Yuan Xie,Company 12
+39150998,Huazhong Yang,Company 17
+49501910,Youwei Zhuo,University 10
+2144448298,Chao Wang,University 1
+145179162,Mingxing Zhang,University 17
+2151038285,Rui Wang,University 10
+3310968,Dimin Niu,Company 1
+46393431,Yanzhi Wang,Company 9
+2288203548,Xuehai Qian,University 6
+2064923735,Amir Hossein Nodehi Sabet,Company 16
+2111987466,Shafiur Rahman,University 16
+1387958482,N. Abu-Ghazaleh,Company 16
+2110990110,Shijie Zhou,University 3
+2286832947,R. Kannan,Company 16
+1728271,V. Prasanna,University 2
+7691720,G. Seetharaman,Company 17
+2245553048,Qing Wu,Company 9
+51258296,Abanti Basak,University 10
+3152086,Shuangchen Li,Company 15
+48539425,Xing Hu,University 8
+2457612,Sangmin Oh,University 17
+145330425,Xinfeng Xie,Company 5
+2116548604,Li Zhao,Company 17
+1641642335,Xiaowei Jiang,Company 10
+65981652,Hao Wang,Company 15
+2054684040,Liang Geng,University 17
+1747102,Rubao Lee,University 16
+1971458,Kaixi Hou,Company 10
+40600353,Yanfeng Zhang,University 5
+10375334,Xiaodong Zhang,Company 5
+1824271,Shaahin Angizi,University 7
+37587676,Deliang Fan,University 11
+73767790,Chuangyi Gui,University 3
+9135861,Long Zheng,Company 2
+2164728910,Cheng Liu,University 16
+2108860901,Yu Huang,Company 17
+2099667639,Pengcheng Yao,Company 9
+2110117920,Jieshan Zhao,Company 12
+144198209,Jingling Xue,Company 8
+None,Chao Wang,Company 12
+2115858706,Yongwei Wu,University 11
+1680073,Kang Chen,University 5
+2494447,Amelie Chi Zhou,Company 11
+87275182,B. Shen,Company 11
+2116642787,Yao Xiao,University 1
+2629067,Shadi Ibrahim,University 15
+2137396497,Ke Meng,University 2
+47786204,Jiajia Li,Company 2
+1930057,Guangming Tan,University 5
+145550877,Ninghui Sun,University 8
+2045944,Julian Shun,Company 11
+1717462,G. Blelloch,Company 7
+89797300,Jiao-Jin Sun,Company 8
+2155468366,Wei Zhang,Company 13
+1772360,Yangzihao Wang,University 14
+1779628,Andrew A. Davidson,Company 2
+2111415414,Yuechao Pan,University 3
+1929145,Yuduo Wu,Company 10
+8631609,Andy T. Riffel,University 13
+1758404,John Douglas Owens,University 10
+153792169,Xiaowei Zhu,University 14
+1712168,Wenguang Chen,Company 8
+2225511,Weimin Zheng,University 2
+35790236,Xiaosong Ma,University 12
+1762709,J. Wawrzynek,University 4
+2719313,Linghao Song,University 9
+40348219,Hai Helen Li,University 6
+5442167,Yiran Chen,Company 4
+1935346,Zhiyuan Shao,Company 10
+2190044876,Ruoshi Li,University 7
+1725976,D. Hu,University 6
+3382412,Minxuan Zhou,Company 17
+144576599,M. Imani,University 16
+145576595,Saransh Gupta,Company 8
+2140071418,Yeseong Kim,University 15
+3560620,Tajana Simunic,University 10
+3031046,Nima Elyasi,University 4
+2114019316,Changho Choi,University 8
+1743609,A. Sivasubramaniam,Company 11
+2109972322,Jin Zhao,Company 5
+2130496757,Yicheng Chen,Company 10
+35988633,L. Toader,University 3
+2860260,Alexandru Uta,Company 14
+51934225,Ahmed Musaafir,Company 3
+1760940,A. Iosup,Company 10
+152972268,Vignesh Balaji,Company 12
+145449750,Brandon Lucia,University 1
+2919642,Maciej Besta,Company 15
+2070431302,Simon Weber,University 16
+10790558,Lukas Gianinazzi,University 13
+3308719,Robert Gerstenberger,Company 7
+2117701534,Andrey Ivanov,Company 5
+2515119,Yishai Oltchik,Company 12
+1713648,T. Hoefler,University 8
+1678835,Xuanhua Shi,University 13
+144719179,Zhigao Zheng,Company 2
+2145492298,Yongluan Zhou,University 2
+2152883199,Haici Jin,Company 15
+2155440046,Bo Liu,University 10
+2187856151,Qiangsheng Hua,University 14
+3451005,Junqiao Qiu,Company 15
+1395913345,Wole Jaiyeoba,University 14
+1735065,K. Skadron,Company 10
+9406380,Ronak Bajaj,Company 3
+1790604,Jiong He,University 6
+3977801,Ningyi Xu,University 13
+32657901,Samuel Grossman,University 7
+2655459,Heiner Litz,University 15
+3452118,S. Goswami,Company 5
+150026987,Ayam Pokhrel,University 7
+1899648,Kisung Lee,University 15
+46458150,Ling Liu,University 1
+47835189,Qi Zhang,Company 3
+144586053,Yang Zhou,University 8
+40879604,Chengying Huan,Company 8
+1955259,A. Ching,Company 2
+2068070,Sergey Edunov,University 3
+2430056,M. Kabiljo,University 13
+40024798,Dionysios Logothetis,University 3
+153100929,S. Muthukrishnan,University 16
+32455748,Siddhartha Sahu,University 12
+26391899,Amine Mhedhbi,University 16
+1783781,S. Salihoglu,Company 7
+2192780618,Jimmy Lin,University 5
+2114071558,Shiv Verma,University 1
+1787894,Luke M. Leslie,Company 8
+2114100496,Yosub Shin,Company 14
+143720373,Indranil Gupta,Company 14
+20829764,Zhiyuan Ai,Company 16
+2069083371,Da Yan,Company 12
+2143454301,Yuzhen Huang,University 2
+2144067306,Miao Liu,University 13
+2108844303,Hongzhi Chen,Company 14
+1717691,James Cheng,University 4
+1956588,Huanhuan Wu,Company 12
+1736783,Chengcui Zhang,University 9
+2072782550,Zhihao Jia,University 4
+1964846,Yongkee Kwon,Company 4
+3057817,G. Shipman,Company 16
+144381651,P. McCormick,University 11
+143676711,M. Erez,Company 4
+144653825,A. Aiken,Company 10
+2115611725,Xuan Luo,University 8
+2115780475,Junling Liang,University 17
+2114871975,Peng Zhao,University 10
+2066704894,S. Di,University 7
+2492241,Lingxiao Ma,Company 16
+98256743,Zhi Yang,Company 1
+2118024019,Han Chen,University 14
+2870618,Jilong Xue,University 2
+34889832,Yafei Dai,Company 13
+1792062,Jasmina Malicevic,University 3
+2526126,Baptiste Lepers,Company 6
+1711100,W. Zwaenepoel,University 1
+3224102,D. Bacciu,University 12
+41216883,Federico Errica,Company 3
+41231471,A. Micheli,Company 2
+1849503,Wentao Han,Company 10
+2113952229,Zhen Peng,Company 5
+67004996,Alexander Powell,Company 3
+144397979,Bo Wu,Company 12
+2323588,Tekin Bicer,University 4
+2064647873,Bin Ren,University 15
+2055035543,C. Mayer,Company 13
+144269537,M. Tariq,University 14
+39509913,R. Mayer,University 10
+1700118,K. Rothermel,University 9
+46746040,Shuang Song,Company 14
+49543466,Xu Liu,University 15
+46245288,Qinzhe Wu,Company 2
+1741519,A. Gerstlauer,University 11
+12313761,Tao Li,Company 13
+1703238,L. John,University 7
+2108602524,Jinho Lee,University 5
+153761211,Heesu Kim,Company 3
+2237622240,H. Hofstee,Company 7
+145198179,Gi-Joon Nam,Company 15
+2285396719,Mark R. Nutter,University 16
+32353110,D. Jamsek,Company 9
+152928471,M. Tariq,Company 1
+38758528,H. Geppert,University 10
+3139550,Larissa Laich,Company 13
+32889695,Lukas Rieger,University 16
+33352252,Hanqing Zeng,Company 10
+14610544,Amitabha Roy,Company 2
+2827510,Laurent Bindschaedler,University 6
+2734356,S. Beamer,Company 11
+1760896,K. Asanović,University 15
+1701130,D. Patterson,University 12
+10001266,F. Orakzai,Company 9
+145749443,I. Abdelaziz,University 8
+2407411,Zuhair Khayyat,Company 3
+2057077880,H. Tran,Company 2
+2074979,Minyang Han,Company 15
+40372102,Changwan Hong,Company 13
+1403811034,Aravind Sukumaran-Rajam,Company 8
+1590803341,Jinsung Kim,University 10
+145293384,P. Sadayappan,Company 3
+34986234,Keval Vora,Company 8
+123305048,Chen Tian,Company 6
+2434904,Ziang Hu,University 7
+39224389,A. Iyer,Company 14
+144180616,Erran L. Li,University 11
+2858881,Tathagata Das,Company 4
+2069662,Jinhong Zhou,University 15
+39419985,Shaoli Liu,Company 10
+145461473,Qi Guo,University 14
+8783200,Xuda Zhou,Company 9
+50377068,Tian Zhi,University 2
+2115490017,Dao-Fu Liu,University 17
+2144446650,Chao Wang,Company 3
+8453780,Xuehai Zhou,University 8
+7377735,Yunji Chen,University 1
+144049725,Tianshi Chen,Company 10
+26289824,Safiollah Heidari,University 1
+1761220,Yogesh L. Simmhan,Company 1
+145034579,R. Calheiros,University 1
+35111103,I. Mihailovic,Company 3
+51128964,Sietse Au,University 8
+2087483,A. Ilyushkin,University 5
+28961455,Razen Harbi,University 7
+2000187,Panos Kalnis,University 9
+3383611,Kartik Lakhotia,Company 6
+2016801,Shreyas G. Singapura,Company 12
+2465749,C. Chelmis,Company 4
+2214386,Farzad Khorasani,University 1
+1689989,L. Bhuyan,University 12
+2112647916,Wenyong Zhong,University 7
+1689735,Jianhua Sun,Company 13
+2149050391,Hao Chen,University 16
+2111223324,Jun Xiao,Company 13
+2111326563,Zhiwen Chen,University 12
+2152340816,Cheng Chang,University 10
+6415958,D. Sengupta,University 4
+1789372,N. Sundaram,Company 9
+1409939578,Xia Zhu,University 15
+2999876,Theodore L. Willke,University 11
+144333396,Jeffrey S. Young,Company 12
+143910836,M. Wolf,University 6
+1718471,K. Schwan,University 12
+2365155,S. Deerwester,Company 9
+1728602,S. Dumais,University 17
+1836606,T. Landauer,Company 14
+2737579,G. Furnas,University 6
+3154682,R. Harshman,Company 4
+2987811,M. Swain,Company 13
+1691804,D. Ballard,Company 7
+2255220874,Eamonn J. Keogh,University 16
+145043192,C. Ratanamahatana,University 5
+3788191,D. Fadrosh,University 8
+46713376,Bing Ma,University 7
+1745796,P. Gajer,Company 2
+6901141,Naomi A. Sengamalay,University 13
+2057427508,Sandra H Ott,Company 3
+3368455,R. Brotman,Company 7
+144560858,J. Ravel,Company 12
+6639465,D. Cusanovich,University 9
+49491404,R. Daza,University 9
+5552754,Andrew C. Adey,University 3
+47777448,Hannah A. Pliner,University 12
+10803574,Lena Christiansen,Company 17
+2147608,K. Gunderson,Company 14
+6420805,F. Steemers,Company 12
+2244164,C. Trapnell,Company 16
+2431330,J. Shendure,Company 10
+3038916,C. Lareau,Company 3
+143630962,Fabiana M. Duarte,Company 11
+49255057,J. Chew,Company 3
+4671709,Vinay K. Kartha,University 8
+4597717,Z. Burkett,Company 17
+6201726,Andrew S. Kohlway,University 11
+3101298,Dmitry Pokholok,University 8
+2526367,Martin J. Aryee,University 16
+2109083,R. Lebofsky,Company 1
+143936663,Thomas Hofmann,Company 11
+46855299,G. Tsatsaronis,University 4
+1951080,Georgios Balikas,Company 5
+1950133,Prodromos Malakasiotis,Company 17
+3071383,Ioannis Partalas,Company 11
+48495089,M. Zschunke,Company 16
+2875805,M. Alvers,University 10
+3319373,Dirk Weissenborn,Company 7
+1927081,Anastasia Krithara,Company 17
+32273167,Sergios Petridis,Company 7
+2803194,D. Polychronopoulos,Company 2
+1925224,S. Shamshirband,Company 9
+143743802,Artem Babenko,University 3
+1740145,V. Lempitsky,Company 1
+145328899,K. Chakrabarti,University 9
+50543766,Eamonn J. Keogh,Company 11
+144156242,S. Mehrotra,Company 7
+1694780,M. Pazzani,University 7
+145188508,P. Christen,University 9
+40116905,Jia Li,Company 8
+48094094,James Ze Wang,University 4
+2144841096,Yu H. Chen,University 15
+2115290745,Se Un Park,University 17
+2114004862,D. Wei,Company 7
+3329791,G. Newstadt,University 4
+47110395,M. Jackson,Company 1
+1750836,J. Simmons,University 13
+134381892,M. De Graef,University 5
+1699402,A. Hero,Company 12
+6534571,Martin Kircher,University 17
+13729381,S. Sawyer,University 1
+87185505,M. Meyer,University 13
+2457943,King-Ip Lin,Company 6
+46288201,W. Brehm,University 6
+144236522,A. Amir,University 14
+31555479,Timothy M. Chan,Company 9
+14443304,Moshe Lewenstein,Company 12
+1768048,Noa Lewenstein,Company 9
+1697018,Simonas Šaltenis,Company 15
+2586393,Scott T. Leutenegger,Company 6
+144350478,M. Lopez,University 14
+117232631,Qin Lv,University 13
+2629356,William K. Josephson,University 15
+2155544933,Zhe Wang,Company 17
+1745732,M. Charikar,University 13
+49243317,Kai Li,Company 4
+145157784,C. Lee Giles,Company 2
+1742448,K. Bollacker,Company 14
+145840115,S. Lawrence,Company 11
+1710757,Quanzhong Li,Company 14
+145467929,Bongki Moon,Company 2
+2633015,Megan Thomas,University 13
+1695576,J. Hellerstein,Company 17
+143751119,Jitendra Malik,Company 10
+14007711,P. H. Krumperman,University 17
+3120224,A. Kiryakov,University 9
+39502661,Borislav Popov,Company 15
+2037799,Damyan Ognyanoff,University 14
+40163064,D. Manov,Company 11
+153766394,A. Kirilov,Company 4
+2077631368,Miroslav Goranov,University 16
+19293876,Cathrin Weiss,Company 14
+1731655,Panagiotis Karras,University 11
+145704191,A. Bernstein,University 2
+2277853,Aditya Vailaya,University 16
+34659351,Mário A. T. Figueiredo,University 2
+145295484,Anil K. Jain,University 10
+2108698841,HongJiang Zhang,University 14
+1740249,Xifeng Yan,University 15
+1724421,Deng Cai,Company 10
+3945955,Xiaofei He,Company 17
+1714264,S. Chatzichristofis,Company 6
+143695777,Y. Boutalis,University 11
+143962510,Zhengjun Zha,Company 5
+2146058320,Meng Wang,Company 1
+2515436,Yantao Zheng,Company 10
+2143687111,Yi Yang,Company 6
+48043335,Richang Hong,Company 16
+144078686,Tat-Seng Chua,Company 17
+2057992754,Byoung-Kee Yi,Company 15
+2434278,Mark Lillibridge,University 8
+1745657,K. Eshghi,University 7
+40091832,Deepavali Bhagwat,Company 14
+1768541,V. Deolalikar,Company 11
+2090501,Greg Trezis,University 10
+51997781,Peter Camble,University 10
+2511907,Felix Halim,Company 13
+2121201,Harumi A. Kuno,Company 5
+1702550,S. Manegold,University 8
+34592319,R. Cappelli,Company 3
+144102323,M. Ferrara,University 7
+1687735,D. Maltoni,Company 13
+144566888,Xin Hu,University 11
+1802448,T. Chiueh,University 1
+144276974,K. Shin,Company 2
+1776817,R. Grossi,Company 12
+1725956,J. Vitter,Company 17
+1887371,Jin Shieh,Company 7
+145404204,Cees G. M. Snoek,University 12
+1717056,M. Worring,University 13
+3304188,B. Funt,University 4
+1789486,G. Finlayson,University 16
+2588203,Chun Chen,University 12
+2146311457,Feng Li,University 4
+1765710,Sai Wu,University 2
+47181672,Daehwan Kim,Company 16
+2737276,Ben Langmead,University 17
+1744109,S. Salzberg,University 6
+39011068,Joseph M. Paggi,University 7
+2115224068,Chanhee Park,University 2
+104377747,C. Bennett,University 16
+5408257,T. Teyler,Company 14
+4865049,P. Discenna,University 5
+144538650,Mihai Pop,Company 8
+50659286,A. Guttman,Company 3
+97594729,Yi Alice Wang,Company 5
+1713968,Jiankun Hu,Company 6
+33825702,Damien Phillips,Company 13
+1679040,Shi-Kuo Chang,Company 5
+2106531491,Q. Shi,University 5
+2107472893,C. Yan,University 11
+48219927,Dawei Jiang,Company 13
+145271132,Kun-Lung Wu,Company 12
+1805405,H. Small,Company 2
+2150596727,Li Song,Company 11
+2427632,F. Breitwieser,Company 9
+115904337,J. Rudy,University 13
+3004545,S. Trißl,Company 15
+1693022,U. Leser,University 11
+3057007,G. Thut,University 5
+14800561,Annika Nietzel,University 4
+33810865,S. Brandt,University 4
+1390039794,Á. Pascual-Leone,Company 7
+3008587,Xingjian Shi,University 2
+2192200,Zhourong Chen,University 11
+49528584,Hao Wang,University 3
+1739816,D. Yeung,University 1
+145771919,W. Wong,University 3
+2183294,W. Woo,University 2
+48395540,C. Rudin,Company 9
+2066277988,T. Mitchell,Company 4
+1713687,M. Kubát,University 16
+51997673,Ninareh Mehrabi,Company 13
+2775559,Fred Morstatter,Company 6
+51884035,N. Saxena,Company 7
+1782658,Kristina Lerman,Company 17
+143728483,A. Galstyan,University 3
+2570016,Fabian Pedregosa,University 17
+3025780,G. Varoquaux,Company 2
+1797840,Alexandre Gramfort,Company 5
+52200573,V. Michel,University 4
+8493461,B. Thirion,Company 9
+2958756,O. Grisel,University 10
+27257992,Mathieu Blondel,University 15
+1881041,Gilles Louppe,University 16
+2780213,P. Prettenhofer,University 14
+2067827437,Ron Weiss,Company 11
+2286520440,Matthias W. Seeger,University 6
+48594758,Weihua Hu,University 3
+3410500,Matthias Fey,Company 16
+2095762,M. Zitnik,University 14
+2047998,Yuxiao Dong,Company 7
+40046694,Hongyu Ren,University 1
+2156641189,Bowen Liu,University 9
+1754926,Michele Catasta,Company 15
+1702139,J. Leskovec,Company 7
+144108062,Jasper Snoek,University 8
+1777528,H. Larochelle,Company 17
+1722180,Ryan P. Adams,Company 6
+1764325,Radford M. Neal,Company 15
+2520493,R. Shokri,University 4
+34828439,M. Stronati,Company 10
+3469125,Congzheng Song,Company 3
+1723945,Vitaly Shmatikov,University 2
+144865353,B. Pang,Company 8
+145810617,Lillian Lee,Company 16
+2181966147,Abhishek V A,University 8
+2238323908,Binny S,Company 13
+2181972275,Johan T R,Company 14
+2181974014,Nithin Raj,Company 5
+2181972083,Vishal Thomas,Company 11
+145714153,Alexey Kurakin,Company 2
+52184096,L. Bottou,Company 13
+1979489,Kyunghyun Cho,University 2
+3158246,B. V. Merrienboer,Company 1
+1854385,Çaglar Gülçehre,University 3
+3335364,Dzmitry Bahdanau,Company 4
+2076086,Fethi Bougares,University 2
+144518416,Holger Schwenk,Company 14
+1751762,Yoshua Bengio,University 4
+2192840743,M. Cerezo,University 15
+102620709,Guillaume Verdon,University 9
+2343654,Hsin-Yuan Huang,University 1
+49556529,L. Cincio,University 3
+50721537,Patrick J. Coles,University 15
+2198436,Frank E. Curtis,University 5
+2856207,T. Hengl,University 9
+7549589,Jorge Mendes de Jesus,University 1
+145253407,G. Heuvelink,Company 8
+9583743,Maria Ruiperez González,University 16
+30504500,M. Kilibarda,Company 13
+9030720,Aleksandar Blagotić,University 3
+2228185935,Shangguan Wei,University 15
+3376186,Marvin N. Wright,University 9
+3018223,X. Geng,University 8
+1402912902,B. Bauer-Marschallinger,University 10
+48275624,S. Berg,Company 8
+145708428,D. Kutra,Company 3
+2066522012,Thorben Kroeger,University 2
+145486652,C. Straehle,Company 13
+2834950,Bernhard X. Kausler,Company 11
+2057581,Carsten Haubold,Company 13
+1725192,Martin Schiegg,University 6
+144560453,J. Ales,Company 5
+46478540,T. Beier,Company 13
+1391661732,Markus Rudy,Company 3
+1721991,E. Rosten,Company 8
+144418842,T. Drummond,Company 2
+3300287,K. Butler,Company 12
+48592354,D. Davies,Company 15
+2527511,H. Cartwright,Company 17
+2385206,O. Isayev,University 10
+144485183,A. Walsh,Company 3
+1614034792,Yang Liu,University 2
+11573257,Tianjian Chen,Company 17
+8230559,Yongxin Tong,Company 11
+50055322,Ling Huang,Company 13
+1687701,A. Joseph,Company 13
+39743720,B. Nelson,Company 17
+2064046776,Benjamin I. P. Rubinstein,Company 6
+1787610,J. D. Tygar,Company 8
+2256303860,Daniel Hsu,University 10
+2153522384,Peng Cui,Company 15
+2631417,S. Athey,University 15
+2039588,Keith Bonawitz,Company 12
+2072422622,Vladimir Ivanov,Company 14
+4908509,Ben Kreuter,Company 2
+2212030,Antonio Marcedone,Company 12
+34521172,Sarvar Patel,University 11
+2064203013,Aaron Segal,Company 12
+34185195,Karn Seth,University 6
+40833997,Dmitrii Kochkov,University 15
+2119124568,Jamie A. Smith,Company 11
+2078196952,Ayya Alieva,Company 3
+2286764736,Qing Wang,University 17
+36397553,M. Brenner,Company 11
+2257229905,Stephan Hoyer,University 4
+96014865,M. Broughton,Company 16
+145233982,M. Mohseni,Company 1
+47066334,R. Babbush,Company 10
+48703443,S. Boixo,University 6
+2665814,H. Neven,University 13
+1933508,J. McClean,University 14
+1697867,S. Kotsiantis,Company 12
+50666189,Giuseppe Carleo,University 10
+119628938,I. Cirac,University 11
+2258272369,Kyle Cranmer,Company 11
+1742040,L. Daudet,Company 7
+3048564,M. Schuld,Company 10
+1777660,Naftali Tishby,University 17
+1445956232,Leslie Vogt-Maranto,Company 16
+2065813820,Lenka Zdeborov'a,University 6
+3083169,S. Brunton,University 3
+144875384,B. R. Noack,University 12
+1802604,P. Koumoutsakos,Company 3
+1582428254,Pantelis Linardatos,University 2
+1753333150,Vasilis Papastefanopoulos,University 3
+1720617,A. Bradley,University 2
+1756344,T. Baltrušaitis,University 1
+118242121,Chaitanya Ahuja,University 16
+49933077,Louis-Philippe Morency,Company 17
+36526409,Joe G. Greener,Company 3
+2262107,Shaun M. Kandathil,University 9
+50881145,Lewis Moffat,Company 16
+2118729790,David T. Jones,Company 1
+None,Chaofan Chen,University 5
+2143786389,Zhi Chen,University 16
+2146285954,Haiyang Huang,Company 14
+151489878,Lesia Semenova,Company 8
+1750932565,Chudi Zhong,University 17
+1441363881,Stefanie Warnat-Herresthal,Company 1
+1491641853,Hartmut Schultze,University 1
+39126788,Krishnaprasad Shastry,University 3
+2530831,Sathyanarayanan Manamohan,University 9
+3040289,Saikat Mukherjee,Company 2
+2067125343,Vishesh Garg,University 14
+7765742,Ravi Sarveswara,Company 6
+48648791,K. Händler,University 14
+5953896,P. Pickkers,University 17
+31528430,N. Aziz,Company 11
+1773836,Payman Mohassel,University 7
+2108473999,Yupeng Zhang,Company 14
+3793520,J. Vamathevan,University 16
+47420092,Dominic Clark,University 6
+1927408,P. Czodrowski,University 4
+144312222,I. Dunham,Company 16
+2064181672,Edgardo Ferran,Company 12
+2166424886,George Lee,University 14
+2185912448,Bin Li,Company 8
+1705442,A. Madabhushi,Company 2
+34243620,Parantu K. Shah,Company 6
+144357385,M. Spitzer,University 10
+2100113493,Ameer Sardar Kwekha-Rashid,Company 11
+66680362,H. N. Abduljabbar,University 7
+98174258,Bilal S. A. Alhayani,Company 12
+2837279,Jaeyong Kang,University 4
+48740398,Z. Ullah,Company 13
+1969352,Jeonghwan Gwak,University 13
+1624030637,Li Yang,Company 17
+1743065,A. Shami,Company 17
+2048167730,M. Roberts,University 2
+100893630,D. Driggs,University 3
+2999959,Matthew Thorpe,Company 17
+2086383772,J. Gilbey,Company 8
+2067479253,Michael Yeung,Company 9
+1490690684,Stephan Ursprung,Company 8
+1388720262,Angelica I. Avilés-Rivero,Company 11
+11371884,Christian Etmann,Company 14
+1393265427,C. McCague,Company 5
+37894256,L. Beer,University 13
+2452441,Simon Caton,University 2
+152864672,C. Haas,Company 3
+80025697,D. Roman,University 1
+49730050,Saurabh Saxena,University 14
+1718021,V. Robu,University 6
+145937021,Michael G. Pecht,University 2
+143836960,D. Flynn,Company 12
+144585578,W. James Murdoch,University 2
+145229121,Chandan Singh,Company 16
+19225295,Karl Kumbier,University 15
+1405625449,R. Abbasi-Asl,Company 17
+2116415778,Bin Yu,Company 16
+145520115,M. Belkin,University 14
+143724861,Daniel J. Hsu,University 15
+143791100,Siyuan Ma,University 17
+151213231,Soumik Mandal,Company 15
+2283938337,Dishita Naik,University 14
+2283938290,Nitin Naik,University 14
+33791144,D. V. Carvalho,Company 3
+35153466,E. M. Pereira,University 2
+3698192,Jaime S. Cardoso,Company 6
+27316199,Amirata Ghorbani,University 3
+145085305,James Y. Zou,Company 13
+nan,nan,University 8
+1396841807,A. D'Amour,Company 9
+145993598,K. Heller,Company 6
+40497400,D. Moldovan,University 11
+1874006,Ben Adlam,Company 15
+2638246,Alex Beutel,Company 1
+2110195795,Christina Chen,University 3
+1695378,Jonathan Deaton,Company 14
+144154709,Jacob Eisenstein,Company 11
+28552618,M. Hoffman,Company 10
+2437145,G. Hart,Company 7
+152456169,Tim Mueller,Company 3
+3954852,C. Toher,Company 12
+3445901,S. Curtarolo,University 2
+51250527,J Zhang,University 12
+145836176,M. Harman,University 6
+2109704789,Lei Ma,Company 5
+144440741,Yang Liu,University 2
+9957625,Zhenqin Wu,Company 10
+5932099,Evan N. Feinberg,Company 14
+145986494,Joseph Gomes,Company 5
+9959840,C. Geniesse,Company 15
+5929246,Aneesh S. Pappu,University 14
+40867019,K. Leswing,University 8
+1806271,V. Pande,Company 3
+2752858,Konstantinos G. Liakos,Company 9
+3375011,P. Busato,University 4
+3201660,D. Moshou,University 4
+145802955,S. Pearson,Company 10
+2345652,D. Bochtis,University 15
+2219955175,Daniel ten Wolde,Company 8
+2170409878,Tavneet Singh,Company 7
+3254764,Gábor Szárnyas,Company 1
+1687211,P. Boncz,Company 17
+1699192,A. Bonifati,University 7
+31359282,Stefania Dumbrava,Company 9
+2161651957,Nicolas Mir,University 17
+1443742662,Weining Zheng,University 2
+2117807802,Yuan Jiang,University 16
+2146501046,Xiaohong Su,University 16
+3223911,Christian Banse,University 13
+39391802,Immanuel Kunz,Company 2
+49462068,Angelika Schneider,University 4
+50460699,Konrad Weiss,Company 13
+144245703,Harsh Thakkar,Company 16
+1777646,Dominik Tomaszuk,Company 3
+40536846,Chuan Lei,Company 6
+147869186,R. Alotaibi,Company 7
+1949818,A. Quamar,Company 2
+3226264,Vasilis Efthymiou,Company 10
+143972996,Fatma Özcan,Company 5
+2028211867,Sofía Maiolo,University 12
+2586969,Lorena Etcheverry,University 1
+48916890,Adriana Marotta,University 10
+2274274,R. Pinquié,Company 1
+47464238,P. Véron,University 14
+2581628,Frédéric Segonds,University 10
+1569407237,Thomas Zynda,Company 17
+2108684717,Xiaomeng Wang,Company 13
+2285618955,Tao Zhang,Company 15
+2288582453,Runpu Wu,Company 12
+2055760745,Wei Xin,University 9
+2285233261,Changyu Hou,Company 2
+2967882,Milivoj Simeonovski,Company 5
+35030227,Giancarlo Pellegrino,University 6
+1701081,C. Rossow,Company 11
+144588806,M. Backes,Company 8
+49061836,Alastair Green,University 11
+2712246,Martin Junghanns,University 10
+2820923,Max Kießling,Company 4
+31846192,Tobias Lindaaker,Company 16
+2748632,Stefan Plantikow,University 2
+2341999,P. Selmer,Company 2
+2593963,Davide Alocci,University 4
+24447797,Julien Mariethoz,Company 8
+2201329,Oliver Horlacher,Company 11
 3349310,Jerven T. Bolleman,University 12
-2114675478,Matthew P. Campbell,Company 6
-2258235,F. Lisacek,University 3
-1762869,A. Sathanur,University 7
-7617146,Sutanay Choudhury,Company 14
-1792856,C. Joslyn,University 11
-1950842,Sumit Purohit,University 15
-1804361,Dong Dai,University 7
-2797656,P. Carns,Company 5
-145311475,R. Ross,University 16
-145111164,John Jenkins,Company 4
-48289026,Kyle Blauer,Company 15
-47557631,Yong Chen,Company 3
-2129455190,Zaixin Zhang,University 4
-2144831836,Qi Liu,University 5
-2144219662,Hao Wang,Company 2
-46655401,Chengqiang Lu,Company 8
-153897134,Chee-Kong Lee,University 16
-2109411071,Zhichun Guo,Company 12
-2117879943,Chuxu Zhang,Company 8
-38767143,W. Yu,University 7
-5995871,John E. Herr,University 9
-3222580,O. Wiest,Company 16
-1470716407,Meng Jiang,University 11
-144539424,N. Chawla,Company 11
-2115252929,Xin Lin,Company 2
-144116132,Changxing Ding,Company 16
-1882003,Jinquan Zeng,University 17
-143719920,D. Tao,Company 15
-2158192043,Dong Chen,Company 1
-145527223,Kaifu Gao,Company 11
-1740155,D. Nguyen,University 14
-48282830,Xin Chen,Company 15
-2146418369,Yi Jiang,Company 8
-143728876,G. Wei,University 8
-92075383,F. Pan,University 17
-2133437625,Shuangli Li,University 6
-2336606,Jingbo Zhou,Company 1
-41157498,Tong Xu,University 4
-1721158,D. Dou,Company 3
-2093122576,Hui Xiong,Company 6
-2068657088,Zhong Hao,University 16
-1901688087,Zheyuan Hu,Company 16
-2359832,Hongya Wang,University 16
-3374015,Zhenya Huang,University 4
-50384136,Qi Liu,Company 9
-2227868312,Enhong Chen,University 10
-2115294456,Cheekong Lee,University 15
+2114675478,Matthew P. Campbell,University 14
+2258235,F. Lisacek,University 4
+1762869,A. Sathanur,University 3
+7617146,Sutanay Choudhury,Company 1
+1792856,C. Joslyn,University 6
+1950842,Sumit Purohit,Company 5
+1804361,Dong Dai,Company 15
+2797656,P. Carns,University 9
+145311475,R. Ross,University 15
+145111164,John Jenkins,University 4
+48289026,Kyle Blauer,Company 14
+47557631,Yong Chen,Company 2
+2129455190,Zaixin Zhang,Company 6
+2144831836,Qi Liu,Company 5
+2144219662,Hao Wang,Company 9
+46655401,Chengqiang Lu,Company 13
+153897134,Chee-Kong Lee,Company 1
+2109411071,Zhichun Guo,Company 2
+2117879943,Chuxu Zhang,University 7
+38767143,W. Yu,University 5
+5995871,John E. Herr,Company 14
+3222580,O. Wiest,Company 7
+1470716407,Meng Jiang,Company 2
+144539424,N. Chawla,University 4
+2115252929,Xin Lin,Company 14
+144116132,Changxing Ding,Company 17
+1882003,Jinquan Zeng,University 12
+143719920,D. Tao,University 11
+2158192043,Dong Chen,University 12
+145527223,Kaifu Gao,Company 14
+1740155,D. Nguyen,Company 15
+48282830,Xin Chen,University 13
+2146418369,Yi Jiang,Company 15
+143728876,G. Wei,Company 13
+92075383,F. Pan,Company 11
+2133437625,Shuangli Li,Company 4
+2336606,Jingbo Zhou,University 6
+41157498,Tong Xu,Company 1
+1721158,D. Dou,University 6
+2093122576,Hui Xiong,University 12
+2068657088,Zhong Hao,Company 3
+1901688087,Zheyuan Hu,Company 3
+2359832,Hongya Wang,University 10
+3374015,Zhenya Huang,Company 11
+50384136,Qi Liu,Company 10
+2227868312,Enhong Chen,University 1
+2115294456,Cheekong Lee,University 3
 1380665068,Steph-Yves M. Louis,University 5
-113027219,Yong Zhao,University 10
-2598039,Alireza Nasiri,Company 4
+113027219,Yong Zhao,University 3
+2598039,Alireza Nasiri,Company 5
 47119564,Xiran Wang,Company 10
-115504647,Yuqi Song,University 7
-2118167859,Fei Liu,University 13
-50778791,Jianjun Hu,University 8
-2108503383,Xiaofeng Wang,Company 16
-2110120660,Zhen Li,University 6
-153699425,Mingjian Jiang,University 1
-2118511109,Shuang Wang,Company 6
-7671146,Shugang Zhang,University 4
-48902343,Zhiqiang Wei,Company 6
-1810077,Nils M. Kriege,University 17
-143622465,Christopher Morris,University 2
-39352108,Anja Rey,University 15
-1701715,C. Sohler,Company 17
-2145199173,Yuyang Wang,University 7
-2966240,Jianren Wang,Company 12
-103987521,Zhonglin Cao,Company 1
-14140001,Amir Barati Farimani,University 12
-2116018493,Yixin Liu,University 1
-2585415,Shirui Pan,University 12
-2072905592,Ming Jin,Company 17
-1857210,Chuan Zhou,Company 7
-2143633281,Feng Xia,University 11
-144019071,Philip S. Yu,University 4
-1892798389,Xiaomin Fang,Company 9
-2693065,Lihang Liu,University 4
-15074708,Jieqiong Lei,University 6
-2111682898,Donglong He,University 7
-48691506,Shanzhuo Zhang,University 2
+115504647,Yuqi Song,University 6
+2118167859,Fei Liu,University 4
+50778791,Jianjun Hu,Company 11
+2108503383,Xiaofeng Wang,Company 13
+2110120660,Zhen Li,University 7
+153699425,Mingjian Jiang,University 12
+2118511109,Shuang Wang,Company 15
+7671146,Shugang Zhang,Company 11
+48902343,Zhiqiang Wei,Company 2
+1810077,Nils M. Kriege,Company 14
+143622465,Christopher Morris,University 1
+39352108,Anja Rey,Company 10
+1701715,C. Sohler,Company 2
+2145199173,Yuyang Wang,Company 5
+2966240,Jianren Wang,University 5
+103987521,Zhonglin Cao,Company 7
+14140001,Amir Barati Farimani,Company 11
+2116018493,Yixin Liu,University 5
+2585415,Shirui Pan,University 2
+2072905592,Ming Jin,Company 3
+1857210,Chuan Zhou,University 17
+2143633281,Feng Xia,University 7
+1892798389,Xiaomin Fang,University 7
+2693065,Lihang Liu,Company 5
+15074708,Jieqiong Lei,Company 6
+2111682898,Donglong He,University 2
+48691506,Shanzhuo Zhang,Company 9
 2145786536,Jingbo Zhou,University 5
-2145903238,Fan Wang,University 4
-40354707,Hua Wu,University 16
-144270731,Haifeng Wang,University 9
-145829303,Jiaxuan You,Company 2
-2156641189,Bowen Liu,Company 9
-83539859,Rex Ying,University 2
-1806271,V. Pande,University 16
-1702139,J. Leskovec,Company 2
-2004524780,Youzhi Luo,University 6
-1879114760,Keqiang Yan,Company 6
-1743600,Shuiwang Ji,Company 9
-1731068,Mingdong Ou,University 5
-143738684,Peng Cui,University 15
-145525190,J. Pei,University 6
-48806258,Ziwei Zhang,University 5
-145583986,Wenwu Zhu,University 4
-1410652795,Kevin Yang,University 1
-145564250,Kyle Swanson,University 16
-2400119,Wengong Jin,University 17
-13027820,Connor W. Coley,Company 7
-1405412411,Philipp Eiden,Company 15
-2112620981,Hua Gao,Company 15
-1397361552,A. Guzman-Perez,University 8
-3685940,Timothy Hopper,University 13
-2080310633,Brian P. Kelley,Company 4
-1405412293,M. Mathea,Company 7
-143915066,Chi Chen,Company 15
-15698847,Weike Ye,University 12
-11844524,Yunxing Zuo,Company 9
-102693597,Chen Zheng,Company 11
-2381325,S. Ong,Company 2
-2145408511,Shichang Zhang,Company 10
-3407296,Ziniu Hu,Company 17
-1677386832,Arjun Subramonian,Company 6
-2109461904,Yizhou Sun,Company 17
-2150059510,Rong Zhu,University 15
-2115011449,Kun Zhao,University 11
-38385080,Hongxia Yang,Company 8
-71666838,Wei Lin,University 1
+2145903238,Fan Wang,Company 13
+40354707,Hua Wu,Company 8
+144270731,Haifeng Wang,Company 3
+2086994527,Dejun Jiang,University 14
+2037330967,Zhenxing Wu,Company 8
+33397943,Chang-Yu Hsieh,Company 9
+2051058483,Guangyong Chen,University 16
+102925442,B. Liao,University 14
+2108194856,Zhe Wang,University 8
+2088079810,Chao Shen,Company 4
+153237386,Dongsheng Cao,University 17
+2115904148,Jian Wu,Company 1
+143824804,Tingjun Hou,University 13
+145829303,Jiaxuan You,University 15
+83539859,Rex Ying,University 5
+2004524780,Youzhi Luo,University 17
+1879114760,Keqiang Yan,Company 3
+1743600,Shuiwang Ji,Company 5
+1731068,Mingdong Ou,Company 13
+143738684,Peng Cui,University 6
+48806258,Ziwei Zhang,University 16
+145583986,Wenwu Zhu,University 2
+1410652795,Kevin Yang,University 3
+145564250,Kyle Swanson,University 4
+2400119,Wengong Jin,Company 13
+13027820,Connor W. Coley,University 8
+1405412411,Philipp Eiden,Company 9
+2112620981,Hua Gao,Company 12
+1397361552,A. Guzman-Perez,University 1
+3685940,Timothy Hopper,Company 7
+2080310633,Brian P. Kelley,University 14
+1405412293,M. Mathea,Company 11
+143915066,Chi Chen,Company 8
+15698847,Weike Ye,University 11
+11844524,Yunxing Zuo,Company 10
+102693597,Chen Zheng,University 8
+2381325,S. Ong,University 12
+2145408511,Shichang Zhang,University 6
+3407296,Ziniu Hu,University 7
+1677386832,Arjun Subramonian,University 15
+2109461904,Yizhou Sun,University 10
+2150059510,Rong Zhu,University 5
+2115011449,Kun Zhao,University 3
+38385080,Hongxia Yang,University 10
+71666838,Wei Lin,University 17
 144161025,Chang Zhou,Company 2
-10720938,Baole Ai,Company 4
-1962987077,Yong Li,University 12
-1709595,Jingren Zhou,Company 9
-2121691833,Ariel Debrouvier,Company 7
-2121692012,Eliseo Parodi,Company 13
-2121692039,Matías Perazzo,University 6
-2121701124,Valeria Soliani,University 5
-2070105034,A. Vaisman,University 2
-143653681,Shuicheng Yan,University 2
-38188040,Dong Xu,University 3
-2158301,Benyu Zhang,University 10
-2144973386,HongJiang Zhang,Company 16
-152290618,Qiang Yang,Company 17
-145676588,Stephen Lin,Company 12
-2114957681,Philipp Skavantzos,Company 13
-2288285,S. Link,Company 9
-2115058093,Oliver Alvarado Rodriguez,University 2
-2242960365,Fernando Vera Buschmann,Company 5
-2146997330,Zhihui Du,Company 4
-1713030,David A. Bader,University 17
-28822585,Junchi Yu,Company 8
-1754673,Tingyang Xu,Company 3
-48537464,Yu Rong,University 3
-2419616,Yatao Bian,Company 1
-1768190,Junzhou Huang,Company 10
+10720938,Baole Ai,Company 12
+1709595,Jingren Zhou,Company 11
+2121691833,Ariel Debrouvier,Company 5
+2121692012,Eliseo Parodi,University 16
+2121692039,Matías Perazzo,Company 11
+2121701124,Valeria Soliani,University 10
+2070105034,A. Vaisman,Company 13
+143653681,Shuicheng Yan,University 6
+38188040,Dong Xu,Company 8
+2158301,Benyu Zhang,University 14
+2144973386,HongJiang Zhang,University 15
+152290618,Qiang Yang,Company 15
+145676588,Stephen Lin,Company 6
+2114957681,Philipp Skavantzos,Company 14
+2288285,S. Link,Company 15
+28822585,Junchi Yu,Company 13
+1754673,Tingyang Xu,University 12
+48537464,Yu Rong,Company 9
+2419616,Yatao Bian,Company 10
+1768190,Junzhou Huang,University 11
 143712929,R. He,University 8
-1918754,K. Zhan,University 5
-79690137,Chaoxi Niu,Company 16
-80042659,Changlu Chen,Company 17
-144962210,F. Nie,Company 9
-144704038,Changqing Zhang,University 14
-2143684775,Yi Yang,University 16
-144658846,M. Arenas,Company 15
-35106192,P. Barceló,Company 13
-144007515,A. Hogan,Company 7
-2478931,Juan L. Reutter,University 14
-2434366,D. Vrgoc,Company 14
-9716460,Nima Dehmamy,Company 15
+1918754,K. Zhan,University 15
+79690137,Chaoxi Niu,Company 12
+80042659,Changlu Chen,Company 13
+144962210,F. Nie,University 6
+144704038,Changqing Zhang,Company 14
+2143684775,Yi Yang,University 13
+144658846,M. Arenas,Company 11
+35106192,P. Barceló,Company 6
+144007515,A. Hogan,University 9
+2478931,Juan L. Reutter,Company 10
+9716460,Nima Dehmamy,University 13
 1745069,A. Barabási,Company 7
-2023052,Rose Yu,Company 15
-5932099,Evan N. Feinberg,University 9
-39460558,Debnil Sur,University 6
-9957625,Zhenqin Wu,University 14
-8751433,B. Husic,University 12
-80646261,Huanghao Mai,University 6
-2154902070,Yang Li,Company 17
-51248807,Saisai Sun,Company 10
-49500220,Jianyi Yang,University 13
-2378027,Bharath Ramsundar,Company 1
-1741283,R. Barzilay,Company 2
-143964245,W. Green,Company 1
+2023052,Rose Yu,University 4
+39460558,Debnil Sur,Company 6
+8751433,B. Husic,University 14
+80646261,Huanghao Mai,Company 12
+2154902070,Yang Li,Company 9
+51248807,Saisai Sun,University 9
+49500220,Jianyi Yang,University 1
+1741283,R. Barzilay,University 2
+143964245,W. Green,University 2
 35132120,T. Jaakkola,Company 1
-144050039,K. Jensen,Company 10
-2144447281,Chao Wang,Company 14
-103155734,Peize Lin,Company 4
-47648651,Lixin He,University 3
-145392527,Xiaowen Dong,Company 16
-3333045,D. Thanou,Company 15
-1703189,P. Frossard,Company 13
-1697397,P. Vandergheynst,Company 4
-2944486,Fabian Yamaguchi,University 16
-2641234,N. Golde,Company 6
-79405068,Dan Arp,University 5
-144825749,Konrad Rieck,University 17
-2919642,Maciej Besta,Company 9
-13290587,E. Peter,University 12
-3308719,Robert Gerstenberger,Company 3
-2125673249,Marc Fischer,University 9
-18356904,Michal Podstawski,University 15
-3188030,Claude Barthels,Company 9
-144641551,G. Alonso,Company 11
-1713648,T. Hoefler,University 13
-145135725,A. Marques,University 5
-2262891,Santiago Segarra,University 16
-143668698,G. Leus,University 12
-144461639,Alejandro Ribeiro,University 15
-2834541,R. Kondor,University 4
-7823285,Horace Pan,University 9
-2005517418,Hanâ Lbath,Company 5
-2058740,Russell Harmer,University 16
-2088768581,Yifan Hou,Company 1
-2108844303,Hongzhi Chen,University 7
-2145413970,Changji Li,Company 14
-1717691,James Cheng,University 13
-2150427580,Ming Yang,Company 2
-47699955,Nesreen Ahmed,Company 13
-144441300,N. Duffield,University 5
-144050371,Jennifer Neville,Company 6
-2828296,R. Kompella,Company 16
-41181187,Maximilian Marx,Company 9
-2849472,M. Krötzsch,Company 2
-1861119,Veronika Thost,Company 16
-1935526,Martin Johns,Company 3
-2066454935,Simon Koch,Company 15
-143645968,Sven Schneider,University 15
-2861212,Leen Lambers,University 16
-1703521,F. Orejas,University 1
-2115219530,Juncheng Fang,University 9
-2150609388,Chenghuan Huang,University 2
-2151811827,Jian Zhang,Company 5
-145837716,Xiao Yan,University 5
-1734327,N. Alon,University 3
-4490562,A. Shapira,University 7
-145881292,R. Stoica,Company 7
-145301017,G. Fletcher,University 7
-1703204,Juan Sequeda,Company 2
+144050039,K. Jensen,Company 12
+2144447281,Chao Wang,University 1
+103155734,Peize Lin,Company 2
+47648651,Lixin He,University 14
+145392527,Xiaowen Dong,University 17
+3333045,D. Thanou,University 9
+2944486,Fabian Yamaguchi,Company 13
+2641234,N. Golde,University 7
+79405068,Dan Arp,Company 3
+144825749,Konrad Rieck,Company 2
+13290587,E. Peter,University 5
+2125673249,Marc Fischer,Company 12
+18356904,Michal Podstawski,Company 2
+3188030,Claude Barthels,University 4
+144641551,G. Alonso,Company 12
+145135725,A. Marques,University 15
+2262891,Santiago Segarra,Company 5
+143668698,G. Leus,Company 6
+144461639,Alejandro Ribeiro,Company 5
+2834541,R. Kondor,University 13
+7823285,Horace Pan,Company 4
+2005517418,Hanâ Lbath,Company 6
+2058740,Russell Harmer,University 8
+2088768581,Yifan Hou,University 1
+2145413970,Changji Li,University 3
+2150427580,Ming Yang,Company 17
+47699955,Nesreen Ahmed,Company 14
+144441300,N. Duffield,Company 14
+144050371,Jennifer Neville,University 9
+2828296,R. Kompella,University 11
+41181187,Maximilian Marx,Company 10
+2849472,M. Krötzsch,Company 7
+1861119,Veronika Thost,Company 6
+1935526,Martin Johns,Company 1
+2066454935,Simon Koch,Company 8
+143645968,Sven Schneider,Company 5
+2861212,Leen Lambers,University 4
+1703521,F. Orejas,Company 17
+2115219530,Juncheng Fang,University 14
+2150609388,Chenghuan Huang,Company 11
+2151811827,Jian Zhang,Company 6
+145837716,Xiao Yan,University 14
+1734327,N. Alon,University 9
+4490562,A. Shapira,Company 11
+145301017,G. Fletcher,University 3
+1703204,Juan Sequeda,University 13
+2109605410,Souripriya Das,University 15
+145818714,Jagannathan Srinivasan,University 3
+144718323,Matthew Perry,University 7
+2340226,E. Chong,Company 1
+2086106015,J. Banerjee,University 1

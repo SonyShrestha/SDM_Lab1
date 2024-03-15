@@ -32,7 +32,7 @@ def assign_reviewers(authors):
     df = pd.read_csv(output_folder+'/authors.csv')
     potential_reviewers = df['authorId'].tolist()
 
-    random_values = [value for value in potential_reviewers if value not in authors.split(',')]
+    random_values = [value for value in potential_reviewers if value not in (str(authors).split(',') if isinstance(authors, float) else authors.split(','))]
 
     # Sample random values from the resulting list
     reviewers = random.sample(random_values, min(3, len(random_values)))
@@ -164,6 +164,10 @@ def get_authors():
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in df.columns if col not in column_to_keep]
     df.drop(columns=columns_to_drop, inplace=True)
+
+    # Convert float values to strings
+    df['authorId'] = df['authorId'].astype(str)
+    df['authorName'] = df['authorName'].astype(str)
 
     # Split the values in the 'authorId' and 'authorName' columns
     df['authorId'] = df['authorId'].str.split(',')
