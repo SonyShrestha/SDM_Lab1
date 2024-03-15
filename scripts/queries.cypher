@@ -4,7 +4,7 @@ MATCH (p1:paper)-[:CITES]->(p)
 WITH c, p.paperId AS paperId, count(distinct p1.paperId) AS citationCount
 ORDER BY c.name ASC, citationCount DESC
 WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByConference
-RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers
+RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers;
 
 
 // For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
@@ -12,7 +12,7 @@ MATCH (p:paper)-[:WRITTEN_BY]->(a:author)
 MATCH (p)-[pi:PUBLISHED_IN]->(c:conference)
 WITH a.authorId AS authorId, c.name AS conferenceName, COUNT(DISTINCT pi.edition) AS numDistinctEditions
 WHERE numDistinctEditions >= 4
-RETURN conferenceName, COLLECT(authorId) AS community
+RETURN conferenceName, COLLECT(authorId) AS community;
 
 
 
@@ -27,7 +27,7 @@ with journalName,year, paperId, numPaperPublished_last2yrs
 MATCH (p1:paper)-[:CITES]->(p2:paper{paperId:paperId})
 MATCH (p1)-[:PUBLISHED_IN{year:year}]->(j:journal)
 with journalName,year,numPaperPublished_last2yrs,count(*) AS numCitations
-return journalName,year,numCitations,numPaperPublished_last2yrs,numCitations/numPaperPublished_last2yrs AS impact_factor
+return journalName,year,numCitations,numPaperPublished_last2yrs,numCitations/numPaperPublished_last2yrs AS impact_factor;
 
 
 // Find the h-indexes of the authors in your graph
@@ -40,4 +40,4 @@ WITH authorId, citationCounts, [x IN range(0, size(citationCounts)-1) | x+1] AS 
 WITH authorId, citationCounts, idx
 WITH authorId, citationCounts, idx, [i IN range(0, size(citationCounts)-1) | citationCounts[i] - idx[i]] AS differences
 WITH authorId, size([d IN differences WHERE d >= 0]) AS h_index
-RETURN authorId, h_index
+RETURN authorId, h_index;

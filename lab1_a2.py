@@ -3,6 +3,7 @@ import pandas as pd
 import argparse
 import json
 import logging
+import time
 import configparser
 import get_paper_ids, get_paper_details, preprocess_data, split_files
 
@@ -36,13 +37,22 @@ class Neo4jConnector:
             result = session.run(query, parameters)
             return result.data()  # return data only
     
-    def execute_commands_from_file(self, file_path):
+    def execute_commands_from_file(self, file_path, timetrack):
+        query_exec_time=[]
         with open(file_path, 'r', encoding='utf-8') as file:
             commands = file.read().split(';')  # Split commands by semicolon
             with self._driver.session() as session:
                 for command in commands:
                     if command.strip():  # Skip empty commands
-                        session.run(command)
+                        if timetrack:
+                            start_time = time.time()
+                            session.run(command)
+                            end_time = time.time()
+                            execution_time = end_time - start_time
+                            query_exec_time.append(execution_time)
+                            print(query_exec_time)
+                        else:
+                            session.run(command)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Implementation of graph database")
@@ -94,6 +104,6 @@ if __name__ == "__main__":
     connector.connect()
 
     logger.info("--------------------- Load data into NEO4J Graph ---------------------")
-    connector.execute_commands_from_file("scripts/load_data.cypher")
+    connector.execute_commands_from_file("scripts/load_data.cypher", False)
 
     connector.close()
