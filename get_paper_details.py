@@ -3,8 +3,19 @@ import pandas as pd
 import requests
 import random
 import csv
+import argparse
+import logging
+import re
+import spacy
+from spacy.lang.en.stop_words import STOP_WORDS
 
-field = 'property-graph'
+# Configure logging
+logging.basicConfig(level=logging.INFO)  # Set log level to INFO
+
+# Create logger object
+logger = logging.getLogger()
+
+# Define input and output directories for extracting paper deatils from paper ids
 input_folder = 'paper_ids'
 output_folder='paper_details'
 
@@ -36,10 +47,8 @@ def assign_keywords(field):
     return random_keywords_text
 
 
-
-
 # Get paper ids from JSON file
-def get_paper_ids():
+def get_paper_ids(field):
     # Read JSON data from file
     with open(input_folder+'/paper_' + field + '.json', 'r') as file:
         data = json.load(file)
@@ -50,38 +59,101 @@ def get_paper_ids():
     return paper_ids
 
 
-
 # Fetch paper details from API
-def publications():
-    r = requests.post(
+def publications(field,api_key):
+    headers = {"x-api-key": api_key}
+    logger.info('Making API Call to fetch paper details from paper ids for field %s', field)
+    response = requests.post(
         'https://api.semanticscholar.org/graph/v1/paper/batch',
         params={'fields': 'paperId,authors,title,venue,publicationVenue,year,abstract,citationCount,fieldsOfStudy,s2FieldsOfStudy,publicationTypes,publicationDate,citations,journal,references'},
-        json={"ids": get_paper_ids()}
+        json={"ids": get_paper_ids(field)},
+        headers=headers
     )
-    json_data = r.json()
-    for idx, data in enumerate(json_data):
-        for key, value in data.items():
-            if isinstance(value, str):
-                json_data[idx][key] = value.replace('\r', ' ').replace('\n', ' ')
-    
-    return json_data
+    if response.status_code == 200:
+        json_data = response.json()
+        for idx, data in enumerate(json_data):
+            for key, value in data.items():
+                if isinstance(value, str):
+                    json_data[idx][key] = value.replace('\r', ' ').replace('\n', ' ')
+        
+        return json_data
+    else:
+        logger.error("Error: %s", response.status_code)  
+        return None
 
+
+def abstract_preprocessing(text):
+    # Check if text is NaN or None and replace with empty string
+    if pd.isna(text) or text.strip() == "":
+        return ""
+    # Convert to lowercase for consistent matching
+    text = text.lower()    
+    # Check for non-abstract content
+    if "paperid" in text or "title" in text:
+        return ""  
+    # Remove non-alphabetic characters, keeping spaces
+    text = re.sub(r"[^a-z\s]", '', text)    
+    return text
+
+
+def extract_keywords(text, nlp_model):
+    if not text:  # If the preprocessed string is empty, return an empty string
+        return ""
+    
+    doc = nlp_model(text)
+    keywords = [chunk.text for chunk in doc.noun_chunks if not any(token.is_stop or len(token.text) <= 2 for token in chunk)]
+    cleaned_keywords = [' '.join(part for part in keyword.split() if part not in STOP_WORDS) for keyword in keywords]
+    cleaned_keywords = [keyword for keyword in cleaned_keywords if ' ' in keyword]  
+    
+    return ', '.join(sorted(set(cleaned_keywords), key=cleaned_keywords.index))
+
+
+def combine_keywords(row):
+    nlp_model = spacy.load("en_core_web_sm")
+    existing_keywords = list(filter(None, [kw.strip().title() for kw in row['keywords'].split(',')]))
+    # Extract, split, and clean new keywords
+    new_keywords = list(filter(None, [kw.strip().title() for kw in extract_keywords(row['abstract'], nlp_model).split(',')]))
+    existing_set = set(existing_keywords)
+    # Combine keywords, ensuring existing ones are first and no duplicates are introduced
+    combined_keywords = existing_keywords + [kw for kw in new_keywords if kw not in existing_set]
+        
+    return ', '.join(combined_keywords)
 
 
 # Dump fetched publication details into CSV file
-def fetch_publications():
+def fetch_publications(field,api_key):
     # Fetch publications data
-    publications_data = publications()
+    publications_data = publications(field, api_key)
 
     # Convert JSON data to DataFrame
     df = pd.DataFrame(publications_data)
 
+    logger.info('Preprocessing field abstract')
+    df['abstract'] = df['abstract'].astype(str).apply(abstract_preprocessing)
+
+    logger.info('Generating synthetic data for keywords')
     df["keywords"]=df["paperId"].apply(lambda x:assign_keywords(field))
+    df['keywords'] = df.apply(combine_keywords, axis=1)
 
     # Write DataFrame to CSV file
     df.to_csv(output_folder+'/paper_' + field + '.csv', index=False, quoting=csv.QUOTE_ALL)
 
 
+def main():
+    # Create argument parser
+    parser = argparse.ArgumentParser(description="Retrieve paper details from Semantic Scholar API")
 
-fetch_publications()
+    # Add arguments
+    parser.add_argument("--field", required=True, help="Comma separated fields to search for papers")
+    parser.add_argument("--api_key", required=True, help="API key for accessing Semantic Scholar API")
 
+    # Parse arguments
+    args = parser.parse_args()
+    fields = args.field.split(',')
+
+    # Retrieve paper information
+    for field in fields:
+        fetch_publications(field,args.api_key)
+
+if __name__ == "__main__":
+    main()

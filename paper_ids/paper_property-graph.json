@@ -1,5 +1,5 @@
 {
-    "total": 8267629,
+    "total": 8268509,
     "offset": 0,
     "next": 100,
     "data": [
@@ -96,6 +96,10 @@
             "title": "Property Graph vs RDF Triple Store: A Comparison on Glycan Substructure Search"
         },
         {
+            "paperId": "b1706b4463701169d339c9c791cae0d4ec367b50",
+            "title": "Reducing Property Graph Queries to Relational Algebra for Incremental View Maintenance"
+        },
+        {
             "paperId": "6fa2d1873bc12d1a698ec8d0e5e32e4236f3bd2b",
             "title": "Incremental View Maintenance for Property Graph Queries"
         },
@@ -168,12 +172,12 @@
             "title": "Graph Self-Supervised Learning: A Survey"
         },
         {
-            "paperId": "2a47759c48bf8d14d2caa54bcc4bd03c1eee6135",
-            "title": "Geometry-enhanced molecular representation learning for property prediction"
+            "paperId": "9acd1892e2e299a30fa99f82bf60fc12cfa7aad3",
+            "title": "Graph Data: RDF, Property Graphs"
         },
         {
-            "paperId": "08257eb1faa19c29ddcc31d7d749c9bd262213c5",
-            "title": "Could graph neural networks learn better molecular representation for drug discovery? A comparison study of descriptor-based and graph-based models"
+            "paperId": "2a47759c48bf8d14d2caa54bcc4bd03c1eee6135",
+            "title": "Geometry-enhanced molecular representation learning for property prediction"
         },
         {
             "paperId": "d9f836a2062864e4808e12224e2286a353498202",
@@ -204,12 +208,12 @@
             "title": "MOTIF-Driven Contrastive Learning of Graph Representations"
         },
         {
-            "paperId": "d4408e4e99c74913c7bf4b7a0aacf5bf67557c96",
-            "title": "Graph Pattern Matching in GQL and SQL/PGQ"
-        },
-        {
             "paperId": "70f7cd54b5918aed60c3d8c3a8e4aa7e8d634c41",
             "title": "AliGraph: A Comprehensive Graph Neural Network Platform"
+        },
+        {
+            "paperId": "d4408e4e99c74913c7bf4b7a0aacf5bf67557c96",
+            "title": "Graph Pattern Matching in GQL and SQL/PGQ"
         },
         {
             "paperId": "7c70459d56214a7a3202732670f5ce726508eff6",
@@ -296,16 +300,16 @@
             "title": "Demystifying Graph Databases: Analysis and Taxonomy of Data Organization, System Designs, and Graph Queries"
         },
         {
-            "paperId": "db9967871249ffd77adc0c0cc16154ccc37d09ad",
-            "title": "A property of eigenvectors of nonnegative symmetric matrices and its application to graph theory"
-        },
-        {
             "paperId": "7ad94b0ec31d38b7915e88f743b573edb8efce5b",
             "title": "Stationary Graph Processes and Spectral Estimation"
         },
         {
             "paperId": "d71c0365685300539109e0fd07e34c9dd9beff75",
             "title": "The Multiscale Laplacian Graph Kernel"
+        },
+        {
+            "paperId": "db9967871249ffd77adc0c0cc16154ccc37d09ad",
+            "title": "A property of eigenvectors of nonnegative symmetric matrices and its application to graph theory"
         },
         {
             "paperId": "b5aea8c6ebaab339b4e190decab80ab607815e8b",
@@ -398,10 +402,6 @@
         {
             "paperId": "a4c5339f3f31c4a4406a1d82d3b0f3c63386166e",
             "title": "On Directly Mapping Relational Databases to Property Graphs"
-        },
-        {
-            "paperId": "672af1a4525ff97f2b35368ea003976023152e3f",
-            "title": "A Tale of Two Graphs: Property Graphs as RDF in Oracle"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "total": 19541053,
+    "total": 19563246,
     "offset": 0,
     "next": 100,
     "data": [
@@ -40,6 +40,10 @@
             "title": "The use of Big Data Analytics in healthcare"
         },
         {
+            "paperId": "bf69c98fca9a9f6c1cde871beddbcdc668b77771",
+            "title": "Big Data: A Revolution That Will Transform How We Live, Work, and Think"
+        },
+        {
             "paperId": "1bc34cb22131554ba18f6ba9e6ede5beb42939f1",
             "title": "Beyond the hype: Big data concepts, methods, and analytics"
         },
@@ -50,6 +54,10 @@
         {
             "paperId": "4e6bba65f7636a655c778a3e54cc58e148468963",
             "title": "CRITICAL QUESTIONS FOR BIG DATA"
+        },
+        {
+            "paperId": "3a74bed911ccf213d9595b2b02a5b1c4ac4dcaf8",
+            "title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
         },
         {
             "paperId": "1597449a7f64b6bd24639b4deab96c8a8c184177",
@@ -70,10 +78,6 @@
         {
             "paperId": "4e13a8e8ba8d33e15ed037bfca7c651047533990",
             "title": "Big data for cyber physical systems in industry 4.0: a survey"
-        },
-        {
-            "paperId": "3a74bed911ccf213d9595b2b02a5b1c4ac4dcaf8",
-            "title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
         },
         {
             "paperId": "9d6cbac04c498b424dfaa5ce82ac201a180c1502",
@@ -112,6 +116,10 @@
             "title": "Brief introduction of medical database and data mining technology in big data era"
         },
         {
+            "paperId": "02a88547d6f6022bebc9aba6723a310cdf132f3f",
+            "title": "Big Data"
+        },
+        {
             "paperId": "2660dcf5bd16d14862a7bbb241fa4d85ae34327f",
             "title": "The rise of \"big data\" on cloud computing: Review and open research issues"
         },
@@ -124,16 +132,16 @@
             "title": "Big Data in Smart Farming \u2013 A review"
         },
         {
-            "paperId": "02a88547d6f6022bebc9aba6723a310cdf132f3f",
-            "title": "Big Data"
-        },
-        {
-            "paperId": "9e3816be8cf4821d74e258de10ee471382936a30",
-            "title": "Privacy in the age of medical big data"
+            "paperId": "17fca92ffd527c78c5dc6c7953e96671743807fa",
+            "title": "Big Data Analytics Capabilities and Innovation: The Mediating Role of Dynamic Capabilities and Moderating Effect of the Environment"
         },
         {
             "paperId": "dbabab9bf5955558f73a37644f4bb626106a6d73",
             "title": "Big Data Analytics in Intelligent Transportation Systems: A Survey"
+        },
+        {
+            "paperId": "9e3816be8cf4821d74e258de10ee471382936a30",
+            "title": "Privacy in the age of medical big data"
         },
         {
             "paperId": "247dec05283a1a521f99253a6cca6a5858cac0d2",
@@ -144,20 +152,16 @@
             "title": "Sentiment Analysis in Tourism: Capitalizing on Big Data"
         },
         {
-            "paperId": "17fca92ffd527c78c5dc6c7953e96671743807fa",
-            "title": "Big Data Analytics Capabilities and Innovation: The Mediating Role of Dynamic Capabilities and Moderating Effect of the Environment"
-        },
-        {
             "paperId": "391a5f286f814d852dddcab1b2b68e5c1af6c79e",
             "title": "Data mining with big data"
         },
         {
-            "paperId": "b080d072cfde697180db3234da08903c092e72c3",
-            "title": "Big data analytics capabilities and knowledge management: impact on firm performance"
-        },
-        {
             "paperId": "b6b7fea1846e85ac1e3c7e3adda6e65b127d0368",
             "title": "IoT, Big Data, and Artificial Intelligence in Agriculture and Food Industry"
+        },
+        {
+            "paperId": "b080d072cfde697180db3234da08903c092e72c3",
+            "title": "Big data analytics capabilities and knowledge management: impact on firm performance"
         },
         {
             "paperId": "dac7344737cb824634f757aede2dd46a6eed204b",
@@ -208,12 +212,12 @@
             "title": "Flexible and durable wood-based triboelectric nanogenerators for self-powered sensing in athletic big data analytics"
         },
         {
-            "paperId": "c24d47ff95cd4bda073c75ec24ececaa3b10c995",
-            "title": "A survey of data partitioning and sampling methods to support big data analysis"
-        },
-        {
             "paperId": "3789eb72c32ecf5e33442570358dd786dd67c8a2",
             "title": "Text Mining in Big Data Analytics"
+        },
+        {
+            "paperId": "c24d47ff95cd4bda073c75ec24ececaa3b10c995",
+            "title": "A survey of data partitioning and sampling methods to support big data analysis"
         },
         {
             "paperId": "e8b7a9be9f2d0578a95319ed5841978e10429967",
@@ -260,20 +264,20 @@
             "title": "COVID-19 is spatial: Ensuring that mobile Big Data is used for social good"
         },
         {
-            "paperId": "0a829289a16ae48837cc2905635435db98bacc76",
-            "title": "The Rise of Big Data Policing: Surveillance, Race, and the Future of Law Enforcement"
-        },
-        {
             "paperId": "6aca07154c111f1c8738347d7112cad6b0bf974a",
             "title": "Customer churn prediction in telecom using machine learning in big data platform"
         },
         {
-            "paperId": "3bc9bb1f2218dcbd15c3b7cdfcb43077a3f30779",
-            "title": "Big data analytics for manufacturing internet of things: opportunities, challenges and enabling technologies"
+            "paperId": "0a829289a16ae48837cc2905635435db98bacc76",
+            "title": "The Rise of Big Data Policing: Surveillance, Race, and the Future of Law Enforcement"
         },
         {
-            "paperId": "ecef432e7f6c9f431d5b34706a8de1fdebec46f9",
-            "title": "From Big Data to Precision Medicine"
+            "paperId": "ca5931b4c08eb96d40c65e1b9f8e4db46bf0585b",
+            "title": "Big data analytics capability in supply chain agility"
+        },
+        {
+            "paperId": "3bc9bb1f2218dcbd15c3b7cdfcb43077a3f30779",
+            "title": "Big data analytics for manufacturing internet of things: opportunities, challenges and enabling technologies"
         },
         {
             "paperId": "1f8a23697562b001082b147779b5eaefd3513d0a",
@@ -288,12 +292,20 @@
             "title": "The value of Big Data in government: The case of \u2018smart cities\u2019"
         },
         {
-            "paperId": "ca5931b4c08eb96d40c65e1b9f8e4db46bf0585b",
-            "title": "Big data analytics capability in supply chain agility"
+            "paperId": "ecef432e7f6c9f431d5b34706a8de1fdebec46f9",
+            "title": "From Big Data to Precision Medicine"
+        },
+        {
+            "paperId": "d63b884d5ebc739f6e1bdf861fa9276260781404",
+            "title": "Deep Learning for IoT Big Data and Streaming Analytics: A Survey"
         },
         {
             "paperId": "75fb60dee6641656fc4c1b663bb95d1aa91c6798",
             "title": "A Delphi study to build consensus on the definition and use of big data in obesity research"
+        },
+        {
+            "paperId": "00d681cfff7f0224ace607e515f4ed510e792df9",
+            "title": "The Parable of Google Flu: Traps in Big Data Analysis"
         },
         {
             "paperId": "efca2a32ce9c7a808c2c3efcc2c3dac032dfc8ea",
@@ -312,14 +324,6 @@
             "title": "Big Data and Big Data Analytics"
         },
         {
-            "paperId": "00d681cfff7f0224ace607e515f4ed510e792df9",
-            "title": "The Parable of Google Flu: Traps in Big Data Analysis"
-        },
-        {
-            "paperId": "d63b884d5ebc739f6e1bdf861fa9276260781404",
-            "title": "Deep Learning for IoT Big Data and Streaming Analytics: A Survey"
-        },
-        {
             "paperId": "6eefbb79f98e902e9d2efa057bfea174843bf3dc",
             "title": "Analysis of healthcare big data"
         },
@@ -332,20 +336,24 @@
             "title": "Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available."
         },
         {
-            "paperId": "b4c9f49f726f87791768c37e0b29f5e7c8719f6d",
-            "title": "How can Big Data and machine learning benefit environment and water management: a survey of methods, applications, and future directions"
+            "paperId": "16575f23ff879e6353a55bbfbbcc54e27606bfc5",
+            "title": "Big data analytics: Understanding its capabilities and potential benefits for healthcare organizations"
         },
         {
             "paperId": "57dcff5c3c15f6c5e5935ef7164c8f467a53848b",
             "title": "Big data in lean six sigma: a review and further research directions"
         },
         {
-            "paperId": "16575f23ff879e6353a55bbfbbcc54e27606bfc5",
-            "title": "Big data analytics: Understanding its capabilities and potential benefits for healthcare organizations"
-        },
-        {
             "paperId": "521e5c337be51b8f8fdb858580bb46a0545ab1f9",
             "title": "When Gaussian Process Meets Big Data: A Review of Scalable GPs"
+        },
+        {
+            "paperId": "c7e10109fed73e523bf2a78b00e4b657004d41fc",
+            "title": "Big data and dynamic capabilities: a bibliometric analysis and systematic literature review"
+        },
+        {
+            "paperId": "65499384f0947e223ec83f582366203e7aa64f1f",
+            "title": "The state of the art and taxonomy of big data analytics: view from new big data framework"
         },
         {
             "paperId": "243d553f1fc5b7ee8cfb6f49629f3a0a32b2c5c5",
@@ -364,10 +372,6 @@
             "title": "Optimization of Big Data Scheduling in Social Networks"
         },
         {
-            "paperId": "65499384f0947e223ec83f582366203e7aa64f1f",
-            "title": "The state of the art and taxonomy of big data analytics: view from new big data framework"
-        },
-        {
             "paperId": "3527f43e8156d1bf5a0998405047c98036d172f0",
             "title": "Internet of vehicles in big data era"
         },
@@ -384,20 +388,16 @@
             "title": "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics"
         },
         {
-            "paperId": "c7e10109fed73e523bf2a78b00e4b657004d41fc",
-            "title": "Big data and dynamic capabilities: a bibliometric analysis and systematic literature review"
-        },
-        {
             "paperId": "da619a6c524f5ab800b44c8728db3cef3d3b25d9",
             "title": "Big Data, new epistemologies and paradigm shifts"
         },
         {
-            "paperId": "e3d74f13374063a86909c7b0a8105be94902b7f4",
-            "title": "Role of big data analytics in developing sustainable capabilities"
-        },
-        {
             "paperId": "6eb5744bd933dcd29ff4d79e340cf890272ef099",
             "title": "Big Data for Health"
+        },
+        {
+            "paperId": "e3d74f13374063a86909c7b0a8105be94902b7f4",
+            "title": "Role of big data analytics in developing sustainable capabilities"
         },
         {
             "paperId": "0c7ae2c9e8c91edd6801f5578176b28e0a0414c6",
