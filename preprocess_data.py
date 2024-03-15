@@ -5,7 +5,15 @@ import numpy as np
 import re
 import random
 import os
+import logging
 
+# Configure logging
+logging.basicConfig(level=logging.INFO)  # Set log level to INFO
+
+# Create logger object
+logger = logging.getLogger()
+
+# Define input and output directories for extracting preprocessing paper information
 input_folder='paper_details'
 output_folder='preprocessed'
 
@@ -40,8 +48,7 @@ def extract_edition(text):
     if match:
         number = match.group(1)
         return number 
-    return   # Return string "0" instead of integer 0
-
+    return   
 
 
 def determine_type(row):
@@ -66,12 +73,13 @@ def extract_citation_id(df_row,date_paper_dict):
     
     
 def preprocess_data():
+    logger.info('Combining CSV files generated using all field type')
     df = combine_csv_files(input_folder, output_folder+'/papers.csv')
 
     # Convert 'date_column' to datetime format with a custom format
     df['publicationDate'] = pd.to_datetime(df['publicationDate'], format='%Y-%m-%d')
 
-# Convert 'year' to string, concatenate with '01-01', and convert to datetime
+    # Convert 'year' to string, concatenate with '01-01', and convert to datetime
     default_date = pd.to_datetime(df['year'].astype(str) + '-01-01')    
     df['publicationDate'] = df['publicationDate'].fillna(default_date)
 
@@ -85,12 +93,15 @@ def preprocess_data():
     df['authors'] = df['authors'].apply(lambda x: x[:10] if isinstance(x, list) else [])
     df['authorId'] = df['authors'].apply(lambda x:  ','.join(str(author['authorId']) for author in x))
     df['authorName'] = df['authors'].apply(lambda x: ','.join(str(author['name']) for author in x))
+
+    logger.info('Generating synthetic data for corresponding author')
     df['correspondingAuthorId'] = df['authorId'].str.split(',').str[0]
 
     # Extract journal details
     df['journal'] = df['journal'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
 
     # Identify workshop, conference or journal
+    logger.info('Identifying type of publication as Conference/Journal/Workshop')
     df['type_indicator'] = df.apply(determine_type, axis=1)
     paper_ids_list= df.loc[df['type_indicator'] != 'Unknown', 'paperId'].tolist()
     
@@ -98,6 +109,7 @@ def preprocess_data():
     df['citationCount'] = df['citationCount'].apply(lambda x: random.randint(1, len(paper_ids_list)-1) if x > len(paper_ids_list)-1 else x)
 
     # Extract cited paper details
+    logger.info('Generating synthetic data for citations')
     df['citations'] = df['citations'].apply(ast.literal_eval)
     date_paper_dict = df.groupby('publicationDate')['paperId'].apply(list).to_dict()
     df['citedPaperId'] = df.apply(lambda row: ','.join(str(i) for i in extract_citation_id(row, date_paper_dict)), axis=1)
@@ -109,5 +121,8 @@ def preprocess_data():
     df = df[df['type_indicator'] != 'Unknown']
     df.to_csv(output_folder+'/papers.csv', index=False)
     
+def main():
+    preprocess_data()
 
-preprocess_data()
+if __name__ == "__main__":
+    main()

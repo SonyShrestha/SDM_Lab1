@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)  # Set log level to INFO
 # Create logger object
 logger = logging.getLogger()
 
-# Define input and output directories for extracting paper deatils from paper ids
+# Define input and output directories for extracting paper details from paper ids
 input_folder = 'paper_ids'
 output_folder='paper_details'
 
