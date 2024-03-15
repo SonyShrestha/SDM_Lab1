@@ -5,8 +5,15 @@ import numpy as np
 import re
 import os
 import random
+import logging
 
+# Configure logging
+logging.basicConfig(level=logging.INFO)  # Set log level to INFO
 
+# Create logger object
+logger = logging.getLogger()
+
+# Define input and output directories for splitting files
 input_folder='preprocessed'
 output_folder='splitted_files'
 
@@ -20,7 +27,6 @@ def extract_edition(year):
     return str(year)[-2:] 
 
 
-
 # Assign reviwers
 def assign_reviewers(authors):
     df = pd.read_csv(output_folder+'/authors.csv')
@@ -32,7 +38,6 @@ def assign_reviewers(authors):
     reviewers = random.sample(random_values, min(3, len(random_values)))
 
     return ','.join(map(str, reviewers))
-
 
 
 # Fetch year details from CSV file
@@ -53,7 +58,6 @@ def get_years():
 
     # Write the DataFrame to a CSV file
     year_df.to_csv(output_folder+'/year.csv', index=False)
-
 
 
 # Fetch journal details from CSV file
@@ -77,9 +81,6 @@ def get_journals():
     df.to_csv(output_folder+'/journals.csv', index=False)
 
 
-
-
-
 # Fetch conference details from CSV file
 def get_conferences():
     df_papers = pd.read_csv(input_folder+'/papers.csv')
@@ -101,7 +102,6 @@ def get_conferences():
     df.to_csv(output_folder+'/conferences.csv', index=False)
 
 
-
 # Fetch workshop details from CSV file
 def get_workshops():
     df_papers = pd.read_csv(input_folder+'/papers.csv')
@@ -121,7 +121,6 @@ def get_workshops():
     
     # Write distinct journal names to CSV file
     df.to_csv(output_folder+'/workshops.csv', index=False)
-
 
 
 # Fetch keywords from CSV file
@@ -148,7 +147,6 @@ def get_keywords():
     df.to_csv(output_folder+'/keywords.csv', index=False)
 
 
-
 def get_affiliated_org(data):
     random_number = random.randint(1, 17)
     uni_or_comp = "University " if random.randint(0, 1)==0 else "Company "
@@ -171,7 +169,6 @@ def get_authors():
     df['authorId'] = df['authorId'].str.split(',')
     df['authorName'] = df['authorName'].str.split(',')
 
-
     new_dfs = []
 
     # Iterate over each row of the DataFrame
@@ -189,9 +186,6 @@ def get_authors():
     
     # Write the DataFrame to a new CSV file
     result_df.to_csv(output_folder + '/authors.csv', index=False)
-
-
-
 
 
 # Fetch journal papers from CSV file
@@ -216,7 +210,6 @@ def get_journal_papers():
     journal_df.to_csv(output_folder + '/journal_paper.csv', index=False, columns=column_to_keep)
 
 
-
 # Fetch Conference papers from CSV file
 def get_conference_papers():
     df = pd.read_csv(input_folder + '/papers.csv')
@@ -234,17 +227,11 @@ def get_conference_papers():
     # Apply extract_edition function to 'journalName' column
     conference_df["edition"] = conference_df['year'].apply(extract_edition)
 
-    # Convert 'authorId' column to list of lists
-    #conference_df["authorId"] = conference_df["authorId"].str.split(',')
-
-
-
     # Apply assign_reviewers function to each element of 'authorId' column
     conference_df["reviewers"] = conference_df["authorId"].apply(lambda row: assign_reviewers(row))
 
     # Save the updated DataFrame to CSV
     conference_df.to_csv(output_folder + '/conference_paper.csv', index=False, columns=column_to_keep)
-
 
 
 # Fetch Workshop papers from CSV file
@@ -262,9 +249,6 @@ def get_workshop_papers():
 
     # Apply extract_edition function to 'journalName' column
     workshop_df["edition"] = workshop_df['year'].apply(extract_edition)
-
-    # Convert 'authorId' column to list of lists
-    #workshop_df["authorId"] = workshop_df["authorId"].str.split(',')
     
     # Apply assign_reviewers function to each element of 'authorId' column
     workshop_df["reviewers"] = workshop_df["authorId"].apply(lambda row: assign_reviewers(row))
@@ -272,14 +256,34 @@ def get_workshop_papers():
     workshop_df.to_csv(output_folder+'/workshop_paper.csv', index=False, columns=column_to_keep)
 
 
-get_years()
-get_authors()
-get_keywords()
+def main():
+    logger.info('Generating CSV file for year')
+    get_years()
 
-get_journals()
-get_workshops()
-get_conferences()
+    logger.info('Generating CSV file for authors')
+    get_authors()
 
-get_conference_papers()
-get_journal_papers()
-get_workshop_papers()
+    logger.info('Generating CSV file for keywords')
+    get_keywords()
+
+    logger.info('Generating CSV file for journals')
+    get_journals()
+
+    logger.info('Generating CSV file for workshops')
+    get_workshops()
+
+    logger.info('Generating CSV file for conferences')
+    get_conferences()
+
+    logger.info('Generating CSV file for conference papers')
+    get_conference_papers()
+
+    logger.info('Generating CSV file for journal papers')
+    get_journal_papers()
+
+    logger.info('Generating CSV file for workshop papers')
+    get_workshop_papers()
+
+
+if __name__ == "__main__":
+    main()
