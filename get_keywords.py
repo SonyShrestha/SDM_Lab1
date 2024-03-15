@@ -54,11 +54,14 @@ def process_csv(input_csv, output_csv):
     df.to_csv(output_csv, index=False)
 
 
-if __name__ == "__main__":
+def main():
     folder_path = 'paper_details'
-    filename = 'paper_' + field + '.csv'
+    field_names = [file_name.split('_')[1].split('.')[0] for file_name in os.listdir('paper_ids')]
+    for field in field_names:
+        filename = 'paper_' + field + '.csv'
+        input_csv = os.path.join(folder_path, filename)
+        output_csv = os.path.join(folder_path, filename)
+        process_csv(input_csv, output_csv)
 
-    input_csv = os.path.join(folder_path, filename)
-    output_csv = os.path.join(folder_path, filename)
-    
-    process_csv(input_csv, output_csv)
+if __name__ == "__main__":
+    main()

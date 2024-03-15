@@ -3,15 +3,16 @@ import pandas as pd
 import requests
 import random
 import csv
+import os
 
-field = 'property-graph'
 input_folder = 'paper_ids'
 output_folder='paper_details'
-
 
 # Function to assign keywords based on from which field was the paper details generated
 def assign_keywords(field):
     keywords={
+        "data-quality": ["Data accuracy", "Data completeness", "Data consistency", "Data integrity", "Data validation", "Data verification", "Data cleaning", "Data standardization", "Data governance", "Data profiling", "Data auditing", "Data enrichment", "Error detection", "Data reliability", "Data timeliness", "Quality metrics", "Data compliance", "Data lineage", "Data quality management", "Data improvement techniques"],
+        "data-storage": ["Data warehousing", "Database management systems (DBMS)", "Cloud storage", "Object storage", "File storage", "Block storage", "Data lakes", "Distributed file systems", "Network Attached Storage (NAS)", "Storage Area Network (SAN)", "Solid State Drives (SSD)", "Hard Disk Drives (HDD)", "Data replication", "Data archiving", "Data backup", "Data retention policies", "Data encryption", "Storage efficiency", "Data compression", "Hierarchical storage management"],
         "property-graph":["Graph database", "Graph analytics", "Graph modeling", "Graph algorithms", "Graph neural networks", "Graph embeddings", "Graph querying", "Graph visualization", "Property graph schema", "Graph mining", "Graph partitioning", "Graph indexing", "Graph representation learning", "Property graph query languages", "Graph similarity", "Graph pattern matching", "Graph storage", "Graph clustering", "Graph-based recommendation"],
         "big-data":["Data analytics", "Data processing", "Data mining", "Data visualization", "Machine learning", "Artificial intelligence", "Deep learning", "Data storage", "Distributed systems", "Parallel computing", "Stream processing", "Batch processing", "Data management", "Data integration", "Data warehousing", "Hadoop"],
         "data-management":["Database systems", "Data governance", "Data quality", "Data integration", "Data architecture", "Data modeling", "Data warehousing", "Data migration", "Data lifecycle", "Master data management", "Metadata management", "Data catalog", "Data stewardship", "Data lineage", "Data security", "Data privacy", "Data governance", "Data cleaning", "Data retention", "Data access control"],
@@ -26,7 +27,6 @@ def assign_keywords(field):
     }
     # Lower each word
     words = [word.lower() for word in field.split('-')]
-
     # Join the words back together
     fixed_keyword = ' '.join(words)
 
@@ -35,11 +35,8 @@ def assign_keywords(field):
     random_keywords_text = fixed_keyword + ', ' + ', '.join(random_keywords_lower)
     return random_keywords_text
 
-
-
-
 # Get paper ids from JSON file
-def get_paper_ids():
+def get_paper_ids(field):
     # Read JSON data from file
     with open(input_folder+'/paper_' + field + '.json', 'r') as file:
         data = json.load(file)
@@ -52,11 +49,11 @@ def get_paper_ids():
 
 
 # Fetch paper details from API
-def publications():
+def publications(field):
     r = requests.post(
         'https://api.semanticscholar.org/graph/v1/paper/batch',
         params={'fields': 'paperId,authors,title,venue,publicationVenue,year,abstract,citationCount,fieldsOfStudy,s2FieldsOfStudy,publicationTypes,publicationDate,citations,journal,references'},
-        json={"ids": get_paper_ids()}
+        json={"ids": get_paper_ids(field)}
     )
     json_data = r.json()
     for idx, data in enumerate(json_data):
@@ -67,21 +64,21 @@ def publications():
     return json_data
 
 
-
 # Dump fetched publication details into CSV file
-def fetch_publications():
+def fetch_publications(field):
     # Fetch publications data
-    publications_data = publications()
-
-    # Convert JSON data to DataFrame
+    publications_data = publications(field)
     df = pd.DataFrame(publications_data)
 
-    df["keywords"]=df["paperId"].apply(lambda x:assign_keywords(field))
-
-    # Write DataFrame to CSV file
-    df.to_csv(output_folder+'/paper_' + field + '.csv', index=False, quoting=csv.QUOTE_ALL)
-
+    filtered_df = df[df['paperId'].apply(lambda x: isinstance(x, str) and len(x) > 15 and x.isalnum())]
+    filtered_df["keywords"]=filtered_df["paperId"].apply(lambda x:assign_keywords(field))
+    filtered_df.to_csv(output_folder+'/paper_' + field + '.csv', index=False, quoting=csv.QUOTE_ALL)
 
 
-fetch_publications()
+def main():
+    field_names = [file_name.split('_')[1].split('.')[0] for file_name in os.listdir('paper_ids')]
+    for field in field_names:
+        fetch_publications(field)
 
+if __name__ == "__main__":
+    main()

@@ -8,7 +8,6 @@ api_key = 'pAt0JejQAw848v1xD4xEo27jn5nWxmDc4jjAH69D'
 
 # API Call to extract paper ids
 def get_paper_info(api_key):
-    # offset = 100
     url = f"https://api.semanticscholar.org/graph/v1/paper/search?query={field}&limit=100&offset=0"
     headers = {"x-api-key": api_key}
     response = requests.get(url, headers=headers)

@@ -71,8 +71,11 @@ def preprocess_data():
     # Convert 'date_column' to datetime format with a custom format
     df['publicationDate'] = pd.to_datetime(df['publicationDate'], format='%Y-%m-%d')
 
-# Convert 'year' to string, concatenate with '01-01', and convert to datetime
-    default_date = pd.to_datetime(df['year'].astype(str) + '-01-01')    
+    # Convert 'year' to string, concatenate with '01-01', and convert to datetime
+    # default_date = pd.to_datetime(df['year'].astype(str) + '-01-01')    
+    df.dropna(subset=['year'], inplace=True)
+    default_date = pd.to_datetime(df['year'].astype(int).astype(str) + '-01-01')
+
     df['publicationDate'] = df['publicationDate'].fillna(default_date)
 
     # Extract Publication Venue and Publication Type
@@ -95,7 +98,8 @@ def preprocess_data():
     paper_ids_list= df.loc[df['type_indicator'] != 'Unknown', 'paperId'].tolist()
     
     # Set citationCount
-    df['citationCount'] = df['citationCount'].apply(lambda x: random.randint(1, len(paper_ids_list)-1) if x > len(paper_ids_list)-1 else x)
+    # df['citationCount'] = df['citationCount'].apply(lambda x: random.randint(1, len(paper_ids_list)-1) if x > len(paper_ids_list)-1 else x)
+    df['citationCount'] = df['citationCount'].apply(lambda x: random.randint(1, max(1, len(paper_ids_list)-1)) if x > len(paper_ids_list)-1 else x)
 
     # Extract cited paper details
     df['citations'] = df['citations'].apply(ast.literal_eval)
