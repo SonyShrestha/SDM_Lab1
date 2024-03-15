@@ -1,5 +1,5 @@
 {
-    "total": 19563246,
+    "total": 19563639,
     "offset": 0,
     "next": 100,
     "data": [
@@ -66,6 +66,10 @@
         {
             "paperId": "cbad0923db89f23febcbd6192ff4149289ff2ad9",
             "title": "A survey on data\u2010efficient algorithms in big data era"
+        },
+        {
+            "paperId": "a0d18dddaa995b126ad373e33767b9b881d16b2f",
+            "title": "An Introductory Review of Deep Learning for Prediction Models With Big Data"
         },
         {
             "paperId": "fe44200fed05f9a7c656f2245deded8fd5f5e1e6",
@@ -136,12 +140,12 @@
             "title": "Big Data Analytics Capabilities and Innovation: The Mediating Role of Dynamic Capabilities and Moderating Effect of the Environment"
         },
         {
-            "paperId": "dbabab9bf5955558f73a37644f4bb626106a6d73",
-            "title": "Big Data Analytics in Intelligent Transportation Systems: A Survey"
-        },
-        {
             "paperId": "9e3816be8cf4821d74e258de10ee471382936a30",
             "title": "Privacy in the age of medical big data"
+        },
+        {
+            "paperId": "dbabab9bf5955558f73a37644f4bb626106a6d73",
+            "title": "Big Data Analytics in Intelligent Transportation Systems: A Survey"
         },
         {
             "paperId": "247dec05283a1a521f99253a6cca6a5858cac0d2",
@@ -172,12 +176,12 @@
             "title": "A comprehensive survey of anomaly detection techniques for high dimensional big data"
         },
         {
-            "paperId": "82870bc488b57cdf5ea62877109a7278af2926b3",
-            "title": "Big Data and Artificial Intelligence Modeling for Drug Discovery."
-        },
-        {
             "paperId": "3dfa820702b6181c9964931f0a4d47fd298bf429",
             "title": "Mining Big Data in Education: Affordances and Challenges"
+        },
+        {
+            "paperId": "82870bc488b57cdf5ea62877109a7278af2926b3",
+            "title": "Big Data and Artificial Intelligence Modeling for Drug Discovery."
         },
         {
             "paperId": "718b5a40dba91bfa0bdfb9ac9ca4381425d2ff95",
@@ -212,12 +216,12 @@
             "title": "Flexible and durable wood-based triboelectric nanogenerators for self-powered sensing in athletic big data analytics"
         },
         {
-            "paperId": "3789eb72c32ecf5e33442570358dd786dd67c8a2",
-            "title": "Text Mining in Big Data Analytics"
-        },
-        {
             "paperId": "c24d47ff95cd4bda073c75ec24ececaa3b10c995",
             "title": "A survey of data partitioning and sampling methods to support big data analysis"
+        },
+        {
+            "paperId": "3789eb72c32ecf5e33442570358dd786dd67c8a2",
+            "title": "Text Mining in Big Data Analytics"
         },
         {
             "paperId": "e8b7a9be9f2d0578a95319ed5841978e10429967",
@@ -272,12 +276,12 @@
             "title": "The Rise of Big Data Policing: Surveillance, Race, and the Future of Law Enforcement"
         },
         {
-            "paperId": "ca5931b4c08eb96d40c65e1b9f8e4db46bf0585b",
-            "title": "Big data analytics capability in supply chain agility"
-        },
-        {
             "paperId": "3bc9bb1f2218dcbd15c3b7cdfcb43077a3f30779",
             "title": "Big data analytics for manufacturing internet of things: opportunities, challenges and enabling technologies"
+        },
+        {
+            "paperId": "ca5931b4c08eb96d40c65e1b9f8e4db46bf0585b",
+            "title": "Big data analytics capability in supply chain agility"
         },
         {
             "paperId": "1f8a23697562b001082b147779b5eaefd3513d0a",
@@ -348,12 +352,12 @@
             "title": "When Gaussian Process Meets Big Data: A Review of Scalable GPs"
         },
         {
-            "paperId": "c7e10109fed73e523bf2a78b00e4b657004d41fc",
-            "title": "Big data and dynamic capabilities: a bibliometric analysis and systematic literature review"
-        },
-        {
             "paperId": "65499384f0947e223ec83f582366203e7aa64f1f",
             "title": "The state of the art and taxonomy of big data analytics: view from new big data framework"
+        },
+        {
+            "paperId": "c7e10109fed73e523bf2a78b00e4b657004d41fc",
+            "title": "Big data and dynamic capabilities: a bibliometric analysis and systematic literature review"
         },
         {
             "paperId": "243d553f1fc5b7ee8cfb6f49629f3a0a32b2c5c5",
@@ -392,16 +396,12 @@
             "title": "Big Data, new epistemologies and paradigm shifts"
         },
         {
-            "paperId": "6eb5744bd933dcd29ff4d79e340cf890272ef099",
-            "title": "Big Data for Health"
-        },
-        {
             "paperId": "e3d74f13374063a86909c7b0a8105be94902b7f4",
             "title": "Role of big data analytics in developing sustainable capabilities"
         },
         {
-            "paperId": "0c7ae2c9e8c91edd6801f5578176b28e0a0414c6",
-            "title": "Big Data and Business Analytics: Trends, Platforms, Success Factors and Applications"
+            "paperId": "6eb5744bd933dcd29ff4d79e340cf890272ef099",
+            "title": "Big Data for Health"
         }
     ]
 }

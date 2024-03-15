@@ -1,10 +1,9 @@
 keywords
 Big Data
-Data Processing
-Data Visualization
-Hadoop
-Parallel Computing
-Batch Processing
+Stream Processing
+Artificial Intelligence
+Data Management
+Data Storage
 Internetbased Programs
 Communication Techniques
 Internet Applications
@@ -12,9 +11,9 @@ Automatic Largescale Data Collection Online Transactions
 Analytics Reports
 Big Data Analytics
 Related Problems
-Stream Processing
 Data Warehousing
 Data Integration
+Distributed Systems
 Better Predictions
 Smarter Decisions
 Moreeffective Interventions
@@ -25,8 +24,7 @@ Evidencebased Decision Making Organizations
 Useful Business Information
 Big Data Passur Aerospace
 Sears Holdings
-Distributed Systems
-Data Analytics
+Data Processing
 Modern Information Systems
 Digital Technologies
 Cloud Computing Analysis
@@ -34,11 +32,13 @@ Multiple Levels
 Big Data Analysis
 Open Research Issues
 Numerous Stages
-Data Management
-Data Mining
-Artificial Intelligence
-Data Storage
+Data Analytics
 Machine Learning
+Parallel Computing
+Data Mining
+Batch Processing
+Hadoop
+Data Visualization
 Future Research
 Large Size High Dimension
 Complex Structure
@@ -47,7 +47,6 @@ Fundamental Questions
 Financeincluding Corporate Finance Market Microstructure
 Asset Pricing
 Future Research Directions
-Deep Learning
 Cyber Physical Systems
 Huge Potential
 Resource Efficiency
@@ -91,6 +90,7 @@ Implementation Methods
 Data Mining Techniques
 Clinical Researchers
 Database Technology
+Deep Learning
 Popularity Academics
 Recent Literature
 Existing Research
@@ -145,25 +145,6 @@ Firm Performances
 Originalityvalue Bda
 Better Understanding Processing
 Huge Amounts
-Drug Candidates Modern Drug Discovery
-Artificial Intelligence Approaches
-Innovative Modeling
-Drug Data Sets
-Relevant Modeling Studies
-New Solutions
-Drug Candidates
-Big Data Modeling
-Deep Insights
-Chemical Structure
-Management Techniques
-Critical Support
-Recent Modeling Studies
-Future Rational Drug Development
-Drug Discovery Procedures
-Eventually Public Health
-Final Online Publication Date
-Psychology Volume
-Revised Estimates
 Educational Contexts
 New Datadriven Approaches
 Informed Decision Making
@@ -183,6 +164,25 @@ Data Privacy
 Data Sharing
 Research Training Researchers
 Educational Data Science Methodologies
+Drug Candidates Modern Drug Discovery
+Artificial Intelligence Approaches
+Innovative Modeling
+Drug Data Sets
+Relevant Modeling Studies
+New Solutions
+Drug Candidates
+Big Data Modeling
+Deep Insights
+Chemical Structure
+Management Techniques
+Critical Support
+Recent Modeling Studies
+Future Rational Drug Development
+Drug Discovery Procedures
+Eventually Public Health
+Final Online Publication Date
+Psychology Volume
+Revised Estimates
 Computer Clusters
 Big Data Processing
 Cluster Computing Data
@@ -297,6 +297,14 @@ Missing Data
 Expensive Data
 Crime Data
 Data Concerns
+Abstract Data Analytics
+Massive Manufacturing Data
+Huge Business Values
+Research Challenges
+Enormous Volume
+Realtime Velocity
+Manufacturing Data
+Manufacturing Internet
 Big Data Analytics Capability Bdac
 Supply Chain Agility Sca
 Competitive Advantage
@@ -306,14 +314,6 @@ Organizational Flexibility
 Bdac Sca
 Future Scholars
 Longitudinal Data
-Abstract Data Analytics
-Massive Manufacturing Data
-Huge Business Values
-Research Challenges
-Enormous Volume
-Realtime Velocity
-Manufacturing Data
-Manufacturing Internet
 Public Services
 Digital Governance
 Digital Governance Research
@@ -467,9 +467,9 @@ Wider Critical Reflection
 Research Practices
 Emerging Epistemological Positions
 Property Graph
-Graph Database
-Graph Pattern Matching
-Graph Similarity
+Graph Analytics
+Property Graph Query Languages
+Graph Partitioning
 Property Graph Databases
 Query Languages
 Sqlpgq Sublanguage
@@ -486,8 +486,6 @@ Technical Debt
 Efficient Vectorized Udfs
 Large Graph Data Sets
 Graph Embeddings
-Graph Analytics
-Graph Modeling
 Graph Processing Applications
 Interconnected Data
 Encode Multilabeled Nodes
@@ -498,12 +496,12 @@ Properties Discopg
 Schema Discovery
 Suitable Visualization Layouts
 Dedicated Dashboards
-Graph Querying
-Graph-Based Recommendation
+Graph Similarity
+Graph Representation Learning
 Interactive Processes
 Query Optimization Purposes
 Realworld Ones
-Graph Indexing
+Graph Neural Networks
 Vulnerability Detection
 Software Security
 Realworld Vulnerable Code
@@ -518,7 +516,6 @@ Explicit Structural Information
 Second Vulspg
 Vulnerability Patterns
 Experimental Results
-Graph Mining
 Static Code Analysis
 Runtime Security Assessment
 Cloud Services
@@ -533,17 +530,19 @@ Security Experts
 Multiple Vendors
 Publicly Accessible Storages
 Undesired Data Flows
-Property Graph Schema
-Property Graph Query Languages
+Graph Modeling
+Graph Mining
+Graph Storage
 Graphlike Data
 Special Features
 Database Interoperability
 Rdf Graphs
 Semantics Preservation
 Information Preservation
-Integrity Constraints
 Graph Visualization
-Graph Partitioning
+Integrity Constraints
+Graph-Based Recommendation
+Graph Pattern Matching
 Domainspecific Knowledge Graphs
 Multiple Sources Ontologies
 Knowledge Graphs
@@ -557,7 +556,6 @@ Highquality Schemas
 Magnitude Speedup
 Alternative Schema
 Graph Clustering
-Graph Algorithms
 Realworld Scenarios
 Profiling Tasks
 Data Profiling Tasks
@@ -572,7 +570,7 @@ Regular Path Queries
 Intrinsic Vertex Edge
 Path Types
 Intrinsic Type
-Graph Storage
+Graph Querying
 Security Breaches
 Direct Result
 Insecure Source Code
@@ -592,7 +590,8 @@ Deep Learning Cpgva Method
 Deep Learning Source Code Defect Analysis Method
 Femeasure Precision False Positive Rate True Positive Rate
 False Negative Rate
-Graph Neural Networks
+Property Graph Schema
+Graph Indexing
 Recent Events
 Globalscale Security Incidents
 Statesponsored Mass Surveillance Programs
@@ -604,6 +603,7 @@ Transiting Tcp Connections
 Attack Techniques
 Root Cause Vulnerabilities
 Services Providers
+Graph Algorithms
 Graph Data
 Multiple Graphs
 Different Pattern
@@ -707,18 +707,6 @@ Geometric Properties
 Different Levels
 Seven Reallife Molecular Datasets
 Stateoftheart Baselines
-Labeled Molecules
-Density Functional Theory Dft Calculation
-Semisupervised Representation
-Large Amounts
-Active Semisupervised Graph Neural Network
-General Representation
-Molecular Structure
-Molecular Distribution
-Property Prediction Task
-Molecular Diversities
-Informative Data
-Extensive Experiments
 Materials Property Prediction Mpp
 Materials Science
 Physicochemical Features
@@ -734,6 +722,7 @@ Global Attention Layers
 Neighboring Atoms
 Overall Contribution
 Considerably Better Prediction Performance
+Extensive Experiments
 Existing Stateoftheart Gnn Models
 Accurate Prediction
 New Compounds Design
@@ -784,7 +773,6 @@ Policy Gradient
 Domainspecific Rules
 Chemical Property Optimization
 Known Molecules
-Graph Representation Learning
 Deep Models
 Continuous Latent Variables
 Inaccurate Modeling
@@ -889,6 +877,7 @@ Redundant Property Values
 Inconsistent Data
 Update Overheads
 Aggregate Queries
+Graph Database
 Interpretable Subgraphs
 Graph Compression
 Graph Neural Networks Gnns
@@ -973,6 +962,7 @@ Signal Observations
 Insecure Code
 Computer Systems
 Significant Expertise
+Large Amounts
 Classic Program Analysis
 Program Dependence Graphs
 Common Vulnerabilities
@@ -1096,10 +1086,3 @@ Independent Interest
 Testable Graph Properties
 Previous Results
 Extremal Graphtheory
-Graphs Property Graphs
-Graph Data Management
-Existing Approaches
-Direct Mappings
-Earlier Graph Data Models
-Future Work
-Fundamental Properties

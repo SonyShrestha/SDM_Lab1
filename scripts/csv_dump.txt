@@ -1,6 +1,6 @@
 // Load Data
 // Delete everything 
-match(n) detach delete n; 
+MATCH(n) DETACH DELETE n; 
 
 
 // Create node year
