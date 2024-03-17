@@ -80,7 +80,9 @@ def preprocess_data():
     df['publicationDate'] = pd.to_datetime(df['publicationDate'], format='%Y-%m-%d')
 
     # Convert 'year' to string, concatenate with '01-01', and convert to datetime
-    default_date = pd.to_datetime(df['year'].astype(str) + '-01-01')    
+    default_year=2000
+    df['year'] = df['year'].fillna(default_year)
+    default_date = pd.to_datetime(df['year'].astype(int).astype(str) + '-01-01')  
     df['publicationDate'] = df['publicationDate'].fillna(default_date)
 
     # Extract Publication Venue and Publication Type

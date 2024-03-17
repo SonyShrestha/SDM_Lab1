@@ -3,12 +3,6 @@
 MATCH(n) DETACH DELETE n; 
 
 
-// Create node year
-LOAD CSV FROM 'file:///year.csv' AS  line FIELDTERMINATOR ','
-with line
-skip 1
-CREATE (y:year {year: toInteger(line[0])});
-
 // Create node author
 LOAD CSV FROM 'file:///authors.csv' AS  line FIELDTERMINATOR ','
 with line
@@ -42,6 +36,7 @@ LOAD CSV FROM 'file:///workshops.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
 CREATE (w:workshop{name: trim(line[0])});
+
 
 // Create node journal paper
 LOAD CSV FROM 'file:///journal_paper.csv' AS  line FIELDTERMINATOR ','
@@ -115,7 +110,6 @@ MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:WRITTEN_BY]->(a);
 
 
-
 // Create Relationshio has keywords
 // Create Relationship (Paper -> HAS_KEYWORD -> Author) [FOR JOURNAL PAPER]
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
@@ -131,7 +125,6 @@ WITH p, split(line[6],',') AS keywords
 UNWIND keywords AS kId
 MERGE (k:keyword {keyword: trim(kId)}) 
 MERGE (p)-[:HAS_KEYWORD]->(k);
-
 
 
 // Create Relationship (Paper -> HAS_KEYWORD -> Author) [FOR CONFERENCE PAPER]
@@ -150,7 +143,6 @@ MERGE (k:keyword {keyword: trim(kId)}) 
 MERGE (p)-[:HAS_KEYWORD]->(k);
 
 
-
 // Create Relationship (Paper -> HAS_KEYWORD -> Author) [FOR WORKSHOP PAPER]
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
@@ -165,7 +157,6 @@ WITH p, split(line[6],',') AS keywords
 UNWIND keywords AS kId
 MERGE (k:keyword {keyword: trim(kId)}) 
 MERGE (p)-[:HAS_KEYWORD]->(k);
-
 
 
 // Create relationship Paper -> PUBLISHED_IN -> Journal
@@ -185,7 +176,6 @@ SET pin.volume = journalVolume,
 pin.year = year;
 
 
-
 // Create relationship Paper -> PUBLISHED_IN -> Conference
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
@@ -202,7 +192,6 @@ MERGE (c:conference {name: conferenceName}) 
 MERGE (p)-[pin:PUBLISHED_IN]->(c)
 SET pin.edition = edition,
 pin.year = year;
-
 
 
 // Create relationship Paper -> PUBLISHED_IN -> Workshop
@@ -271,7 +260,6 @@ MERGE (p1:paper {paperId: trim(citedPaperId)}) 
 MERGE (p)-[:CITES]->(p1);
 
 
-
 // Create Relationship (Paper -> REVIEWED_BY -> Author) [FOR JOURNAL PAPER]
 LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
@@ -286,7 +274,6 @@ WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
-
 
 
 // Create Relationship (Paper -> REVIEWED_BY -> Author) [FOR CONFERENCE PAPER]
@@ -305,8 +292,6 @@ MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
 
 
-
-
 // Create Relationship (Paper -> REVIEWED_BY -> Author) [FOR WORKSHOP PAPER]
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
@@ -321,7 +306,6 @@ WITH p, split(line[13],',') AS authorIds
 UNWIND authorIds AS aId
 MERGE (a:author {authorId: trim(aId)}) 
 MERGE (p)-[:REVIEWED_BY]->(a);
-
 
 
 // Create relationship Paper -> CORRESPONDING_AUTHOR -> Author [JOURNAL]
