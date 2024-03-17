@@ -30,9 +30,9 @@ def extract_edition(year):
 # Assign reviwers
 def assign_reviewers(authors):
     df = pd.read_csv(output_folder+'/authors.csv')
-    potential_reviewers = df['authorId'].tolist()
+    potential_reviewers = df['authorId'].astype(str).tolist()
 
-    random_values = [value for value in potential_reviewers if value not in (str(authors).split(',') if isinstance(authors, float) else authors.split(','))]
+    random_values = [re.sub(r'\.0$', '', value) for value in potential_reviewers if value not in (str(authors).split(',') if isinstance(authors, float) else authors.split(','))]
 
     # Sample random values from the resulting list
     reviewers = random.sample(random_values, min(3, len(random_values)))

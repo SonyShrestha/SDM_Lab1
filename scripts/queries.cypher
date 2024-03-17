@@ -31,13 +31,14 @@ return journalName,year,numCitations,numPaperPublished_last2yrs,numCitations/num
 
 
 // Find the h-indexes of the authors in your graph
-MATCH (p:paper)-[:WRITTEN_BY]->(a:author) // MATCH (p:paper)-[:WRITTEN_BY]->(a:author{authorId:"144245703"})
-MATCH (citedByPaper:paper)-[:CITES]->(p)
-WITH a.authorId AS authorId, p.paperId AS paperId, count(distinct citedByPaper.paperId) AS citationCount
-ORDER BY authorId, paperId, citationCount DESC
-WITH authorId, collect(citationCount) AS citationCounts
-WITH authorId, citationCounts, [x IN range(0, size(citationCounts)-1) | x+1] AS idx
-WITH authorId, citationCounts, idx
-WITH authorId, citationCounts, idx, [i IN range(0, size(citationCounts)-1) | citationCounts[i] - idx[i]] AS differences
-WITH authorId, size([d IN differences WHERE d >= 0]) AS h_index
-RETURN authorId, h_index;
+MATCH (a:author)<-[:WRITTEN_BY]-(p:paper)
+OPTIONAL MATCH (p)<-[:CITES]-(citingPaper:paper)
+WITH a, p, COUNT(citingPaper) AS citations
+ORDER BY a.name, citations DESC
+WITH a, COLLECT(citations) AS citationCounts
+WITH a, citationCounts, RANGE(1, SIZE(citationCounts)) AS indices
+UNWIND indices AS idx
+WITH a.name AS authorName, idx AS h, citationCounts
+WHERE citationCounts[idx-1] >= idx
+RETURN authorName, MAX(h) AS hIndex
+ORDER BY hIndex DESC

@@ -6,6 +6,17 @@ WHERE pin2.year<pin1.year
 RETURN p.paperId,p1.paperId,pin1.year,pin2.year
 
 
+// Validation of top 3 cited paper of a conference 
+match (p1:paper)-[:CITES]->(p:paper)-[:PUBLISHED_IN]->(c:conference{name:"ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems"})
+return p.paperId, count(distinct p1.paperId) as citation_cnt
+order by citation_cnt desc
+
+
+// Validation of h-indexes
+match (p:paper)-[:WRITTEN_BY]->(a:author{authorId:"143824511"}),
+(p1:paper)-[:CITES]->(p)
+return p.paperId,count(distinct p1.paperId) as numOfCitations
+order by numOfCitations desc
 
 // Query to validate impact factor
 match (p:paper)-[:PUBLISHED_IN{year:2019}]->(j:journal{name:"Physical Chemistry, Chemical Physics - PCCP"})

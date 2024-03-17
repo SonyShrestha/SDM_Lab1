@@ -75,29 +75,34 @@ def extract_citation_id(df_row,date_paper_dict):
 def preprocess_data():
     logger.info('Combining CSV files generated using all field type')
     df = combine_csv_files(input_folder, output_folder+'/papers.csv')
+    
 
     # Convert 'date_column' to datetime format with a custom format
     df['publicationDate'] = pd.to_datetime(df['publicationDate'], format='%Y-%m-%d')
 
     # Convert 'year' to string, concatenate with '01-01', and convert to datetime
     default_year=2000
-    df['year'] = df['year'].fillna(default_year)
-    default_date = pd.to_datetime(df['year'].astype(int).astype(str) + '-01-01')  
+    df['year'] = df['year'].fillna(default_year).astype(int)
+    default_date = pd.to_datetime(df['year'].astype(str) + '-01-01')  
     df['publicationDate'] = df['publicationDate'].fillna(default_date)
 
     # Extract Publication Venue and Publication Type
     df['publicationVenue'] = df['publicationVenue'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
     df['publicationVenueType'] = df['publicationVenue'].apply(lambda x:x.get('type')  if isinstance(x, dict) else None)
-    df['jcwName'] = df['publicationVenue'].apply(lambda x:x.get('name')  if isinstance(x, dict) else None)
+    df['jcwName'] = df['publicationVenue'].apply(lambda x:x.get('name')  if isinstance(x, dict) else '')
+    df['jcwName'] = df.apply(lambda x:x['venue']  if x['jcwName']=='' else x['jcwName'], axis=1)
     
     # Extract author details
     df['authors'] = df['authors'].apply(ast.literal_eval)
     df['authors'] = df['authors'].apply(lambda x: x[:10] if isinstance(x, list) else [])
     df['authorId'] = df['authors'].apply(lambda x:  ','.join(str(author['authorId']) for author in x))
+    df['authorId'] = df['authorId'].fillna('0')
+    df = df[(df['authorId'] != '') & (df['authorId'] != 'None')]
     df['authorName'] = df['authors'].apply(lambda x: ','.join(str(author['name']) for author in x))
 
     logger.info('Generating synthetic data for corresponding author')
-    df['correspondingAuthorId'] = df['authorId'].str.split(',').str[0]
+    df['correspondingAuthorId'] = df['authorId'].str.split(',').str[0].astype(str).apply(lambda x: re.sub(r'\.0$', '', x))
+
 
     # Extract journal details
     df['journal'] = df['journal'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
