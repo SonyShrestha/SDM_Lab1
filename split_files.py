@@ -148,7 +148,7 @@ def get_keywords():
 
 
 def get_affiliated_org(data):
-    random_number = random.randint(1, 17)
+    random_number = random.randint(1, 50)
     uni_or_comp = "University " if random.randint(0, 1)==0 else "Company "
     affiliatedOrg = uni_or_comp+ str(random_number)
     return affiliatedOrg
