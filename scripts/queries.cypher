@@ -20,8 +20,10 @@ RETURN conferenceName, COLLECT(authorId) AS community;
 MATCH (j:journal)
 WITH j.name AS journalName, 2021 AS year
 OPTIONAL MATCH (last1_p:paper)-[last1:PUBLISHED_IN{year:year-1}]->(j:journal{name:journalName})
+WITH journalName,year,collect(last1_p.paperId) as paperId1
 OPTIONAL MATCH (last2_p:paper)-[last2:PUBLISHED_IN{year:year-2}]->(j:journal{name:journalName})
-with journalName, year, collect(last1_p.paperId)+ collect(last2_p.paperId) as paperIds,count(distinct last1_p.paperId) + count(distinct last2_p.paperId) as numPaperPublished_last2yrs
+WITH journalName, year,paperId1,collect(last2_p.paperId) as paperId2
+with journalName, year, paperId1+paperId2 as paperIds,size(paperId1)+size(paperId2) as numPaperPublished_last2yrs
 UNWIND paperIds AS paperId
 with journalName,year, paperId, numPaperPublished_last2yrs
 MATCH (p1:paper)-[:CITES]->(p2:paper{paperId:paperId})

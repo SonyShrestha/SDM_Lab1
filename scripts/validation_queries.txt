@@ -50,10 +50,8 @@ match (p:paper)-[:PUBLISHED_IN{year:2020}]->(j:journal{name:"IEEE Access"})
 return COLLECT(distinct p.paperId)
 // ["0456ed94f6c455f99cb67abe8a28aeb3ef9f489b", "b34fc78de28be598e21118d7cb9d84d63374addc", "96f20779771c81109f6b07ab8faff33b13c68d9b", "30acd43e62dbbdbe823bcc321ca1a1660ec7a622", "2d95c27d4ed8cfb8379164888cd79c6b239250b4"]
 
-match (p:paper)-[:PUBLISHED_IN{year:2019}]->(j:journal{name:"Physical Chemistry, Chemical Physics - PCCP"})
-return COLLECT(distinct p.paperId)
-// 9c96a700a7abff857df936783f9e12a1ab38eee5
 
 match (p:paper)-[:CITES]->(p1:paper{paperId:"9c96a700a7abff857df936783f9e12a1ab38eee5"})
 match (p)-[:PUBLISHED_IN{year:2021}]->(j:journal)
 return count(p.paperId)
+=4+9+12+7+12+7+12
