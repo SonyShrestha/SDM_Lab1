@@ -39,6 +39,7 @@ class Neo4jConnector:
     
     def execute_commands_from_file(self, file_path, timetrack):
         query_exec_time=[]
+        number_of_rows=[]
         with open(file_path, 'r', encoding='utf-8') as file:
             commands = file.read().split(';')  # Split commands by semicolon
             with self._driver.session() as session:
@@ -46,13 +47,14 @@ class Neo4jConnector:
                     if command.strip():  # Skip empty commands
                         if timetrack:
                             start_time = time.time()
-                            session.run(command)
+                            result=session.run(command)
+                            number_of_rows.append(len(result.data()))
                             end_time = time.time()
-                            execution_time = end_time - start_time
+                            execution_time = round(end_time - start_time,4)
                             query_exec_time.append(execution_time)
-                            print(query_exec_time)
                         else:
                             session.run(command)
+        return query_exec_time,number_of_rows
 
 
 if __name__ == "__main__":
