@@ -1,6 +1,6 @@
 // Find the top 3 most cited papers of each conference
 MATCH (p:paper)-[:PUBLISHED_IN]->(c:conference)
-MATCH (p1:paper)-[:CITES]->(p)
+OPTIONAL MATCH (p1:paper)-[:CITES]->(p)
 WITH c, p.paperId AS paperId, count(distinct p1.paperId) AS citationCount
 ORDER BY c.name ASC, citationCount DESC
 WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByConference
