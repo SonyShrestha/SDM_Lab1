@@ -6,7 +6,8 @@ import logging
 import time
 import configparser
 import get_paper_ids, get_paper_details, preprocess_data, split_files
-
+import os
+import shutil
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)  # Set log level to INFO
@@ -56,6 +57,27 @@ class Neo4jConnector:
                             session.run(command)
         return query_exec_time,number_of_rows
 
+def copy_files(source_dir, destination_dir):
+    # Ensure the source directory exists
+    if not os.path.exists(source_dir):
+        print(f"Source directory '{source_dir}' does not exist.")
+        return
+
+    # Ensure the destination directory exists
+    if not os.path.exists(destination_dir):
+        os.makedirs(destination_dir)
+
+    # Get list of files in source directory
+    files = os.listdir(source_dir)
+
+    # Copy each file to the destination directory
+    for file in files:
+        source_file = os.path.join(source_dir, file)
+        destination_file = os.path.join(destination_dir, file)
+        shutil.copy(source_file, destination_file)
+        print(f"Copied '{source_file}' to '{destination_file}'")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Implementation of graph database")
     
@@ -65,6 +87,7 @@ if __name__ == "__main__":
     password = config["NEO4J"]["password"]
     api_key = config["API"]["api_key"]
     iterations = config["SETTINGS"]["iterations"]
+    import_dir = config["NEO4J"]["import_dir"]
 
     # Add arguments
     parser.add_argument("--field", required=True, help="Comma separated fields to search for papers")
@@ -104,10 +127,13 @@ if __name__ == "__main__":
     split_files.get_workshop_papers()
     split_files.get_organizations()
 
-    connector = Neo4jConnector(uri, user, password)
-    connector.connect()
+    logger.info("--------------------- Copy files to NEO4J import directory ---------------------")
+    copy_files(os.getcwd() + "\\splitted_files", import_dir)
+
 
     logger.info("--------------------- Load data into NEO4J Graph ---------------------")
+    connector = Neo4jConnector(uri, user, password)
+    connector.connect()
     connector.execute_commands_from_file("scripts/load_data.cypher", False)
 
     connector.close()
