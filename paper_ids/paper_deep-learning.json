@@ -36,12 +36,12 @@
         "title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs."
     },
     {
-        "paperId": "4f8d648c52edf74e41b0996128aa536e13cc7e82",
-        "title": "Deep Learning"
-    },
-    {
         "paperId": "d997beefc0922d97202789d2ac307c55c2c52fba",
         "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
+    },
+    {
+        "paperId": "4f8d648c52edf74e41b0996128aa536e13cc7e82",
+        "title": "Deep Learning"
     },
     {
         "paperId": "54ddb00fa691728944fd8becea90a373d21597cf",
@@ -160,16 +160,16 @@
         "title": "Deep Learning for Person Re-Identification: A Survey and Outlook"
     },
     {
+        "paperId": "8388f1be26329fa45e5807e968a641ce170ea078",
+        "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"
+    },
+    {
         "paperId": "024006d4c2a89f7acacc6e4438d156525b60a98f",
         "title": "Continuous control with deep reinforcement learning"
     },
     {
         "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
         "title": "Deep Residual Learning for Image Recognition"
-    },
-    {
-        "paperId": "8388f1be26329fa45e5807e968a641ce170ea078",
-        "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"
     },
     {
         "paperId": "0c00a328fa7cd56ee60338c54e89bd48310db80b",
@@ -276,10 +276,6 @@
         "title": "Deep Learning-based Detection for COVID-19 from Chest CT using Weak Label"
     },
     {
-        "paperId": "68ff94fd4c6c93b2da78adcda53ff49ded9f8b2a",
-        "title": "ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing"
-    },
-    {
         "paperId": "1ed33896e82cc3810b349cdffc2039f0b8edd82e",
         "title": "Deep learning and its applications to machine health monitoring"
     },
@@ -316,16 +312,16 @@
         "title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions"
     },
     {
-        "paperId": "c3df199cbca74763c4ae9889409bbd4aa29b6255",
-        "title": "Deep learning-enabled medical computer vision"
+        "paperId": "7d873a9c49d3864709aa762f8740edcdbd7369c5",
+        "title": "Deep learning in histopathology: the path to the clinic"
     },
     {
         "paperId": "a0f303b6e22ef52943355993f57d65938997066a",
         "title": "Machine learning and deep learning"
     },
     {
-        "paperId": "7d873a9c49d3864709aa762f8740edcdbd7369c5",
-        "title": "Deep learning in histopathology: the path to the clinic"
+        "paperId": "c3df199cbca74763c4ae9889409bbd4aa29b6255",
+        "title": "Deep learning-enabled medical computer vision"
     },
     {
         "paperId": "b415adc22ac3133c82078c987303c422c56b3b5e",
@@ -340,12 +336,16 @@
         "title": "Deep Learning for Image Super-Resolution: A Survey"
     },
     {
+        "paperId": "3337e4b2e63e5e99171f9da9d161771f5810c27a",
+        "title": "A Review of Deep-Learning-Based Medical Image Segmentation Methods"
+    },
+    {
         "paperId": "29409efa04ac99ccf01d2a011d21d5d14e870000",
         "title": "Artificial intelligence to deep learning: machine intelligence approach for drug discovery"
     },
     {
-        "paperId": "3337e4b2e63e5e99171f9da9d161771f5810c27a",
-        "title": "A Review of Deep-Learning-Based Medical Image Segmentation Methods"
+        "paperId": "5c107f5aa33e3e5d3b3ea9dc17e04a51765b0983",
+        "title": "A review of medical image data augmentation techniques for deep learning applications"
     },
     {
         "paperId": "35adeef964fd344288febc7def2780007587724f",
@@ -398,405 +398,5 @@
     {
         "paperId": "f0c27af6c330d5c3b0a8eb376a69ce92c85badd7",
         "title": "A Comprehensive Survey on Community Detection with Deep Learning"
-    },
-    {
-        "paperId": "42ec3db12a2e4628885451b13035c2e975220a25",
-        "title": "A Convergence Theory for Deep Learning via Over-Parameterization"
-    },
-    {
-        "paperId": "009560d2710138a446e6e254d8ddcb65eaa0e687",
-        "title": "Tabular Data: Deep Learning is Not All You Need"
-    },
-    {
-        "paperId": "89cff2d83ee5ddf9d631bc53668eb8baf260f3af",
-        "title": "Ensemble deep learning: A review"
-    },
-    {
-        "paperId": "3af679c9c4f727dd4e6dc69dfde22a871e85da1e",
-        "title": "A survey on deep learning and its applications"
-    },
-    {
-        "paperId": "87d5b61f5b6fdb0a57fc66b5c5bb428c398eaa86",
-        "title": "Deep learning for AI"
-    },
-    {
-        "paperId": "d12fd94337ac804470dc78911e74b5b6480eef8e",
-        "title": "Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning"
-    },
-    {
-        "paperId": "78989616eeeac55b202e3e4205225e7135054185",
-        "title": "An Introduction to Deep Learning for the Physical Layer"
-    },
-    {
-        "paperId": "1f6c3f1def78919f06efe050e9403e85d5fa3ac9",
-        "title": "The Effectiveness of Data Augmentation in Image Classification using Deep Learning"
-    },
-    {
-        "paperId": "9eebd3c7971a239cf69a0358563f397bd8a8f99c",
-        "title": "Hands-On Bayesian Neural Networks\u2014A Tutorial for Deep Learning Users"
-    },
-    {
-        "paperId": "e3e08c64cfe155e1061e8ef235491efed35eb37f",
-        "title": "Deep Learning for Sensor-based Human Activity Recognition"
-    },
-    {
-        "paperId": "d81fc968196e06ccafd7ea4c008b13e1cad1be64",
-        "title": "An End-to-End Deep Learning Architecture for Graph Classification"
-    },
-    {
-        "paperId": "1342c1e1684620c019972e2679d5131f1e8a4a13",
-        "title": "Weight-averaged consistency targets improve semi-supervised deep learning results"
-    },
-    {
-        "paperId": "36aa6c01c9683783499395953c6bc856d6101feb",
-        "title": "A Simple Baseline for Bayesian Uncertainty in Deep Learning"
-    },
-    {
-        "paperId": "1f7eec4c76963a4ba7516ca00e6a2f855667b3f2",
-        "title": "Scalable and accurate deep learning with electronic health records"
-    },
-    {
-        "paperId": "6e13e111e85d499d781386b182fd855fbb053771",
-        "title": "Deep Learning Recommendation Model for Personalization and Recommendation Systems"
-    },
-    {
-        "paperId": "d05d86db86a4ac0d95e6dcd951b42a9651939793",
-        "title": "Deep Learning Approach for Intelligent Intrusion Detection System"
-    },
-    {
-        "paperId": "b514949ad8344071c0f342f182390d2d88bcc26d",
-        "title": "Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey"
-    },
-    {
-        "paperId": "cb4c2a2d7e50667914d1a648f1a9134056724780",
-        "title": "Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning"
-    },
-    {
-        "paperId": "6303bac53abd725c3b458190a6abe389a4a1e72d",
-        "title": "Deep High-Resolution Representation Learning for Human Pose Estimation"
-    },
-    {
-        "paperId": "7f002c2059f0714b5423f084913e54a50fe1ac58",
-        "title": "Deep learning for electroencephalogram (EEG) classification tasks: a review"
-    },
-    {
-        "paperId": "f0c5991dbb130fa6b5de011cf7a04f6ed815ef68",
-        "title": "Robust Physical-World Attacks on Deep Learning Visual Classification"
-    },
-    {
-        "paperId": "5b5535418882e9543a33819592c5bf371e68b2c3",
-        "title": "The Principles of Deep Learning Theory"
-    },
-    {
-        "paperId": "e6c71df73d6a77f6fd88a0c70454fff46a32702d",
-        "title": "Accelerating 3D deep learning with PyTorch3D"
-    },
-    {
-        "paperId": "24baabab0c593ebc9b0a0d28e46d1541ca9c8ba3",
-        "title": "Deep Reinforcement Learning"
-    },
-    {
-        "paperId": "656bd33ebf7acd8887d3598e1513e53e8fb69d41",
-        "title": "Deep learning-based electroencephalography analysis: a systematic review"
-    },
-    {
-        "paperId": "4cd03cd34e7e94d1b1ee293d5dead8efc24c1a6d",
-        "title": "Convergence of Edge Computing and Deep Learning: A Comprehensive Survey"
-    },
-    {
-        "paperId": "adc61e21eafecfbf6ebecc570f9f913659a2bfb2",
-        "title": "Deep Learning--based Text Classification"
-    },
-    {
-        "paperId": "441555b5cd09703e55c03e70bd2c9f82c0ffcf9b",
-        "title": "Deep High-Resolution Representation Learning for Visual Recognition"
-    },
-    {
-        "paperId": "5027a03ff0330ae12db99c30db9e1fe907af6faf",
-        "title": "Deep learning for multi-year ENSO forecasts"
-    },
-    {
-        "paperId": "2b91a2cbcd9cce902cbc8da78fec5f18f4bffc98",
-        "title": "Deep learning for sentiment analysis: A survey"
-    },
-    {
-        "paperId": "bc789aef715498e79a74f857fa090ece9e383bf1",
-        "title": "Large Batch Optimization for Deep Learning: Training BERT in 76 minutes"
-    },
-    {
-        "paperId": "40f56e1c57bdefb22a8b4a635ea40f7d37c72d27",
-        "title": "Deep Learning Techniques for Medical Image Segmentation: Achievements and Challenges"
-    },
-    {
-        "paperId": "b2d952fbd6951cbed68ea13003a045300970731a",
-        "title": "Clinically applicable deep learning for diagnosis and referral in retinal disease"
-    },
-    {
-        "paperId": "fd075bcdf2d7e13d23f7c249a8eded343d5bbe3b",
-        "title": "Deep Graph Library: Towards Efficient and Scalable Deep Learning on Graphs"
-    },
-    {
-        "paperId": "d214ecf9084fc705b4e906a804d9e971d2166842",
-        "title": "Deep Learning with Convolutional Neural Networks"
-    },
-    {
-        "paperId": "8df72c48a7ce4418c683c4dd9bb300558ac71d47",
-        "title": "Deep learning for healthcare: review, opportunities and challenges"
-    },
-    {
-        "paperId": "dd3f05b227c1b42d1d59410efb7b37776dd8aaf3",
-        "title": "The Deep Learning Framework"
-    },
-    {
-        "paperId": "0e1f153576c7f9f2628cdd34a1067c4d26bdc096",
-        "title": "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning"
-    },
-    {
-        "paperId": "8dd53f10ca5fa14faeed2bd2951d247f1ac60f40",
-        "title": "A State-of-the-Art Survey on Deep Learning Theory and Architectures"
-    },
-    {
-        "paperId": "2d8d74c7fd9375b17e9d6123773919b2aa512c56",
-        "title": "U-Net: deep learning for cell counting, detection, and morphometry"
-    },
-    {
-        "paperId": "09e48adf1a3f012ec56fbb4f92acae975ee43d87",
-        "title": "A Deep Learning Approach to Antibiotic Discovery"
-    },
-    {
-        "paperId": "f49f37c23158f8b698545e6f0a25877b39601ce8",
-        "title": "Review of Deep Learning Algorithms and Architectures"
-    },
-    {
-        "paperId": "02d49b4dbaf8c093034918a76648fea53961753d",
-        "title": "Time-series forecasting with deep learning: a survey"
-    },
-    {
-        "paperId": "728e0cdfdd5bb14b6eb74e7038ebcf5e975a4743",
-        "title": "Remote Sensing Image Scene Classification Meets Deep Learning: Challenges, Methods, Benchmarks, and Opportunities"
-    },
-    {
-        "paperId": "e5cd9e7bd60954a0523cc849ad6c92c0ede2d271",
-        "title": "Time Series Data Augmentation for Deep Learning: A Survey"
-    },
-    {
-        "paperId": "af6af40155860ac2fd36680e63686473803b5f52",
-        "title": "Explainable Deep Learning Models in Medical Image Analysis"
-    },
-    {
-        "paperId": "a0d18dddaa995b126ad373e33767b9b881d16b2f",
-        "title": "An Introductory Review of Deep Learning for Prediction Models With Big Data"
-    },
-    {
-        "paperId": "91cfd15b587c5ed604e7e49326db6d045276c2a5",
-        "title": "The Computational Limits of Deep Learning"
-    },
-    {
-        "paperId": "3f08231000088a88abca7bcc7be1075e425b8bc5",
-        "title": "On the use of deep learning for computational imaging"
-    },
-    {
-        "paperId": "0ff8b16931a5fb1141a866e04941f8e9409e00e1",
-        "title": "Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer"
-    },
-    {
-        "paperId": "2d8edc4e38bf9907170238726ec902cb3739393b",
-        "title": "Generalised Dice overlap as a deep learning loss function for highly unbalanced segmentations"
-    },
-    {
-        "paperId": "bd17620c6cb5ca97ef773499223d1509d123745f",
-        "title": "Dive into Deep Learning"
-    },
-    {
-        "paperId": "6b67e38e488cdb6a5af8ae44fdbb2c069c9cea0e",
-        "title": "Introduction to Machine Learning, Neural Networks, and Deep Learning"
-    },
-    {
-        "paperId": "f09f7888aa5aeaf88a2a44aea768d9a8747e97d2",
-        "title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
-    },
-    {
-        "paperId": "dbfb6d39a242d330fb082a503cbcee7ab7f57672",
-        "title": "DGM: A deep learning algorithm for solving partial differential equations"
-    },
-    {
-        "paperId": "516e2710083c20762711d3f5a6cbc1657f625ca0",
-        "title": "Deep learning for tomographic image reconstruction"
-    },
-    {
-        "paperId": "2941488b503121f9e8e5b09b7bdf28568b6e39e0",
-        "title": "Deep Learning\u2010Based Crack Damage Detection Using Convolutional Neural Networks"
-    },
-    {
-        "paperId": "7ab0f0da686cd4094fd96f5a30e0b6072525fd09",
-        "title": "Deep Learning in Medical Image Analysis."
-    },
-    {
-        "paperId": "59e0095a68dcd03192b39e29ab6a3dfc6fd0b7c3",
-        "title": "Deep learning for the design of photonic structures"
-    },
-    {
-        "paperId": "f1321f2df5bc686d3adfba8eae06a6c12cb88ef8",
-        "title": "Explainable Deep Learning: A Field Guide for the Uninitiated"
-    },
-    {
-        "paperId": "dfbeb3ca7a01fe80c49b76baa50bf092f71eef4a",
-        "title": "A Survey of Deep Learning-Based Object Detection"
-    },
-    {
-        "paperId": "4c7c70760029e813ef76ea5a578174d2d3ec1490",
-        "title": "A Survey on Deep Learning for Multimodal Data Fusion"
-    },
-    {
-        "paperId": "3f611458b84ca8756c863916b33d12c704687127",
-        "title": "Deep learning models for plant disease detection and diagnosis"
-    },
-    {
-        "paperId": "77cec64cdf0581ff4e7b70aa595a4d6e39b70ce4",
-        "title": "Keras: The Python Deep Learning library"
-    },
-    {
-        "paperId": "b77b1fc188f3834541efbb75add8f1ea80fd6225",
-        "title": "Segmentation-based deep-learning approach for surface-defect detection"
-    },
-    {
-        "paperId": "3b656bba99dbcf6c6d8fd764d53ea64cd38c7050",
-        "title": "Measuring Calibration in Deep Learning"
-    },
-    {
-        "paperId": "775247047d0b56950ba5ea77d4a29772eca95c1b",
-        "title": "Deep Learning for Anomaly Detection"
-    },
-    {
-        "paperId": "0ae5b99f09b7ebacc4aeaed7644aff90534a3aaa",
-        "title": "Deep Learning for Medical Image Analysis"
-    },
-    {
-        "paperId": "f95bfe6f2ad14f3b1eaeea5e1e7e411ca59a2ad5",
-        "title": "An Efficient Deep Learning Approach to Pneumonia Classification in Healthcare"
-    },
-    {
-        "paperId": "ec3071fb918ad69ec80df1ca9cf1fdeb386a9603",
-        "title": "TVM: An Automated End-to-End Optimizing Compiler for Deep Learning"
-    },
-    {
-        "paperId": "c5420ef59d7508d82e53671b0d623027eb58e6ed",
-        "title": "Learning to Reweight Examples for Robust Deep Learning"
-    },
-    {
-        "paperId": "3c623c08329e129e784a5d03f7606ec8feba3a28",
-        "title": "Uncertainty in Deep Learning"
-    },
-    {
-        "paperId": "e2c8726d092aea573e69f5b0a2654225883cfacf",
-        "title": "Horovod: fast and easy distributed deep learning in TensorFlow"
-    },
-    {
-        "paperId": "18056fcac6fc744b940a8d10ff36d42269006f3c",
-        "title": "Spectral\u2013Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework"
-    },
-    {
-        "paperId": "60df2f3598ea7d56ae24a649121907a6769eb444",
-        "title": "Deep learning enabled inverse design in nanophotonics"
-    },
-    {
-        "paperId": "03a507a0876c7e1a26608358b1a9dd39f1eb08e0",
-        "title": "Adversarial Examples: Attacks and Defenses for Deep Learning"
-    },
-    {
-        "paperId": "91bdaf3f1226e4065c4296d5c362906ceadfc631",
-        "title": "Deep Learning Face Representation by Joint Identification-Verification"
-    },
-    {
-        "paperId": "255e6239bcc51047d020d41ce0179c1270f3c22f",
-        "title": "Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning"
-    },
-    {
-        "paperId": "a595767fa35bcc84362f629fbc4d2d9b05d7342a",
-        "title": "A survey of deep learning techniques for autonomous driving"
-    },
-    {
-        "paperId": "4f71ab367eb37cfd145d41327f7bb14077e5e7c5",
-        "title": "Deep Learning for Hyperspectral Image Classification: An Overview"
-    },
-    {
-        "paperId": "4f71dc75896529d8653d8ef0ccc72bcce2c80e18",
-        "title": "Algorithm Unrolling: Interpretable, Efficient Deep Learning for Signal and Image Processing"
-    },
-    {
-        "paperId": "1e03bdf8b86d2969fff11277f9e3dcbfac132e28",
-        "title": "Deep learning in environmental remote sensing: Achievements and challenges"
-    },
-    {
-        "paperId": "e129e344083b307e005c5342ba49524d9981a420",
-        "title": "Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning"
-    },
-    {
-        "paperId": "fbf32abd431c70293f1ad1a9b85d4ecbe4e5d6ed",
-        "title": "Adversarial Attacks and Defenses in Deep Learning"
-    },
-    {
-        "paperId": "f2f8f7a2ec1b2ede48cbcd189b376ab9fa0735ef",
-        "title": "Privacy-preserving deep learning"
-    },
-    {
-        "paperId": "4c75b748911ddcd888c5122f7672f69caa5d661f",
-        "title": "Statistical Learning Theory"
-    },
-    {
-        "paperId": "441fbfdcc77187c9f9c41166b5fd42de04de1427",
-        "title": "Deep learning in remote sensing: a review"
-    },
-    {
-        "paperId": "4f2d4e821dd03ac5df7d5448948bc738aefdd6db",
-        "title": "Deep Learning With Edge Computing: A Review"
-    },
-    {
-        "paperId": "23bd347361b4392705835d419b6543b3e73a3a96",
-        "title": "A deep learning framework for neuroscience"
-    },
-    {
-        "paperId": "92e4ef5575f3f22f3f22526cd1fdfd2d0397d094",
-        "title": "Deep Learning vs. Traditional Computer Vision"
-    },
-    {
-        "paperId": "791ca7f9f3eb5c0914880711f109e7372fb05959",
-        "title": "Deep learning: new computational modelling techniques for genomics"
-    },
-    {
-        "paperId": "dc0c84b7c5e6521216da789f8171544709120cf0",
-        "title": "Opportunities and obstacles for deep learning in biology and medicine"
-    },
-    {
-        "paperId": "48cc41c7b2fac21d7bbd2988c5c6a2c5f9744852",
-        "title": "Deep learning for cellular image analysis"
-    },
-    {
-        "paperId": "f8a2e5ebf96f55035ebf215156c87a5a9b3be1c5",
-        "title": "On instabilities of deep learning in image reconstruction and the potential costs of AI"
-    },
-    {
-        "paperId": "8e15ce5a1d38d3d17287e9e191a5f47a50ec4771",
-        "title": "Deep Learning for Audio Signal Processing"
-    },
-    {
-        "paperId": "47141ea58f79039c6ab1a51c23dc9c660357ff71",
-        "title": "Deep Learning for Cardiac Image Segmentation: A Review"
-    },
-    {
-        "paperId": "236dfdeb4511754cf71ba220ac569b11973502cd",
-        "title": "Machine Learning and Deep Learning Methods for Intrusion Detection Systems: A Survey"
-    },
-    {
-        "paperId": "ca235ce0decdb4f80024a429a20ae4437ceae09e",
-        "title": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition"
-    },
-    {
-        "paperId": "1f93588bb075eed40ffdfae2f7907c946e5974d9",
-        "title": "Deep Learning in Alzheimer's Disease: Diagnostic Classification and Prognostic Prediction Using Neuroimaging Data"
-    },
-    {
-        "paperId": "07f229cc6e5b80fc8ffbbb3e4db85142466f55a9",
-        "title": "DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-Based Incentive"
     }
 ]

@@ -20,6 +20,10 @@
         "title": "The R Language: An Engine for Bioinformatics and Data Science"
     },
     {
+        "paperId": "8bb6a6802027c7f2489accb0559e6f02984535c9",
+        "title": "Smart Health Intelligent Healthcare Systems in the Metaverse, Artificial Intelligence, and Data Science Era"
+    },
+    {
         "paperId": "70fe060c12b3f100148d1a2be1e8f4254022543e",
         "title": "The case for data science in experimental chemistry: examples and recommendations"
     },
@@ -70,10 +74,6 @@
     {
         "paperId": "f9d403c58db99e2214f43e5b1740694b9c79002f",
         "title": "The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large"
-    },
-    {
-        "paperId": "3df3bacc84593e9efb86d2c4d3ce30463048159f",
-        "title": "Data Science"
     },
     {
         "paperId": "8bba999de25bfb288b3f7f88e1d907aab02638b6",
@@ -136,12 +136,12 @@
         "title": "Opening practice: supporting reproducibility and critical spatial data science"
     },
     {
-        "paperId": "398b154013db9d8025bf60f910bc156dedd9b40e",
-        "title": "How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
-    },
-    {
         "paperId": "8ece479b5dfed4727d2d9b9763f777bb9a94096e",
         "title": "Human-AI Collaboration in Data Science"
+    },
+    {
+        "paperId": "398b154013db9d8025bf60f910bc156dedd9b40e",
+        "title": "How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
     },
     {
         "paperId": "a11e157cb828b800426223f0a3d79e8fb122c8cc",
@@ -196,12 +196,12 @@
         "title": "Algorithmic Government: Automating Public Services and Supporting Civil Servants in using Data Science Technologies"
     },
     {
-        "paperId": "b017bf6879e57077b4b4e180a02747b89878d7a1",
-        "title": "A Fresh Look at Introductory Data Science"
-    },
-    {
         "paperId": "4b5505a54799d796ae94115409b01ee33a7e2b20",
         "title": "Glossary for public health surveillance in the age of data science"
+    },
+    {
+        "paperId": "b017bf6879e57077b4b4e180a02747b89878d7a1",
+        "title": "A Fresh Look at Introductory Data Science"
     },
     {
         "paperId": "28cc044d5ba938472bc53d87240583982ad21663",
@@ -212,12 +212,12 @@
         "title": "Passing the Data Baton: A Retrospective Analysis on Data Science Work and Workers"
     },
     {
-        "paperId": "38f0c0f2567e074c775017e0e8dd1a43b1f6fcdd",
-        "title": "Data Science in 2020: Computing, Curricula, and Challenges for the Next 10 Years"
-    },
-    {
         "paperId": "3746152e023e79b7d03cf12a560e473de2945d67",
         "title": "Interrogating Data Science"
+    },
+    {
+        "paperId": "38f0c0f2567e074c775017e0e8dd1a43b1f6fcdd",
+        "title": "Data Science in 2020: Computing, Curricula, and Challenges for the Next 10 Years"
     },
     {
         "paperId": "4271faaa82eb722d079222211c30ab642bc734be",
@@ -230,6 +230,10 @@
     {
         "paperId": "89f41c87c8849ce37e609c1010087291a4679a37",
         "title": "Outbreak analytics: a developing data science for informing the response to emerging pathogens"
+    },
+    {
+        "paperId": "edca4813d7da7507ff5a8a89e6c0481f8967ac84",
+        "title": "Data Science Challenges & Enhanced Data Science Methodology"
     },
     {
         "paperId": "9f2b2111cd65cc33c0c440f4f8e548b58d8dd851",
@@ -256,12 +260,12 @@
         "title": "Data science ethical considerations: a systematic literature review and proposed project framework"
     },
     {
-        "paperId": "5c8b7127ad0b5257f81ce1aa70b89faa97bbc211",
-        "title": "Data Science of the Natural Environment: A Research Roadmap"
-    },
-    {
         "paperId": "0c86e8d19d0fc62a5f829ea625ffd3e7fa9551b9",
         "title": "Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing"
+    },
+    {
+        "paperId": "5c8b7127ad0b5257f81ce1aa70b89faa97bbc211",
+        "title": "Data Science of the Natural Environment: A Research Roadmap"
     },
     {
         "paperId": "0e23ff1f915b6af32bf1a1107ee7e15ebe10efe8",
@@ -312,24 +316,24 @@
         "title": "Our data, our society, our health: A vision for inclusive and transparent health data science in the United Kingdom and beyond"
     },
     {
-        "paperId": "f9e0e85732f0736c0d5a6f0c63df5c7f1f245dcd",
-        "title": "From hype to reality: data science enabling personalized medicine"
-    },
-    {
         "paperId": "590ead4aeddbf8fea8414998b2dc3b74576a71cb",
         "title": "A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks"
     },
     {
-        "paperId": "bb6adeeb3a21479cc45490a5c2ff6d8dd5e77603",
-        "title": "Knowledge-based Biomedical Data Science 2019"
+        "paperId": "f9e0e85732f0736c0d5a6f0c63df5c7f1f245dcd",
+        "title": "From hype to reality: data science enabling personalized medicine"
+    },
+    {
+        "paperId": "bb44d1472bb281c699ef556f6eb6ccc66889f2d3",
+        "title": "Data Science and Machine Learning"
     },
     {
         "paperId": "8d446e7af03d7c7f9fe5828b2d9939e23a3ed7b0",
         "title": "A Data Science Framework for Movement"
     },
     {
-        "paperId": "bb44d1472bb281c699ef556f6eb6ccc66889f2d3",
-        "title": "Data Science and Machine Learning"
+        "paperId": "bb6adeeb3a21479cc45490a5c2ff6d8dd5e77603",
+        "title": "Knowledge-based Biomedical Data Science 2019"
     },
     {
         "paperId": "daec8baf1740a09725b375729d95caebc42f61c8",
@@ -340,32 +344,32 @@
         "title": "The Democratization of Data Science Education"
     },
     {
-        "paperId": "4f0218eb9ed62d5acc03f02bfa24b388a66067e8",
-        "title": "Distance geometry and data science"
+        "paperId": "46f1c45c62b7dbf77af405f5ddcf137b5e1ddde9",
+        "title": "Data science from a library and information science perspective"
     },
     {
         "paperId": "36708c11c2fde2efb50e75d81f174b2c205082c8",
         "title": "What is responsible and sustainable data science?"
     },
     {
-        "paperId": "46f1c45c62b7dbf77af405f5ddcf137b5e1ddde9",
-        "title": "Data science from a library and information science perspective"
-    },
-    {
         "paperId": "31de1d23b2f1f1c14ce7025489d2892aa10fb1ef",
         "title": "A review of data science in business and industry and a future view"
+    },
+    {
+        "paperId": "4f0218eb9ed62d5acc03f02bfa24b388a66067e8",
+        "title": "Distance geometry and data science"
     },
     {
         "paperId": "4aeda303fa0b9beae3f6d65e052dace9d4540116",
         "title": "Data Science Support at the Academic Library"
     },
     {
-        "paperId": "2f972d51b7c1ee4a422b9c458ac373ddd3b722ea",
-        "title": "Data Science in Healthcare: Benefits, Challenges and Opportunities"
-    },
-    {
         "paperId": "08468bac470e5c2cbbd2b66e8e7cf2ab65f38e02",
         "title": "Data Science for Local Government"
+    },
+    {
+        "paperId": "fb566f2001e44a65433fb7cc2eb7bcf6513a7db8",
+        "title": "The 9 Pitfalls of Data Science"
     },
     {
         "paperId": "e1c8f86668d3e37e430f187b7fd91d1643a0a0ff",
@@ -394,409 +398,5 @@
     {
         "paperId": "c0b1eedfa2031a69fbdf02a4abc8a741faf6a912",
         "title": "Introduction to Data Science"
-    },
-    {
-        "paperId": "577564ac25a12b37972d77a35b589f6b2270a45f",
-        "title": "Big Data and Data Science in Critical Care."
-    },
-    {
-        "paperId": "140a6476f7b8dde9e7bbcd199d248fc629721faa",
-        "title": "Trust in Data Science"
-    },
-    {
-        "paperId": "305600f3cba8a63bad1bedeab34a299bf748754b",
-        "title": "Northstar: An Interactive Data Science System"
-    },
-    {
-        "paperId": "6bf9d589f80823735084956f056728ae1a7bcfa8",
-        "title": "Situating Ecology as a Big-Data Science: Current Advances, Challenges, and Solutions"
-    },
-    {
-        "paperId": "f968cdd4637e7b26ca6c057a2f7f593b8cea2d18",
-        "title": "Fundamentals of Clinical Data Science"
-    },
-    {
-        "paperId": "a2d7efb8b174702111e713765cbf741dff2bf9b8",
-        "title": "Searching for Hidden Perovskite Materials for Photovoltaic Systems by Combining Data Science and First Principle Calculations"
-    },
-    {
-        "paperId": "ff6586ab32e9ed45d20a486ec7c5be02da5d3f1f",
-        "title": "Data Science: the impact of statistics"
-    },
-    {
-        "paperId": "2a85f034ae7a6119ae6b718c8f73a58dc1fbd7b4",
-        "title": "Curriculum Guidelines for Undergraduate Programs in Data Science"
-    },
-    {
-        "paperId": "2146edb37621d80f53c1261c8a53c94d3dda84c8",
-        "title": "Smart Blockchain Badges for Data Science Education"
-    },
-    {
-        "paperId": "0ec2d4c804dd2b4446e1808dc85b4fe4a27b1766",
-        "title": "Surgical data science for next-generation interventions"
-    },
-    {
-        "paperId": "79be83a308a9a75ef4e64f63a938b201531c0bbf",
-        "title": "Data Science"
-    },
-    {
-        "paperId": "c0225f99c9b1619c3be74b63241faffe02d275d7",
-        "title": "Science and data science"
-    },
-    {
-        "paperId": "e4c66275e46a66586365c851f0974a3c88baf3d7",
-        "title": "Network embedding in biomedical data science"
-    },
-    {
-        "paperId": "89535aa63bc5dac6f3beb60b813abb77aa4309d1",
-        "title": "Critique and Contribute: A Practice-Based Framework for Improving Critical Data Studies and Data Science"
-    },
-    {
-        "paperId": "5a44f70130875b212452ad777ab02a4eb5cd35d9",
-        "title": "A Position Statement on Population Data Science: The Science of Data about People"
-    },
-    {
-        "paperId": "3c51a892ce5a8fc78d57ea290c6e5144ee9db579",
-        "title": "Key Concepts for a Data Science Ethics Curriculum"
-    },
-    {
-        "paperId": "afe79672aa99b7f606cbff234ec2454cf2295554",
-        "title": "Big Data Science: Opportunities and Challenges to Address Minority Health and Health Disparities in the 21st Century."
-    },
-    {
-        "paperId": "b154d9ce0a551be90557d7a24a49b1988add2a81",
-        "title": "Three principles of data science: predictability, computability, and stability (PCS)"
-    },
-    {
-        "paperId": "cdd5d0a3e2ba0e1f4b5bcd3115e5f5b6536e24f9",
-        "title": "The Data Science Design Manual"
-    },
-    {
-        "paperId": "fde0b586e3bc9e5139a14493044bce9ff61706d4",
-        "title": "Inverse statistical problems: from the inverse Ising problem to data science"
-    },
-    {
-        "paperId": "a1dbdc2ce338d694a720163f591e4eb5c4070140",
-        "title": "Deep Learning in Biomedical Data Science"
-    },
-    {
-        "paperId": "f4e66bd035e195f539f1b65a5aaec0e873cdee29",
-        "title": "Data science in education: Big data and learning analytics"
-    },
-    {
-        "paperId": "b0fbdffb9733e7857afbb21ccbcd9cd74803ca1d",
-        "title": "Data Science and symbolic AI: Synergies, challenges and opportunities"
-    },
-    {
-        "paperId": "d2f83aa22def149095f1dd89b4cf36d09a748a87",
-        "title": "Data science is science's second chance to get causal inference right: A classification of data science tasks"
-    },
-    {
-        "paperId": "b34b9758b36c92c023c3c10f3a39aeb8f5c83927",
-        "title": "Exploring Project Management Methodologies Used Within Data Science Teams"
-    },
-    {
-        "paperId": "88761dffd173cd0e75e88c02d68f866f8cc43c14",
-        "title": "Knowledge-based biomedical Data Science"
-    },
-    {
-        "paperId": "94c52a7516ef8955f76c3ee1319ff4fd8bf071fd",
-        "title": "Computer Age Statistical Inference: Algorithms, Evidence, and Data Science"
-    },
-    {
-        "paperId": "798e5e09c20b0270701b194a3198427fec6a4fcd",
-        "title": "What makes Data Science different? A discussion involving Statistics2.0 and Computational Sciences"
-    },
-    {
-        "paperId": "dd1f93c3faae464d50d2e97c2bf4ac8d43681cb1",
-        "title": "Twinning data science with information science in schools of library and information science"
-    },
-    {
-        "paperId": "5de20ffb7852ae0665c382084c8a56918f23dc0b",
-        "title": "Drafting a Data Science Curriculum for Secondary Schools"
-    },
-    {
-        "paperId": "c9ed1ad1a3a08bf5ebebe8105805dd102546b8f3",
-        "title": "Process-Structure Linkages Using a Data Science Approach: Application to Simulated Additive Manufacturing Data"
-    },
-    {
-        "paperId": "e36022198f21f46d066007ee5cf901ea55080e21",
-        "title": "Introduction to Data Science: A Python Approach to Concepts, Techniques and Applications"
-    },
-    {
-        "paperId": "d01c02801212f823cdc11e329b3a1afa63f3a2d5",
-        "title": "Shifting to Data Savvy: The Future of Data Science In Libraries"
-    },
-    {
-        "paperId": "e420259fd53d15c2b6cb8906027d5a100ca356d7",
-        "title": "Data science for building energy management: A review"
-    },
-    {
-        "paperId": "1901a26945ecb5445a9d58b4c32a0dc6dbd12f1a",
-        "title": "STS, Meet Data Science, Once Again"
-    },
-    {
-        "paperId": "843793928e308b5414d2883ac869e813ec16f65d",
-        "title": "Progressive Data Science: Potential and Challenges"
-    },
-    {
-        "paperId": "04d7b3457dc78b2d2282e6af2c787308f75c9b26",
-        "title": "Care and the Practice of Data Science for Social Good"
-    },
-    {
-        "paperId": "17e5ebfa11b1d3bf194a8e94f6ca580ce22c9c0d",
-        "title": "Data science for finite strain mechanical science of ductile materials"
-    },
-    {
-        "paperId": "b4332aaabec46e386fff31d066f278fc27cfa1cb",
-        "title": "How data science can advance mental health research"
-    },
-    {
-        "paperId": "dcecbf916b9e2c61042f0dc992bdfd8ac1c99b8d",
-        "title": "Materials Knowledge Systems in Python\u2014a Data Science Framework for Accelerated Development of Hierarchical Materials"
-    },
-    {
-        "paperId": "1d045f4f347409f0635c9d15d538dbfabb6b38fa",
-        "title": "Environmental Data Science"
-    },
-    {
-        "paperId": "a0ef3467c09acc3106b915258b7b8db7bb663b77",
-        "title": "Data Science Methodology for Cybersecurity Projects"
-    },
-    {
-        "paperId": "818c9fd2df1229f962af3c50ef493e8633433fb9",
-        "title": "Data Science Thinking"
-    },
-    {
-        "paperId": "ea07f64ad84542e04acc41db6b171007f344efd7",
-        "title": "Milo: A visual programming environment for Data Science Education"
-    },
-    {
-        "paperId": "e78be911203960b3b2a417465d726734367f8e30",
-        "title": "Counter\u2010mapping data science"
-    },
-    {
-        "paperId": "010f65dd2fa979892a8229db825954871652fb8f",
-        "title": "Defining Data Science by a Data-Driven Quantification of the Community"
-    },
-    {
-        "paperId": "9b54c9a7d2060f800961c2f9195fcf5408288f17",
-        "title": "Data Science for Undergraduates"
-    },
-    {
-        "paperId": "00b1fa3c7170563567fb22a9bb6ff4c7b2e8853e",
-        "title": "Comparing Data Science Project Management Methodologies via a Controlled Experiment"
-    },
-    {
-        "paperId": "6e8d94181832771bc5dca8d288c52b6ad5914029",
-        "title": "Data Science as Machinic Neoplatonism"
-    },
-    {
-        "paperId": "972edbd8bd19486a37c0a9f34508634fc8733529",
-        "title": "Our path to better science in less time using open data science tools"
-    },
-    {
-        "paperId": "82feed9f0f8d077046b9b8be36e664483a66e33b",
-        "title": "Teaching Stats for Data Science"
-    },
-    {
-        "paperId": "8d89159249e0faf5deae508cc8533010898bbda5",
-        "title": "Data Science in Action"
-    },
-    {
-        "paperId": "a1dc9a3df54ac24712fc47ac5f0b116f1043b95e",
-        "title": "R \u2013 Data Science"
-    },
-    {
-        "paperId": "bfd6caddec8a98d531ee9f1f7ebf5833797cd5e3",
-        "title": "Introducing Data Science to School Kids"
-    },
-    {
-        "paperId": "61b3ce156347a7f107df75924a45f81f12a0ef14",
-        "title": "Surgical data science: the new knowledge domain"
-    },
-    {
-        "paperId": "796d70a6eb0428ae19f1187ae1c81185d4ae6701",
-        "title": "Automating Biomedical Data Science Through Tree-Based Pipeline Optimization"
-    },
-    {
-        "paperId": "843149b649b888fdb3649b8d4852263b62356799",
-        "title": "Democratizing data science through data science training"
-    },
-    {
-        "paperId": "b2114228411d367cfa6ca091008291f250a2c490",
-        "title": "Deep learning and process understanding for data-driven Earth system science"
-    },
-    {
-        "paperId": "589ebdd0d7b4a58f7fdfb07f116f62681bb9a915",
-        "title": "Hack weeks as a model for data science education and collaboration"
-    },
-    {
-        "paperId": "19bb52bec8b5ced3175f4c3ef1b8fb7027cc5ff1",
-        "title": "Applications of Python to evaluate environmental data science problems"
-    },
-    {
-        "paperId": "d83a99bfb6f81565a186e0eb86858864568c1327",
-        "title": "Data science"
-    },
-    {
-        "paperId": "021865bb9fcc59814d2ce84d086554e5e0259779",
-        "title": "Big Metadata, Smart Metadata, and Metadata Capital: Toward Greater Synergy Between Data Science and Metadata"
-    },
-    {
-        "paperId": "da63f30bd5b3a1b16c261f75ca1b1daddfc5b44d",
-        "title": "Big Data and Data Science Methods for Management Research"
-    },
-    {
-        "paperId": "f447afeccbdb9ed5df15c44011aec9c018d4b2c4",
-        "title": "Big Data and Data Science: Opportunities and Challenges of iSchools"
-    },
-    {
-        "paperId": "96f5a9360ccfd1c5c4210dc62948baac234c372d",
-        "title": "Predicting data science sociotechnical execution challenges by categorizing data science projects"
-    },
-    {
-        "paperId": "97a3726b3f9395c8919c6271540d87d1c44e10ac",
-        "title": "Deep feature synthesis: Towards automating data science endeavors"
-    },
-    {
-        "paperId": "3a8da09a87f06273c19fb61573b299388f8d1673",
-        "title": "Data science vs. statistics: two cultures?"
-    },
-    {
-        "paperId": "427a613d349d305726e1c4c7935b33c79de5850a",
-        "title": "Python Data Science Handbook: Essential Tools for Working with Data"
-    },
-    {
-        "paperId": "9141efc0d91ab0bda9b264ff6d1df5f20fd1dbb0",
-        "title": "Transdisciplinary Foundations of Geospatial Data Science"
-    },
-    {
-        "paperId": "12e17fa5dd5715c563aadf705427da84817f100f",
-        "title": "Data science: Data science tutorials"
-    },
-    {
-        "paperId": "bc0fff42a78b116e9338593a9149406715d7a531",
-        "title": "Data science"
-    },
-    {
-        "paperId": "4a6d46962d3f58d278cfb46d3ddebbb30bf275f5",
-        "title": "Geographic Data Science"
-    },
-    {
-        "paperId": "4676cf6b5e97bfcdb7654487ed76ebf2ef6a4035",
-        "title": "An Introduction to Data Science"
-    },
-    {
-        "paperId": "f6705e68c71bc0b51ddb8d1e4f986c894ba8f34f",
-        "title": "Data Science, Predictive Analytics, and Big Data in Supply Chain Management: Current State and Future Potential"
-    },
-    {
-        "paperId": "5b42e8ab6542fbbc11d84b07b34443a6853f96f1",
-        "title": "Responsible Data Science"
-    },
-    {
-        "paperId": "0a9b30386408595ff0b3155d4de4a56dad80a97b",
-        "title": "The ambiguity of data science team roles and the need for a data science workforce framework"
-    },
-    {
-        "paperId": "cd247b7830fb58c6f019a79ae9679251176e8342",
-        "title": "Game Theory for Data Science: Eliciting Truthful Information"
-    },
-    {
-        "paperId": "dd340315c44a9c68391d8d2f600a0adc76b70c09",
-        "title": "Fides: Towards a Platform for Responsible Data Science"
-    },
-    {
-        "paperId": "38fadf7c21c32b183fa3dcf32da1044e8441b813",
-        "title": "The Data Science Handbook"
-    },
-    {
-        "paperId": "ce0b7ee60920f9b37f88cab785cb8b4dc337e89f",
-        "title": "Educational data science in massive open online courses"
-    },
-    {
-        "paperId": "224eb3407b50533668b6c1caa55a720688b8b532",
-        "title": "A review and future direction of agile, business intelligence, analytics and data science"
-    },
-    {
-        "paperId": "f659b164af3eb474a82aed354fd83de0bc4a5860",
-        "title": "Data Science"
-    },
-    {
-        "paperId": "3af056b2aed8724dcddea074eb68aff6dd11c926",
-        "title": "Building the biomedical data science workforce"
-    },
-    {
-        "paperId": "aeede2d75d7cb3e10bc3b732a897ca1a7bfc12c5",
-        "title": "Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data"
-    },
-    {
-        "paperId": "31485e1213dd886fa2b668eefcd9b13533d8a9fe",
-        "title": "Big data and data science: what should we teach?"
-    },
-    {
-        "paperId": "e1a1ad4025e2c7a82882c7389d937cbdfd10b799",
-        "title": "Towards Data Science"
-    },
-    {
-        "paperId": "47134cbdfa7c44a55de5697a35b6652d0fcfee30",
-        "title": "Data Science in Libraries"
-    },
-    {
-        "paperId": "0ec1992151e28c5678832c0923e56aeb58caad53",
-        "title": "From Data Science to Value Creation"
-    },
-    {
-        "paperId": "3b963487cbf944d51f33c2a0b41eb2aed7c68b89",
-        "title": "Locating ethics in data science: responsibility and accountability in global and distributed knowledge production systems"
-    },
-    {
-        "paperId": "87a7e55b4c3116751edb4b0f74e0484eaf7a853d",
-        "title": "Editorial - Big Data, Data Science, and Analytics: The Opportunity and Challenge for IS Research"
-    },
-    {
-        "paperId": "ae118a88ada51dfdb2296cbaa948eb4a467942b6",
-        "title": "Computer Age Statistical Inference: Algorithms, Evidence, and Data Science"
-    },
-    {
-        "paperId": "b26c93eba9e1d99a5c99b07d2476714b386c4d54",
-        "title": "Agile big data analytics: AnalyticsOps for data science"
-    },
-    {
-        "paperId": "62806c60226d54ba1a4455bb1d7d2f034ef7c29a",
-        "title": "Introducing Data Science: Big Data, Machine Learning, and more, using Python tools"
-    },
-    {
-        "paperId": "52ff64f7f26b28447af255fedeb2216a70b48d66",
-        "title": "Large Scale Distributed Data Science using Apache Spark"
-    },
-    {
-        "paperId": "217905fe7b549d5f3d45896072518b06adb8dd98",
-        "title": "Data Science from Scratch: First Principles with Python"
-    },
-    {
-        "paperId": "7c614fe86cc11c0430dd12b44e018e16e5dcf742",
-        "title": "A Guide to Teaching Data Science"
-    },
-    {
-        "paperId": "4c05d4410c0023e14f2bb0cbcf7613468855430b",
-        "title": "A Data Science Course for Undergraduates: Thinking With Data"
-    },
-    {
-        "paperId": "c740a6816155fd123081d2f78926a0d3819926e7",
-        "title": "LibGuides: *Data Science: Data Science Resources"
-    },
-    {
-        "paperId": "37095b714dad5895d946b1f8435a3a38dee1be8b",
-        "title": "Data quality for data science, predictive analytics, and big data in supply chain management: An introduction to the problem and suggestions for research and applications"
-    },
-    {
-        "paperId": "0442b04b4e8741900b65de0721f0c3e152e044ef",
-        "title": "Materials Data Science: Current Status and Future Outlook"
-    },
-    {
-        "paperId": "c694c6a685a067393204f36e21c8917a49f02a9b",
-        "title": "Big data at work : the data science revolution and organizational psychology"
     }
 ]

@@ -40,12 +40,12 @@
         "title": "A Survey on Trajectory Data Management, Analytics, and Learning"
     },
     {
-        "paperId": "1ff76ab0fcf22110df62337d462e15d79a2a2593",
-        "title": "A Blockchain-Based Trusted Data Management Scheme in Edge Computing"
-    },
-    {
         "paperId": "e8b7a9be9f2d0578a95319ed5841978e10429967",
         "title": "Big data management in the mining industry"
+    },
+    {
+        "paperId": "1ff76ab0fcf22110df62337d462e15d79a2a2593",
+        "title": "A Blockchain-Based Trusted Data Management Scheme in Edge Computing"
     },
     {
         "paperId": "b795c74a0150ec091003ffbaa5bd7d74487c137b",
@@ -228,12 +228,12 @@
         "title": "LocationSpark: A Distributed In-Memory Data Management System for Big Spatial Data"
     },
     {
-        "paperId": "932b3e29addc099031efd26e2d075aca871b5315",
-        "title": "A comparison of research data management platforms: architecture, flexible metadata and interoperability"
-    },
-    {
         "paperId": "49149bd7c772b77937f459f56e5bf01c1ac4675f",
         "title": "The advantages of an Ontology-Based Data Management approach: openness, interoperability and data quality"
+    },
+    {
+        "paperId": "932b3e29addc099031efd26e2d075aca871b5315",
+        "title": "A comparison of research data management platforms: architecture, flexible metadata and interoperability"
     },
     {
         "paperId": "efb802f5cb3926f9bee6c41ea898dc7134297a0e",
@@ -252,12 +252,12 @@
         "title": "A survey of big data management: Taxonomy and state-of-the-art"
     },
     {
-        "paperId": "efc051a2ca5676c656bed9267d0b262a99aa9e38",
-        "title": "Crowdsourced Data Management: Industry and Academic Perspectives"
-    },
-    {
         "paperId": "1b117efcc4e13c8d87833e02c32fd5c4de751c67",
         "title": "A Cognitive Adopted Framework for IoT Big-Data Management and Knowledge Discovery Prospective"
+    },
+    {
+        "paperId": "efc051a2ca5676c656bed9267d0b262a99aa9e38",
+        "title": "Crowdsourced Data Management: Industry and Academic Perspectives"
     },
     {
         "paperId": "c49131dc223cdf72a63e02a996cec61b1f71e9dd",
@@ -364,6 +364,10 @@
         "title": "Linked Data Management"
     },
     {
+        "paperId": "1d6e9f7b381489a8041559505db1267a76fdde82",
+        "title": "LibGuides: Data Management: Data Management Plans"
+    },
+    {
         "paperId": "81989b39f66bd930a20768013a22460e9b0476af",
         "title": "Data management in cloud environments: NoSQL and NewSQL data stores"
     },
@@ -392,411 +396,7 @@
         "title": "Data Management for Internet of Things: Challenges, Approaches and Opportunities"
     },
     {
-        "paperId": "ec33c0899e837ac503e4d4147fb289b09e7131a6",
-        "title": "SSDM: Smart Stack Data Management for software managed multicores (SMMs)"
-    },
-    {
         "paperId": "2c3e0f967f7291d99b4ea010c30011c43f92769e",
         "title": "Knowledge as a Service Framework for Disaster Data Management"
-    },
-    {
-        "paperId": "106c10d0922263d0951392afb1696d1adcfd1f7b",
-        "title": "Big Data Management, Technologies, and Applications"
-    },
-    {
-        "paperId": "ab0a625d103711bdb798f615b86222052af29c3c",
-        "title": "Big Data Management: Concepts\uff0cTechniques and Challenges"
-    },
-    {
-        "paperId": "dacacd098244be5dda55d0c502691b040af84076",
-        "title": "LibGuides: Data Management: Data Management Plans"
-    },
-    {
-        "paperId": "5a806949f91ef825744f6a2e5ac56145cb93fee6",
-        "title": "Data management in thrombin generation."
-    },
-    {
-        "paperId": "2f52cbef51a6a8a2a74119ad821526f9e0b57b39",
-        "title": "SAP HANA database: data management for modern business applications"
-    },
-    {
-        "paperId": "b080d072cfde697180db3234da08903c092e72c3",
-        "title": "Big data analytics capabilities and knowledge management: impact on firm performance"
-    },
-    {
-        "paperId": "c7e2ef191a7b51f74db91437abfb18f06c831062",
-        "title": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data."
-    },
-    {
-        "paperId": "243d553f1fc5b7ee8cfb6f49629f3a0a32b2c5c5",
-        "title": "Big Data Analytics in Operations Management"
-    },
-    {
-        "paperId": "b5908258f894373da862ce970f9f44a485ce9bc1",
-        "title": "Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers"
-    },
-    {
-        "paperId": "6a7364f6ed2846ea2b705336a4c49dd287102a50",
-        "title": "Learning From Imbalanced Data"
-    },
-    {
-        "paperId": "475266810bb4aacd984b3863eb0ee4bd20e8dc55",
-        "title": "What next?: a half-dozen data management research goals for big data and the cloud"
-    },
-    {
-        "paperId": "056a42ea0f0d976a6e81add2503e9703a28f13f6",
-        "title": "Qualitative Research: Data Collection, Analysis, and Management."
-    },
-    {
-        "paperId": "bd0b411f06e2f44d553e66c2bb920eab0b7703a5",
-        "title": "The 1000 Genomes Project: data management and community access"
-    },
-    {
-        "paperId": "3e7bc65539dbfda620931c421e85fba74ec31079",
-        "title": "LORIS: a web-based data management system for multi-center studies"
-    },
-    {
-        "paperId": "acb6d250d15cf366964535caa53c343cf66cfc04",
-        "title": "What a Waste 2.0: A Global Snapshot of Solid Waste Management to 2050"
-    },
-    {
-        "paperId": "b49dbd2986daf73091d87f2f1092efee9e4813d4",
-        "title": "(Data Management)"
-    },
-    {
-        "paperId": "5c4878878d4d8da5d53188423237863c9b32ea49",
-        "title": "How the Use of Big Data Analytics Affects Value Creation in Supply Chain Management"
-    },
-    {
-        "paperId": "d43ea0dc58a17ff58a4e44a3d28555d8ce4cd69e",
-        "title": "Review of Data Management Lifecycle Models"
-    },
-    {
-        "paperId": "2c9afb597bd1de71affdef5b0ec3158a7b21291e",
-        "title": "Data management in clinical research: An overview"
-    },
-    {
-        "paperId": "f13fe25b56891d696341ed4720bca199d03c7cfb",
-        "title": "Data Management in the Cloud: Challenges and Opportunities"
-    },
-    {
-        "paperId": "ada2333220848e93ae4030954f73d878419923cb",
-        "title": "Primer on Data Management: What you always wanted to know"
-    },
-    {
-        "paperId": "76e0a28b5267414f3692e804d9e13b708700ea5d",
-        "title": "Teaching Research Data Management: An Undergraduate/Graduate Curriculum"
-    },
-    {
-        "paperId": "6751ceaedda331a2377eea7f76daf74b723c909e",
-        "title": "De-Mystifying the Data Management Requirements of Research Funders."
-    },
-    {
-        "paperId": "90d46d8642b6b39ffd3b3513b3a39220b22989a9",
-        "title": "The ATLAS Distributed Data Management project: Past and Future"
-    },
-    {
-        "paperId": "d81eeca2955715cc895fefafbc65e2a35318cba2",
-        "title": "Management Information Systems on Integrated Student and Lecturer Data"
-    },
-    {
-        "paperId": "088a52b5f77fc1bc8b50e949324880cfde369e9d",
-        "title": "On data lake architectures and metadata management"
-    },
-    {
-        "paperId": "dba87af8076051177c89546118b61895015c5287",
-        "title": "Massive sensor data management framework in Cloud manufacturing based on Hadoop"
-    },
-    {
-        "paperId": "ac98cf97dba4f8dd99651c8c3242ea3c52880155",
-        "title": "Inside \"Big Data management\": ogres, onions, or parfaits?"
-    },
-    {
-        "paperId": "213976a51735aaabc96eb53444b02f2c7ca04f4f",
-        "title": "Big Data and Management"
-    },
-    {
-        "paperId": "ac04aa5ae5aa33a3bc8838ee44741fb2945bc6e7",
-        "title": "Data management method, the data management program, the data management system and data management device"
-    },
-    {
-        "paperId": "63eb39a4481f3e037d6660b95856e6f6d10d7fed",
-        "title": "Data management program, the data management device and a data management method"
-    },
-    {
-        "paperId": "fbce657444d19c1bb39fa66163bc3ab2cb43ddce",
-        "title": "Policy Enforcement Framework for Cloud Data Management"
-    },
-    {
-        "paperId": "bdbec0c80b73919a656125bbd32f71f602980706",
-        "title": "Big data driven smart energy management: From big data to big insights"
-    },
-    {
-        "paperId": "6a46d93284c71b5e3374a40311cf53214946b257",
-        "title": "Topic Modeling in Management Research: Rendering New Theory from Textual Data"
-    },
-    {
-        "paperId": "a160a1eb5636a12461ba7b3518bac161f3378bd4",
-        "title": "Data Lake Management: Challenges and Opportunities"
-    },
-    {
-        "paperId": "9fa5e141b3ce85f2c460a29fb4afd9902fe68b83",
-        "title": "Using the framework method for the analysis of qualitative data in multi-disciplinary health research"
-    },
-    {
-        "paperId": "94d491cd58317271a067924892d293b3d5327e44",
-        "title": "BioMart: driving a paradigm change in biological data management"
-    },
-    {
-        "paperId": "7dfd49a28b3eff74e29fd11aeecd1e9802c5c95a",
-        "title": "A Survey of Large Scale Data Management Approaches in Cloud Environments"
-    },
-    {
-        "paperId": "69bae7231224d9a02cd3ce87c055f3fb9399766f",
-        "title": "Data Analytics for Operational Risk Management"
-    },
-    {
-        "paperId": "ae6030e99f6e64bc1d23b1ba93d8a0f1aa39e72c",
-        "title": "Data management device, data management method and data management program"
-    },
-    {
-        "paperId": "805884589d484b8daef8057ff56780f10fbc2409",
-        "title": "Data Stream Management: Processing High-Speed Data Streams (Data-Centric Systems and Applications)"
-    },
-    {
-        "paperId": "37095b714dad5895d946b1f8435a3a38dee1be8b",
-        "title": "Data quality for data science, predictive analytics, and big data in supply chain management: An introduction to the problem and suggestions for research and applications"
-    },
-    {
-        "paperId": "d9c2586e599816defa98d04056fcb8e490d1eba4",
-        "title": "STREAM: The Stanford Data Stream Management System"
-    },
-    {
-        "paperId": "f80bd91b18d35106046eb4bebcce6a9be8d43a3f",
-        "title": "Schema Mediation in Peer Data Management Systems"
-    },
-    {
-        "paperId": "256eb13b660dff2a8cdac37e8b92a9f465607c46",
-        "title": "Web data management"
-    },
-    {
-        "paperId": "57fffed10d4dd2692645c21754527ca97a257f13",
-        "title": "Graph Data Management: Techniques and Applications"
-    },
-    {
-        "paperId": "664406d2a7047b99da639ec49b13bfe31cf3fa60",
-        "title": "Ontology-based data management"
-    },
-    {
-        "paperId": "748e9588e439e6bb041d8b84b94c2d84d4d6fba4",
-        "title": "Assessing the Academic Library's Role in Campus-Wide Research Data Management: A First Step at the University of Houston"
-    },
-    {
-        "paperId": "e5316779ccc94a3b341cccdd33116d25b14985e3",
-        "title": "Standard requirements for GCP-compliant data management in multinational clinical trials"
-    },
-    {
-        "paperId": "d753029d4c125ae2a4a811cb6085d1f11b88125c",
-        "title": "Reverse data management"
-    },
-    {
-        "paperId": "b0fbadc36f1a454b507f9e04e737b904685bc15c",
-        "title": "Spatial Data Management"
-    },
-    {
-        "paperId": "b0e405c987d9a6af4b7ef45977f4626cde39964c",
-        "title": "Data management over flash memory"
-    },
-    {
-        "paperId": "c178754399c3a04a32d6151c2f0d7ddcf13d7d7a",
-        "title": "Computational solutions to large-scale data management and analysis"
-    },
-    {
-        "paperId": "185f703c41c4ba86f44f8fd2501901de61032d9f",
-        "title": "XMark: A Benchmark for XML Data Management"
-    },
-    {
-        "paperId": "c34f1b306d225bcf57bef83525da6e568f6381c1",
-        "title": "Statistical data preparation: management of missing values and outliers"
-    },
-    {
-        "paperId": "2055c468a3bc4ab348c8d239fce91edb7d27aae3",
-        "title": "China and India lead in greening of the world through land-use management"
-    },
-    {
-        "paperId": "9c1b9598f82f9ed7d75ef1a9e627496759aa2387",
-        "title": "Data Science, Predictive Analytics, and Big Data: A Revolution that Will Transform Supply Chain Design and Management"
-    },
-    {
-        "paperId": "5a765bef6d657595066d66c173ff228bd01a3627",
-        "title": "Big Data in Natural Disaster Management: A Review"
-    },
-    {
-        "paperId": "d42c83380d322bcf60571b5aadb81c93bc57788c",
-        "title": "In-memory data management: an inflection point for enterprise applications"
-    },
-    {
-        "paperId": "866b171e691124e5eaa490ea140f8e7144c66691",
-        "title": "Big data analytics in supply chain management: A state-of-the-art literature review"
-    },
-    {
-        "paperId": "f082f408b29e3f625ac0dea531baf98ad8468ac0",
-        "title": "The Potential of Knowing More: A Review of Data-Driven Urban Water Management."
-    },
-    {
-        "paperId": "5d5d591ddb815accc0d5eec83583a12bd58197c2",
-        "title": "Monitoring Streams - A New Class of Data Management Applications"
-    },
-    {
-        "paperId": "86f7f885243e09c7c770d5e11718109133acba54",
-        "title": "Data management apparatus, data management method, data management program"
-    },
-    {
-        "paperId": "5470ae464a0a3c30610c572b91880c58634076dd",
-        "title": "Broadcast disks: data management for asymmetric communication environments"
-    },
-    {
-        "paperId": "074896a318b651212c4a08099fc33b5a3c26a2f9",
-        "title": "Federated Data Management and Query Optimization for Linked Open Data"
-    },
-    {
-        "paperId": "ce7362e5b4254c3764ef0c830180ae293a39b52b",
-        "title": "Making the Case for Research Data Management"
-    },
-    {
-        "paperId": "1d1645c3bbfcd1e45677aabbeffe1f0df2397bf6",
-        "title": "A bibliometric analysis of research on Big Data analytics for business and management"
-    },
-    {
-        "paperId": "0457cfc8e028911386a6cc3f56237ae82e78ca6e",
-        "title": "Data Analytics in Operations Management: A Review"
-    },
-    {
-        "paperId": "dc2570ee8338bdb782cad19c265c970a29a2334d",
-        "title": "Data-Driven Techniques in Disaster Information Management"
-    },
-    {
-        "paperId": "ae3c5a309638b59f0a86f36a33d360581d65c4d1",
-        "title": "Big data and disaster management: a systematic review and agenda for future research"
-    },
-    {
-        "paperId": "50fbfe1ff7d72d89f19d4f8d6dcaffcbcc51bf30",
-        "title": "In-memory data management"
-    },
-    {
-        "paperId": "c2c2f48d3c03fbcacafa323092e47895cc6e16fc",
-        "title": "Data-driven operations management: organisational implications of the digital transformation in industrial practice"
-    },
-    {
-        "paperId": "1c45bfad2900f553364b9f877ca31e1ab3a310a1",
-        "title": "Big Data in product lifecycle management"
-    },
-    {
-        "paperId": "f9dfb80bf4078e3707e6e2bc311bb694f382f890",
-        "title": "Scalable Semantic Web Data Management Using Vertical Partitioning"
-    },
-    {
-        "paperId": "b12c1df79e37aea7f04c5aa935d72016e940bbd2",
-        "title": "Does Female Representation in Top Management Improve Firm Performance? A Panel Data Investigation"
-    },
-    {
-        "paperId": "43b8636869acb26a9c099d7c1ebabd487f37f70c",
-        "title": "Big Data Analysis-Based Secure Cluster Management for Optimized Control Plane in Software-Defined Networks"
-    },
-    {
-        "paperId": "364f93ad8e8d97c4a1db70e8327c1fb3e24f98e8",
-        "title": "Google fusion tables: web-centered data management and collaboration"
-    },
-    {
-        "paperId": "f6705e68c71bc0b51ddb8d1e4f986c894ba8f34f",
-        "title": "Data Science, Predictive Analytics, and Big Data in Supply Chain Management: Current State and Future Potential"
-    },
-    {
-        "paperId": "5129989fd380165e2ef46d3a175ff85a7fda0020",
-        "title": "LI\u2010RADS (Liver Imaging Reporting and Data System): Summary, discussion, and consensus of the LI\u2010RADS Management Working Group and future directions"
-    },
-    {
-        "paperId": "b3a18625f2845ae276b6b54a298606e9e41ee077",
-        "title": "Industrial Management & Data Systems"
-    },
-    {
-        "paperId": "cc017a62c605a0749e35a1264a46d62e78fb68b7",
-        "title": "Big Data Analytics"
-    },
-    {
-        "paperId": "da63f30bd5b3a1b16c261f75ca1b1daddfc5b44d",
-        "title": "Big Data and Data Science Methods for Management Research"
-    },
-    {
-        "paperId": "bf83e477fdb885d8b400c171049fbc852102470a",
-        "title": "Introduction of Transplant Registry Unified Management Program 2 (TRUMP2): scripts for TRUMP data analyses, part I (variables other than HLA-related data)"
-    },
-    {
-        "paperId": "3717842d7005e751510eaca1a62f65db9e94a1d7",
-        "title": "The NebulaStream Platform for Data and Application Management in the Internet of Things"
-    },
-    {
-        "paperId": "13268315bd19a32cc367fe4839f2239818c4639c",
-        "title": "Hexastore: sextuple indexing for semantic web data management"
-    },
-    {
-        "paperId": "8ac8e25e7a6fd15165f17eefbf219d1d965d5c10",
-        "title": "Google fusion tables: data management, integration and collaboration in the cloud"
-    },
-    {
-        "paperId": "90207785865935b96704ed49f62c382c02589110",
-        "title": "The Use of Online Panel Data in Management Research: A Review and Recommendations"
-    },
-    {
-        "paperId": "66065b431103fe599abe3b23df36a74548494352",
-        "title": "Benchmarking cloud-based data management systems"
-    },
-    {
-        "paperId": "1a78b73c468d1d5c5a4cdab8e4f58d8e3987363a",
-        "title": "Access Control in Data Management Systems"
-    },
-    {
-        "paperId": "7427a65127b95fefba1f1f60699e5d16f786f370",
-        "title": "Data Management for Multimedia Retrieval"
-    },
-    {
-        "paperId": "824ca251d71258bdac66af55966b8ce39cf3042f",
-        "title": "Data Management Challenges in Cloud Computing Infrastructures"
-    },
-    {
-        "paperId": "2c7ef37aba6b03a1aa02caf956d716b24f249058",
-        "title": "A scheme of data management in the Internet of Things"
-    },
-    {
-        "paperId": "e420259fd53d15c2b6cb8906027d5a100ca356d7",
-        "title": "Data science for building energy management: A review"
-    },
-    {
-        "paperId": "be7a9e7f4b533580a9456db4f16a2ec8a382443f",
-        "title": "From Active Data Management to Event-Based Systems and More"
-    },
-    {
-        "paperId": "789fce9dddd67bfdd99ccd644ae96cf720418797",
-        "title": "Aurora : a new model and architecture for data stream management )"
-    },
-    {
-        "paperId": "a3d1fb532bf4297ae9608bdc09ae5464ef58ee30",
-        "title": "Data Management in the Cloud: Limitations and Opportunities"
-    },
-    {
-        "paperId": "a3314ebd132b3af9e2b075ca31a269c6a2e79813",
-        "title": "Big data applications in operations/supply-chain management: A literature review"
-    },
-    {
-        "paperId": "ac7252f1ba8fc446c95934a5287843905a80fcf9",
-        "title": "Big data in operations and supply chain management: current trends and future perspectives"
-    },
-    {
-        "paperId": "3d946d68d45e51bf54f41c50b577b96731843384",
-        "title": "Ocean and coastal data management"
-    },
-    {
-        "paperId": "d4dafb2f797630d1ff45d7833e385a848380e449",
-        "title": "Big data technologies and Management: What conceptual modeling can do"
     }
 ]

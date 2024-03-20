@@ -243,7 +243,8 @@ def get_conference_papers():
 
     
     # Apply extract_edition function to 'journalName' column
-    conference_df["edition"] = conference_df['year'].apply(extract_edition)
+    conference_df["edition"] = df["edition"]
+    # conference_df["edition"] = conference_df['year'].apply(extract_edition)
 
     # Apply assign_reviewers function to each element of 'authorId' column
     conference_df["reviewers"] = conference_df["authorId"].apply(lambda row: assign_reviewers(row))
@@ -266,8 +267,9 @@ def get_workshop_papers():
     workshop_df.drop(columns=columns_to_drop, inplace=True)
 
     # Apply extract_edition function to 'journalName' column
-    workshop_df["edition"] = workshop_df['year'].apply(extract_edition)
-    
+    # workshop_df["edition"] = workshop_df['year'].apply(extract_edition)
+    workshop_df["edition"] = workshop_df["edition"] 
+
     # Apply assign_reviewers function to each element of 'authorId' column
     workshop_df["reviewers"] = workshop_df["authorId"].apply(lambda row: assign_reviewers(row))
 

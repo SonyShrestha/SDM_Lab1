@@ -7,6 +7,7 @@ import random
 import os
 import hashlib
 import logging
+import uuid
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)  # Set log level to INFO
@@ -44,12 +45,13 @@ def replace_blank_with_nan(value):
     return value
 
 
-def extract_edition(text):
-    match = re.search(r'\b(\d+)(?=th\b)', str(text))  # Ensure text is converted to string
+# Extract edition from conference name
+def extract_edition(year):
+    match = re.search(r'\b(\d+)(?=th\b)', str(year)) 
     if match:
         number = match.group(1)
         return number 
-    return   
+    return int(str(year)[-2:])  
 
 
 def determine_type(row):
@@ -72,7 +74,20 @@ def extract_citation_id(df_row,date_paper_dict):
             filtered_paper_ids.remove(df_row["paperId"])
     return random.sample(filtered_paper_ids,min(len(filtered_paper_ids), df_row['citationCount']))
     
-    
+def duplicate_rows(row):
+    dup_paper = row.copy()  # Make a copy of the original row
+    # Modify one column in the duplicated row, for example, double the value in column 'A'
+    dup_paper['paperId'] = str(uuid.uuid4())
+    try:
+        dup_paper['title'] = ast.literal_eval(row['references'])[0]['title']
+    except Exception as e:
+        dup_paper['title'] = "Big Data Technology "+ row['title'].strip("\"")
+        print(dup_paper['title'])
+    dup_paper['edition'] = int(row['edition'])-1 if int(row['edition'])>=1 else 21
+
+    return dup_paper
+
+
 def preprocess_data():
     logger.info('Combining CSV files generated using all field type')
     df = combine_csv_files(input_folder, output_folder+'/papers.csv')
@@ -128,7 +143,18 @@ def preprocess_data():
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
     df = df[df['type_indicator'] != 'Unknown']
-    df.to_csv(output_folder+'/papers.csv', index=False)
+
+    df['edition'] = df['year'].apply(extract_edition)
+
+    # Duplicate each row in the DataFrame and apply the function
+    duplicated_rows = df.apply(duplicate_rows, axis=1)
+
+    # Concatenate the original DataFrame and the duplicated rows
+    result_df = pd.concat([df, duplicated_rows], ignore_index=True)
+
+    
+
+    result_df.to_csv(output_folder+'/papers.csv', index=False)
     
 def main():
     preprocess_data()

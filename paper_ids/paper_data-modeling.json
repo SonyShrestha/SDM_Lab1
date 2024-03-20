@@ -8,10 +8,6 @@
         "title": "Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling"
     },
     {
-        "paperId": "c0bcd7dc9426a70af15f5ad63b4af92ea4dcbd4d",
-        "title": "Data Modeling"
-    },
-    {
         "paperId": "b04550f0722e9614163855ab36fc2430b931a3fe",
         "title": "Bridge condition rating data modeling using deep learning algorithm"
     },
@@ -33,6 +29,10 @@
     },
     {
         "paperId": "b6a7226e5f6d618370995eccad68af195ef32da2",
+        "title": "Data Modeling"
+    },
+    {
+        "paperId": "f1300d9be8254b028337d9757755ba906fe6955b",
         "title": "Data Modeling"
     },
     {
@@ -244,10 +244,6 @@
         "title": "Regression analysis of multivariate incomplete failure time data by modeling marginal distributions"
     },
     {
-        "paperId": "49259631c0c8c1595771fbaf510b31635aa62ce9",
-        "title": "Count Data Modeling and Classification Using Finite Mixtures of Distributions"
-    },
-    {
         "paperId": "89fe2ca0bc4ea3f53f5745de6a88e094b8734a2b",
         "title": "Multivariate data analysis : a global perspective"
     },
@@ -292,6 +288,10 @@
         "title": "Particle Swarm Optimization Aided Orthogonal Forward Regression for Unified Data Modeling"
     },
     {
+        "paperId": "e5df6bc6da5653ad98e754b08f63326c2e52b372",
+        "title": "Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)"
+    },
+    {
         "paperId": "1517e9695cb0bf98ad69ad7fcbff720dd4f79d7d",
         "title": "Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation"
     },
@@ -320,20 +320,8 @@
         "title": "Modeling wine preferences by data mining from physicochemical properties"
     },
     {
-        "paperId": "eede2add1d99fe2bdffe7a0e7aebd83d3ef1f239",
-        "title": "Coupling an Advanced Land Surface\u2013Hydrology Model with the Penn State\u2013NCAR MM5 Modeling System. Part I: Model Implementation and Sensitivity"
-    },
-    {
-        "paperId": "e5df6bc6da5653ad98e754b08f63326c2e52b372",
-        "title": "Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)"
-    },
-    {
         "paperId": "f413aa73cc076db9bf185ab75646105d7aade9a5",
         "title": "A Literature Overview of Fuzzy Conceptual Data Modeling"
-    },
-    {
-        "paperId": "4083958684292f6fa2f5c7fd4f9be975e80145b6",
-        "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow"
     },
     {
         "paperId": "912a2dc05a3e0f5fc778f4d0ed18286d005c1ab1",
@@ -384,8 +372,16 @@
         "title": "Robust Sequential Data Modeling Using an Outlier Tolerant Hidden Markov Model"
     },
     {
+        "paperId": "eab4b53cf7442f8d6955d5d1a6bb7fbc7670bfb4",
+        "title": "Inferring high-resolution human mixing patterns for disease modeling"
+    },
+    {
         "paperId": "391a5f286f814d852dddcab1b2b68e5c1af6c79e",
         "title": "Data mining with big data"
+    },
+    {
+        "paperId": "18bc1d4271abe8dd6e16179cdb06524a4f396e16",
+        "title": "Snorkel: Rapid Training Data Creation with Weak Supervision"
     },
     {
         "paperId": "859d2de4ccccf640b35bdceeea4fd4136a9b314b",
@@ -402,401 +398,5 @@
     {
         "paperId": "26f178dbb00630ce19cccb9840ea12dbe31801be",
         "title": "A Survey of Clustering Data Mining Techniques"
-    },
-    {
-        "paperId": "de367b0fd20915a5729d21ea99a8ca7aed8dfb9c",
-        "title": "Technical Report Series on Global Modeling and Data Assimilation"
-    },
-    {
-        "paperId": "53473a3ca9b871ac6bd8d9c7e064369b97e4b801",
-        "title": "WeatherBench: A Benchmark Data Set for Data\u2010Driven Weather Forecasting"
-    },
-    {
-        "paperId": "9ae9d2b060e50094be7e473e449f192403019225",
-        "title": "Multitask learning and benchmarking with clinical time series data"
-    },
-    {
-        "paperId": "306d4932b20a5ef616a2d6fec6fc60d2f37aa757",
-        "title": "Computer visualization of three-dimensional image data using IMOD."
-    },
-    {
-        "paperId": "855f6c0887f09700453f082f9ceec8fd89e89fee",
-        "title": "A comparison of bayesian methods for haplotype reconstruction from population genotype data."
-    },
-    {
-        "paperId": "af253825cda7f2ba26a6d09767326adc23be103c",
-        "title": "THE GLOBAL LAND DATA ASSIMILATION SYSTEM"
-    },
-    {
-        "paperId": "930281f635c92fe3dee041b3e1315e606c76850e",
-        "title": "Bayesian analysis of binary and polychotomous response data"
-    },
-    {
-        "paperId": "a072b1f6736fc566e189a73ac6e880edef5ee82a",
-        "title": "YANG - A data modeling language for NETCONF"
-    },
-    {
-        "paperId": "92eb167f30ad59f6949667021760eb41078cf85c",
-        "title": "Collaborative topic modeling for recommending scientific articles"
-    },
-    {
-        "paperId": "2dafdcc9587e92be3bef0a91d9caf11b14733767",
-        "title": "A Brief Guide to Structural Equation Modeling"
-    },
-    {
-        "paperId": "3cd7c48cace3216ccc7ff18554c26141f3bcfd29",
-        "title": "Comparison of Modeling Predictions with Experimental Data from Plastic Lithium Ion Cells"
-    },
-    {
-        "paperId": "f134d026032538968185abaeab7871984cf84c3f",
-        "title": "Qgraph: Network visualizations of relationships in psychometric data"
-    },
-    {
-        "paperId": "ef669fe46033d08d79ea4ffdd1dabdeff5409047",
-        "title": "Cognitive complexity in data modeling: causes and recommendations"
-    },
-    {
-        "paperId": "a43f2bff7284a6ffd390a25e7c71856b66142fd4",
-        "title": "Data Modeling Theory and Practice"
-    },
-    {
-        "paperId": "24fd6ec3e86264d4a5829b143039064d3d2b47f7",
-        "title": "Data Modeling Fundamentals: A Practical Guide for IT Professionals"
-    },
-    {
-        "paperId": "ebc0104421c311119c9f37f35f1dd5c1c0715347",
-        "title": "Data Modeling and Database Design"
-    },
-    {
-        "paperId": "457cb7db00b9a3abfef41f48f9d5243b7347b48f",
-        "title": "Statistics for Spatial Data."
-    },
-    {
-        "paperId": "ea7c65e2e60af7b72935a893316b665aac8d9b59",
-        "title": "Fuzzy XML data modeling with the UML and relational data models"
-    },
-    {
-        "paperId": "8e3d116c7404afd1e66a51e11472bcd3b1e62180",
-        "title": "Modeling and querying data in NoSQL databases"
-    },
-    {
-        "paperId": "51ef31bd8d8e8e877544a6601fb61e5f0cc88312",
-        "title": "Multidimensional Data Modeling for Business Process Analysis"
-    },
-    {
-        "paperId": "4cb11d927105dbf82d0ddd296854563f5d0ece31",
-        "title": "Surface Complexation Modeling: Hydrous Ferric Oxide"
-    },
-    {
-        "paperId": "39540133d25be501e2df047c6af4c59f4c77e568",
-        "title": "Nonparametric Statistical Data Modeling"
-    },
-    {
-        "paperId": "0fbb51bc09f88569500f63bcf3f538f74b7703ff",
-        "title": "Ordinal Data Modeling"
-    },
-    {
-        "paperId": "bc629c12f5801c1d345e58a2bf9e08fd807665b1",
-        "title": "Recursive PLS algorithms for adaptive data modeling"
-    },
-    {
-        "paperId": "4213b7efe76db35fad8cfd3fa97088b33ffe3b8b",
-        "title": "Triple-driven data modeling methodology in data warehousing: a case study"
-    },
-    {
-        "paperId": "bfcf1ed94050a4c60d459cd02456dfd9f08fdb4c",
-        "title": "Statistics for experimenters : an introduction to design, data analysis, and model building"
-    },
-    {
-        "paperId": "26878de9e7dadb09c27799cbea79e672db5303f3",
-        "title": "Conceptual Data Modeling Patterns: Representation and Validation"
-    },
-    {
-        "paperId": "ea5b3dc06ade2cf054ca6848845e337a358f0e3d",
-        "title": "Implications of Probabilistic Data Modeling for Mining Association Rules"
-    },
-    {
-        "paperId": "e1c8f86668d3e37e430f187b7fd91d1643a0a0ff",
-        "title": "Theory-Guided Data Science: A New Paradigm for Scientific Discovery from Data"
-    },
-    {
-        "paperId": "4e9b0e4ab968fca8427a48565cbde945a63c65c7",
-        "title": "Regression With Social Data: Modeling Continuous and Limited Response Variables"
-    },
-    {
-        "paperId": "a0af28958edf2bc84285152bc0bed734dfc250a9",
-        "title": "On Using Conceptual Data Modeling for Ontology Engineering"
-    },
-    {
-        "paperId": "fc033b08a05eaa4cd67b12fe8272e78a5348219a",
-        "title": "Quantile Probability and Statistical Data Modeling"
-    },
-    {
-        "paperId": "154883c2cdd5923c0a14bbcd276f687608afafb6",
-        "title": "Extending ER/EER concepts towards fuzzy conceptual data modeling"
-    },
-    {
-        "paperId": "d7b065d01be9960f7c2acea30e4da86b58108bc7",
-        "title": "Terrain analysis and data modeling for alpine glacier mapping"
-    },
-    {
-        "paperId": "136f90246b2a2cf6b7b5c9483dc100ed2710c394",
-        "title": "Semantic Data Modeling Using XML Schemas"
-    },
-    {
-        "paperId": "cc56b73e8904ba0d2115e0f54179e70f1a0bafb3",
-        "title": "PROBE Spatial Data Modeling and Query Processing in an Image Database Application"
-    },
-    {
-        "paperId": "736d68d62ec669059ec974754c4abdb920f62d16",
-        "title": "Evolution of data modeling for databases"
-    },
-    {
-        "paperId": "0a220aa5efc8ee4f7e3892410f0e3eaaca364570",
-        "title": "Data Modeling in UML and ORM: A Comparison"
-    },
-    {
-        "paperId": "fec45be1ad8a309f1ec4ee132a4e767c2ceafd6e",
-        "title": "Sampled-data modeling of switching regulators"
-    },
-    {
-        "paperId": "cdcd41ad91e8bde2d30f52261e189e026aca697a",
-        "title": "Exploring Children's Data Modeling"
-    },
-    {
-        "paperId": "404c188af93b7a8e9f45cc327a8e7a4fa2d95f3a",
-        "title": "Data modeling of time-based media"
-    },
-    {
-        "paperId": "06be49ab8cf8b0a1bdfdf88a454628e0c8c00384",
-        "title": "Data Modeling Essentials"
-    },
-    {
-        "paperId": "2fdc249f2a1a4acde161f902b41da6c2159a2687",
-        "title": "The Data Modeling Handbook: A Best-Practice Approach to Building Quality Data Models"
-    },
-    {
-        "paperId": "1e9b42d43071bb9b546fe6975a196709d6e77870",
-        "title": "Modeling as constrained problem solving: an empirical study of the data modeling process"
-    },
-    {
-        "paperId": "e5f21dac58da39c443163cd2e7d0fc8cc3fa8bc9",
-        "title": "Conceptual Data Modeling for Spatiotemporal Applications"
-    },
-    {
-        "paperId": "33455ef77ccd5f9c9f6c641e7c5fdcc98f8b2689",
-        "title": "Database Design for Smarties: Using UML for Data Modeling"
-    },
-    {
-        "paperId": "043ed60b3b7b4ee702a8d07a1a15435360e20f36",
-        "title": "Human Factors Research on Data Modeling: A Review of Prior Research, An Extended Framework and Future Research Directions"
-    },
-    {
-        "paperId": "6a8d5855fb89ecbd32bf0b6966154da9ba4f03b1",
-        "title": "Effects of Local Versus Global Schema Diagrams on Verification and Communication in Conceptual Data Modeling"
-    },
-    {
-        "paperId": "1194b0a45f08e64552de0aaca5f84dbc9c8aac26",
-        "title": "Comparing data modeling formalisms"
-    },
-    {
-        "paperId": "e1250f065481a758b980a8f42d50a07d696ea5ba",
-        "title": "Hierarchical Data Modeling in the Social Sciences"
-    },
-    {
-        "paperId": "f1630b27117f3edb660b2a770f71e8625770cab4",
-        "title": "Shared data modeling with UML-G"
-    },
-    {
-        "paperId": "2cfe7ffafa93f02e0b413a43fdc0595b34157de4",
-        "title": "Acquiring conceptual data modeling skills: the effect of cooperative learning and self-efficacy on learning outcomes"
-    },
-    {
-        "paperId": "7ac26c26111c88cb36812ecdca56d0284cc498ff",
-        "title": "Requirements and research issues in geographic data modeling"
-    },
-    {
-        "paperId": "ba81f78064b8a76e2f6f7b2c1408f89abec93b8e",
-        "title": "Data Modeling for Mobile Services in the Real World"
-    },
-    {
-        "paperId": "32c9b630a77080f8bcdfe6179dbad317d3ec523e",
-        "title": "Primitive\u2010Composite Approach for Structural Data Modeling"
-    },
-    {
-        "paperId": "2e57fbe674a6e0a2733fe4ac0f525c94490940d6",
-        "title": "Extending data modeling to cover the whole enterprise"
-    },
-    {
-        "paperId": "2cc26cda323468e1808ec1a7622a90476005c1ea",
-        "title": "Aspects of Data Modeling and Query Processing for Complex Multidimensional Data"
-    },
-    {
-        "paperId": "c038bd56e9076d5b61d304d7739d5520f7501555",
-        "title": "A Data Modeling Methodology for the Design and Implementation of Information Systems"
-    },
-    {
-        "paperId": "12d5524849179b26a9ac1d582176ee3c47daca07",
-        "title": "Data modeling essentials - analysis, design, and innovation"
-    },
-    {
-        "paperId": "f236c9efb1dd7797f2b754eb1a13356056cc5c5e",
-        "title": "From semantic to object-oriented data modeling"
-    },
-    {
-        "paperId": "991b9df27b9ba16f50a244147ffba66cedc02dd7",
-        "title": "A Category Theory Approach to Conceptual Data Modeling"
-    },
-    {
-        "paperId": "1809b6dead64d9865a6b7f6fa5879f9d48478201",
-        "title": "Model Formulation: Generic Data Modeling for Clinical Rrepositories"
-    },
-    {
-        "paperId": "099d4e65a10c629762482a23932ca208acdead33",
-        "title": "Traditional, semantic, and hypersemantic approaches to data modeling"
-    },
-    {
-        "paperId": "1733dfa59ef3960cd2ee7e771d1d738d713a2397",
-        "title": "Integrating non-functional requirements into data modeling"
-    },
-    {
-        "paperId": "2b801d06ac4a864211ee7d9165f19c3ce5a44e92",
-        "title": "Object type oriented data modeling for VLSI data management"
-    },
-    {
-        "paperId": "2257102c5bab4890fda9e62e6bf75f614f6a55d7",
-        "title": "A Comparative Study of Conceptual Data Modeling Techniques"
-    },
-    {
-        "paperId": "776882f64bb8550bdf38ba6383ac7e4d696936f0",
-        "title": "Aerodynamic data modeling using support vector machines"
-    },
-    {
-        "paperId": "bcc2e73247cedc3008229b8f0ab21d5e69a62242",
-        "title": "Data modeling"
-    },
-    {
-        "paperId": "a63c4f701c1f330238f5eeeb078a0c576b2cd3ef",
-        "title": "Data Modeling Essentials 2nd Edition: A Comprehensive Guide to Data Analysis, Design, and Innovation"
-    },
-    {
-        "paperId": "52fd611155606ee75829084432083d8c7e9e5035",
-        "title": "Data modeling for radar applications"
-    },
-    {
-        "paperId": "d581594550e6bcf43558f5f9d068ea7dfb578943",
-        "title": "Semantic data modeling of spatiotemporal database applications"
-    },
-    {
-        "paperId": "1f0521b710ab56173658c65cfcf8428ae0a343d6",
-        "title": "Formal Foundations for Object-Oriented Data Modeling"
-    },
-    {
-        "paperId": "4201649cab7892a11260c6ea4d2fdd0e051dbf77",
-        "title": "Mixing prototyping and data modeling for information-system design"
-    },
-    {
-        "paperId": "526e35e0f35ce39624d3db9546fd7e32985efef6",
-        "title": "Research issues in data modeling for scientific visualization"
-    },
-    {
-        "paperId": "039daf59bd82030fc7c74c09d10dd305e0b530ff",
-        "title": "Data modeling of network dynamics"
-    },
-    {
-        "paperId": "49a6d17c9e76e027edf65d429b3abd0cf9636969",
-        "title": "Organizational concepts and measures for the evaluation of data modeling"
-    },
-    {
-        "paperId": "a33b7a2e6205f1baf213966fe21895c268df5f3e",
-        "title": "Applications of a categorical framework for conceptual data modeling"
-    },
-    {
-        "paperId": "16505ec9e634dbf34f22784ed2920ed4d438ef52",
-        "title": "Conceptual data modeling of expert systems"
-    },
-    {
-        "paperId": "0f613dc86d4f8a1fb7bf7a779e7d4202b70376dc",
-        "title": "DATA MODELING FOR FAULT DETECTION"
-    },
-    {
-        "paperId": "eec0d05c09ffea8cadb884a3764e48238b194102",
-        "title": "Mastering data modeling"
-    },
-    {
-        "paperId": "c7ec2d4aefd155eb65dfd863c31191e1a18d1f3c",
-        "title": "Conceptual Data Modeling from a Categorical Perspective"
-    },
-    {
-        "paperId": "25e52112e697a620ebbbd05476ef15a7f6410d21",
-        "title": "Geographical data modeling"
-    },
-    {
-        "paperId": "55e398a0f9d2a02ca18cc3f84f85ac17b2456ede",
-        "title": "Time series of count data: modeling, estimation and diagnostics"
-    },
-    {
-        "paperId": "cb434ee0eb3c4b7c3d16fc8a1c323ed8392e2ddd",
-        "title": "Multidimensional data modeling for complex data"
-    },
-    {
-        "paperId": "e28e3cd528049b3a218a506eac110d7ceed51e86",
-        "title": "Designing Geodatabases: Case Studies in GIS Data Modeling"
-    },
-    {
-        "paperId": "adc0a72c9505a5af1f89740316a93c41b2b4978f",
-        "title": "OWA operators in data modeling and reidentification"
-    },
-    {
-        "paperId": "3874df7f81cb931f36be15852e1bc431c9ef2692",
-        "title": "An Ontology of Data Modeling Languages: A Study Using a Common-Sense Realistic Ontology"
-    },
-    {
-        "paperId": "b2ae9335a51f4cdf4f47541ff6c32e5f053b1d4a",
-        "title": "MAC: Conceptual data modeling for OLAP"
-    },
-    {
-        "paperId": "69483e5882733466e0b9349933b9f45c1fe98523",
-        "title": "Semantic data modeling of hypermedia associations"
-    },
-    {
-        "paperId": "8efc16f272091ddfc421361f2fec4c3dee7b69a9",
-        "title": "A General Approach to Sampled-Data Modeling for Power Electronic Circuits"
-    },
-    {
-        "paperId": "7c0cbdba688d16822f1ac4d67cdb57d7928a7fb7",
-        "title": "A general approach to sampled-data modeling for power electronic circuits"
-    },
-    {
-        "paperId": "e567683dd6c1d226a8a34d1915fe74e04a3a585b",
-        "title": "Scattered data modeling"
-    },
-    {
-        "paperId": "ec9196b9edd46c5c59124ca776ca71538655fbc6",
-        "title": "Empirical Data Modeling in Software Engineering Using Radical Basis Functions"
-    },
-    {
-        "paperId": "002e1eb84184efe79981b2c08936c80312f0571a",
-        "title": "Multidimensional data modeling for location-based services"
-    },
-    {
-        "paperId": "3afa2359c193f644a7e9dcb698dfbdd5d123859f",
-        "title": "Sampled-data modeling and digital control of resonant converters"
-    },
-    {
-        "paperId": "bea542a2bfd13956f3ff878c887e163f928dd2b3",
-        "title": "Wide area traffic: the failure of Poisson modeling"
-    },
-    {
-        "paperId": "509174dd92404bdcd7fb8003fac196602dc45e40",
-        "title": "A data modeling approach for office information systems"
-    },
-    {
-        "paperId": "21ce67b14993ae5a16bbdc71bfcc47996cef25e7",
-        "title": "Hypermedia Data Modeling, Coding, And Semiotics"
-    },
-    {
-        "paperId": "154ff098d2ab879297f76a6b8cac08979b258933",
-        "title": "Predictive Modeling With Big Data: Is Bigger Really Better?"
     }
 ]
