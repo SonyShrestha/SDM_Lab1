@@ -78,6 +78,28 @@ def copy_files(source_dir, destination_dir):
         print(f"Copied '{source_file}' to '{destination_file}'")
 
 
+def clear_directory(directory):
+    # Check if the directory exists
+    if not os.path.exists(directory):
+        print(f"Directory '{directory}' does not exist.")
+        return
+    
+    # Iterate over the contents of the directory
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        try:
+            if os.path.isfile(file_path):
+                # Remove file
+                os.unlink(file_path)
+                print(f"Removed file: {file_path}")
+            elif os.path.isdir(file_path):
+                # Remove directory and its contents recursively
+                shutil.rmtree(file_path)
+                print(f"Removed directory and its contents: {file_path}")
+        except Exception as e:
+            print(f"Error removing {file_path}: {e}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Implementation of graph database")
     
@@ -94,6 +116,12 @@ if __name__ == "__main__":
     # Parse arguments
     args = parser.parse_args()
     fields = args.field.split(',')
+
+    logger.info("--------------------- CLEARING DIRECTORIES ---------------------")
+    clear_directory('paper_ids')
+    clear_directory('paper_idetails')
+    clear_directory('preprocessed')
+    clear_directory('splitted_files')
 
     logger.info("--------------------- FETCHING PAPER IDS ---------------------")
     # Retrieve paper information
