@@ -154,6 +154,20 @@ def get_affiliated_org(data):
     return affiliatedOrg
 
 
+def get_organizations():
+    df = pd.read_csv(output_folder + '/authors.csv')
+    column_to_keep = ['affiliatedOrg']
+
+    # Drop all columns except the ones to keep
+    columns_to_drop = [col for col in df.columns if col not in column_to_keep]
+    df.drop(columns=columns_to_drop, inplace=True)
+
+    df['type'] = df['affiliatedOrg'].apply(lambda x: x.split(" ")[0])
+
+    df = df.rename(columns={'affiliatedOrg': 'name'})
+    df.to_csv(output_folder + '/organizations.csv', index=False)
+
+
 # Fetch authors details from CSV file
 def get_authors():
     # Read CSV file containing authors
@@ -287,6 +301,9 @@ def main():
 
     logger.info('Generating CSV file for workshop papers')
     get_workshop_papers()
+
+    logger.info('Generating CSV file for workshop papers')
+    get_organizations()
 
 
 if __name__ == "__main__":
