@@ -101,6 +101,7 @@ if __name__ == "__main__":
     split_files.get_conference_papers()
     split_files.get_journal_papers()
     split_files.get_workshop_papers()
+    split_files.get_organizations()
 
     connector = Neo4jConnector(uri, user, password)
     connector.connect()
