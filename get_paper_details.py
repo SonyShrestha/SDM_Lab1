@@ -103,7 +103,7 @@ def extract_keywords(text, nlp_model):
     doc = nlp_model(text)
     keywords = [chunk.text for chunk in doc.noun_chunks if not any(token.is_stop or len(token.text) <= 2 for token in chunk)]
     cleaned_keywords = [' '.join(part for part in keyword.split() if part not in STOP_WORDS) for keyword in keywords]
-    cleaned_keywords = [keyword for keyword in cleaned_keywords if ' ' in keyword]  
+    cleaned_keywords = [keyword for keyword in cleaned_keywords if ' ' in keyword][:5]  
     
     return ', '.join(sorted(set(cleaned_keywords), key=cleaned_keywords.index))
 
@@ -115,7 +115,7 @@ def combine_keywords(row):
     new_keywords = list(filter(None, [kw.strip().title() for kw in extract_keywords(row['abstract'], nlp_model).split(',')]))
     existing_set = set(existing_keywords)
     # Combine keywords, ensuring existing ones are first and no duplicates are introduced
-    combined_keywords = existing_keywords + [kw for kw in new_keywords if kw not in existing_set]
+    combined_keywords = existing_keywords + list([kw for kw in new_keywords if kw not in existing_set])[:4]
         
     return ', '.join(combined_keywords)
 
@@ -146,7 +146,6 @@ def main():
     # Add arguments
     parser.add_argument("--field", required=True, help="Comma separated fields to search for papers")
     parser.add_argument("--api_key", required=True, help="API key for accessing Semantic Scholar API")
-
     # Parse arguments
     args = parser.parse_args()
     fields = args.field.split(',')
