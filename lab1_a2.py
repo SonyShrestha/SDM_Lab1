@@ -64,6 +64,7 @@ if __name__ == "__main__":
     user = config["NEO4J"]["user"]
     password = config["NEO4J"]["password"]
     api_key = config["API"]["api_key"]
+    iterations = config["SETTINGS"]["iterations"]
 
     # Add arguments
     parser.add_argument("--field", required=True, help="Comma separated fields to search for papers")
@@ -74,7 +75,7 @@ if __name__ == "__main__":
     logger.info("--------------------- FETCHING PAPER IDS ---------------------")
     # Retrieve paper information
     for field in fields:
-        paper_info = get_paper_ids.get_paper_info(api_key, field)
+        paper_info = get_paper_ids.get_paper_info(api_key, field, iterations)
         if paper_info:
             with open(f'paper_ids/paper_{field}.json', mode='w', encoding='utf-8') as file:
                 json.dump(paper_info, file, indent=4)

@@ -93,17 +93,11 @@ def preprocess_data():
     df['jcwName'] = df['publicationVenue'].apply(lambda x:x.get('name')  if isinstance(x, dict) else '')
     df['jcwName'] = df.apply(lambda x:x['venue']  if x['jcwName']=='' else x['jcwName'], axis=1)
 
-    #df=df[df["paperId"]=="545f108575314031f35c617c4ac35a10133c50e3"]
-    
-    
     # Extract author details
     df['authors'] = df['authors'].apply(ast.literal_eval)
     df['authors'] = df['authors'].apply(lambda x: x[:10] if isinstance(x, list) else [])
     df['authorId'] = df['authors'].apply(lambda x:  ','.join(str(author['authorId'] if author['authorId'] != None else 987654321+df.index[0]) for author in x))
-    print(df["authorId"])
-    for value in df["authorId"]:
-        print(value)
-    breakpoint()
+    
     df['authorId'] = df['authorId'].fillna('0')
     df = df[(df['authorId'] != '') & (df['authorId'] != 'None')]
     df['authorName'] = df['authors'].apply(lambda x: ','.join(str(author['name']) for author in x))
