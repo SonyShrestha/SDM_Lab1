@@ -82,7 +82,6 @@ def duplicate_rows(row):
         dup_paper['title'] = ast.literal_eval(row['references'])[0]['title']
     except Exception as e:
         dup_paper['title'] = "Big Data Technology "+ row['title'].strip("\"")
-        print(dup_paper['title'])
     dup_paper['edition'] = int(row['edition'])-1 if int(row['edition'])>=1 else 21
 
     return dup_paper
