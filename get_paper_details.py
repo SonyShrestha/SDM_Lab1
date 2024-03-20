@@ -8,12 +8,16 @@ import logging
 import re
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
+import configparser
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)  # Set log level to INFO
 
 # Create logger object
 logger = logging.getLogger()
+
+config = configparser.ConfigParser()
+config.read("config.ini")
 
 # Define input and output directories for extracting paper details from paper ids
 input_folder = 'paper_ids'
@@ -54,7 +58,9 @@ def get_paper_ids(field):
         data = json.load(file)
 
     # Extract paper IDs
-    paper_ids = [item['paperId'] for item in data['data']]
+    paper_ids = [paper["paperId"] for paper in data]
+    print(paper_ids)
+    breakpoint()
 
     return paper_ids
 
@@ -140,19 +146,21 @@ def fetch_publications(field,api_key):
 
 
 def main():
+    api_key = config["API"]["api_key"]
+
     # Create argument parser
     parser = argparse.ArgumentParser(description="Retrieve paper details from Semantic Scholar API")
 
     # Add arguments
     parser.add_argument("--field", required=True, help="Comma separated fields to search for papers")
-    parser.add_argument("--api_key", required=True, help="API key for accessing Semantic Scholar API")
+
     # Parse arguments
     args = parser.parse_args()
     fields = args.field.split(',')
 
     # Retrieve paper information
     for field in fields:
-        fetch_publications(field,args.api_key)
+        fetch_publications(field, api_key)
 
 if __name__ == "__main__":
     main()
