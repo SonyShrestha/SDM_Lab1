@@ -59,9 +59,6 @@ def get_paper_ids(field):
 
     # Extract paper IDs
     paper_ids = [paper["paperId"] for paper in data]
-    print(paper_ids)
-    breakpoint()
-
     return paper_ids
 
 
