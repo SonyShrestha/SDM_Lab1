@@ -1,407 +1,802 @@
-{
-    "total": 3471589,
-    "offset": 0,
-    "next": 100,
-    "data": [
-        {
-            "paperId": "164125a65d42a791d2c1e108559344caef96d08b",
-            "title": "Indexing by Latent Semantic Analysis"
-        },
-        {
-            "paperId": "d5f169880e30e1f76827d72f862555d00b01bed9",
-            "title": "A vector space model for automatic indexing"
-        },
-        {
-            "paperId": "5b1e1696564e5a3021ac3a501c9deeb6c0fbc637",
-            "title": "Color indexing"
-        },
-        {
-            "paperId": "7fb7364cf5f9bd48a9dd3a92a5243aae128afc24",
-            "title": "Exact indexing of dynamic time warping"
-        },
-        {
-            "paperId": "8d94832e245906775b428e949ac1f635bfb28ad3",
-            "title": "Managing Gigabytes: Compressing and Indexing Documents and Images"
-        },
-        {
-            "paperId": "7f8859a57e35c66164678710187d4374822411d8",
-            "title": "An improved dual-indexing approach for multiplexed 16S rRNA gene sequencing on the Illumina MiSeq platform"
-        },
-        {
-            "paperId": "5fe8ed6e2c75a3b352be695f423cc2fac19446fa",
-            "title": "Multiplex single-cell profiling of chromatin accessibility by combinatorial cellular indexing"
-        },
-        {
-            "paperId": "e7cf3c1a584b16d5e15e5fbec7c05762385d669e",
-            "title": "Droplet-based combinatorial indexing for massive-scale single-cell chromatin accessibility"
-        },
-        {
-            "paperId": "69a2479a49154e3bd51e44e636ab5692ed20b142",
-            "title": "Probabilistic Latent Semantic Indexing"
-        },
-        {
-            "paperId": "c4dd9a19d822c965ce8cde55ab23b8a0b628278a",
-            "title": "An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition"
-        },
-        {
-            "paperId": "9fb01cd85317f84fb4def982a81f19da2571bae1",
-            "title": "Image indexing using color correlograms"
-        },
-        {
-            "paperId": "80e850ae69e141eab2de754998cb2f617a7c73ef",
-            "title": "Citation Indexing Its Theory And Application In Science Technology And Humanities"
-        },
-        {
-            "paperId": "69cad06dc26140ef3a7c19f05cbd56a2d04fad1a",
-            "title": "Automated identification and indexing of dislocations in crystal interfaces"
-        },
-        {
-            "paperId": "75b868e844e58db707fb5dbf7acbe2e26ba8c122",
-            "title": "A survey on indexing techniques for big data: taxonomy and performance evaluation"
-        },
-        {
-            "paperId": "896be512ce514903d05357335faaf69a5cf8ce85",
-            "title": "Indexing and Active Fund Management: International Evidence"
-        },
-        {
-            "paperId": "b538999f458a12df98d197befcc4426525cf8237",
-            "title": "Efficient Indexing of Billion-Scale Datasets of Deep Descriptors"
-        },
-        {
-            "paperId": "728211a7edfe536299670f34714de1b426d969dc",
-            "title": "Locally adaptive dimensionality reduction for indexing large time series databases"
-        },
-        {
-            "paperId": "ddeea66c9550f99f9a6768d4b240a9fe9957487d",
-            "title": "Indexing based on scale invariant interest points"
-        },
-        {
-            "paperId": "c2872fb23b02597034a179f4adb82a00d6ffda8d",
-            "title": "Probabilistic latent semantic indexing"
-        },
-        {
-            "paperId": "7883f88428bb98508afeda2e65098ac56b640ca7",
-            "title": "A Survey of Indexing Techniques for Scalable Record Linkage and Deduplication"
-        },
-        {
-            "paperId": "f39d3e88cce063ccd3ca01100efd44dcabc9d3b4",
-            "title": "Automatic Linguistic Indexing of Pictures by a Statistical Modeling Approach"
-        },
-        {
-            "paperId": "9da7739c68b6b858c654d0c782811306b47deed8",
-            "title": "A Dictionary Approach to Electron Backscatter Diffraction Indexing*"
-        },
-        {
-            "paperId": "0310ff23ec2c0be81ea1af02f9e1fd6672d69f1d",
-            "title": "Powder pattern indexing with the dichotomy method"
-        },
-        {
-            "paperId": "d1281ad32607fb0ade628ba1b32c8ae7f06ad24e",
-            "title": "Double indexing overcomes inaccuracies in multiplex sequencing on the Illumina platform"
-        },
-        {
-            "paperId": "6201a037dfc077aadbe21125198b12f12b7db0cd",
-            "title": "TREOR, a semi-exhaustive trial-and-error powder indexing program for all symmetries"
-        },
-        {
-            "paperId": "3526592aade9ccd246b3a79f15103e5a755d9779",
-            "title": "Indexing of powder diffraction patterns for low-symmetry lattices by the successive dichotomy method"
-        },
-        {
-            "paperId": "6348c3490aa17188229decfd09b67e5169ce1cfc",
-            "title": "Database indexing for production MegaBLAST searches"
-        },
-        {
-            "paperId": "5cfac7b32b7f2e279a63c90c8f0798f4d9f24c12",
-            "title": "Latent semantic indexing: a probabilistic analysis"
-        },
-        {
-            "paperId": "d86648cb3ec497347d6e918116003b0e42910694",
-            "title": "FastMap: a fast algorithm for indexing, data-mining and visualization of traditional and multimedia datasets"
-        },
-        {
-            "paperId": "aea9a087a8fe187550c6910c8b45205fd76e316f",
-            "title": "Indexing for interactive exploration of big data series"
-        },
-        {
-            "paperId": "0e35963a414a117ae8ae8501795a07f78e458925",
-            "title": "Breaking the indexing ambiguity in serial crystallography."
-        },
-        {
-            "paperId": "d302efd47c9a99ae16a77caee3b37a5e4361c341",
-            "title": "Concept-based indexing in text information retrieval"
-        },
-        {
-            "paperId": "b3b3c34ce8b5820deb819b32c73bf179234d1164",
-            "title": "On Hardness of Jumbled Indexing"
-        },
-        {
-            "paperId": "77ab943d34fd80a508cb183a7b6666313befee7d",
-            "title": "Regression Discontinuity and the Price Effects of Stock Market Indexing"
-        },
-        {
-            "paperId": "78b33011cc1068326b6be8ad84aabafdd81cdd6d",
-            "title": "Indexing the positions of continuously moving objects"
-        },
-        {
-            "paperId": "9ed960374381062d85d3944182a539c1d00f7703",
-            "title": "Multi-Probe LSH: Efficient Indexing for High-Dimensional Similarity Search"
-        },
-        {
-            "paperId": "9b64f980a95806460b1056e91bd6c017226613b4",
-            "title": "A Survey on Visual Content-Based Video Indexing and Retrieval"
-        },
-        {
-            "paperId": "592462425a4d23547dd0f3c9318350e5dcceb1a6",
-            "title": "CiteSeer: an automatic citation indexing system"
-        },
-        {
-            "paperId": "ef05b72c9e5b267811d4a069fb1d8038f0e36bbd",
-            "title": "Shape indexing using approximate nearest-neighbour search in high-dimensional spaces"
-        },
-        {
-            "paperId": "8da0344274088f68d7fecb0e39b42eea68307649",
-            "title": "Citation indexing - its theory and application in science, technology, and humanities"
-        },
-        {
-            "paperId": "03f2c2b0aab2af0f12c084c8087ed9b7a2b4b09b",
-            "title": "Indexing and Querying XML Data for Regular Path Expressions"
-        },
-        {
-            "paperId": "d39e930e5723182574b0089e219a4f69890a7ddf",
-            "title": "Blobworld: A System for Region-Based Image Indexing and Retrieval"
-        },
-        {
-            "paperId": "242334f9da0564a68d581e8d87c223ab0fe57221",
-            "title": "Multiple antibiotic resistance indexing of Escherichia coli to identify high-risk sources of fecal contamination of foods"
-        },
-        {
-            "paperId": "2aefe8ab3de89ed42a55984234cbe0ac37321d04",
-            "title": "The NLM Medical Text Indexer System for Indexing Biomedical Literature"
-        },
-        {
-            "paperId": "f94254a122a32fdbf16c46b9c6bcd3f48e92a30c",
-            "title": "Simple and Efficient Clause Subsumption with Feature Vector Indexing"
-        },
-        {
-            "paperId": "a157969d1722840355a3296dbc598d3d134668d6",
-            "title": "Semantic Annotation, Indexing, and Retrieval"
-        },
-        {
-            "paperId": "13268315bd19a32cc367fe4839f2239818c4639c",
-            "title": "Hexastore: sextuple indexing for semantic web data management"
-        },
-        {
-            "paperId": "142f056a365dccd029c0897fcfa7833aecf2212f",
-            "title": "Image classification for content-based indexing"
-        },
-        {
-            "paperId": "48e877bf704cf407942b6f2db9f59ec8878f20ec",
-            "title": "Applied Crystallography Indexing of Powder Diffraction Patterns by Iterative Use of Singular Value Decomposition"
-        },
-        {
-            "paperId": "deaace1da763ed0cb4004625665e58c43e2f540e",
-            "title": "Recovering documentation-to-source-code traceability links using latent semantic indexing"
-        },
-        {
-            "paperId": "021abd34e933f03f6ba5a832e484ff0d57946732",
-            "title": "Graph indexing: a frequent structure-based approach"
-        },
-        {
-            "paperId": "b2746adae0413e87aec01303c2d8a2a67113bf11",
-            "title": "Document clustering using locality preserving indexing"
-        },
-        {
-            "paperId": "379aa42ed1028166018abadfd87d390a6df94b9f",
-            "title": "The Construction of Situation Models in Narrative Comprehension: An Event-Indexing Model"
-        },
-        {
-            "paperId": "9915f60f148130442ea566ef995edf3a327cdc69",
-            "title": "CEDD: Color and Edge Directivity Descriptor: A Compact Descriptor for Image Indexing and Retrieval"
-        },
-        {
-            "paperId": "62600fb85172e196c9f1089df7d7f2b581762f8a",
-            "title": "Interactive Video Indexing With Statistical Active Learning"
-        },
-        {
-            "paperId": "45fbc5bda611197342c9c7dbee35782158e7395c",
-            "title": "Fast Time Sequence Indexing for Arbitrary Lp Norms"
-        },
-        {
-            "paperId": "a6cac1f0b421562a3333d936864a4a974d3c5c99",
-            "title": "Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality"
-        },
-        {
-            "paperId": "98012349c0f97c924ca6457d99777232f4fb5e93",
-            "title": "Query and Update Efficient B + -Tree Based Indexing of Moving Objects"
-        },
-        {
-            "paperId": "34d75d8548ff1bdc16c38e560bb4b79d3a038c76",
-            "title": "Concurrency Control for Adaptive Indexing"
-        },
-        {
-            "paperId": "7cd81620097f4e9ea3e097d29e019ac511a2261e",
-            "title": "iDistance: An adaptive B+-tree based indexing method for nearest neighbor search"
-        },
-        {
-            "paperId": "777041cfd8ec2920efd513e54c47fff13b7bcbbe",
-            "title": "Fingerprint Indexing Based on Minutia Cylinder-Code"
-        },
-        {
-            "paperId": "19b6df414753a81e2fbb1030ddd983210ea4ec80",
-            "title": "Digital Libraries and Autonomous Citation Indexing"
-        },
-        {
-            "paperId": "71d53e99d5cc2fcbc95eb57666b67f63663a26f6",
-            "title": "Large-scale malware indexing using function-call graphs"
-        },
-        {
-            "paperId": "cceb84298feb1e81bab4d43b9e2c2e57a3b05ea4",
-            "title": "Compressed suffix arrays and suffix trees with applications to text indexing and string matching (extended abstract)"
-        },
-        {
-            "paperId": "b6f1b9de4df9f8bb52f056bbe0c2e536a843b1a0",
-            "title": "iSAX: indexing and mining terabyte sized time series"
-        },
-        {
-            "paperId": "e03fdf1dfc31ac96f18a7b2f6b03390f96b7ddb8",
-            "title": "Indexing in single\u2010crystal diffractometry with an obstinate list of reflections"
-        },
-        {
-            "paperId": "3ef1b0469b43acc8ede2e56d8f001ad090b04826",
-            "title": "An Introduction to Random Indexing"
-        },
-        {
-            "paperId": "5e52c6ff85ac6d53cb0dac8581c0a76edc6fade7",
-            "title": "On Relevance, Probabilistic Indexing and Information Retrieval"
-        },
-        {
-            "paperId": "1983440d65aa0c62153a14950930bde225652113",
-            "title": "Multimodal Video Indexing: A Review of the State-of-the-art"
-        },
-        {
-            "paperId": "11c4c7af9938b05b366c93aea70ad4e5075f6148",
-            "title": "Color Constant Color Indexing"
-        },
-        {
-            "paperId": "3190edf32028404368d3feba45e1d3f539584ad1",
-            "title": "TI: an efficient indexing mechanism for real-time search on tweets"
-        },
-        {
-            "paperId": "176490c7bbb20b5a64aca49d9dc3b75bdfd76d67",
-            "title": "HISAT: a fast spliced aligner with low memory requirements"
-        },
-        {
-            "paperId": "5d82c96850793fd661870645c5e0d6111db99ff0",
-            "title": "Indexing Compressed Text"
-        },
-        {
-            "paperId": "189b79cda928d58f695cf8323b9ce2196fc22409",
-            "title": "Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype"
-        },
-        {
-            "paperId": "02f8e2fafd37ec8d64dcd284ab2949eae5797130",
-            "title": "STRUCTURAL HIGH-RESOLUTION SATELLITE IMAGE INDEXING"
-        },
-        {
-            "paperId": "4f761005a2801f9149ff8d78ed3155e822b03e4c",
-            "title": "The hippocampal memory indexing theory."
-        },
-        {
-            "paperId": "fcf2a5738bb4b6969cd23ca89291bae9838423ee",
-            "title": "Indexing multi-dimensional data in a cloud system"
-        },
-        {
-            "paperId": "30fbbcf99fb5a9ce553f82ed3a3a9ebc1cf0131f",
-            "title": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
-        },
-        {
-            "paperId": "b4da5cc2676b86904a898490fc1c0a86906983d8",
-            "title": "The Sequence Alignment/Map format and SAMtools"
-        },
-        {
-            "paperId": "ebe875cf08dd398e0ed25f518502301c984a9afe",
-            "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome"
-        },
-        {
-            "paperId": "c5847fb3899eea98d544cced63d49886ecb17d9b",
-            "title": "R-trees: a dynamic index structure for spatial searching"
-        },
-        {
-            "paperId": "e514efc18050a6745935128377978c2ac72d6a14",
-            "title": "A Fingerprint Orientation Model Based on 2D Fourier Expansion (FOMFE) and Its Application to Singular-Point Detection and Fingerprint Indexing"
-        },
-        {
-            "paperId": "36b71b44c591102c73eb65efbd9c8b84d1740a02",
-            "title": "A simplified criterion for the reliability of a powder pattern indexing"
-        },
-        {
-            "paperId": "b503111efb0560aaea70e950a6928116df2862a7",
-            "title": "3-HOP: a high-compression indexing scheme for reachability query"
-        },
-        {
-            "paperId": "1fdfe67d4c053198be988c5fb24926bcfebebd26",
-            "title": "Iconic Indexing by 2-D Strings"
-        },
-        {
-            "paperId": "d4b25b918737a61362ca85a1979868a19ec04577",
-            "title": "Efficient B-tree based indexing for cloud data processing"
-        },
-        {
-            "paperId": "05a0ee066fac4aebd37d7dd7f0cbce6d05951693",
-            "title": "Topic indexing with Wikipedia"
-        },
-        {
-            "paperId": "c467ae4d7209bb6bc06f2d7e8f923e1ebf39213d",
-            "title": "KeyGraph: automatic indexing by co-occurrence graph based on building construction metaphor"
-        },
-        {
-            "paperId": "da30b84925764b550b55c7d00596f8f1b9608fe2",
-            "title": "Co-citation in the scientific literature: A new measure of the relationship between two documents"
-        },
-        {
-            "paperId": "54dc9c2c6327732edd5a05f286b6f6a290ff9025",
-            "title": "Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants"
-        },
-        {
-            "paperId": "c7fd9037b571862246e366189f1fc1c58fe0dd9c",
-            "title": "On the Specification of Term Values in Automatic Indexing"
-        },
-        {
-            "paperId": "7de3ecf36cfaa0bbc847e7ca8cefe0a223fcf8a1",
-            "title": "Centrifuge: rapid and sensitive classification of metagenomic sequences"
-        },
-        {
-            "paperId": "43517286be948a72d8f8fe2357450cb25f3a2345",
-            "title": "The hippocampal indexing theory and episodic memory: Updating the index"
-        },
-        {
-            "paperId": "29b3fdcdda43e08534d6cae560b08dd2fbe88427",
-            "title": "Fast and practical indexing and querying of very large graphs"
-        },
-        {
-            "paperId": "ee800bab67e177e4676578f621db59a0faa736cd",
-            "title": "Human-competitive automatic topic indexing"
-        },
-        {
-            "paperId": "480fc1fe2fa1eee4ed8a421bca395b589495b93c",
-            "title": "\u03b1-Band Electroencephalographic Activity over Occipital Cortex Indexes Visuospatial Attention Bias and Predicts Visual Target Detection"
-        },
-        {
-            "paperId": "28bfbe736e55172204fedc65d0609062d4f7f541",
-            "title": "Query Indexing and Velocity Constrained Indexing: Scalable Techniques for Continuous Queries on Moving Objects"
-        },
-        {
-            "paperId": "d3242ae73d5240d067d8de66072042e5e52b5a7e",
-            "title": "Indexing"
-        },
-        {
-            "paperId": "204ac92bcfa4fbc0b682d797381626987dd047c3",
-            "title": "Indexing with WordNet synsets can improve text retrieval"
-        },
-        {
-            "paperId": "fa8af1c28f8ab2011339627bf8e13e267c57abdb",
-            "title": "VisualSEEk: a fully automated content-based image query system"
-        }
-    ]
-}
+[
+    {
+        "paperId": "164125a65d42a791d2c1e108559344caef96d08b",
+        "title": "Indexing by Latent Semantic Analysis"
+    },
+    {
+        "paperId": "d5f169880e30e1f76827d72f862555d00b01bed9",
+        "title": "A vector space model for automatic indexing"
+    },
+    {
+        "paperId": "5b1e1696564e5a3021ac3a501c9deeb6c0fbc637",
+        "title": "Color indexing"
+    },
+    {
+        "paperId": "7fb7364cf5f9bd48a9dd3a92a5243aae128afc24",
+        "title": "Exact indexing of dynamic time warping"
+    },
+    {
+        "paperId": "8d94832e245906775b428e949ac1f635bfb28ad3",
+        "title": "Managing Gigabytes: Compressing and Indexing Documents and Images"
+    },
+    {
+        "paperId": "7f8859a57e35c66164678710187d4374822411d8",
+        "title": "An improved dual-indexing approach for multiplexed 16S rRNA gene sequencing on the Illumina MiSeq platform"
+    },
+    {
+        "paperId": "5fe8ed6e2c75a3b352be695f423cc2fac19446fa",
+        "title": "Multiplex single-cell profiling of chromatin accessibility by combinatorial cellular indexing"
+    },
+    {
+        "paperId": "e7cf3c1a584b16d5e15e5fbec7c05762385d669e",
+        "title": "Droplet-based combinatorial indexing for massive-scale single-cell chromatin accessibility"
+    },
+    {
+        "paperId": "c4dd9a19d822c965ce8cde55ab23b8a0b628278a",
+        "title": "An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition"
+    },
+    {
+        "paperId": "69a2479a49154e3bd51e44e636ab5692ed20b142",
+        "title": "Probabilistic Latent Semantic Indexing"
+    },
+    {
+        "paperId": "9fb01cd85317f84fb4def982a81f19da2571bae1",
+        "title": "Image indexing using color correlograms"
+    },
+    {
+        "paperId": "80e850ae69e141eab2de754998cb2f617a7c73ef",
+        "title": "Citation Indexing Its Theory And Application In Science Technology And Humanities"
+    },
+    {
+        "paperId": "69cad06dc26140ef3a7c19f05cbd56a2d04fad1a",
+        "title": "Automated identification and indexing of dislocations in crystal interfaces"
+    },
+    {
+        "paperId": "75b868e844e58db707fb5dbf7acbe2e26ba8c122",
+        "title": "A survey on indexing techniques for big data: taxonomy and performance evaluation"
+    },
+    {
+        "paperId": "896be512ce514903d05357335faaf69a5cf8ce85",
+        "title": "Indexing and Active Fund Management: International Evidence"
+    },
+    {
+        "paperId": "b538999f458a12df98d197befcc4426525cf8237",
+        "title": "Efficient Indexing of Billion-Scale Datasets of Deep Descriptors"
+    },
+    {
+        "paperId": "728211a7edfe536299670f34714de1b426d969dc",
+        "title": "Locally adaptive dimensionality reduction for indexing large time series databases"
+    },
+    {
+        "paperId": "ddeea66c9550f99f9a6768d4b240a9fe9957487d",
+        "title": "Indexing based on scale invariant interest points"
+    },
+    {
+        "paperId": "c2872fb23b02597034a179f4adb82a00d6ffda8d",
+        "title": "Probabilistic latent semantic indexing"
+    },
+    {
+        "paperId": "7883f88428bb98508afeda2e65098ac56b640ca7",
+        "title": "A Survey of Indexing Techniques for Scalable Record Linkage and Deduplication"
+    },
+    {
+        "paperId": "f39d3e88cce063ccd3ca01100efd44dcabc9d3b4",
+        "title": "Automatic Linguistic Indexing of Pictures by a Statistical Modeling Approach"
+    },
+    {
+        "paperId": "9da7739c68b6b858c654d0c782811306b47deed8",
+        "title": "A Dictionary Approach to Electron Backscatter Diffraction Indexing*"
+    },
+    {
+        "paperId": "0310ff23ec2c0be81ea1af02f9e1fd6672d69f1d",
+        "title": "Powder pattern indexing with the dichotomy method"
+    },
+    {
+        "paperId": "d1281ad32607fb0ade628ba1b32c8ae7f06ad24e",
+        "title": "Double indexing overcomes inaccuracies in multiplex sequencing on the Illumina platform"
+    },
+    {
+        "paperId": "6201a037dfc077aadbe21125198b12f12b7db0cd",
+        "title": "TREOR, a semi-exhaustive trial-and-error powder indexing program for all symmetries"
+    },
+    {
+        "paperId": "3526592aade9ccd246b3a79f15103e5a755d9779",
+        "title": "Indexing of powder diffraction patterns for low-symmetry lattices by the successive dichotomy method"
+    },
+    {
+        "paperId": "6348c3490aa17188229decfd09b67e5169ce1cfc",
+        "title": "Database indexing for production MegaBLAST searches"
+    },
+    {
+        "paperId": "5cfac7b32b7f2e279a63c90c8f0798f4d9f24c12",
+        "title": "Latent semantic indexing: a probabilistic analysis"
+    },
+    {
+        "paperId": "d86648cb3ec497347d6e918116003b0e42910694",
+        "title": "FastMap: a fast algorithm for indexing, data-mining and visualization of traditional and multimedia datasets"
+    },
+    {
+        "paperId": "0e35963a414a117ae8ae8501795a07f78e458925",
+        "title": "Breaking the indexing ambiguity in serial crystallography."
+    },
+    {
+        "paperId": "aea9a087a8fe187550c6910c8b45205fd76e316f",
+        "title": "Indexing for interactive exploration of big data series"
+    },
+    {
+        "paperId": "d302efd47c9a99ae16a77caee3b37a5e4361c341",
+        "title": "Concept-based indexing in text information retrieval"
+    },
+    {
+        "paperId": "b3b3c34ce8b5820deb819b32c73bf179234d1164",
+        "title": "On Hardness of Jumbled Indexing"
+    },
+    {
+        "paperId": "77ab943d34fd80a508cb183a7b6666313befee7d",
+        "title": "Regression Discontinuity and the Price Effects of Stock Market Indexing"
+    },
+    {
+        "paperId": "9ed960374381062d85d3944182a539c1d00f7703",
+        "title": "Multi-Probe LSH: Efficient Indexing for High-Dimensional Similarity Search"
+    },
+    {
+        "paperId": "78b33011cc1068326b6be8ad84aabafdd81cdd6d",
+        "title": "Indexing the positions of continuously moving objects"
+    },
+    {
+        "paperId": "9b64f980a95806460b1056e91bd6c017226613b4",
+        "title": "A Survey on Visual Content-Based Video Indexing and Retrieval"
+    },
+    {
+        "paperId": "592462425a4d23547dd0f3c9318350e5dcceb1a6",
+        "title": "CiteSeer: an automatic citation indexing system"
+    },
+    {
+        "paperId": "ef05b72c9e5b267811d4a069fb1d8038f0e36bbd",
+        "title": "Shape indexing using approximate nearest-neighbour search in high-dimensional spaces"
+    },
+    {
+        "paperId": "242334f9da0564a68d581e8d87c223ab0fe57221",
+        "title": "Multiple antibiotic resistance indexing of Escherichia coli to identify high-risk sources of fecal contamination of foods"
+    },
+    {
+        "paperId": "8da0344274088f68d7fecb0e39b42eea68307649",
+        "title": "Citation indexing - its theory and application in science, technology, and humanities"
+    },
+    {
+        "paperId": "03f2c2b0aab2af0f12c084c8087ed9b7a2b4b09b",
+        "title": "Indexing and Querying XML Data for Regular Path Expressions"
+    },
+    {
+        "paperId": "d39e930e5723182574b0089e219a4f69890a7ddf",
+        "title": "Blobworld: A System for Region-Based Image Indexing and Retrieval"
+    },
+    {
+        "paperId": "a157969d1722840355a3296dbc598d3d134668d6",
+        "title": "Semantic Annotation, Indexing, and Retrieval"
+    },
+    {
+        "paperId": "2aefe8ab3de89ed42a55984234cbe0ac37321d04",
+        "title": "The NLM Medical Text Indexer System for Indexing Biomedical Literature"
+    },
+    {
+        "paperId": "f94254a122a32fdbf16c46b9c6bcd3f48e92a30c",
+        "title": "Simple and Efficient Clause Subsumption with Feature Vector Indexing"
+    },
+    {
+        "paperId": "13268315bd19a32cc367fe4839f2239818c4639c",
+        "title": "Hexastore: sextuple indexing for semantic web data management"
+    },
+    {
+        "paperId": "142f056a365dccd029c0897fcfa7833aecf2212f",
+        "title": "Image classification for content-based indexing"
+    },
+    {
+        "paperId": "496e38332b9609da3340a4e917d28f2889b64d46",
+        "title": "Applied Crystallography Indexing of Powder Diffraction Patterns by Iterative Use of Singular Value Decomposition"
+    },
+    {
+        "paperId": "deaace1da763ed0cb4004625665e58c43e2f540e",
+        "title": "Recovering documentation-to-source-code traceability links using latent semantic indexing"
+    },
+    {
+        "paperId": "021abd34e933f03f6ba5a832e484ff0d57946732",
+        "title": "Graph indexing: a frequent structure-based approach"
+    },
+    {
+        "paperId": "b2746adae0413e87aec01303c2d8a2a67113bf11",
+        "title": "Document clustering using locality preserving indexing"
+    },
+    {
+        "paperId": "379aa42ed1028166018abadfd87d390a6df94b9f",
+        "title": "The Construction of Situation Models in Narrative Comprehension: An Event-Indexing Model"
+    },
+    {
+        "paperId": "9915f60f148130442ea566ef995edf3a327cdc69",
+        "title": "CEDD: Color and Edge Directivity Descriptor: A Compact Descriptor for Image Indexing and Retrieval"
+    },
+    {
+        "paperId": "62600fb85172e196c9f1089df7d7f2b581762f8a",
+        "title": "Interactive Video Indexing With Statistical Active Learning"
+    },
+    {
+        "paperId": "45fbc5bda611197342c9c7dbee35782158e7395c",
+        "title": "Fast Time Sequence Indexing for Arbitrary Lp Norms"
+    },
+    {
+        "paperId": "a6cac1f0b421562a3333d936864a4a974d3c5c99",
+        "title": "Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality"
+    },
+    {
+        "paperId": "98012349c0f97c924ca6457d99777232f4fb5e93",
+        "title": "Query and Update Efficient B + -Tree Based Indexing of Moving Objects"
+    },
+    {
+        "paperId": "34d75d8548ff1bdc16c38e560bb4b79d3a038c76",
+        "title": "Concurrency Control for Adaptive Indexing"
+    },
+    {
+        "paperId": "7cd81620097f4e9ea3e097d29e019ac511a2261e",
+        "title": "iDistance: An adaptive B+-tree based indexing method for nearest neighbor search"
+    },
+    {
+        "paperId": "777041cfd8ec2920efd513e54c47fff13b7bcbbe",
+        "title": "Fingerprint Indexing Based on Minutia Cylinder-Code"
+    },
+    {
+        "paperId": "19b6df414753a81e2fbb1030ddd983210ea4ec80",
+        "title": "Digital Libraries and Autonomous Citation Indexing"
+    },
+    {
+        "paperId": "71d53e99d5cc2fcbc95eb57666b67f63663a26f6",
+        "title": "Large-scale malware indexing using function-call graphs"
+    },
+    {
+        "paperId": "cceb84298feb1e81bab4d43b9e2c2e57a3b05ea4",
+        "title": "Compressed suffix arrays and suffix trees with applications to text indexing and string matching (extended abstract)"
+    },
+    {
+        "paperId": "b6f1b9de4df9f8bb52f056bbe0c2e536a843b1a0",
+        "title": "iSAX: indexing and mining terabyte sized time series"
+    },
+    {
+        "paperId": "e03fdf1dfc31ac96f18a7b2f6b03390f96b7ddb8",
+        "title": "Indexing in single\u2010crystal diffractometry with an obstinate list of reflections"
+    },
+    {
+        "paperId": "3ef1b0469b43acc8ede2e56d8f001ad090b04826",
+        "title": "An Introduction to Random Indexing"
+    },
+    {
+        "paperId": "5e52c6ff85ac6d53cb0dac8581c0a76edc6fade7",
+        "title": "On Relevance, Probabilistic Indexing and Information Retrieval"
+    },
+    {
+        "paperId": "1983440d65aa0c62153a14950930bde225652113",
+        "title": "Multimodal Video Indexing: A Review of the State-of-the-art"
+    },
+    {
+        "paperId": "11c4c7af9938b05b366c93aea70ad4e5075f6148",
+        "title": "Color Constant Color Indexing"
+    },
+    {
+        "paperId": "3190edf32028404368d3feba45e1d3f539584ad1",
+        "title": "TI: an efficient indexing mechanism for real-time search on tweets"
+    },
+    {
+        "paperId": "176490c7bbb20b5a64aca49d9dc3b75bdfd76d67",
+        "title": "HISAT: a fast spliced aligner with low memory requirements"
+    },
+    {
+        "paperId": "5d82c96850793fd661870645c5e0d6111db99ff0",
+        "title": "Indexing Compressed Text"
+    },
+    {
+        "paperId": "189b79cda928d58f695cf8323b9ce2196fc22409",
+        "title": "Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype"
+    },
+    {
+        "paperId": "02f8e2fafd37ec8d64dcd284ab2949eae5797130",
+        "title": "STRUCTURAL HIGH-RESOLUTION SATELLITE IMAGE INDEXING"
+    },
+    {
+        "paperId": "4f761005a2801f9149ff8d78ed3155e822b03e4c",
+        "title": "The hippocampal memory indexing theory."
+    },
+    {
+        "paperId": "fcf2a5738bb4b6969cd23ca89291bae9838423ee",
+        "title": "Indexing multi-dimensional data in a cloud system"
+    },
+    {
+        "paperId": "30fbbcf99fb5a9ce553f82ed3a3a9ebc1cf0131f",
+        "title": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
+    },
+    {
+        "paperId": "b4da5cc2676b86904a898490fc1c0a86906983d8",
+        "title": "The Sequence Alignment/Map format and SAMtools"
+    },
+    {
+        "paperId": "ebe875cf08dd398e0ed25f518502301c984a9afe",
+        "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome"
+    },
+    {
+        "paperId": "c5847fb3899eea98d544cced63d49886ecb17d9b",
+        "title": "R-trees: a dynamic index structure for spatial searching"
+    },
+    {
+        "paperId": "e514efc18050a6745935128377978c2ac72d6a14",
+        "title": "A Fingerprint Orientation Model Based on 2D Fourier Expansion (FOMFE) and Its Application to Singular-Point Detection and Fingerprint Indexing"
+    },
+    {
+        "paperId": "36b71b44c591102c73eb65efbd9c8b84d1740a02",
+        "title": "A simplified criterion for the reliability of a powder pattern indexing"
+    },
+    {
+        "paperId": "b503111efb0560aaea70e950a6928116df2862a7",
+        "title": "3-HOP: a high-compression indexing scheme for reachability query"
+    },
+    {
+        "paperId": "1fdfe67d4c053198be988c5fb24926bcfebebd26",
+        "title": "Iconic Indexing by 2-D Strings"
+    },
+    {
+        "paperId": "d4b25b918737a61362ca85a1979868a19ec04577",
+        "title": "Efficient B-tree based indexing for cloud data processing"
+    },
+    {
+        "paperId": "05a0ee066fac4aebd37d7dd7f0cbce6d05951693",
+        "title": "Topic indexing with Wikipedia"
+    },
+    {
+        "paperId": "c467ae4d7209bb6bc06f2d7e8f923e1ebf39213d",
+        "title": "KeyGraph: automatic indexing by co-occurrence graph based on building construction metaphor"
+    },
+    {
+        "paperId": "54dc9c2c6327732edd5a05f286b6f6a290ff9025",
+        "title": "Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants"
+    },
+    {
+        "paperId": "da30b84925764b550b55c7d00596f8f1b9608fe2",
+        "title": "Co-citation in the scientific literature: A new measure of the relationship between two documents"
+    },
+    {
+        "paperId": "c7fd9037b571862246e366189f1fc1c58fe0dd9c",
+        "title": "On the Specification of Term Values in Automatic Indexing"
+    },
+    {
+        "paperId": "7de3ecf36cfaa0bbc847e7ca8cefe0a223fcf8a1",
+        "title": "Centrifuge: rapid and sensitive classification of metagenomic sequences"
+    },
+    {
+        "paperId": "29b3fdcdda43e08534d6cae560b08dd2fbe88427",
+        "title": "Fast and practical indexing and querying of very large graphs"
+    },
+    {
+        "paperId": "43517286be948a72d8f8fe2357450cb25f3a2345",
+        "title": "The hippocampal indexing theory and episodic memory: Updating the index"
+    },
+    {
+        "paperId": "ee800bab67e177e4676578f621db59a0faa736cd",
+        "title": "Human-competitive automatic topic indexing"
+    },
+    {
+        "paperId": "480fc1fe2fa1eee4ed8a421bca395b589495b93c",
+        "title": "\u03b1-Band Electroencephalographic Activity over Occipital Cortex Indexes Visuospatial Attention Bias and Predicts Visual Target Detection"
+    },
+    {
+        "paperId": "28bfbe736e55172204fedc65d0609062d4f7f541",
+        "title": "Query Indexing and Velocity Constrained Indexing: Scalable Techniques for Continuous Queries on Moving Objects"
+    },
+    {
+        "paperId": "d3242ae73d5240d067d8de66072042e5e52b5a7e",
+        "title": "Indexing"
+    },
+    {
+        "paperId": "204ac92bcfa4fbc0b682d797381626987dd047c3",
+        "title": "Indexing with WordNet synsets can improve text retrieval"
+    },
+    {
+        "paperId": "fa8af1c28f8ab2011339627bf8e13e267c57abdb",
+        "title": "VisualSEEk: a fully automated content-based image query system"
+    },
+    {
+        "paperId": "d108d181417d8e18d3dde91d1f645179e95130ce",
+        "title": "Indexing spatio-temporal trajectories with Chebyshev polynomials"
+    },
+    {
+        "paperId": "5ba5dcf589152976255ff54f029c98894d214c9f",
+        "title": "On indexing mobile objects"
+    },
+    {
+        "paperId": "449d5b8df68694d003e723e3db8e90d4865d686a",
+        "title": "Energy efficient indexing on air"
+    },
+    {
+        "paperId": "cfd538dd2998ede6599b45b27a4f7b72b4c99adf",
+        "title": "Self-indexing inverted files for fast text retrieval"
+    },
+    {
+        "paperId": "c8fba07ecbebefbb15df557e479f778de05b6c4d",
+        "title": "Indexing via color histograms"
+    },
+    {
+        "paperId": "d56d5e7a3eb365ccc2b72a02b9ef6d944d79c97b",
+        "title": "Inverted files versus signature files for text indexing"
+    },
+    {
+        "paperId": "647801bdf050f6046f98d9b97b56fc1df4d06af6",
+        "title": "Content-based image indexing and searching using Daubechies' wavelets"
+    },
+    {
+        "paperId": "4a652f3b7b4b1e7bdd9f3806675dd75c440daa06",
+        "title": "Graph Indexing: Tree + Delta >= Graph"
+    },
+    {
+        "paperId": "f6921e3c7219c5246a3f6105156cdcbd708603c7",
+        "title": "Word sense disambiguation for free-text indexing using a massive semantic network"
+    },
+    {
+        "paperId": "e45923dc26b10e043e6de124cc2bd96e8a28a989",
+        "title": "Inverted files for text search engines"
+    },
+    {
+        "paperId": "285341e3b5c8e2d3f1ae585676bd5bc1a9fc9899",
+        "title": "Automatic indexing of rotation diffraction patterns"
+    },
+    {
+        "paperId": "4f901e52c86b66a92ba0f63de97ce4a5c5942ff8",
+        "title": "Spatial Color Indexing and Applications"
+    },
+    {
+        "paperId": "812586d366780735970388b44661894fdbbe728e",
+        "title": "Content based video indexing and retrieval"
+    },
+    {
+        "paperId": "49b139cb0f4388d10fa0ae6705a0e2e28c995e68",
+        "title": "Efficient program execution indexing"
+    },
+    {
+        "paperId": "3f88ddf171f60eaadf0d01768cd254b6bad9b4aa",
+        "title": "Indexing iris images"
+    },
+    {
+        "paperId": "41fe99c78d855557e942f6a85a3a4e7093094d87",
+        "title": "Indexing problems in quasicrystal diffraction."
+    },
+    {
+        "paperId": "aea5a0b817c09915b118cc13c7d6016045582e03",
+        "title": "Computer Evaluation of Indexing and Text Processing"
+    },
+    {
+        "paperId": "a10f3a5e1fc4c607a4169442468c57ede8ffd370",
+        "title": "Indexing Large Trajectory Data Sets With SETI"
+    },
+    {
+        "paperId": "43b52543490aa654705afad0dd6825180ff1b066",
+        "title": "Indexing compressed text"
+    },
+    {
+        "paperId": "bca1dd429b890d7737dd700eaad6641750c8c6ef",
+        "title": "Prediction and indexing of moving objects with unknown motion patterns"
+    },
+    {
+        "paperId": "8687cf627d2d176656746664d39613ab7f678224",
+        "title": "Cache Conscious Indexing for Decision-Support in Main Memory"
+    },
+    {
+        "paperId": "51bd005f5af946f15bb6dc02c5989ecb4b95af5b",
+        "title": "Symmetry-based indexing of image databases"
+    },
+    {
+        "paperId": "c2b3ac2e1368360ed6623151689ca865a76e9d0d",
+        "title": "Dictionary matching and indexing with errors and don't cares"
+    },
+    {
+        "paperId": "9ce965a14270d8caa1156d5eff3d955098497369",
+        "title": "Formation of droplets of alternating composition in microfluidic channels and applications to indexing of concentrations in droplet-based assays."
+    },
+    {
+        "paperId": "c390dbf06af49d3691bc7b906f5fd9b909c2f89b",
+        "title": "Automatic Indexing: An Experimental Inquiry"
+    },
+    {
+        "paperId": "dc41ea3fb76475eff0f9d6e3cda34bf0406ce039",
+        "title": "Video indexing based on mosaic representations"
+    },
+    {
+        "paperId": "1cb5c5cd4ccafe870e4ac8a0f040e88554ec6fc6",
+        "title": "Multi-label informed latent semantic indexing"
+    },
+    {
+        "paperId": "11c93f0b651046a9cae2e1c2e0f5d228d52f5677",
+        "title": "Fundamentally Flawed Indexing"
+    },
+    {
+        "paperId": "1066ac8a2639b074d558fd8a30f80f8d2c9c1bab",
+        "title": "Factors determining the performance of indexing systems"
+    },
+    {
+        "paperId": "2c0b632ab1b47013a3e1990ebf9c42183339a243",
+        "title": "Indexing Moving Points"
+    },
+    {
+        "paperId": "6439e8c8d7f1a11c50d66dca1c2fd5afc655488b",
+        "title": "TreePi: A Novel Graph Indexing Method"
+    },
+    {
+        "paperId": "c9d97b68a842f61ba95792d32c29c2f83e6af499",
+        "title": "Indexing dataspaces"
+    },
+    {
+        "paperId": "bf087a42706718b971fced540a18d89b59f8cc2c",
+        "title": "Human Activity Recognition Using Multidimensional Indexing"
+    },
+    {
+        "paperId": "ce61e49a9a3c88152e1f1b1b6e2e803328cc48f1",
+        "title": "Review of Image and Video Indexing Techniques"
+    },
+    {
+        "paperId": "b76bbddf92d247705c839436b5836081ab0add8a",
+        "title": "The Indexing and Retrieval of Document Images: A Survey"
+    },
+    {
+        "paperId": "0f77bf739e725dc54e384066c1848e7fffbcb89f",
+        "title": "Indexing of icosahedral quasiperiodic crystals"
+    },
+    {
+        "paperId": "279c6d90821d46703fe6c17daa9c64064cc2044a",
+        "title": "The onion technique: indexing for linear optimization queries"
+    },
+    {
+        "paperId": "666464d24c1a3687c542720d65227d762a65c53a",
+        "title": "Flickr and Democratic Indexing: dialogic approaches to indexing"
+    },
+    {
+        "paperId": "156d7ee8007f251fceaa5c1c7c3c16b1b4f69afa",
+        "title": "Regularized locality preserving indexing via spectral regression"
+    },
+    {
+        "paperId": "8ebe5f5cebcaee92ac770fc5c3491234c548d3a1",
+        "title": "Towards Graph Containment Search and Indexing"
+    },
+    {
+        "paperId": "f08735a3f0d19888e843b9c5b5208b441fd4e158",
+        "title": "Local Dimensionality Reduction: A New Approach to Indexing High Dimensional Spaces"
+    },
+    {
+        "paperId": "151c32ecc501f1e99c9140c7f18648d0a705ad7e",
+        "title": "Spatio-temporal indexing for large multimedia applications"
+    },
+    {
+        "paperId": "ece51f68cca79ae6682cec260576a570035650a3",
+        "title": "Fingerprint Indexing Based on Novel Features of Minutiae Triplets"
+    },
+    {
+        "paperId": "77922051d203b7d8825827e22f2affe152767086",
+        "title": "Robust and Efficient Shape Indexing through Curvature Scale Space"
+    },
+    {
+        "paperId": "c865eaeea27a742f16f14c3a45bbaefdd87a8330",
+        "title": "Similarity indexing with the SS-tree"
+    },
+    {
+        "paperId": "9cfd07abdd71b3997be8fcef4ebaca73fcd1e0f1",
+        "title": "A probabilistic framework for semantic video indexing, filtering, and retrieval"
+    },
+    {
+        "paperId": "74ad8419d1b620e9baffc5ece817712b8b8da044",
+        "title": "X-Cell: a novel indexing algorithm for routine tasks and difficult cases"
+    },
+    {
+        "paperId": "8b21c89b436e0aa540f7b9648e4344eb30a6e372",
+        "title": "Robust coding schemes for indexing and retrieval from large face databases"
+    },
+    {
+        "paperId": "20b253b8846814b5e06007cb337785b963633308",
+        "title": "Event based indexing of broadcasted sports video by intermodal collaboration"
+    },
+    {
+        "paperId": "56b0814322903a5ff5f81404a3b213de2fe9d7e1",
+        "title": "Color indexing with weak spatial constraints"
+    },
+    {
+        "paperId": "7a12d8c63d8536fbf20ccecfa68aac5aa09d0d1d",
+        "title": "A Survey on the Automatic Indexing of Video Data,"
+    },
+    {
+        "paperId": "701db31a4914bb3cbdbeb443a289fe07f535ea7a",
+        "title": "Probabilistic models of indexing and searching"
+    },
+    {
+        "paperId": "2c15155645fb0eebbd5400cbd2cd772ab22af0cc",
+        "title": "Word spotting: a new approach to indexing handwriting"
+    },
+    {
+        "paperId": "5dc31d2fa745ef07541666bdee815b38d6be1ea9",
+        "title": "Latent Semantic Indexing (LSI) and TREC-2"
+    },
+    {
+        "paperId": "4dd8221ee1ca00707300f99b36e103fef861d39d",
+        "title": "New factors in the evaluation of scientific literature through citation indexing"
+    },
+    {
+        "paperId": "47ac91cef4607aa5dad7afa2727e97a89428114a",
+        "title": "The NLM Indexing Initiative's Medical Text Indexer"
+    },
+    {
+        "paperId": "87618241774c6e5fafd0b757c799fd5981400325",
+        "title": "A probabilistic learning approach for document indexing"
+    },
+    {
+        "paperId": "33e170f01789ab5c722601239a28dfea2ffd8434",
+        "title": "Monte Carlo indexing with McMaille"
+    },
+    {
+        "paperId": "fe6a3dfe0f9c8a4fc6122319cd96f21ea0afb58a",
+        "title": "Spatio-textual Indexing for Geographical Search on the Web"
+    },
+    {
+        "paperId": "0fd8b558eb2251d6f8da7f44bdb28bd12a76c95a",
+        "title": "Efficient Matching and Indexing of Graph Models in Content-Based Retrieval"
+    },
+    {
+        "paperId": "d17e528324506eb7dd99a2ed70a9c62119cb2efa",
+        "title": "End-User Searching Challenges Indexing Practices in the Digital Newspaper Photo Archive"
+    },
+    {
+        "paperId": "dfba22b1017c14feeaad062ca3bb64664373337e",
+        "title": "Indexing and Abstracting in Theory and Practice"
+    },
+    {
+        "paperId": "725e70e293fcb70a648e8be762184a34b45b2c71",
+        "title": "The R+-Tree: A Dynamic Index for Multi-Dimensional Objects"
+    },
+    {
+        "paperId": "0b6044cb3ed27185ce0f375d4d80cf0e525bed17",
+        "title": "Experiments in Automatic Phrase Indexing For Document Retrieval: A Comparison of Syntactic and Non-Syntactic Methods"
+    },
+    {
+        "paperId": "b728646f8d8114afe22dead9623a58f479cbed66",
+        "title": "Can Citation Indexing Be Automated ?"
+    },
+    {
+        "paperId": "41f60ec620a226df0556a4d0d9d9b19b5ed785b2",
+        "title": "Multimedia semantic indexing using model vectors"
+    },
+    {
+        "paperId": "f21f0e7accf17cea3ab7083635da621471e227cb",
+        "title": "Indexing of moving objects for location-based services"
+    },
+    {
+        "paperId": "31724555de6221d3201b17bb83b1641bb8052e51",
+        "title": "The SPIRIT Spatial Search Engine: Architecture, Ontologies and Spatial Indexing"
+    },
+    {
+        "paperId": "bc866302cead61086ec59c2982f6af3ae945f7d6",
+        "title": "Retrieval by Shape Similarity with Perceptual Distance and Effective Indexing"
+    },
+    {
+        "paperId": "598f4b1cfccc74d3413cf5a1f859e72cbba88bf5",
+        "title": "A Quadtree-Based Dynamic Attribute Indexing Method"
+    },
+    {
+        "paperId": "d23d773033b0eb9232a44b83afbac1ae4d0517bb",
+        "title": "Indexing methods for approximate string matching"
+    },
+    {
+        "paperId": "909ba29f84519bbb2f56d47345f180d2fef4b792",
+        "title": "Efficient Indexing of Spatiotemporal Objects"
+    },
+    {
+        "paperId": "3422332d6170e6914c8378054bd3e8a0704959b0",
+        "title": "Indexing space and time in film understanding"
+    },
+    {
+        "paperId": "53ecdc232d2e640f890c831944761fe5604af033",
+        "title": "Automatic text segmentation and text recognition for video indexing"
+    },
+    {
+        "paperId": "5d93bc8a35c1756c4ee6a97a149e3063fde1c7cc",
+        "title": "Indexing and Access for Digital Libraries and the Internet: Human, Database, and Domain Factors"
+    },
+    {
+        "paperId": "171d580de976b3d4393b48b66271d1512420cc7b",
+        "title": "Automatic Indexing and Content-Based Retrieval of Captioned Images"
+    },
+    {
+        "paperId": "3b7ed05e1eb277b3f3d435fe208efe6c2b5367b4",
+        "title": "Indexing principles and a widely applicable paradigm for indexing animal populations"
+    },
+    {
+        "paperId": "bd2036b4736a6d99b593f09c482df00efc929307",
+        "title": "Some Issues in the Indexing of Images"
+    },
+    {
+        "paperId": "a4c6652feb5b52f1e08dc20f7c8e184ac2d6255a",
+        "title": "The NLM Indexing Initiative"
+    },
+    {
+        "paperId": "4eb6da7a2a259c1c1f1e67ff96e2470ea76e4c20",
+        "title": "The Semantic Pathfinder: Using an Authoring Metaphor for Generic Multimedia Indexing"
+    },
+    {
+        "paperId": "413a94e487454690e4f702bec438b946be5b9bde",
+        "title": "Indexing hierarchical structures using graph spectra"
+    },
+    {
+        "paperId": "83284c921f79ec0c8e39574b2e0c9205d9a9910f",
+        "title": "On Updating Problems in Latent Semantic Indexing"
+    },
+    {
+        "paperId": "59e6bf64f1f489e716ec6857abafa9ff0c9d0a4e",
+        "title": "Color Angular Indexing"
+    },
+    {
+        "paperId": "6dde8ee0fb6b2897d594e73f7bb1daee20efb014",
+        "title": "Wavelet-based image indexing techniques with partial sketch retrieval capability"
+    },
+    {
+        "paperId": "0a283fb395343cd26984425306ca24c85b09ccdb",
+        "title": "Automatic indexing based on Bayesian inference networks"
+    },
+    {
+        "paperId": "1dde0e0ba609de345be0e7e67c2245152bb5ac40",
+        "title": "Shock-Based Indexing into Large Shape Databases"
+    },
+    {
+        "paperId": "e336b5296e69d4c297998e3453f8df21978f4c8f",
+        "title": "Indexing in an Object-Oriented DBMS"
+    },
+    {
+        "paperId": "c43c364d289f9f08bc843b3ac7440c5aabb823a8",
+        "title": "Texture based medical image indexing and retrieval: application to cardiac imaging"
+    },
+    {
+        "paperId": "772f2fcd0627face8a4a01478d9fd6a5cec43d86",
+        "title": "Using Latent Semantic Indexing for Literature Based Discovery"
+    },
+    {
+        "paperId": "fe17c4b8247cd98c300f045bbf455e4b41ef8eaf",
+        "title": "Encoded bitmap indexing for data warehouses"
+    },
+    {
+        "paperId": "11dc605e0e99912c924fca3e455eeea288b4a7b4",
+        "title": "Indexing and abstracting in theory and practice"
+    },
+    {
+        "paperId": "80c787321bc7dbd449ed07e61c032c30f4ed81a1",
+        "title": "Towards user-centered indexing in digital image collections"
+    },
+    {
+        "paperId": "56efa4da96b5d9aab45dba9739ce3f65c3a03336",
+        "title": "On the sequencing of tree structures for XML indexing"
+    },
+    {
+        "paperId": "62f6a99f6749262f6dc6cc8b3d6f2f2c16a1aefb",
+        "title": "Multidimensional Indexing for Recognizing Visual Shapes"
+    },
+    {
+        "paperId": "6eb10d590bbf1c55ba11d776e097861e85f728a7",
+        "title": "Indexing Fingerprint Databases Based on Multiple Features"
+    },
+    {
+        "paperId": "63fa72f37980f338e5c1b2f7523c1b141adca3ce",
+        "title": "Robust indexing for automatic data collection"
+    },
+    {
+        "paperId": "2f43f4e568bfce9416bf017bd29a1a85b5b8350e",
+        "title": "Graph indexing based on discriminative frequent structure analysis"
+    },
+    {
+        "paperId": "195bbeaeff80dfd60ea29715695372d3052e7c9e",
+        "title": "Conceptual framework for indexing visual information at multiple levels"
+    },
+    {
+        "paperId": "b17657b136c71efaba8d85a3d545b8416c0c463e",
+        "title": "Indexing of network constrained moving objects"
+    },
+    {
+        "paperId": "ffb950fd0e4ec7dd464eac75e9b65d65b62cd601",
+        "title": "Indexing consistency in MEDLINE."
+    }
+]

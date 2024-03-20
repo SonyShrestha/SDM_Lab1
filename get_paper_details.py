@@ -37,7 +37,9 @@ def assign_keywords(field):
         "deep-learning":["Neural networks", "Artificial neural networks", "Convolutional neural networks (CNN)", "Recurrent neural networks (RNN)", "Long short-term memory (LSTM)", "Deep belief networks (DBN)", "Autoencoders", "Generative adversarial networks (GAN)", "Deep reinforcement learning", "Transfer learning", "Natural language processing (NLP)", "Computer vision", "Image recognition", "Speech recognition", "Time series analysis", "Sequence-to-sequence learning", "Attention mechanisms", "Deep learning frameworks", "TensorFlow", "PyTorch", "Keras"],
         "graph-processing":["Graph algorithms", "Graph traversal", "Graph analytics", "Graph partitioning", "Graph databases", "Graph querying", "Graph visualization", "Distributed graph processing", "Parallel graph processing", "Large-scale graph processing", "Graph-based machine learning", "Community detection", "Centrality measures", "PageRank algorithm", "Shortest path algorithms", "Connected components", "Graph embedding", "Graph neural networks", "Graph convolutional networks (GCN)", "Property graph"],
         "indexing":["Database indexing", "Index structure", "Primary index", "Secondary index", "Clustered index", "Non-clustered index", "Indexing methods", "B-tree", "Hash index", "Bitmap index", "Inverted index", "Spatial index", "Text indexing", "Full-text index", "Index optimization", "Index maintenance", "Index utilization", "Index seek", "Index scan", "Covering index", "Composite index"],
-        "machine-learning":["Supervised learning", "Unsupervised learning", "Semi-supervised learning", "Reinforcement learning", "Deep learning", "Neural networks", "Artificial neural networks", "Convolutional neural networks (CNN)", "Recurrent neural networks (RNN)", "Long short-term memory (LSTM)", "Decision trees", "Random forests", "Support vector machines (SVM)", "k-Nearest neighbors (k-NN)", "Clustering", "K-means clustering", "Hierarchical clustering", "Dimensionality reduction", "Principal component analysis (PCA)", "Feature selection", "Model evaluation", "Cross-validation", "Hyperparameter tuning"]
+        "machine-learning":["Supervised learning", "Unsupervised learning", "Semi-supervised learning", "Reinforcement learning", "Deep learning", "Neural networks", "Artificial neural networks", "Convolutional neural networks (CNN)", "Recurrent neural networks (RNN)", "Long short-term memory (LSTM)", "Decision trees", "Random forests", "Support vector machines (SVM)", "k-Nearest neighbors (k-NN)", "Clustering", "K-means clustering", "Hierarchical clustering", "Dimensionality reduction", "Principal component analysis (PCA)", "Feature selection", "Model evaluation", "Cross-validation", "Hyperparameter tuning"],
+        "data-quality": ["Data accuracy", "Data completeness", "Data consistency", "Data integrity", "Data validation", "Data verification", "Data cleaning", "Data standardization", "Data governance", "Data profiling", "Data auditing", "Data enrichment", "Error detection", "Data reliability", "Data timeliness", "Quality metrics", "Data compliance", "Data lineage", "Data quality management", "Data improvement techniques"],
+        "data-storage": ["Data warehousing", "Database management systems (DBMS)", "Cloud storage", "Object storage", "File storage", "Block storage", "Data lakes", "Distributed file systems", "Network Attached Storage (NAS)", "Storage Area Network (SAN)", "Solid State Drives (SSD)", "Hard Disk Drives (HDD)", "Data replication", "Data archiving", "Data backup", "Data retention policies", "Data encryption", "Storage efficiency", "Data compression", "Hierarchical storage management"]
     }
     # Lower each word
     words = [word.lower() for word in field.split('-')]
@@ -45,9 +47,16 @@ def assign_keywords(field):
     # Join the words back together
     fixed_keyword = ' '.join(words)
 
-    random_keywords = random.sample(keywords[field], 3)
-    random_keywords_lower = [word.lower() for word in random_keywords]
-    random_keywords_text = fixed_keyword + ', ' + ', '.join(random_keywords_lower)
+    random_keywords_lower=[]
+    if field in keywords:
+        random_keywords = random.sample(keywords[field], 3)
+        random_keywords_lower = [word.lower() for word in random_keywords]
+    if random_keywords_lower:
+        random_keywords_text = fixed_keyword + ', ' + ', '.join(random_keywords_lower)
+    
+    else:
+        random_keywords_text = fixed_keyword
+                
     return random_keywords_text
 
 

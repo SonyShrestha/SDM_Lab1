@@ -1,407 +1,802 @@
-{
-    "total": 31457381,
-    "offset": 0,
-    "next": 100,
-    "data": [
-        {
-            "paperId": "627be67feb084f1266cfc36e5aed3c3e7e6ce5f0",
-            "title": "MapReduce: simplified data processing on large clusters"
-        },
-        {
-            "paperId": "b204970b0503a923359bff532726666f5e0e971b",
-            "title": "The SILVA ribosomal RNA gene database project: improved data processing and web-based tools"
-        },
-        {
-            "paperId": "48265726215736f7dd7ceccacac488422032397c",
-            "title": "DPABI: Data Processing & Analysis for (Resting-State) Brain Imaging"
-        },
-        {
-            "paperId": "02b1607af35b48f0bd716367caf6a7428b969369",
-            "title": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty"
-        },
-        {
-            "paperId": "39602922b04885047254444fd1a1586d797617ce",
-            "title": "Optimization of metabolomic data processing using NOREVA"
-        },
-        {
-            "paperId": "bea98dba7790a80c09ceb8112732b6793609086f",
-            "title": "First M87 Event Horizon Telescope Results. III. Data Processing and Calibration"
-        },
-        {
-            "paperId": "2880ac931c11176aee6d42a7e7bb0703aacde3f9",
-            "title": "Open3D: A Modern Library for 3D Data Processing"
-        },
-        {
-            "paperId": "ada0b87cd5c30d31186c38fb12e631d29426a3bf",
-            "title": "Spark SQL: Relational Data Processing in Spark"
-        },
-        {
-            "paperId": "57a3fc6d0aaad3c10c793b4e59390ca04c935282",
-            "title": "An Overview of IoT Sensor Data Processing, Fusion, and Analysis Techniques"
-        },
-        {
-            "paperId": "febe776e285dc5e72c7e3ee697a87a794e1c00ff",
-            "title": "Privacy-Preserving Data Processing with Flexible Access Control"
-        },
-        {
-            "paperId": "ac91892a8a6b6c3e97aa92b6fa8d54b42cade0ee",
-            "title": "Learning scheduling algorithms for data processing clusters"
-        },
-        {
-            "paperId": "1d7531db9272f7838e33616075e1e64532fd013a",
-            "title": "The data processing pipeline for the MUSE instrument"
-        },
-        {
-            "paperId": "c15f30a3e84910a28cc560e7db097fd99339e8c1",
-            "title": "HiC-Pro: an optimized and flexible pipeline for Hi-C data processing"
-        },
-        {
-            "paperId": "4cf2034fa55a20e60a24ca6924f66aaafb30b877",
-            "title": "A complete data processing workflow for CryoET and subtomogram averaging"
-        },
-        {
-            "paperId": "d9a7fa7616a327367696e19b1846519745cd43ff",
-            "title": "The Devil Is in the Details: Delving Into Unbiased Data Processing for Human Pose Estimation"
-        },
-        {
-            "paperId": "a9640bac0b45a804d07fc5914feb08af8f2a73f2",
-            "title": "Metabolomics Data Processing Using XCMS."
-        },
-        {
-            "paperId": "846883b7761cb5fe4468d42bf9d328b5d1030175",
-            "title": "The Zwicky Transient Facility: Data Processing, Products, and Archive"
-        },
-        {
-            "paperId": "82d2b9d09cc339fdeac05abfb8a31f9c6eace948",
-            "title": "Untangling Blockchain: A Data Processing View of Blockchain Systems"
-        },
-        {
-            "paperId": "bb826d9ccd116076a267dfcb048cdd747c11b255",
-            "title": "Novel frontier of photonics for data processing\u2014Photonic accelerator"
-        },
-        {
-            "paperId": "20d92dc48ab6a52c087ae37eb394acb8f65f28eb",
-            "title": "Statistical Data Processing during Wind Generators Operation"
-        },
-        {
-            "paperId": "59c2968fb9672a7152c52127255d8f0784bc2368",
-            "title": "Using the ESP32 Microcontroller for Data Processing"
-        },
-        {
-            "paperId": "d35ed1fcab47cf98101dc745c42d3b51dace25eb",
-            "title": "Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Agriculture and Forestry"
-        },
-        {
-            "paperId": "c1fdfcd4470c65aa1238d3a1719c60672c8a4f5b",
-            "title": "Performance Analysis of IoT-Based Sensor, Big Data Processing, and Machine Learning Model for Real-Time Monitoring System in Automotive Manufacturing"
-        },
-        {
-            "paperId": "9181b0d801dfcd7723a3ede201f0543078e2c149",
-            "title": "Data processing, multi-omic pathway mapping, and metabolite activity analysis using XCMS Online"
-        },
-        {
-            "paperId": "2f44ab0e52eb98fdfc0086638887f175b6f2fe4b",
-            "title": "Benchmarking Distributed Stream Data Processing Systems"
-        },
-        {
-            "paperId": "785a1c77fabd1ad870a9dbc98d235d2fcbdbaa6f",
-            "title": "Fog computing: from architecture to edge computing and big data processing"
-        },
-        {
-            "paperId": "1051abf1e3dae90241ad15b3f98f2e41197ee611",
-            "title": "A Personalized Healthcare Monitoring System for Diabetic Patients by Utilizing BLE-Based Sensors and Real-Time Data Processing"
-        },
-        {
-            "paperId": "c2a448bb511ebae41a87e69891da8bbf17ddba3d",
-            "title": "KAMO: towards automated data processing for microcrystals"
-        },
-        {
-            "paperId": "27245e65a27bde90b5b0bb25d157bb75a0ad8b5a",
-            "title": "A survey of machine learning for big data processing"
-        },
-        {
-            "paperId": "1ee1d353d309eef7a74cfaebd4304c09d0f2b0d7",
-            "title": "When Computation Hugs Intelligence: Content-Aware Data Processing for Industrial IoT"
-        },
-        {
-            "paperId": "fa63c3f53413ced7946623889c416e34a28676ea",
-            "title": "The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing"
-        },
-        {
-            "paperId": "3ac939c4ada416858e1c1bff9e6f18aaa98323f3",
-            "title": "Pig latin: a not-so-foreign language for data processing"
-        },
-        {
-            "paperId": "25ed8ba0e8906ba98fa5d92d17a01e818796ddc9",
-            "title": "Data Processing"
-        },
-        {
-            "paperId": "46caf1e20fb6b6455d3465f871e3b00308ebc5b4",
-            "title": "[20] Processing of X-ray diffraction data collected in oscillation mode."
-        },
-        {
-            "paperId": "5371896313ac227eb819038dd55f213cb42b99e2",
-            "title": "RHEEM: Enabling Cross-Platform Data Processing - May The Big Data Be With You! -"
-        },
-        {
-            "paperId": "a18de38ddcd7bcea14dc82a37d8a0d05d3654522",
-            "title": "PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data."
-        },
-        {
-            "paperId": "3fadb72fb150197aa5eb88a65b244763fb45ab9b",
-            "title": "Multibeam sonar backscatter data processing"
-        },
-        {
-            "paperId": "7da5235a835ab66e6699a5f9adffd34c8c614d48",
-            "title": "Electron diffraction data processing with DIALS"
-        },
-        {
-            "paperId": "0fb6718d8697745b21c1b4b8b9db8dd34bb2bbcc",
-            "title": "Digital signal processing"
-        },
-        {
-            "paperId": "e712fa43ecb8dcdd439a70e55173291c477453c8",
-            "title": "Magnonic crystals for data processing"
-        },
-        {
-            "paperId": "63a604e73af861640cbf711cef8b75fc6d5ccd1e",
-            "title": "Nipype: A Flexible, Lightweight and Extensible Neuroimaging Data Processing Framework in Python"
-        },
-        {
-            "paperId": "dc46ba6465e2993e2801b1d0c8e752f63bcad586",
-            "title": "Algorithmic Aspects of Parallel Data Processing"
-        },
-        {
-            "paperId": "bede1dead1557c75c8dc6da8b1f70d77d6572607",
-            "title": "UAS, sensors, and data processing in agroforestry: a review towards practical applications"
-        },
-        {
-            "paperId": "b594809c33adc92b75bcb87a941941792c797f7c",
-            "title": "REST: A Toolkit for Resting-State Functional Magnetic Resonance Imaging Data Processing"
-        },
-        {
-            "paperId": "3a05d5aa6935e6482b0ca2f73797a31f4381e21c",
-            "title": "A comparison on scalability for batch big data processing on Apache Spark and Apache Flink"
-        },
-        {
-            "paperId": "763fe590dee9d2fdb44040f7e90f0dbfe39ee7e5",
-            "title": "A survey of state management in big data processing systems"
-        },
-        {
-            "paperId": "8bf1e11b7bf477f87ce66d159000133da19bd1b3",
-            "title": "A Survey on Geographically Distributed Big-Data Processing Using MapReduce"
-        },
-        {
-            "paperId": "74996abd0cc0bbf34b5cefa39f2899461ad44b27",
-            "title": "Focus: The interface between data collection and data processing in cryo-EM."
-        },
-        {
-            "paperId": "851081439f3524dee702158973d3e4dc1a4f8549",
-            "title": "Big Data Processing in Cloud Computing Environments"
-        },
-        {
-            "paperId": "14c9c04973ca9bd1cecf0892a9b90a54aa930098",
-            "title": "Crail: A High-Performance I/O Architecture for Distributed Data Processing"
-        },
-        {
-            "paperId": "ef90b423bc1e818119d3ac8d32c97659b748ceb6",
-            "title": "Overview of the CALIPSO Mission and CALIOP Data Processing Algorithms"
-        },
-        {
-            "paperId": "f96efbad191c388706ce370dd9be5d2c25a7b3dc",
-            "title": "Biscuit: A Framework for Near-Data Processing of Big Data Workloads"
-        },
-        {
-            "paperId": "2cf53f58e32ae31ff046b6bdbb11c1e40db9da93",
-            "title": "Non-targeted UHPLC-MS metabolomic data processing methods: a comparative investigation of normalisation, missing value imputation, transformation and scaling"
-        },
-        {
-            "paperId": "8c33048fe73dc21b0fd334104f88a2a304aa25ed",
-            "title": "Processing of X-ray diffraction data collected in oscillation mode."
-        },
-        {
-            "paperId": "a4956112932bad3321cc2b0c00f8de9d2e391b13",
-            "title": "Heterogeneous Medical Data Processing"
-        },
-        {
-            "paperId": "d4a7a67228686975e882fee8d571f8257535e8b7",
-            "title": "HRL: Efficient and flexible reconfigurable logic for near-data processing"
-        },
-        {
-            "paperId": "39e223e6b5a6f8727e9f60b8b7c7720dc40a5dbc",
-            "title": "The emerging field of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains"
-        },
-        {
-            "paperId": "4ce25286205c62fffda7d685a916cf4508149245",
-            "title": "Realtime Data Processing at Facebook"
-        },
-        {
-            "paperId": "2b2eaf0a473ebaf5e4250abb7efb34d4b2265dc6",
-            "title": "Trans\u2010Proteomic Pipeline, a standardized data processing pipeline for large\u2010scale reproducible proteomics informatics"
-        },
-        {
-            "paperId": "74d1a281bfb87b8b15187939e18ff57eef5eb5f6",
-            "title": "The GOME-2 instrument on the Metop series of satellites: instrument design, calibration, and level 1 data processing \u2013 an overview"
-        },
-        {
-            "paperId": "5fe11d2a85f6733582bececb175e3a9e3173e4a7",
-            "title": "Practical Near-Data Processing for In-Memory Analytics Frameworks"
-        },
-        {
-            "paperId": "802fdb1252dddefa7db7c3ceba49d7274e11426c",
-            "title": "An Architecture for and Fast and General Data Processing on Large Clusters"
-        },
-        {
-            "paperId": "3b8a890860ea76cabdb4d9dca0522a1c34e08265",
-            "title": "QoRTs: a comprehensive toolset for quality control and data processing of RNA-Seq experiments"
-        },
-        {
-            "paperId": "3bd2c0e2ce0e64d7f0f49ce0debd0ee29eec8ad0",
-            "title": "Review of multidimensional data processing approaches for Raman and infrared spectroscopy"
-        },
-        {
-            "paperId": "b58725d3935d36685e4002b6a522fdfbf9d8e2a1",
-            "title": "Radar Data Processing With Applications"
-        },
-        {
-            "paperId": "36b40e07dbd0fd44e16328154469011b8c1f8b0f",
-            "title": "Singular value decomposition for genome-wide expression data processing and modeling."
-        },
-        {
-            "paperId": "add3dbbb3d02a5bbfca6365e39164ca009d79915",
-            "title": "The EnMAP-Box - A Toolbox and Application Programming Interface for EnMAP Data Processing"
-        },
-        {
-            "paperId": "499971d6cb198c61b56187d119f2f7859bbbbf2e",
-            "title": "The Pan-STARRS Data-processing System"
-        },
-        {
-            "paperId": "1ed8f456a9d95dea1d7a76725a26ffa7bf364311",
-            "title": "Strong data-processing inequalities for channels and Bayesian networks"
-        },
-        {
-            "paperId": "12d1ac20ea73943dfae40ef436dac50fdeaebfb4",
-            "title": "Data processing pipeline for serial femtosecond crystallography at SACLA1"
-        },
-        {
-            "paperId": "e6b3a677944c7f724ad10ef215120be9b261586c",
-            "title": "GFZ Global Multi-GNSS Network and Data Processing Results"
-        },
-        {
-            "paperId": "7920a23376d86c1e1e73e82c770a534ff9bf84b2",
-            "title": "Tools and best practices for data processing in allelic expression analysis"
-        },
-        {
-            "paperId": "28c6f5092329c966d82733ee56211bf8b125dea7",
-            "title": "The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data"
-        },
-        {
-            "paperId": "befb9d95f117153ef11a586fad1a88f14d73bb7b",
-            "title": "Performance Modeling and Predictive Scheduling for Distributed Stream Data Processing"
-        },
-        {
-            "paperId": "0fdc029342552729b72e1245a22b60ac96020124",
-            "title": "Beyond the Wall: Near-Data Processing for Databases"
-        },
-        {
-            "paperId": "8f2762088033797eae3aeac73c817de6d95675c3",
-            "title": "Data Processing Requirements of Industry 4.0 - Use Cases for Big Data Applications"
-        },
-        {
-            "paperId": "f7961fcfa4cf0d21c1fed4d827779770c26e2bf2",
-            "title": "Emerging trends and technologies in big data processing"
-        },
-        {
-            "paperId": "5d1d5668c86d6d935c063c21b376a99d077f0c8f",
-            "title": "Magnon transistor for all-magnon data processing"
-        },
-        {
-            "paperId": "d6c4fd80d4bfb4b84c1f95c8848bd0fc2f3b06bd",
-            "title": "JAFAR: Near-Data Processing for Databases"
-        },
-        {
-            "paperId": "a42689da02c3a5291fbd6746cb6751c7bb224a2c",
-            "title": "XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification."
-        },
-        {
-            "paperId": "e5d69f92e3b8c6101816f73a31e1cc6dfc417e33",
-            "title": "A Review: Data Pre-Processing and Data Augmentation Techniques"
-        },
-        {
-            "paperId": "291b4020f2ea72cc633180102fed8e42fb81203f",
-            "title": "Lambda architecture for cost-effective batch and speed big data processing"
-        },
-        {
-            "paperId": "794503ced3fb29e8c996f9e20e783014e5dbe185",
-            "title": "Communication lower bounds for statistical estimation problems via a distributed data processing inequality"
-        },
-        {
-            "paperId": "d03820bb0ee8a4b936cc5fd13053588d659ff946",
-            "title": "NanoPack: visualizing and processing long-read sequencing data"
-        },
-        {
-            "paperId": "efb9575f5c957b73c640f00950982e618e31a7be",
-            "title": "Guidelines for data processing analysis of the International Physical Activity Questionnaire (IPAQ) - Short and long forms"
-        },
-        {
-            "paperId": "dbdf5d81124a5a4d1bcbd6ed996178523c9b4946",
-            "title": "Five-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Data Processing, Sky Maps, & Basic Results"
-        },
-        {
-            "paperId": "71ebdd3e1ceac870c1e6793da0a77e8035774bfb",
-            "title": "Data Processing System (DPS) software with experimental design, statistical analysis and data mining developed for use in entomological research"
-        },
-        {
-            "paperId": "efc17f18079bb495215b6cac0966e3253c424bc6",
-            "title": "Iolite: Freeware for the visualisation and processing of mass spectrometric data"
-        },
-        {
-            "paperId": "b3487782be2620f815f2e6bae1958c3466e16edd",
-            "title": "Review of GPS Travel Survey and GPS Data-Processing Methods"
-        },
-        {
-            "paperId": "a68e1f12b430a3361717be8bf35b2415486d074e",
-            "title": "Introduction to Ground Penetrating Radar: Inverse Scattering and Data Processing"
-        },
-        {
-            "paperId": "1f7a3e295bd6660c03f157ea7c2e32538be5d64c",
-            "title": "Near-Data Processing: Insights from a MICRO-46 Workshop"
-        },
-        {
-            "paperId": "7339c20b5c5ab96260beb5162d38bcd8258461df",
-            "title": "MapReduce: a flexible data processing tool"
-        },
-        {
-            "paperId": "595d3ab129312377182a931db40166e7ded1570e",
-            "title": "Strong Data Processing Inequalities and  $\\Phi $ -Sobolev Inequalities for Discrete Channels"
-        },
-        {
-            "paperId": "70775788414459393eb6ddcf5dce95aac68721d0",
-            "title": "The Spectral Image Processing System (SIPS) - Interactive visualization and analysis of imaging spectrometer data"
-        },
-        {
-            "paperId": "0aaafe741c86e48f7b58376661fb95a121246007",
-            "title": "Cost Minimization for Big Data Processing in Geo-Distributed Data Centers"
-        },
-        {
-            "paperId": "3b0cfc0cc3fc3bee835147786c749de5ab1f8ed2",
-            "title": "Streaming Big Data Processing in Datacenter Clouds"
-        },
-        {
-            "paperId": "41f144105fff22176f3c11d351901d363cb133ff",
-            "title": "Data processing in Fourier transform ion cyclotron resonance mass spectrometry."
-        },
-        {
-            "paperId": "0ef844d26d3efbc7c1ff8975e0ede0fb7200989d",
-            "title": "On hypercontractivity and a data processing inequality"
-        },
-        {
-            "paperId": "f5e98585296188ade92aabcc69a10dd07330d3d7",
-            "title": "Prominence of MapReduce in Big Data Processing"
-        },
-        {
-            "paperId": "b1fd45a8cd1a110be6983a592e697f4676b21afb",
-            "title": "Large Scale and Big Data - Processing and Management"
-        }
-    ]
-}
+[
+    {
+        "paperId": "627be67feb084f1266cfc36e5aed3c3e7e6ce5f0",
+        "title": "MapReduce: simplified data processing on large clusters"
+    },
+    {
+        "paperId": "b204970b0503a923359bff532726666f5e0e971b",
+        "title": "The SILVA ribosomal RNA gene database project: improved data processing and web-based tools"
+    },
+    {
+        "paperId": "48265726215736f7dd7ceccacac488422032397c",
+        "title": "DPABI: Data Processing & Analysis for (Resting-State) Brain Imaging"
+    },
+    {
+        "paperId": "02b1607af35b48f0bd716367caf6a7428b969369",
+        "title": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty"
+    },
+    {
+        "paperId": "39602922b04885047254444fd1a1586d797617ce",
+        "title": "Optimization of metabolomic data processing using NOREVA"
+    },
+    {
+        "paperId": "41d04aa3c25dcfbf1b44ce666c48759e03c216c7",
+        "title": "tf.data: A Machine Learning Data Processing Framework"
+    },
+    {
+        "paperId": "bea98dba7790a80c09ceb8112732b6793609086f",
+        "title": "First M87 Event Horizon Telescope Results. III. Data Processing and Calibration"
+    },
+    {
+        "paperId": "2880ac931c11176aee6d42a7e7bb0703aacde3f9",
+        "title": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+        "paperId": "ada0b87cd5c30d31186c38fb12e631d29426a3bf",
+        "title": "Spark SQL: Relational Data Processing in Spark"
+    },
+    {
+        "paperId": "57a3fc6d0aaad3c10c793b4e59390ca04c935282",
+        "title": "An Overview of IoT Sensor Data Processing, Fusion, and Analysis Techniques"
+    },
+    {
+        "paperId": "febe776e285dc5e72c7e3ee697a87a794e1c00ff",
+        "title": "Privacy-Preserving Data Processing with Flexible Access Control"
+    },
+    {
+        "paperId": "ac91892a8a6b6c3e97aa92b6fa8d54b42cade0ee",
+        "title": "Learning scheduling algorithms for data processing clusters"
+    },
+    {
+        "paperId": "1d7531db9272f7838e33616075e1e64532fd013a",
+        "title": "The data processing pipeline for the MUSE instrument"
+    },
+    {
+        "paperId": "c15f30a3e84910a28cc560e7db097fd99339e8c1",
+        "title": "HiC-Pro: an optimized and flexible pipeline for Hi-C data processing"
+    },
+    {
+        "paperId": "4cf2034fa55a20e60a24ca6924f66aaafb30b877",
+        "title": "A complete data processing workflow for CryoET and subtomogram averaging"
+    },
+    {
+        "paperId": "d9a7fa7616a327367696e19b1846519745cd43ff",
+        "title": "The Devil Is in the Details: Delving Into Unbiased Data Processing for Human Pose Estimation"
+    },
+    {
+        "paperId": "a9640bac0b45a804d07fc5914feb08af8f2a73f2",
+        "title": "Metabolomics Data Processing Using XCMS."
+    },
+    {
+        "paperId": "846883b7761cb5fe4468d42bf9d328b5d1030175",
+        "title": "The Zwicky Transient Facility: Data Processing, Products, and Archive"
+    },
+    {
+        "paperId": "82d2b9d09cc339fdeac05abfb8a31f9c6eace948",
+        "title": "Untangling Blockchain: A Data Processing View of Blockchain Systems"
+    },
+    {
+        "paperId": "3cfe075af77bf0364e6ddecb3d223960d06e8927",
+        "title": "Real-time big data processing for anomaly detection: A Survey"
+    },
+    {
+        "paperId": "bb826d9ccd116076a267dfcb048cdd747c11b255",
+        "title": "Novel frontier of photonics for data processing\u2014Photonic accelerator"
+    },
+    {
+        "paperId": "59c2968fb9672a7152c52127255d8f0784bc2368",
+        "title": "Using the ESP32 Microcontroller for Data Processing"
+    },
+    {
+        "paperId": "20d92dc48ab6a52c087ae37eb394acb8f65f28eb",
+        "title": "Statistical Data Processing during Wind Generators Operation"
+    },
+    {
+        "paperId": "d35ed1fcab47cf98101dc745c42d3b51dace25eb",
+        "title": "Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Agriculture and Forestry"
+    },
+    {
+        "paperId": "c1fdfcd4470c65aa1238d3a1719c60672c8a4f5b",
+        "title": "Performance Analysis of IoT-Based Sensor, Big Data Processing, and Machine Learning Model for Real-Time Monitoring System in Automotive Manufacturing"
+    },
+    {
+        "paperId": "9181b0d801dfcd7723a3ede201f0543078e2c149",
+        "title": "Data processing, multi-omic pathway mapping, and metabolite activity analysis using XCMS Online"
+    },
+    {
+        "paperId": "2f44ab0e52eb98fdfc0086638887f175b6f2fe4b",
+        "title": "Benchmarking Distributed Stream Data Processing Systems"
+    },
+    {
+        "paperId": "785a1c77fabd1ad870a9dbc98d235d2fcbdbaa6f",
+        "title": "Fog computing: from architecture to edge computing and big data processing"
+    },
+    {
+        "paperId": "d47a6cd76bbd2defc3622e9f4baca6dbe399cfe1",
+        "title": "Exploring Google Earth Engine Platform for Big Data Processing: Classification of Multi-Temporal Satellite Imagery for Crop Mapping"
+    },
+    {
+        "paperId": "c2a448bb511ebae41a87e69891da8bbf17ddba3d",
+        "title": "KAMO: towards automated data processing for microcrystals"
+    },
+    {
+        "paperId": "1051abf1e3dae90241ad15b3f98f2e41197ee611",
+        "title": "A Personalized Healthcare Monitoring System for Diabetic Patients by Utilizing BLE-Based Sensors and Real-Time Data Processing"
+    },
+    {
+        "paperId": "27245e65a27bde90b5b0bb25d157bb75a0ad8b5a",
+        "title": "A survey of machine learning for big data processing"
+    },
+    {
+        "paperId": "1ee1d353d309eef7a74cfaebd4304c09d0f2b0d7",
+        "title": "When Computation Hugs Intelligence: Content-Aware Data Processing for Industrial IoT"
+    },
+    {
+        "paperId": "fa63c3f53413ced7946623889c416e34a28676ea",
+        "title": "The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing"
+    },
+    {
+        "paperId": "25ed8ba0e8906ba98fa5d92d17a01e818796ddc9",
+        "title": "Data Processing"
+    },
+    {
+        "paperId": "3ac939c4ada416858e1c1bff9e6f18aaa98323f3",
+        "title": "Pig latin: a not-so-foreign language for data processing"
+    },
+    {
+        "paperId": "46caf1e20fb6b6455d3465f871e3b00308ebc5b4",
+        "title": "[20] Processing of X-ray diffraction data collected in oscillation mode."
+    },
+    {
+        "paperId": "5371896313ac227eb819038dd55f213cb42b99e2",
+        "title": "RHEEM: Enabling Cross-Platform Data Processing - May The Big Data Be With You! -"
+    },
+    {
+        "paperId": "a18de38ddcd7bcea14dc82a37d8a0d05d3654522",
+        "title": "PTRAJ and CPPTRAJ: Software for Processing and Analysis of Molecular Dynamics Trajectory Data."
+    },
+    {
+        "paperId": "3fadb72fb150197aa5eb88a65b244763fb45ab9b",
+        "title": "Multibeam sonar backscatter data processing"
+    },
+    {
+        "paperId": "b3d2b239ea2d53733c136a474a8c82e05325927d",
+        "title": "Nonlinear Fourier Transform for Optical Data Processing and Transmission: Advances and Perspectives"
+    },
+    {
+        "paperId": "7da5235a835ab66e6699a5f9adffd34c8c614d48",
+        "title": "Electron diffraction data processing with DIALS"
+    },
+    {
+        "paperId": "e712fa43ecb8dcdd439a70e55173291c477453c8",
+        "title": "Magnonic crystals for data processing"
+    },
+    {
+        "paperId": "63a604e73af861640cbf711cef8b75fc6d5ccd1e",
+        "title": "Nipype: A Flexible, Lightweight and Extensible Neuroimaging Data Processing Framework in Python"
+    },
+    {
+        "paperId": "bede1dead1557c75c8dc6da8b1f70d77d6572607",
+        "title": "UAS, sensors, and data processing in agroforestry: a review towards practical applications"
+    },
+    {
+        "paperId": "dc46ba6465e2993e2801b1d0c8e752f63bcad586",
+        "title": "Algorithmic Aspects of Parallel Data Processing"
+    },
+    {
+        "paperId": "b594809c33adc92b75bcb87a941941792c797f7c",
+        "title": "REST: A Toolkit for Resting-State Functional Magnetic Resonance Imaging Data Processing"
+    },
+    {
+        "paperId": "3a05d5aa6935e6482b0ca2f73797a31f4381e21c",
+        "title": "A comparison on scalability for batch big data processing on Apache Spark and Apache Flink"
+    },
+    {
+        "paperId": "763fe590dee9d2fdb44040f7e90f0dbfe39ee7e5",
+        "title": "A survey of state management in big data processing systems"
+    },
+    {
+        "paperId": "8bf1e11b7bf477f87ce66d159000133da19bd1b3",
+        "title": "A Survey on Geographically Distributed Big-Data Processing Using MapReduce"
+    },
+    {
+        "paperId": "74996abd0cc0bbf34b5cefa39f2899461ad44b27",
+        "title": "Focus: The interface between data collection and data processing in cryo-EM."
+    },
+    {
+        "paperId": "851081439f3524dee702158973d3e4dc1a4f8549",
+        "title": "Big Data Processing in Cloud Computing Environments"
+    },
+    {
+        "paperId": "14c9c04973ca9bd1cecf0892a9b90a54aa930098",
+        "title": "Crail: A High-Performance I/O Architecture for Distributed Data Processing"
+    },
+    {
+        "paperId": "ef90b423bc1e818119d3ac8d32c97659b748ceb6",
+        "title": "Overview of the CALIPSO Mission and CALIOP Data Processing Algorithms"
+    },
+    {
+        "paperId": "f96efbad191c388706ce370dd9be5d2c25a7b3dc",
+        "title": "Biscuit: A Framework for Near-Data Processing of Big Data Workloads"
+    },
+    {
+        "paperId": "2cf53f58e32ae31ff046b6bdbb11c1e40db9da93",
+        "title": "Non-targeted UHPLC-MS metabolomic data processing methods: a comparative investigation of normalisation, missing value imputation, transformation and scaling"
+    },
+    {
+        "paperId": "8c33048fe73dc21b0fd334104f88a2a304aa25ed",
+        "title": "Processing of X-ray diffraction data collected in oscillation mode."
+    },
+    {
+        "paperId": "a4956112932bad3321cc2b0c00f8de9d2e391b13",
+        "title": "Heterogeneous Medical Data Processing"
+    },
+    {
+        "paperId": "d4a7a67228686975e882fee8d571f8257535e8b7",
+        "title": "HRL: Efficient and flexible reconfigurable logic for near-data processing"
+    },
+    {
+        "paperId": "39e223e6b5a6f8727e9f60b8b7c7720dc40a5dbc",
+        "title": "The emerging field of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains"
+    },
+    {
+        "paperId": "4ce25286205c62fffda7d685a916cf4508149245",
+        "title": "Realtime Data Processing at Facebook"
+    },
+    {
+        "paperId": "2b2eaf0a473ebaf5e4250abb7efb34d4b2265dc6",
+        "title": "Trans\u2010Proteomic Pipeline, a standardized data processing pipeline for large\u2010scale reproducible proteomics informatics"
+    },
+    {
+        "paperId": "74d1a281bfb87b8b15187939e18ff57eef5eb5f6",
+        "title": "The GOME-2 instrument on the Metop series of satellites: instrument design, calibration, and level 1 data processing \u2013 an overview"
+    },
+    {
+        "paperId": "5fe11d2a85f6733582bececb175e3a9e3173e4a7",
+        "title": "Practical Near-Data Processing for In-Memory Analytics Frameworks"
+    },
+    {
+        "paperId": "802fdb1252dddefa7db7c3ceba49d7274e11426c",
+        "title": "An Architecture for and Fast and General Data Processing on Large Clusters"
+    },
+    {
+        "paperId": "3b8a890860ea76cabdb4d9dca0522a1c34e08265",
+        "title": "QoRTs: a comprehensive toolset for quality control and data processing of RNA-Seq experiments"
+    },
+    {
+        "paperId": "3bd2c0e2ce0e64d7f0f49ce0debd0ee29eec8ad0",
+        "title": "Review of multidimensional data processing approaches for Raman and infrared spectroscopy"
+    },
+    {
+        "paperId": "b58725d3935d36685e4002b6a522fdfbf9d8e2a1",
+        "title": "Radar Data Processing With Applications"
+    },
+    {
+        "paperId": "36b40e07dbd0fd44e16328154469011b8c1f8b0f",
+        "title": "Singular value decomposition for genome-wide expression data processing and modeling."
+    },
+    {
+        "paperId": "add3dbbb3d02a5bbfca6365e39164ca009d79915",
+        "title": "The EnMAP-Box - A Toolbox and Application Programming Interface for EnMAP Data Processing"
+    },
+    {
+        "paperId": "499971d6cb198c61b56187d119f2f7859bbbbf2e",
+        "title": "The Pan-STARRS Data-processing System"
+    },
+    {
+        "paperId": "1ed8f456a9d95dea1d7a76725a26ffa7bf364311",
+        "title": "Strong data-processing inequalities for channels and Bayesian networks"
+    },
+    {
+        "paperId": "12d1ac20ea73943dfae40ef436dac50fdeaebfb4",
+        "title": "Data processing pipeline for serial femtosecond crystallography at SACLA1"
+    },
+    {
+        "paperId": "e6b3a677944c7f724ad10ef215120be9b261586c",
+        "title": "GFZ Global Multi-GNSS Network and Data Processing Results"
+    },
+    {
+        "paperId": "28c6f5092329c966d82733ee56211bf8b125dea7",
+        "title": "The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data"
+    },
+    {
+        "paperId": "befb9d95f117153ef11a586fad1a88f14d73bb7b",
+        "title": "Performance Modeling and Predictive Scheduling for Distributed Stream Data Processing"
+    },
+    {
+        "paperId": "0fdc029342552729b72e1245a22b60ac96020124",
+        "title": "Beyond the Wall: Near-Data Processing for Databases"
+    },
+    {
+        "paperId": "8f2762088033797eae3aeac73c817de6d95675c3",
+        "title": "Data Processing Requirements of Industry 4.0 - Use Cases for Big Data Applications"
+    },
+    {
+        "paperId": "f7961fcfa4cf0d21c1fed4d827779770c26e2bf2",
+        "title": "Emerging trends and technologies in big data processing"
+    },
+    {
+        "paperId": "84993fad8fabe361cf5d69e05ac5045cf6ac99ae",
+        "title": "Spark-GPU: An accelerated in-memory data processing engine on clusters"
+    },
+    {
+        "paperId": "5d1d5668c86d6d935c063c21b376a99d077f0c8f",
+        "title": "Magnon transistor for all-magnon data processing"
+    },
+    {
+        "paperId": "d03820bb0ee8a4b936cc5fd13053588d659ff946",
+        "title": "NanoPack: visualizing and processing long-read sequencing data"
+    },
+    {
+        "paperId": "d6c4fd80d4bfb4b84c1f95c8848bd0fc2f3b06bd",
+        "title": "JAFAR: Near-Data Processing for Databases"
+    },
+    {
+        "paperId": "a42689da02c3a5291fbd6746cb6751c7bb224a2c",
+        "title": "XCMS: processing mass spectrometry data for metabolite profiling using nonlinear peak alignment, matching, and identification."
+    },
+    {
+        "paperId": "e5d69f92e3b8c6101816f73a31e1cc6dfc417e33",
+        "title": "A Review: Data Pre-Processing and Data Augmentation Techniques"
+    },
+    {
+        "paperId": "291b4020f2ea72cc633180102fed8e42fb81203f",
+        "title": "Lambda architecture for cost-effective batch and speed big data processing"
+    },
+    {
+        "paperId": "794503ced3fb29e8c996f9e20e783014e5dbe185",
+        "title": "Communication lower bounds for statistical estimation problems via a distributed data processing inequality"
+    },
+    {
+        "paperId": "efb9575f5c957b73c640f00950982e618e31a7be",
+        "title": "Guidelines for data processing analysis of the International Physical Activity Questionnaire (IPAQ) - Short and long forms"
+    },
+    {
+        "paperId": "dbdf5d81124a5a4d1bcbd6ed996178523c9b4946",
+        "title": "Five-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Data Processing, Sky Maps, & Basic Results"
+    },
+    {
+        "paperId": "71ebdd3e1ceac870c1e6793da0a77e8035774bfb",
+        "title": "Data Processing System (DPS) software with experimental design, statistical analysis and data mining developed for use in entomological research"
+    },
+    {
+        "paperId": "efc17f18079bb495215b6cac0966e3253c424bc6",
+        "title": "Iolite: Freeware for the visualisation and processing of mass spectrometric data"
+    },
+    {
+        "paperId": "b3487782be2620f815f2e6bae1958c3466e16edd",
+        "title": "Review of GPS Travel Survey and GPS Data-Processing Methods"
+    },
+    {
+        "paperId": "a68e1f12b430a3361717be8bf35b2415486d074e",
+        "title": "Introduction to Ground Penetrating Radar: Inverse Scattering and Data Processing"
+    },
+    {
+        "paperId": "1f7a3e295bd6660c03f157ea7c2e32538be5d64c",
+        "title": "Near-Data Processing: Insights from a MICRO-46 Workshop"
+    },
+    {
+        "paperId": "7339c20b5c5ab96260beb5162d38bcd8258461df",
+        "title": "MapReduce: a flexible data processing tool"
+    },
+    {
+        "paperId": "595d3ab129312377182a931db40166e7ded1570e",
+        "title": "Strong Data Processing Inequalities and  $\\Phi $ -Sobolev Inequalities for Discrete Channels"
+    },
+    {
+        "paperId": "70775788414459393eb6ddcf5dce95aac68721d0",
+        "title": "The Spectral Image Processing System (SIPS) - Interactive visualization and analysis of imaging spectrometer data"
+    },
+    {
+        "paperId": "0aaafe741c86e48f7b58376661fb95a121246007",
+        "title": "Cost Minimization for Big Data Processing in Geo-Distributed Data Centers"
+    },
+    {
+        "paperId": "3b0cfc0cc3fc3bee835147786c749de5ab1f8ed2",
+        "title": "Streaming Big Data Processing in Datacenter Clouds"
+    },
+    {
+        "paperId": "41f144105fff22176f3c11d351901d363cb133ff",
+        "title": "Data processing in Fourier transform ion cyclotron resonance mass spectrometry."
+    },
+    {
+        "paperId": "f5e98585296188ade92aabcc69a10dd07330d3d7",
+        "title": "Prominence of MapReduce in Big Data Processing"
+    },
+    {
+        "paperId": "b1fd45a8cd1a110be6983a592e697f4676b21afb",
+        "title": "Large Scale and Big Data - Processing and Management"
+    },
+    {
+        "paperId": "54dc9c2c6327732edd5a05f286b6f6a290ff9025",
+        "title": "Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants"
+    },
+    {
+        "paperId": "6c1ce4dec9dd715ca67b0dbf28c789b2ce886923",
+        "title": "Accelerometer Data Collection and Processing Criteria to Assess Physical Activity and Other Outcomes: A Systematic Review and Practical Considerations"
+    },
+    {
+        "paperId": "98b9fde16d450f858bae75dfc466f2009083a9f0",
+        "title": "Scater: pre-processing, quality control, normalization and visualization of single-cell RNA-seq data in R"
+    },
+    {
+        "paperId": "ca8009309c6a7ea6a53aaa43c4c48782c5bc2800",
+        "title": "Basic and extensible post-processing of eddy covariance flux data with REddyProc"
+    },
+    {
+        "paperId": "59fb4c2a93ad2dc304fcf76a4d936ff14cde145e",
+        "title": "Real-time cryo\u2013EM data pre-processing with Warp"
+    },
+    {
+        "paperId": "4187ef89f3e4318f1ad721be4c1b26ab36be606c",
+        "title": "MNE software for processing MEG and EEG data"
+    },
+    {
+        "paperId": "23eb33af4f0495edff01402ec8eb019e80717897",
+        "title": "Digital Processing of Synthetic Aperture Radar Data: Algorithms and Implementation"
+    },
+    {
+        "paperId": "5b98d652f6df52ca9daa14669f3c10f28ea59ab3",
+        "title": "Hyperspectral Data Processing: Algorithm Design and Analysis"
+    },
+    {
+        "paperId": "283f1674a4e6a6a5e2dd11fafaadcd3dff2d17fb",
+        "title": "Parallel data processing with MapReduce: a survey"
+    },
+    {
+        "paperId": "029f80911bdcc8e6a9bfddaed9f8db22adeadcfc",
+        "title": "Data processing method, data processing device and data processing system"
+    },
+    {
+        "paperId": "bc1022b031dc6c7019696492e8116598097a8c12",
+        "title": "Natural Language Processing (Almost) from Scratch"
+    },
+    {
+        "paperId": "35e22bfe1ef384930516057331097a771d2c7466",
+        "title": "Sandwiched R\u00e9nyi divergence satisfies data processing inequality"
+    },
+    {
+        "paperId": "9b19c547316a399070ea0ed90f2de2151980858c",
+        "title": "Data Processing on FPGAs"
+    },
+    {
+        "paperId": "e38c30aa8fd87d4ba3f46f9fad9e898d7ec10101",
+        "title": "BitWeaving: fast scans for main memory data processing"
+    },
+    {
+        "paperId": "d05e47e47c54b82af9e1154c5afb74c4c51233cb",
+        "title": "A comprehensive overview of Infinium HumanMethylation450 data processing"
+    },
+    {
+        "paperId": "87f4535d9887f572953e59c95c203de2e4c3a186",
+        "title": "On Maximal Correlation, Hypercontractivity, and the Data Processing Inequality studied by Erkip and Cover"
+    },
+    {
+        "paperId": "da5b5e36c8b2ee9f1637f1f5ca0f979e3ed40319",
+        "title": "Enabling cost-effective data processing with smart SSD"
+    },
+    {
+        "paperId": "6a21158317711c9b349c68cd7e7b2a92efbbb074",
+        "title": "The family of mapreduce and large-scale data processing systems"
+    },
+    {
+        "paperId": "44787913722b856c22c9c81ded1c735c24ad4de4",
+        "title": "deepTools2: a next generation web server for deep-sequencing data analysis"
+    },
+    {
+        "paperId": "4314ae9530bf38fc811fe51458e131d8bf1bb108",
+        "title": "Advanced Data Processing in the Business Network System"
+    },
+    {
+        "paperId": "9c79c0332aae5406f4723a4641df023a90906e30",
+        "title": "Transparent and Flexible Network Management for Big Data Processing in the Cloud"
+    },
+    {
+        "paperId": "1fd4cd5f37e6ce90387822c101dc2b14629f45a6",
+        "title": "Present Status and Challenges of Big Data Processing in Smart Grid"
+    },
+    {
+        "paperId": "30f86d38f0660af5ea2e16d996434c72eee8c5ee",
+        "title": "ESPnet: End-to-End Speech Processing Toolkit"
+    },
+    {
+        "paperId": "678731fe120f4faf05de4ee6b5def8305c8155cb",
+        "title": "Data Processing of Point Clouds for Object Detection for Structural Engineering Applications"
+    },
+    {
+        "paperId": "316246278a47ab1c70a36833607ceb7dc7648d97",
+        "title": "New Python-based methods for data processing"
+    },
+    {
+        "paperId": "34066b36016f8a9ef3b8fc9609d3891fe1fd84c7",
+        "title": "A program for SAXS data processing and analysis"
+    },
+    {
+        "paperId": "3b36c1428f6725cbc9a4bca2daaa10d9089ea811",
+        "title": "Magnonic holographic devices for special type data processing"
+    },
+    {
+        "paperId": "58eb1f7a547d3ad2aa654707d418a33728a18204",
+        "title": "Biological Crystallography Data Processing and Analysis with the Autoproc Toolbox"
+    },
+    {
+        "paperId": "a3d90775b986310cf3f6b4833e35070e2c2dad8b",
+        "title": "Divergence measures for statistical data processing - An annotated bibliography"
+    },
+    {
+        "paperId": "2436e1ce7129c434c14b788583cba916edee07a1",
+        "title": "A Survey of RFID Data Processing"
+    },
+    {
+        "paperId": "96bfffb06ac6ef32b6731e7ee667e4881ce3f9b7",
+        "title": "metaX: a flexible and comprehensive software for processing metabolomics data"
+    },
+    {
+        "paperId": "25aaf101ca68052a2caebadc7b3073b5d904e279",
+        "title": "The Harvard Automated Processing Pipeline for Electroencephalography (HAPPE): Standardized Processing Software for Developmental and High-Artifact Data"
+    },
+    {
+        "paperId": "9dcc4d4fe864f34a93803039db50d83a8584f63c",
+        "title": "Fundamentals of statistical signal processing: estimation theory"
+    },
+    {
+        "paperId": "c1a95f64c14b9b1d79408ae6ffc707494a0ff699",
+        "title": "The SuperMAG data processing technique"
+    },
+    {
+        "paperId": "65d61afd9c35b0a75d9de77c2a4a2428af0f7f7b",
+        "title": "Big Data Analysis with Signal Processing on Graphs: Representation and processing of massive data sets with irregular structure"
+    },
+    {
+        "paperId": "36d442f59c61ea2912d227c24dee76778c546b0a",
+        "title": "Graph Signal Processing: Overview, Challenges, and Applications"
+    },
+    {
+        "paperId": "844af026a5430e366facf53afae3e8ae7120d946",
+        "title": "Processing two-dimensional X-ray diffraction and small-angle scattering data in DAWN 2"
+    },
+    {
+        "paperId": "e04ecae6cba2bce685cff811906c17474c31a8a3",
+        "title": "NMRPipe: A multidimensional spectral processing system based on UNIX pipes"
+    },
+    {
+        "paperId": "24991f8982dbf109ddc83e053132b61fc5722133",
+        "title": "From FastQ Data to High\u2010Confidence Variant Calls: The Genome Analysis Toolkit Best Practices Pipeline"
+    },
+    {
+        "paperId": "c9135b67325fa60abadf34e7989bb5cc9a5bbd9c",
+        "title": "A New Algorithm for Processing Interferometric Data-Stacks: SqueeSAR"
+    },
+    {
+        "paperId": "b2cb3cd4b2031e9ac075ad51c3c17c8b0a5824b1",
+        "title": "Soft x-ray scattering facility at the Advanced Light Source with real-time data processing and analysis."
+    },
+    {
+        "paperId": "58249091b81a9d642abd30a716e0b5918c0be6a8",
+        "title": "LC-MS data processing with MAVEN: a metabolomic analysis and visualization engine."
+    },
+    {
+        "paperId": "90f612db9d425113a8a2eb9e3fbd56860fb9f1e5",
+        "title": "GreenHadoop: leveraging green energy in data-processing frameworks"
+    },
+    {
+        "paperId": "3f0a8086c32d5fff2048cd22cea97ad8faa858ed",
+        "title": "The role of the university in computers, data processing, and related fields"
+    },
+    {
+        "paperId": "4b5cc4e8aa16b01e9c31e7fd85aa5d4d5bc44e6b",
+        "title": "Processing of Structurally Heterogeneous Cryo-EM Data in RELION."
+    },
+    {
+        "paperId": "6d3420dfdf0a7b60d61ef2eac01332611c870663",
+        "title": "GeoSpark: a cluster computing framework for processing large-scale spatial data"
+    },
+    {
+        "paperId": "2a30361f6cdc7a0636ae4a5fd29132b2053f5f0e",
+        "title": "Big Data Processing in Cloud Computing Environments"
+    },
+    {
+        "paperId": "965359b3008ab50dd04e171551220ec0e7f83aba",
+        "title": "Generative Modeling by Estimating Gradients of the Data Distribution"
+    },
+    {
+        "paperId": "0a2a4d8a5f12baf0714012e21b308cde6eb1fa72",
+        "title": "Efficient Big Data Processing in Hadoop MapReduce"
+    },
+    {
+        "paperId": "e5d9809beb3ba4887585fccc6283521f43fb21d6",
+        "title": "In-Memory Big Data Management and Processing: A Survey"
+    },
+    {
+        "paperId": "33b01568231c751461386c2e058f4e359c557010",
+        "title": "Signal and Data Processing for Machine Olfaction and Chemical Sensing: A Review"
+    },
+    {
+        "paperId": "f68b4422568d0f0b049ea984440937e6cc2ecca8",
+        "title": "Overview of geostationary ocean color imager (GOCI) and GOCI data processing system (GDPS)"
+    },
+    {
+        "paperId": "8de46799ca9347a27042bcfef02059cf7c63c2e0",
+        "title": "A Compressive Sensing and Unmixing Scheme for Hyperspectral Data Processing"
+    },
+    {
+        "paperId": "a250d6216e4ed32780ca958bb145f1d69deb0325",
+        "title": "Missing values in mass spectrometry based metabolomics: an undervalued step in the data processing pipeline"
+    },
+    {
+        "paperId": "5c8b367500a44bf45262d482fafd0d24807b0617",
+        "title": "WiFi-Based Passive Bistatic Radar: Data Processing Schemes and Experimental Results"
+    },
+    {
+        "paperId": "bf94e7f9405d4282e88f964a76ef3961c8b18408",
+        "title": "Robust data processing and normalization strategy for MALDI mass spectrometric imaging."
+    },
+    {
+        "paperId": "1bf81b7244373f9c1aed0f25590e261087e67a85",
+        "title": "Sailfish: a framework for large scale data processing"
+    },
+    {
+        "paperId": "f6b8f394fd5c478628fcd75df7dee84ea422cab1",
+        "title": "Improved protein hydrogen/deuterium exchange mass spectrometry platform with fully automated data processing."
+    },
+    {
+        "paperId": "5b6538029513e358c1d5c8349716e833daeebbcc",
+        "title": "Strategy for optimizing LC-MS data processing in metabolomics: a design of experiments approach."
+    },
+    {
+        "paperId": "a4fd963968f88e13d162f771d8a3b5bc28a104a1",
+        "title": "Physical Principles of Remote Sensing: Data processing"
+    },
+    {
+        "paperId": "4197ef5c0008c4c374acd1ec4bbec953c92bbb21",
+        "title": "Processing seismic ambient noise data to obtain reliable broad-band surface wave dispersion measurements"
+    },
+    {
+        "paperId": "703c2186db40f01cc7527aa45f5627d877487fe2",
+        "title": "Clydesdale: structured data processing on MapReduce"
+    },
+    {
+        "paperId": "71896eee4c0c3ed069092e01b4078c10514c2b0a",
+        "title": "Big Data Processing: Big Challenges and Opportunities"
+    },
+    {
+        "paperId": "87c8a7be8d5e2e2209e766c3e28a3e8ee5babb64",
+        "title": "Eye movements in reading and information processing: 20 years of research."
+    },
+    {
+        "paperId": "c053276e963a56036b8e93d42195af5aad6f836b",
+        "title": "HiCUP: pipeline for mapping and processing Hi-C data"
+    },
+    {
+        "paperId": "eed9fa4483cab37eacd59db0fac4b1441431ee85",
+        "title": "Tensor Decomposition for Signal Processing and Machine Learning"
+    },
+    {
+        "paperId": "dbce33c58b187318292e93e578d0d025be0f2156",
+        "title": "Bioinformatics Tools for Mass Spectroscopy-Based Metabolomic Data Processing and Analysis"
+    },
+    {
+        "paperId": "e3523e27db5b68ca77781fa3081f17e4864e4282",
+        "title": "Interferometric Processing of Sentinel-1 TOPS Data"
+    },
+    {
+        "paperId": "6ba3106ba4a9969561a7a06402d7a27ca0fb92bb",
+        "title": "Signal Processing"
+    },
+    {
+        "paperId": "fbf2348821f41dc14602b3c9bf37624a787d436f",
+        "title": "A Unified Algorithmic Framework for Block-Structured Optimization Involving Big Data: With applications in machine learning and signal processing"
+    },
+    {
+        "paperId": "58e28725bc9802a06b6561e8e957e565d69ed8a2",
+        "title": "Seismic Data Analysis: Processing, Inversion, and Interpretation of Seismic Data"
+    },
+    {
+        "paperId": "b107a44c7f7e85d64ac60503b3ab82752a873a73",
+        "title": "An overview of MODIS Land data processing and product status"
+    },
+    {
+        "paperId": "7cfa70afda0d60c72be1eb1a733e5269f920fab7",
+        "title": "Graphical Models for Processing Missing Data"
+    },
+    {
+        "paperId": "57458bc1cffe5caa45a885af986d70f723f406b4",
+        "title": "A unified architecture for natural language processing: deep neural networks with multitask learning"
+    },
+    {
+        "paperId": "c66b40e54fcb1d748aa04d82f497f24ac22d6129",
+        "title": "Distributed hierarchical processing in the primate cerebral cortex."
+    },
+    {
+        "paperId": "1f9af2cb595bb283bbd5076e96128a612809e233",
+        "title": "Optimized Pre-Processing for Discrimination Prevention"
+    },
+    {
+        "paperId": "8b97b0061f3de4b87831edf38fcedb1baee1756d",
+        "title": "mProphet: automated data processing and statistical validation for large-scale SRM experiments"
+    },
+    {
+        "paperId": "4bd669b70ec1d1fa2d7825bdf7a17ae7c80f4480",
+        "title": "A scalable processing-in-memory accelerator for parallel graph processing"
+    },
+    {
+        "paperId": "ef874a1593ab8c30c604eab9c9635c0690fd0e99",
+        "title": "Exploiting Dynamic Resource Allocation for Efficient Parallel Data Processing in the Cloud"
+    },
+    {
+        "paperId": "9a33e7ed214e41e8c4fc19828fcfd24a25771a94",
+        "title": "Processing of missing data by neural networks"
+    },
+    {
+        "paperId": "b66014a8972536a0859f468c4799601997b0da35",
+        "title": "Processing strategies for time\u2010course data sets in functional mri of the human brain"
+    },
+    {
+        "paperId": "3c4944619743976efc9e921d5264c66d5dd70105",
+        "title": "Data processor and data-processing method"
+    },
+    {
+        "paperId": "9ee0b7fdc1d2c87b1a431ca3d39ea62961f22f2d",
+        "title": "iMOSFLM: a new graphical interface for diffraction-image processing with MOSFLM"
+    },
+    {
+        "paperId": "ee8fadfaeeee43e4420737398525471a0b16a69f",
+        "title": "Essential roles of exploiting internal parallelism of flash memory based solid state drives in high-speed data processing"
+    },
+    {
+        "paperId": "e847c3ec130da57328db79a7fea794b07dbccdd9",
+        "title": "Twitter Heron: Stream Processing at Scale"
+    },
+    {
+        "paperId": "93b7ce73a91392b6f6b60039ffac64cceeb6c9c7",
+        "title": "Metabolomic Data Processing, Analysis, and Interpretation Using MetaboAnalyst"
+    },
+    {
+        "paperId": "dab11c890b9924c8bfcb09bf8a9b1fbd1e2bbffc",
+        "title": "Processing flows of information: From data stream to complex event processing"
+    },
+    {
+        "paperId": "7536df9bbbef09ec5ddc4d67a954cdebb1bcaa34",
+        "title": "Schedule optimization for data processing flows on the cloud"
+    },
+    {
+        "paperId": "1e7c4f513f24c3b82a1138b9f22ed87ed00cbe76",
+        "title": "Fast Learning in Networks of Locally-Tuned Processing Units"
+    },
+    {
+        "paperId": "d11cf278ba4836b39d6285d86186ca5b21349b41",
+        "title": "Secure data processing framework for mobile cloud computing"
+    },
+    {
+        "paperId": "0db731c99879bb74c3850c53923d1df2c510f8c3",
+        "title": "AIRS/AMSU/HSB on the Aqua mission: design, science objectives, data products, and processing systems"
+    },
+    {
+        "paperId": "b62e8bdef1af2d4d4dd6b659a49def5b185ab8cd",
+        "title": "Tensor Decompositions for Signal Processing Applications: From two-way to multiway component analysis"
+    },
+    {
+        "paperId": "e01b3606e036adc406aec8d98ec7b6c3f9112ab2",
+        "title": "Stream Processing of Healthcare Sensor Data: Studying User Traces to Identify Challenges from a Big Data Perspective"
+    },
+    {
+        "paperId": "1089b0a3c76c720705a63d6e18e0f765d24de5da",
+        "title": "MetaboLab - advanced NMR data processing and analysis for metabolomics"
+    },
+    {
+        "paperId": "94eb9d0fd869000d0f3abab426ae4f1d15b0cf1e",
+        "title": "A Data Processing Pipeline for Mammalian Proteome Dynamics Studies Using Stable Isotope Metabolic Labeling*"
+    },
+    {
+        "paperId": "5276ab25c6b4960cb01b3d6244519c9fb7a3098a",
+        "title": "Multi-frequency magnonic logic circuits for parallel data processing"
+    },
+    {
+        "paperId": "be302aa7d74651cc2d69ff1a9f8757bb3a11c2b5",
+        "title": "Scalable and Low-Latency Data Processing with Stream MapReduce"
+    },
+    {
+        "paperId": "7ac939591fab53e4c10c030724758a75e795330d",
+        "title": "An intuitive proof of the data processing inequality"
+    }
+]
