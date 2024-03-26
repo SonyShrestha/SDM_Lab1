@@ -112,51 +112,54 @@ if __name__ == "__main__":
     import_dir = config["NEO4J"]["import_dir"]
 
     # Add arguments
-    parser.add_argument("--field", required=True, help="Comma separated fields to search for papers")
+    parser.add_argument("--field", help="Comma separated fields to search for papers", default="big-data")
+    parser.add_argument("--new_data", help="Whether you want to generate new data from Schemantic Scholar (yes/no)", default="no")
     # Parse arguments
     args = parser.parse_args()
     fields = args.field.split(',')
+    new_data = args.new_data
 
-    logger.info("--------------------- CLEARING DIRECTORIES ---------------------")
-    clear_directory('paper_ids')
-    clear_directory('paper_idetails')
-    clear_directory('preprocessed')
-    clear_directory('splitted_files')
+    if new_data == "yes":
+        logger.info("--------------------- CLEARING DIRECTORIES ---------------------")
+        clear_directory('paper_ids')
+        clear_directory('paper_idetails')
+        clear_directory('preprocessed')
+        clear_directory('splitted_files')
 
-    logger.info("--------------------- FETCHING PAPER IDS ---------------------")
-    # Retrieve paper information
-    for field in fields:
-        paper_info = get_paper_ids.get_paper_info(api_key, field, iterations)
-        if paper_info:
-            with open(f'paper_ids/paper_{field}.json', mode='w', encoding='utf-8') as file:
-                json.dump(paper_info, file, indent=4)
-        else:
-            print("Failed to retrieve paper information.")
-
-
-    logger.info("--------------------- FETCHING PAPER DETAILS FROM EXTRACTED PAPER IDS ---------------------")
-    for field in fields:
-        get_paper_details.fetch_publications(field,api_key)
-    
-
-    logger.info("--------------------- PREPROCESSING PAPER DETAILS ---------------------")
-    preprocess_data.preprocess_data()
+        logger.info("--------------------- FETCHING PAPER IDS ---------------------")
+        # Retrieve paper information
+        for field in fields:
+            paper_info = get_paper_ids.get_paper_info(api_key, field, iterations)
+            if paper_info:
+                with open(f'paper_ids/paper_{field}.json', mode='w', encoding='utf-8') as file:
+                    json.dump(paper_info, file, indent=4)
+            else:
+                print("Failed to retrieve paper information.")
 
 
-    logger.info("--------------------- SPLITTING PAPER DETAILS INTO SEPARATE FILES ---------------------")
-    split_files.get_years()
-    split_files.get_authors()
-    split_files.get_keywords()
-    split_files.get_journals()
-    split_files.get_workshops()
-    split_files.get_conferences()
-    split_files.get_conference_papers()
-    split_files.get_journal_papers()
-    split_files.get_workshop_papers()
-    split_files.get_organizations()
+        logger.info("--------------------- FETCHING PAPER DETAILS FROM EXTRACTED PAPER IDS ---------------------")
+        for field in fields:
+            get_paper_details.fetch_publications(field,api_key)
+        
 
-    logger.info("--------------------- Copy files to NEO4J import directory ---------------------")
-    copy_files(os.getcwd() + "\\splitted_files", import_dir)
+        logger.info("--------------------- PREPROCESSING PAPER DETAILS ---------------------")
+        preprocess_data.preprocess_data()
+
+
+        logger.info("--------------------- SPLITTING PAPER DETAILS INTO SEPARATE FILES ---------------------")
+        split_files.get_years()
+        split_files.get_authors()
+        split_files.get_keywords()
+        split_files.get_journals()
+        split_files.get_workshops()
+        split_files.get_conferences()
+        split_files.get_conference_papers()
+        split_files.get_journal_papers()
+        split_files.get_workshop_papers()
+        split_files.get_organizations()
+
+        logger.info("--------------------- Copy files to NEO4J import directory ---------------------")
+        copy_files(os.getcwd() + "\\splitted_files", import_dir)
 
 
     logger.info("--------------------- Load data into NEO4J Graph ---------------------")
