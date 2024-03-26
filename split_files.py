@@ -35,9 +35,32 @@ def assign_reviewers(authors):
     random_values = [re.sub(r'\.0$', '', value) for value in potential_reviewers if value not in (str(authors).split(',') if isinstance(authors, float) else authors.split(','))]
 
     # Sample random values from the resulting list
-    reviewers = random.sample(random_values, min(3, len(random_values)))
+    reviewers = random.sample(random_values, 3)
 
     return ','.join(map(str, reviewers))
+
+
+# Assign reviws
+def assign_reviews(row):
+    reviews = [
+        "The paper presents a compelling argument and novel insights; though it would benefit from a more detailed methodology section to enhance reproducibility.",
+        "This work makes a significant contribution to the field; but further clarification on the data sources and analysis techniques used would strengthen the paper.",
+        "The study's innovative approach is commendable; yet a comparison with existing research to highlight its unique contribution is needed.",
+        "Impressive results; however, a deeper discussion on the limitations and potential future work would provide a more balanced perspective.",
+        "The manuscript is well-written and organized, though incorporating more recent studies could enrich the context and relevance of the research.",
+        "This submission introduces a novel concept with potential impact, but expanding on how it differs from prior solutions would be valuable.",
+        "An excellent overview of the topic; yet adding case studies or examples may help illustrate the practical applications of the theories discussed.",
+        "The research methodology is robust; but the paper could benefit from a clearer definition of the research questions and objectives.",
+        "The findings are intriguing; however, a more thorough statistical analysis could enhance the credibility and significance of the results.",
+        "The paper is a good contribution to the field; though refining the conclusion to more directly address the research hypothesis could improve its impact."
+    ]
+
+    cleaned_reviews = [review.replace(",",";") for review in reviews]
+
+    # Sample random values from the resulting list
+    rand_reviews = random.sample(cleaned_reviews, 3)
+
+    return ','.join(map(str, rand_reviews))
 
 
 # Fetch year details from CSV file
@@ -213,7 +236,7 @@ def get_journal_papers():
     # Extract only records where publicationVenueType="journal
     journal_df = df[df['type_indicator'] == "Journal"]
 
-    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','journalVolume','reviewers']
+    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','journalVolume','reviewers','reviews','review_decision']
     
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in journal_df.columns if col not in column_to_keep]
@@ -223,7 +246,10 @@ def get_journal_papers():
     #journal_df["authorId"] = journal_df["authorId"].str.split(',')
 
     # Apply assign_reviewers function to each element of 'authorId' column
-    journal_df["reviewers"] = journal_df["authorId"].apply(assign_reviewers)
+    journal_df["reviewers"] = journal_df["authorId"].apply((lambda row: assign_reviewers(row)))
+
+    journal_df["reviews"] = journal_df["authorId"].apply((lambda row: assign_reviews(row)))
+    journal_df["review_decision"] = 'Accepted,Accepted,Accepted'
 
     journal_df.to_csv(output_folder + '/journal_paper.csv', index=False, columns=column_to_keep)
 
@@ -235,7 +261,7 @@ def get_conference_papers():
     # Extract only records where publicationVenueType="conference"
     conference_df = df[df['type_indicator'] == "Conference"]
 
-    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','edition','reviewers']
+    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','edition','reviewers','reviews','review_decision']
     
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in conference_df.columns if col not in column_to_keep]
@@ -249,6 +275,9 @@ def get_conference_papers():
     # Apply assign_reviewers function to each element of 'authorId' column
     conference_df["reviewers"] = conference_df["authorId"].apply(lambda row: assign_reviewers(row))
 
+    conference_df["reviews"] = conference_df["authorId"].apply(lambda row: assign_reviews(row))
+    conference_df["review_decision"] = 'Accepted,Accepted,Accepted'
+
     # Save the updated DataFrame to CSV
     conference_df.to_csv(output_folder + '/conference_paper.csv', index=False, columns=column_to_keep)
 
@@ -260,7 +289,7 @@ def get_workshop_papers():
     # Extract only records where publicationVenueType="journal"
     workshop_df = df[df['type_indicator'] == "Workshop"]
 
-    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','edition','reviewers']
+    column_to_keep = ['paperId','title','abstract','year','citationCount','publicationDate','keywords','jcwName','authorId','authorName','correspondingAuthorId','citedPaperId','edition','reviewers','reviews','review_decision']
     
     # Drop all columns except the ones to keep
     columns_to_drop = [col for col in workshop_df.columns if col not in column_to_keep]
@@ -272,6 +301,9 @@ def get_workshop_papers():
 
     # Apply assign_reviewers function to each element of 'authorId' column
     workshop_df["reviewers"] = workshop_df["authorId"].apply(lambda row: assign_reviewers(row))
+
+    workshop_df["reviews"] = workshop_df["authorId"].apply((lambda row: assign_reviews(row)))
+    workshop_df["review_decision"] = 'Accepted,Accepted,Accepted'
 
     workshop_df.to_csv(output_folder+'/workshop_paper.csv', index=False, columns=column_to_keep)
 

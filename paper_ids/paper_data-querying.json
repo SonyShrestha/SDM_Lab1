@@ -56,6 +56,10 @@
         "title": "Querying Geo-Textual Data: Spatial Keyword Queries and Beyond"
     },
     {
+        "paperId": "e4788ee4f5e90c6f42cedc5116acd2d6475c3180",
+        "title": "QUIS: InSitu Heterogeneous Data Source Querying"
+    },
+    {
         "paperId": "52e510271b172d098ec9b107a4159216ec08527e",
         "title": "Querying Big Data by Accessing Small Data"
     },
@@ -300,12 +304,12 @@
         "title": "Approximating a data stream for querying and estimation: algorithms and performance evaluation"
     },
     {
-        "paperId": "38016013009e6d683ed3e57a5fed9302dad84c04",
-        "title": "Energy efficient index for querying location-dependent data in mobile broadcast environments"
-    },
-    {
         "paperId": "c3b0ea3d2cdffbe3984cd9b41453b4e798e99f2e",
         "title": "Representing and querying changes in semistructured data"
+    },
+    {
+        "paperId": "38016013009e6d683ed3e57a5fed9302dad84c04",
+        "title": "Energy efficient index for querying location-dependent data in mobile broadcast environments"
     },
     {
         "paperId": "36ad838217cb99fd9acd8cd065052e27df5ec316",
@@ -332,32 +336,32 @@
         "title": "Fuzzy querying of incomplete, imprecise, and heterogeneously structured data in the relational model using ontologies and rules"
     },
     {
-        "paperId": "c6008f9ecab88e5f260c7b7277c9f40f4e1cf3b1",
-        "title": "Modelling and Querying Video Data"
-    },
-    {
-        "paperId": "e0cca9a1f4408f1245c1c48bdec7550ec6ec7e7a",
-        "title": "Querying imprecise data in moving object environments"
-    },
-    {
-        "paperId": "0e50525ea29208537aee327d5444ee4a8c290063",
-        "title": "Querying Time Series Data Based on Similarity"
-    },
-    {
         "paperId": "07bb2064663f36ec202bac943c62a0861a4f1bde",
         "title": "The complexity of querying indefinite data about linearly ordered domains"
+    },
+    {
+        "paperId": "c6008f9ecab88e5f260c7b7277c9f40f4e1cf3b1",
+        "title": "Modelling and Querying Video Data"
     },
     {
         "paperId": "71b38ff49c7b8ab7fea237b97616c95acaed456c",
         "title": "Relative prefix sums: an efficient approach for querying dynamic OLAP data cubes"
     },
     {
-        "paperId": "33cd4ddeedc9965fce5736f10a4df8d6de5e91c0",
-        "title": "Capturing and Querying Multiple Aspects of Semistructured Data"
+        "paperId": "0e50525ea29208537aee327d5444ee4a8c290063",
+        "title": "Querying Time Series Data Based on Similarity"
+    },
+    {
+        "paperId": "e0cca9a1f4408f1245c1c48bdec7550ec6ec7e7a",
+        "title": "Querying imprecise data in moving object environments"
     },
     {
         "paperId": "c90b1b99fb62d3bdaa35fac04cf3d31fc19c58a0",
         "title": "Querying aggregate data"
+    },
+    {
+        "paperId": "33cd4ddeedc9965fce5736f10a4df8d6de5e91c0",
+        "title": "Capturing and Querying Multiple Aspects of Semistructured Data"
     },
     {
         "paperId": "05ccb4147e53f6a2645f3b4f9563d268600916f5",
@@ -372,10 +376,6 @@
         "title": "A Schema-Based Approach to Modeling and Querying WWW Data"
     },
     {
-        "paperId": "3202472d469b756c651e08060850cad81b59efcf",
-        "title": "Logic programs for consistently querying data integration systems"
-    },
-    {
         "paperId": "1caacf553fab9acd97d668d8c55bad02dd59c435",
         "title": "SemQuery: Semantic Clustering and Querying on Heterogeneous Features for Visual Data"
     },
@@ -384,16 +384,16 @@
         "title": "Dynamic Querying of Streaming Data with the dQUOB System"
     },
     {
+        "paperId": "e7389d3be8ed3ac744366c7c3a8a3bb8904aba97",
+        "title": "On Querying UML Data Models with OCL"
+    },
+    {
         "paperId": "a40accb28924ab7d89c015832765ac89c6c71578",
         "title": "Querying XML Data"
     },
     {
         "paperId": "c953e4d4a31e6deee4e75b82d0941c6140fcd653",
         "title": "Using Signature Files for Querying Time-Series Data"
-    },
-    {
-        "paperId": "e7389d3be8ed3ac744366c7c3a8a3bb8904aba97",
-        "title": "On Querying UML Data Models with OCL"
     },
     {
         "paperId": "dd01291bcb89b3332e6fae969f9a15256325f004",

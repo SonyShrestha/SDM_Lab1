@@ -140,20 +140,12 @@
         "title": "Data quality: \u201cGarbage in \u2013 garbage out\u201d"
     },
     {
-        "paperId": "45667400482e669421c5750fc308d2ab58e7c0fd",
-        "title": "Data Quality"
-    },
-    {
         "paperId": "432c172e73949fac6bdd8788115140553ceff26a",
         "title": "Data quality aware analysis of differential expression in RNA-seq with NOISeq R/Bioc package"
     },
     {
         "paperId": "ee013b1477e8f81cb5c66a9a93a342281f740042",
         "title": "Assessing data quality in citizen science (preprint)"
-    },
-    {
-        "paperId": "c7d188875512b58316f553350f0eb032784dc7d7",
-        "title": "A Data Quality Framework for Process Mining of Electronic Health Record Data"
     },
     {
         "paperId": "a0451cbb1f17a94716efd8f580288efbe8289b58",
@@ -248,8 +240,16 @@
         "title": "The Evolution of Data Quality: Understanding the Transdisciplinary Origins of Data Quality Concepts and Approaches"
     },
     {
+        "paperId": "5d4a74a46665c6c8a3656d0310a0dc55b6bada27",
+        "title": "Data Quality"
+    },
+    {
         "paperId": "6cc63eae49af1d85b0403e1536bab12c8bc6fb97",
         "title": "Grand challenges in altmetrics: heterogeneity, data quality and dependencies"
+    },
+    {
+        "paperId": "3bc709bd54f4273591f05f74c1704de37021b72c",
+        "title": "Data pricing strategy based on data quality"
     },
     {
         "paperId": "5397f717f6767fd30c95e00043c8da470d15c58f",
@@ -336,12 +336,12 @@
         "title": "Rethinking big data: A review on the data quality and usage issues"
     },
     {
-        "paperId": "225356fd1bfbe242203f03c56745cc98ef859afd",
-        "title": "Respondent Screening and Revealed Preference Axioms: Testing Quarantining Methods for Enhanced Data Quality in Web Panel Surveys"
-    },
-    {
         "paperId": "19fb4ce8dc2cbaf6c0e5e4fadf6a2b0d99a9a9ab",
         "title": "Transparent Reporting of Data Quality in Distributed Data Networks"
+    },
+    {
+        "paperId": "225356fd1bfbe242203f03c56745cc98ef859afd",
+        "title": "Respondent Screening and Revealed Preference Axioms: Testing Quarantining Methods for Enhanced Data Quality in Web Panel Surveys"
     },
     {
         "paperId": "88a55ee54aae117f06441459d1ad2330ce18d7e0",
@@ -376,16 +376,16 @@
         "title": "Understanding movement data quality"
     },
     {
-        "paperId": "71f024baaf17ba29eedc9b5aeab83b19225d1b58",
-        "title": "Overview of data quality challenges in the context of Big Data"
+        "paperId": "3d9ac49f03b3e4bebae7c0e7eb20d7fde7222a9c",
+        "title": "An analysis of data quality dimensions"
     },
     {
         "paperId": "4f001914a919258f56ed324d702044eb76f0e60c",
         "title": "Big data, big data quality problem"
     },
     {
-        "paperId": "3d9ac49f03b3e4bebae7c0e7eb20d7fde7222a9c",
-        "title": "An analysis of data quality dimensions"
+        "paperId": "71f024baaf17ba29eedc9b5aeab83b19225d1b58",
+        "title": "Overview of data quality challenges in the context of Big Data"
     },
     {
         "paperId": "1f248f991d22a236325b1cc4f4d2e38a0797496c",
@@ -396,7 +396,7 @@
         "title": "Methods and dimensions of electronic health record data quality assessment: enabling reuse for clinical research"
     },
     {
-        "paperId": "711540da88c0b66dcf1cb6c3f70838e5a346ef63",
-        "title": "GUIDELINES FOR DRINKING-WATER QUALITY"
+        "paperId": "1b19230fb606cc9fdc21d1c6a9af7441ae609a71",
+        "title": "Data quality"
     }
 ]

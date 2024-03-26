@@ -172,12 +172,12 @@
         "title": "Crowdsourced Data Management: Overview and Challenges"
     },
     {
-        "paperId": "43068e2af093077d7dd06c4191be42fe3633fbb4",
-        "title": "Integrated Data Management for a Fleet of Search\u2010and\u2010rescue Robots"
-    },
-    {
         "paperId": "14c71d0c83d8e74f71e58d619861c9e8de0f3064",
         "title": "Research Data Management Services in Academic Libraries in the US: A Content Analysis of Libraries' Websites"
+    },
+    {
+        "paperId": "43068e2af093077d7dd06c4191be42fe3633fbb4",
+        "title": "Integrated Data Management for a Fleet of Search\u2010and\u2010rescue Robots"
     },
     {
         "paperId": "391500db9c59c840de8722f41e338071661520da",
@@ -216,24 +216,24 @@
         "title": "Research data management."
     },
     {
-        "paperId": "f917152f98bff628e315ab0bd7dc05e3a849a32d",
-        "title": "Ten Simple Rules for Creating a Good Data Management Plan"
-    },
-    {
         "paperId": "f8bd21b93080318a0e0a8a440febdc67a07e42cd",
         "title": "The LSST Data Management System"
+    },
+    {
+        "paperId": "f917152f98bff628e315ab0bd7dc05e3a849a32d",
+        "title": "Ten Simple Rules for Creating a Good Data Management Plan"
     },
     {
         "paperId": "087095f4825c0adb1ec747990c8bc9e12385d939",
         "title": "LocationSpark: A Distributed In-Memory Data Management System for Big Spatial Data"
     },
     {
-        "paperId": "49149bd7c772b77937f459f56e5bf01c1ac4675f",
-        "title": "The advantages of an Ontology-Based Data Management approach: openness, interoperability and data quality"
-    },
-    {
         "paperId": "932b3e29addc099031efd26e2d075aca871b5315",
         "title": "A comparison of research data management platforms: architecture, flexible metadata and interoperability"
+    },
+    {
+        "paperId": "49149bd7c772b77937f459f56e5bf01c1ac4675f",
+        "title": "The advantages of an Ontology-Based Data Management approach: openness, interoperability and data quality"
     },
     {
         "paperId": "efb802f5cb3926f9bee6c41ea898dc7134297a0e",
@@ -282,6 +282,10 @@
     {
         "paperId": "c559298dbe9e8fd559cd322bf7306890ff017a38",
         "title": "signac - A Simple Data Management Framework"
+    },
+    {
+        "paperId": "b5042b300d26f30b3c73274bc2595791ecb172f4",
+        "title": "Big Data, Management, and Sustainability"
     },
     {
         "paperId": "92107475ac35be893541baf0579f8b03826d948c",
@@ -364,10 +368,6 @@
         "title": "Linked Data Management"
     },
     {
-        "paperId": "1d6e9f7b381489a8041559505db1267a76fdde82",
-        "title": "LibGuides: Data Management: Data Management Plans"
-    },
-    {
         "paperId": "81989b39f66bd930a20768013a22460e9b0476af",
         "title": "Data management in cloud environments: NoSQL and NewSQL data stores"
     },
@@ -396,7 +396,7 @@
         "title": "Data Management for Internet of Things: Challenges, Approaches and Opportunities"
     },
     {
-        "paperId": "2c3e0f967f7291d99b4ea010c30011c43f92769e",
-        "title": "Knowledge as a Service Framework for Disaster Data Management"
+        "paperId": "ec33c0899e837ac503e4d4147fb289b09e7131a6",
+        "title": "SSDM: Smart Stack Data Management for software managed multicores (SMMs)"
     }
 ]

@@ -28,12 +28,8 @@
         "title": "Generative Modeling by Estimating Gradients of the Data Distribution"
     },
     {
-        "paperId": "b6a7226e5f6d618370995eccad68af195ef32da2",
-        "title": "Data Modeling"
-    },
-    {
-        "paperId": "f1300d9be8254b028337d9757755ba906fe6955b",
-        "title": "Data Modeling"
+        "paperId": "ad10ef93675513a68b93d54f3a461160b53318a3",
+        "title": "Data modeling"
     },
     {
         "paperId": "2582ab7c70c9e7fcb84545944eba8f3a7f253248",
@@ -42,6 +38,10 @@
     {
         "paperId": "cd8a9914d50b0ac63315872530274d158d6aff09",
         "title": "Modeling Relational Data with Graph Convolutional Networks"
+    },
+    {
+        "paperId": "d4ae73ac17c6bc8a537df2cebf50c9b4a6b420d5",
+        "title": "An Effective and Scalable Data Modeling for Enterprise Big Data Platform"
     },
     {
         "paperId": "0ac0025529c1f9056036be43c561ba67fb8d12a5",
@@ -64,10 +64,6 @@
         "title": "A Big Data Modeling Methodology for Apache Cassandra"
     },
     {
-        "paperId": "7909428ca7d813331bbe4d33d07ab09e984b41b4",
-        "title": "Data Modeling"
-    },
-    {
         "paperId": "d8a5474f450330ad25c1e22f27e88f3630cb840d",
         "title": "Structural Equation Modeling"
     },
@@ -84,16 +80,16 @@
         "title": "Data Modeling and Data Analytics: A Survey from a Big Data Perspective"
     },
     {
-        "paperId": "f9367342405a73ab8d6de704a149babfc0edb5fe",
-        "title": "Moving beyond basic numeracy: data modeling in the early years of schooling"
+        "paperId": "d1bb57da8593a2071b3ea8026865352ab3f7206a",
+        "title": "Data Modeling"
     },
     {
         "paperId": "91d24a94a276f5b226b07fe294561482b1d4104d",
         "title": "Data Modeling for NoSQL Document-Oriented Databases"
     },
     {
-        "paperId": "709f7a6b870cb07a4eab553adf6345b244913913",
-        "title": "NoSQL Databases and Data Modeling Techniques for a Document-oriented NoSQL Database"
+        "paperId": "f9367342405a73ab8d6de704a149babfc0edb5fe",
+        "title": "Moving beyond basic numeracy: data modeling in the early years of schooling"
     },
     {
         "paperId": "a0afa4ec10b2b060aff0ec676a661c8013c7df1d",
@@ -244,6 +240,10 @@
         "title": "Regression analysis of multivariate incomplete failure time data by modeling marginal distributions"
     },
     {
+        "paperId": "49259631c0c8c1595771fbaf510b31635aa62ce9",
+        "title": "Count Data Modeling and Classification Using Finite Mixtures of Distributions"
+    },
+    {
         "paperId": "89fe2ca0bc4ea3f53f5745de6a88e094b8734a2b",
         "title": "Multivariate data analysis : a global perspective"
     },
@@ -300,6 +300,10 @@
         "title": "Patterns of Data Modeling"
     },
     {
+        "paperId": "2fdcd4456b740aaf63c7a88697ebd8ecfe86eb99",
+        "title": "Hierarchical Modeling and Inference in Ecology: The Analysis of Data from Populations, Metapopulations and Communities"
+    },
+    {
         "paperId": "62f2a0d676a2260a400c7ba675338958c5e95706",
         "title": "Modeling Multilevel Data Structures"
     },
@@ -320,16 +324,20 @@
         "title": "Modeling wine preferences by data mining from physicochemical properties"
     },
     {
+        "paperId": "eede2add1d99fe2bdffe7a0e7aebd83d3ef1f239",
+        "title": "Coupling an Advanced Land Surface\u2013Hydrology Model with the Penn State\u2013NCAR MM5 Modeling System. Part I: Model Implementation and Sensitivity"
+    },
+    {
         "paperId": "f413aa73cc076db9bf185ab75646105d7aade9a5",
         "title": "A Literature Overview of Fuzzy Conceptual Data Modeling"
     },
     {
-        "paperId": "912a2dc05a3e0f5fc778f4d0ed18286d005c1ab1",
-        "title": "AMPL: A Modeling Language for Mathematical Programming"
+        "paperId": "4083958684292f6fa2f5c7fd4f9be975e80145b6",
+        "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow"
     },
     {
-        "paperId": "2fdcd4456b740aaf63c7a88697ebd8ecfe86eb99",
-        "title": "Hierarchical Modeling and Inference in Ecology: The Analysis of Data from Populations, Metapopulations and Communities"
+        "paperId": "912a2dc05a3e0f5fc778f4d0ed18286d005c1ab1",
+        "title": "AMPL: A Modeling Language for Mathematical Programming"
     },
     {
         "paperId": "6c22369598059d7c191db52006d697ef7d07c352",
@@ -380,8 +388,8 @@
         "title": "Data mining with big data"
     },
     {
-        "paperId": "18bc1d4271abe8dd6e16179cdb06524a4f396e16",
-        "title": "Snorkel: Rapid Training Data Creation with Weak Supervision"
+        "paperId": "9259d698e3cb3050f7511b2b84ad51e6b6185701",
+        "title": "Data Modeling for the Business: A Handbook for Aligning the Business with IT using High-Level Data Models"
     },
     {
         "paperId": "859d2de4ccccf640b35bdceeea4fd4136a9b314b",
@@ -390,13 +398,5 @@
     {
         "paperId": "6376ee61c0af1330ce21991e03adb18a067123f4",
         "title": "Modeling of the Bacterial Growth Curve"
-    },
-    {
-        "paperId": "4b6835c8aa28eb6669e9043c7d778efeed918eb0",
-        "title": "limma: Linear Models for Microarray Data"
-    },
-    {
-        "paperId": "26f178dbb00630ce19cccb9840ea12dbe31801be",
-        "title": "A Survey of Clustering Data Mining Techniques"
     }
 ]

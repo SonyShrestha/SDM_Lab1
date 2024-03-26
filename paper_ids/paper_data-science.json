@@ -20,10 +20,6 @@
         "title": "The R Language: An Engine for Bioinformatics and Data Science"
     },
     {
-        "paperId": "8bb6a6802027c7f2489accb0559e6f02984535c9",
-        "title": "Smart Health Intelligent Healthcare Systems in the Metaverse, Artificial Intelligence, and Data Science Era"
-    },
-    {
         "paperId": "70fe060c12b3f100148d1a2be1e8f4254022543e",
         "title": "The case for data science in experimental chemistry: examples and recommendations"
     },
@@ -74,6 +70,10 @@
     {
         "paperId": "f9d403c58db99e2214f43e5b1740694b9c79002f",
         "title": "The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large"
+    },
+    {
+        "paperId": "3df3bacc84593e9efb86d2c4d3ce30463048159f",
+        "title": "Data Science"
     },
     {
         "paperId": "8bba999de25bfb288b3f7f88e1d907aab02638b6",
@@ -136,12 +136,12 @@
         "title": "Opening practice: supporting reproducibility and critical spatial data science"
     },
     {
-        "paperId": "8ece479b5dfed4727d2d9b9763f777bb9a94096e",
-        "title": "Human-AI Collaboration in Data Science"
-    },
-    {
         "paperId": "398b154013db9d8025bf60f910bc156dedd9b40e",
         "title": "How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+    },
+    {
+        "paperId": "8ece479b5dfed4727d2d9b9763f777bb9a94096e",
+        "title": "Human-AI Collaboration in Data Science"
     },
     {
         "paperId": "a11e157cb828b800426223f0a3d79e8fb122c8cc",
@@ -232,10 +232,6 @@
         "title": "Outbreak analytics: a developing data science for informing the response to emerging pathogens"
     },
     {
-        "paperId": "edca4813d7da7507ff5a8a89e6c0481f8967ac84",
-        "title": "Data Science Challenges & Enhanced Data Science Methodology"
-    },
-    {
         "paperId": "9f2b2111cd65cc33c0c440f4f8e548b58d8dd851",
         "title": "The State of the Art of Data Science and Engineering in Structural Health Monitoring"
     },
@@ -268,12 +264,12 @@
         "title": "Data Science of the Natural Environment: A Research Roadmap"
     },
     {
-        "paperId": "0e23ff1f915b6af32bf1a1107ee7e15ebe10efe8",
-        "title": "The Challenge of Big Data and Data Science"
-    },
-    {
         "paperId": "2081ed6854290a479f796f2432c7951ff24232fe",
         "title": "Human-Centered Study of Data Science Work Practices"
+    },
+    {
+        "paperId": "0e23ff1f915b6af32bf1a1107ee7e15ebe10efe8",
+        "title": "The Challenge of Big Data and Data Science"
     },
     {
         "paperId": "e564e3656395782d0ab9f801bfbe9f9f1a5d34a7",
@@ -344,6 +340,10 @@
         "title": "The Democratization of Data Science Education"
     },
     {
+        "paperId": "4f0218eb9ed62d5acc03f02bfa24b388a66067e8",
+        "title": "Distance geometry and data science"
+    },
+    {
         "paperId": "46f1c45c62b7dbf77af405f5ddcf137b5e1ddde9",
         "title": "Data science from a library and information science perspective"
     },
@@ -356,20 +356,16 @@
         "title": "A review of data science in business and industry and a future view"
     },
     {
-        "paperId": "4f0218eb9ed62d5acc03f02bfa24b388a66067e8",
-        "title": "Distance geometry and data science"
-    },
-    {
         "paperId": "4aeda303fa0b9beae3f6d65e052dace9d4540116",
         "title": "Data Science Support at the Academic Library"
     },
     {
-        "paperId": "08468bac470e5c2cbbd2b66e8e7cf2ab65f38e02",
-        "title": "Data Science for Local Government"
+        "paperId": "2f972d51b7c1ee4a422b9c458ac373ddd3b722ea",
+        "title": "Data Science in Healthcare: Benefits, Challenges and Opportunities"
     },
     {
-        "paperId": "fb566f2001e44a65433fb7cc2eb7bcf6513a7db8",
-        "title": "The 9 Pitfalls of Data Science"
+        "paperId": "08468bac470e5c2cbbd2b66e8e7cf2ab65f38e02",
+        "title": "Data Science for Local Government"
     },
     {
         "paperId": "e1c8f86668d3e37e430f187b7fd91d1643a0a0ff",
@@ -398,5 +394,9 @@
     {
         "paperId": "c0b1eedfa2031a69fbdf02a4abc8a741faf6a912",
         "title": "Introduction to Data Science"
+    },
+    {
+        "paperId": "577564ac25a12b37972d77a35b589f6b2270a45f",
+        "title": "Big Data and Data Science in Critical Care."
     }
 ]

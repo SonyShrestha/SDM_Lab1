@@ -1,6 +1,37 @@
 // Change model to store the review sent by each reviewer along with suggested decision
-MATCH ()-[r:REVIEWED_BY]->()
-SET r.reviewContent = 'This paper has been reviewed', r.suggestedDecision = 'Approved';
+LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
+WITH line
+SKIP 1
+WITH trim(line[0]) AS paperId, split(line[13],',') AS reviewers, split(line[14], ',') AS reviews, split(line[15], ',') AS decisions
+UNWIND range(0, size(reviewers) - 1) AS index
+MERGE (p:Paper {paperId : paperId})
+MERGE (a:Author {authorId: reviewers[index]})
+MERGE (p)-[rb:REVIEWED_BY]->(a)
+SET rb.reviewContent = reviews[index],
+    rb.suggestedDecision = decisions[index];
+
+LOAD CSV FROM 'file:///journal_paper.csv' AS line FIELDTERMINATOR ','
+WITH line
+SKIP 1
+WITH trim(line[0]) AS paperId, split(line[13],',') AS reviewers, split(line[14], ',') AS reviews, split(line[15], ',') AS decisions
+UNWIND range(0, size(reviewers) - 1) AS index
+MERGE (p:Paper {paperId : paperId})
+MERGE (a:Author {authorId: reviewers[index]})
+MERGE (p)-[rb:REVIEWED_BY]->(a)
+SET rb.reviewContent = reviews[index],
+    rb.suggestedDecision = decisions[index];
+
+
+LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
+WITH line
+SKIP 1
+WITH trim(line[0]) AS paperId, split(line[13],',') AS reviewers, split(line[14], ',') AS reviews, split(line[15], ',') AS decisions
+UNWIND range(0, size(reviewers) - 1) AS index
+MERGE (p:Paper {paperId : paperId})
+MERGE (a:Author {authorId: reviewers[index]})
+MERGE (p)-[rb:REVIEWED_BY]->(a)
+SET rb.reviewContent = reviews[index],
+    rb.suggestedDecision = decisions[index];
 
 
 // Create Organization Node and load data 

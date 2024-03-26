@@ -40,12 +40,12 @@
         "title": "Blockchain for Large-Scale Internet of Things Data Storage and Protection"
     },
     {
-        "paperId": "18d87bff073687c025f9bd23ab2dfb20d5f72a66",
-        "title": "BIM Big Data Storage in WebVRGIS"
-    },
-    {
         "paperId": "3f43bcb910df8c1a76de79057a63195e6c6bc258",
         "title": "Spintronic devices for energy-efficient data storage and energy harvesting"
+    },
+    {
+        "paperId": "18d87bff073687c025f9bd23ab2dfb20d5f72a66",
+        "title": "BIM Big Data Storage in WebVRGIS"
     },
     {
         "paperId": "7884b0ec63b8a08f7cd793a989df44f6bb53116c",
@@ -216,6 +216,10 @@
         "title": "Phase-change materials for rewriteable data storage."
     },
     {
+        "paperId": "e7e74f07c4b4ba72bee6f8f06bc1c544508937ba",
+        "title": "Data Storage"
+    },
+    {
         "paperId": "663360ba2abf32f081322f571a5718c82ec64e41",
         "title": "Big data storage technologies: a survey"
     },
@@ -382,10 +386,6 @@
     {
         "paperId": "19db6146643697f12c54ad8791a9c50a7b7bc30f",
         "title": "An Efficient Cost Model for Data Storage with Horizontal Layout in the Cloud"
-    },
-    {
-        "paperId": "7a6b0d87d486178ca8665e3dfc66c61a99fadb8b",
-        "title": "Data storage method and data storage device"
     },
     {
         "paperId": "90f5b54bbab2b71f737bf8b0a40d660f2baa267f",

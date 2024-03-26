@@ -36,12 +36,12 @@
         "title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs."
     },
     {
-        "paperId": "d997beefc0922d97202789d2ac307c55c2c52fba",
-        "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
-    },
-    {
         "paperId": "4f8d648c52edf74e41b0996128aa536e13cc7e82",
         "title": "Deep Learning"
+    },
+    {
+        "paperId": "d997beefc0922d97202789d2ac307c55c2c52fba",
+        "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
     },
     {
         "paperId": "54ddb00fa691728944fd8becea90a373d21597cf",
@@ -160,16 +160,16 @@
         "title": "Deep Learning for Person Re-Identification: A Survey and Outlook"
     },
     {
-        "paperId": "8388f1be26329fa45e5807e968a641ce170ea078",
-        "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"
+        "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "title": "Deep Residual Learning for Image Recognition"
     },
     {
         "paperId": "024006d4c2a89f7acacc6e4438d156525b60a98f",
         "title": "Continuous control with deep reinforcement learning"
     },
     {
-        "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
-        "title": "Deep Residual Learning for Image Recognition"
+        "paperId": "8388f1be26329fa45e5807e968a641ce170ea078",
+        "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"
     },
     {
         "paperId": "0c00a328fa7cd56ee60338c54e89bd48310db80b",
@@ -256,6 +256,10 @@
         "title": "Overfitting in adversarially robust deep learning"
     },
     {
+        "paperId": "42d3ae61ca296558cba61446bd95b8a6e5b1082d",
+        "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning"
+    },
+    {
         "paperId": "f9163156eeba67762a7441db48fe6720106137cd",
         "title": "Survey on deep learning with class imbalance"
     },
@@ -278,10 +282,6 @@
     {
         "paperId": "1ed33896e82cc3810b349cdffc2039f0b8edd82e",
         "title": "Deep learning and its applications to machine health monitoring"
-    },
-    {
-        "paperId": "42d3ae61ca296558cba61446bd95b8a6e5b1082d",
-        "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning"
     },
     {
         "paperId": "7fa30c8af436b7df513ef41e2cccd8a2404f37f8",
@@ -312,16 +312,16 @@
         "title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions"
     },
     {
+        "paperId": "c3df199cbca74763c4ae9889409bbd4aa29b6255",
+        "title": "Deep learning-enabled medical computer vision"
+    },
+    {
         "paperId": "7d873a9c49d3864709aa762f8740edcdbd7369c5",
         "title": "Deep learning in histopathology: the path to the clinic"
     },
     {
         "paperId": "a0f303b6e22ef52943355993f57d65938997066a",
         "title": "Machine learning and deep learning"
-    },
-    {
-        "paperId": "c3df199cbca74763c4ae9889409bbd4aa29b6255",
-        "title": "Deep learning-enabled medical computer vision"
     },
     {
         "paperId": "b415adc22ac3133c82078c987303c422c56b3b5e",
@@ -348,24 +348,24 @@
         "title": "A review of medical image data augmentation techniques for deep learning applications"
     },
     {
-        "paperId": "35adeef964fd344288febc7def2780007587724f",
-        "title": "Deep learning in cancer diagnosis, prognosis and treatment selection"
-    },
-    {
         "paperId": "b11468ed3a6215f1ee109fe5b2e0bd0e0e2f0eb1",
         "title": "Democratising deep learning for microscopy with ZeroCostDL4Mic"
+    },
+    {
+        "paperId": "35adeef964fd344288febc7def2780007587724f",
+        "title": "Deep learning in cancer diagnosis, prognosis and treatment selection"
     },
     {
         "paperId": "0311ace1d499cadd1cc0c515a625d1d045f60d25",
         "title": "Deep Learning for 3D Point Clouds: A Survey"
     },
     {
-        "paperId": "a56bf7ee9a56d8f84079684339a953c2df9ce76b",
-        "title": "A review on the attention mechanism of deep learning"
-    },
-    {
         "paperId": "0b24f27d920bd1d23c8f6a1ab2b603c5c14f0a36",
         "title": "Deep Learning applications for COVID-19"
+    },
+    {
+        "paperId": "a56bf7ee9a56d8f84079684339a953c2df9ce76b",
+        "title": "A review on the attention mechanism of deep learning"
     },
     {
         "paperId": "8760bc7631c0cb04e7138254e9fd6451b7def8ca",

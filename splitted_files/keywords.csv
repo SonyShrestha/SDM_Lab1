@@ -1,39 +1,39 @@
 keywords
 Big Data
-Data Warehousing
-Data Visualization
 Deep Learning
-Artificial Intelligence
+Data Warehousing
+Distributed Systems
+Data Mining
+Data Integration
+Machine Learning
 Internetbased Programs
 Communication Techniques
 Internet Applications
 Automatic Largescale Data Collection Online Transactions
-Data Storage
-Data Mining
+Data Visualization
+Batch Processing
 Better Predictions
 Smarter Decisions
 Moreeffective Interventions
-Data Management
+Data Analytics
+Data Storage
 Modern Information Systems
 Digital Technologies
 Cloud Computing Analysis
 Multiple Levels
-Batch Processing
 Data Processing
-Data Integration
-Stream Processing
-Distributed Systems
-Data Analytics
+Data Management
+Artificial Intelligence
 Hadoop
-Parallel Computing
+Stream Processing
 Future Research
 Large Size High Dimension
 Complex Structure
 New Research
-Machine Learning
 Cyber Physical Systems
 Huge Potential
 Resource Efficiency
+Parallel Computing
 Cloud Computing Integration
 Massive Amounts
 Potential Applications
@@ -61,14 +61,14 @@ Big Data Analytics Bda
 Useful Information
 Big Data Relatedknowledge
 Firm Knowledge
-Educational Contexts
-New Datadriven Approaches
-Informed Decision Making
-Educational Effectiveness Digital Traces
 Drug Candidates Modern Drug Discovery
 Artificial Intelligence Approaches
 Innovative Modeling
 Drug Data Sets
+Educational Contexts
+New Datadriven Approaches
+Informed Decision Making
+Educational Effectiveness Digital Traces
 Information Systems Research
 Citation Analysis
 Dynamic Cocitation Analysis
@@ -154,43 +154,44 @@ New Data Analytics Challenges
 Engendering Paradigm Shifts
 Multiple Disciplines
 New Forms
-Data Stewardship
 Data Governance
-Metadata Management
-Master Data Management
+Data Cleaning
+Database Systems
+Data Modeling
 Userfriendly Workflow Desktop Platform
 Molecular Sequence Data Management
 Evolutionary Phylogenetics Studies
 Data Acquisition
-Data Lifecycle
-Data Architecture
-Data Lineage
 Biochemistry George Washington University
 Data Access Control
-Data Migration
+Data Stewardship
 Profitable Decisions
 Smart Farming
 Modern Agriculture
 Decisionmaking Valuable Advantages
+Data Retention
+Data Lineage
 Natural Gas Petroleum Products
 Different Environments
 Environmental Electrochemical Reaction Welding Defects
 External Force Damage Etc Defects
-Data Privacy
+Data Quality
+Data Catalog
 Big Amounts
 Geospatial Data
 Traditional Spatial Data Infrastructures
-Database Systems
+Data Migration
+Data Lifecycle
+Metadata Management
 Recent Advances
 Mobile Devices
 Urban Trajectory Data
 Recent Research Trends
-Data Modeling
+Data Architecture
 Rapid Development
 Computing Technologies
 Edge Terminals
 Data Trust
-Data Cleaning
 Responsible Data Management Intensifies
 Automated Decision Systems Ads
 Sociolegaltechnical Systems
@@ -199,24 +200,23 @@ Large Volumes
 Industrial Data
 Networked Industrial Environments
 Important Data Properties Volume Variety Traffic
-Data Security
+Master Data Management
 Textabstractthe Rise
 Data Science
 New Usersin Need
 Data Management Solutions
+Data Privacy
+Data Security
 Traditional Industries
 Centralized Systems
 Iot Devices
 Iot Data Management
-Data Catalog
-Data Retention
 Blockchain Technology
 Technological Topics
 Medical Records
 Patient Outreach Methods
 Deep Learning Models
 Recent Breakthroughs
-Data Quality
 Health Data Management Systems
 Patient Care
 Research Directions
@@ -310,10 +310,10 @@ New Ways
 Academic Librarians
 Data Curation
 Disciplinary Differences
-Natural Disasters
-Todays Society
-Disaster Mitigation Preparation Response
-Disasterrelated Data
+Software Managed Multicore Smm Architectures
+Dma Instructions
+Stack Data
+Utmost Importance
 Research Industry
 Media Attention
 Knowledge Discovery
@@ -493,60 +493,63 @@ Spatial Structures
 Timechanging Concepts
 Mining Decision Trees
 Decision Tree Learner
-Denormalization
-Conceptual Data Model
+Dimensional Modeling
+Logical Data Model
 Relational Model
 Sensors Wearables
 Advanced Modeling Techniques
 Decentralized Data
 Model Training
-Data Modeling Techniques
+Data Abstraction
+Data Modeling Best Practices
+Data Modeling Tools
 Selected Data
 Future Conditions
 Highway Bridge Components
 Historical Inspection Data
-Data Schema
-Logical Data Model
+Entity-Relationship Model
+Erd (Entity-Relationship Diagram)
 Neural Networks
 Aerodynamic Data
 Computational Fluid Dynamics Cfd
 Traditional Reducedorder Models
-Data Modeling Tools
-Database Design
+Conceptual Data Model
+Denormalization
 Process Data Modeling
 Parameter Learning
 Online Prediction
 Keyquality Variables
-Data Modeling Standards
-Physical Data Model
-Data Abstraction
+Data Dictionary
+Data Modeling Techniques
 Langevin Dynamics
 Score Matching
 Lowdimensional Manifolds
 Different Levels
-Entity-Relationship Model
+Normalization
+Physical Data Model
+Data Schema
 Multirelational Data
 Lowdimensional Vector
 Extensive Experiments
 Stateoftheart Methods
-Erd (Entity-Relationship Diagram)
 Greater Attention
 Diverse Research Fields
 Medicine Science Engineering Management Defense Politics
-Dimensional Modeling
 Configuration Data State Data Remote Procedure Calls
 Network Management Protocols
 Addressing Ambiguities
 Backward Incompatibilities
+Data Modeling Standards
 Unevenly Sampled Data
 Interlayer Latent Structure Modeling
 Regularly Sampled Process Data
 Quality Data
+Schema Design
+Database Design
 Database Technologies
 Nonconventional Applications
 Better Scalability Lower Latency
 Higher Flexibility
-Data Modeling Best Practices
 Tabular Data
 Realistic Synthetic Data
 Multiple Modes
@@ -570,8 +573,6 @@ Functional Magnetic Resonance
 Statistical Analysis
 Temporal Autocorrelations
 Voxels Techniques
-Schema Design
-Normalization
 Data Centers
 Critical Energyhungry Infrastructures
 Services Energy Consumption Models
@@ -580,7 +581,6 @@ Singular Value Decomposition
 Genomewide Expression Data
 Arrays Space
 Diagonalized Eigengenes
-Data Dictionary
 Software Systems
 Isolated Systems
 Large Amounts
@@ -602,6 +602,10 @@ Beck Katz
 Modeling Time Dependence
 Binary Data
 Time Dummies
+Count Data
+Data Mining Computer Vision
+Information Retrieval
+Multinomial Generalized Dirichlet Mixture Models
 Sensor Data
 Sparse Sensor Networks
 Mobile Entities
@@ -636,6 +640,10 @@ Fuzzy Set Theory
 Numerous Contributions
 Complex Objects
 Fuzzy Semantic Conceptual Data Models
+Pretrained Models
+Programming Language
+Dramatic Empirical Improvements
+Coderelated Tasks
 Major Problems
 Conventional Methods
 Structural Equation Modelers
@@ -655,38 +663,35 @@ Hidden Markov Chain Models
 Finite Gaussian Mixture Models
 Sequential Data Modeling
 Classification Applications
-Labeling Training Data
-Machine Learning Systems
-Stateof Theart Models
-Labeling Functions
 Biologically Relevant Parameters
 Lactobacillus Plantarum
-Data Wrangling
-Data Enrichment
-Data Fusion
-Data Summarization
 Data Compression
+Data Validation
+Data Wrangling
+Data Imputation
+Data Summarization
+Data Cleansing
 Modern Deep Neural Networks
 High Accuracy
 Test Distribution
 Mismatched Accuracy
+Data Encryption
+Real-Time Processing
+Data Enrichment
+Data Normalization
 Etl (Extract
 Transform
 Load)
-Data Validation
-Data Cleansing
-Data Filtering
 Training Machine Learning Models
 Input Data
 Input Pipelines
 Machine Learning Jobs
-Data Imputation
-Data Deduplication
+Data Filtering
 Characteristic Sensitivity Limits
 Present Challenges
 Existing Data Processing Tools
 Phase Calibration
-Data Encryption
+Data Deduplication
 Reallife Problems
 Smart Transport
 Smart Environment
@@ -699,16 +704,14 @@ Data Processing Jobs
 Distributed Compute Clusters
 Complex Algorithms
 Current Systems
-Data Normalization
+Data Aggregation
 Modern Astronomical Instruments
 Dedicated Software
 Automated Operation
-Data Aggregation
 Human Pose Estimation
 Topdown Methods
 Estimation Community
 Topdown Pose Estimator
-Real-Time Processing
 Square Degreeshour
 Median Depths
 Transient Events
@@ -717,6 +720,8 @@ Blockchain Technologies
 Massive Momentum
 Global States
 Private Blockchains
+Data Fusion
+Data Transformation
 Applications Development
 Iot Modules
 Connected Oled Display
@@ -729,6 +734,10 @@ Rgb Andor Nir Sensorshas
 Highresolution Spectroscopy
 Manned Aircraft
 Significantly Expensive Platforms
+Data Processing Evolves
+Large Scale Distributed Platforms
+Network Cards
+Data Processing Applications
 Monitoring Systems
 Important Factors
 Management Current Technologies
@@ -737,15 +746,10 @@ Highly Diverging Capabilities
 Performance Characteristics
 Simple Workloads
 Detailed Analyses
-Agricultural Monitoring
-Food Security
-Reliable Crop Maps
-Heterogeneous Satellite Imagery
 Current Technology
 Bluetooth Low Energy Blebased Sensors
 Personal Vital Signs Data
 Diabetic Patients
-Data Transformation
 Data Service
 Industrial Internet
 Different Computing Manners
@@ -836,37 +840,38 @@ Important Roles
 Explosive Growth
 Internet Search Social Media Mobile Devices
 Data Profiling
-Data Timeliness
-Data Accuracy
+Error Detection
 Genomic Data Products
 Genome Assemblies
 Gene Sets
 Critical Importance
-Error Detection
-Data Standardization
+Data Improvement Techniques
+Data Compliance
 Nationwide Hospital Registries
 Health Events
 Validation Studies
 Retrieved Papers
-Data Improvement Techniques
+Data Reliability
+Data Completeness
 Practical Approaches
 Data Consumers
 Data Consumersa Twostage Survey
+Data Consistency
+Quality Metrics
 Data Quality Management
-Data Completeness
-Data Compliance
+Data Accuracy
+Data Auditing
 Training Data
 Machine Learning Tasks Data
 Machine Learning Tasks
 Inaccurate Analytics
-Data Auditing
-Data Verification
+Data Timeliness
 Developing Machine Learning Models
 Traditional Software Development
 Machine Learning Development
 Wellknown Data Quality Dimensions
-Data Consistency
-Quality Metrics
+Data Integrity
+Data Verification
 Measured Diffraction Intensities
 Bad Regions
 Bad Images
@@ -874,17 +879,16 @@ Radiation Damage
 Mechanical Turk Mturk
 Highquality Human Subjects Data
 Multiple Fields
-Data Reliability
 Neural Architecture Search
 Automated Feature Selection
 Limited Efforts
+Data Standardization
 Suitable Methods
 Quality Frameworks
 Databased Machine Learning Models
 Expected Roles
 Explainable Artificial Intelligence
 Model Construction
-Data Integrity
 Standardized Health Surveys
 Minimum Psychometric Requirements
 Diverse Population Groups
@@ -920,10 +924,6 @@ Enormous Potential
 Science Influence Policy
 Resource Management
 High Quality
-Reliable Research Demands Data
-Known Quality
-Electronic Health Record Ehr Based Research
-Data Quality Issues
 Mobile Data Crowdsourcing
 Environmental Monitoring
 Mobile Users
@@ -960,6 +960,7 @@ Volunteer Involvement
 Biological Surveys
 Age Prior Knowledge
 Opportunistic Monitoring Schemes
+Data Quality Issues
 Traditional Structured Data
 Relational Databases
 Electronic Health Record Ehr Data
@@ -984,52 +985,56 @@ Multiple Perspectives
 Data Quality Management Systems
 Existing Data Quality Concepts
 Data Querying
-Indexing
-Olap (Online Analytical Processing)
-Query Planner
 Query Caching
-Sql (Structured Query Language)
-Query Language
+Query Execution
+Query Optimization
+Complex Queries
+Search Queries
+Data Retrieval
+Nosql
+Query Planner
 Vehicular Fog
 Considerable Attention
 Vehicular Endusers
 Vehicular Fog Data Dissemination
 Oltp (Online Transaction Processing)
+Indexing
 Mobility Data Sources
 Useful Knowledge Patterns
 Customers Behavior
 Significant Attention
-Query Execution
-Search Queries
-Query Analyzer
-Complex Queries
+Query Performance Tuning
 Natural Language Querying
 Complex Relational Databases Natural Language Interfaces
 Easy Access
 Sql Athena
+Query Analyzer
+Olap (Online Analytical Processing)
 Graph Databases
 Numerous Applications
 Social Networks Rdf
 Query Languages
-Data Retrieval
 Mere Automation
 Human Resource Information Systems Hris
 Human Resource Management Hrm
 Current Hris
-Nosql
+Ad-Hoc Queries
 Remote Sensing Data
 Climate Change Desertification
 Land Use
 Satellite Observations
-Database Queries
 Semantic Web Technologies
 Public Datasets
 Ordinary Users
 Open Data
+Existing Data Integration Frameworks
+Underlying Sources
+Different Formats
+Full-Text Search
+Sql (Structured Query Language)
 Boundedly Evaluable Queries
 Access Constraints
 Effective Syntax
-Ad-Hoc Queries
 Time Series Data
 Numerous Representation Methods
 Specific Claims
@@ -1041,22 +1046,21 @@ Data Observation
 Model Simulation
 Geoscience Spatialtemporal Data
 Small Blocks
+Database Queries
 Data Alignment Results
 Sources Coverage Results
 Available Remote Sources
 Practical Tradeoffs
-Query Performance Tuning
-Full-Text Search
 Data Model
 Internetage Databases
 Google Amazon Facebook
 Sensitive Columns
 Processing Queries
-Query Optimization
 Linked Data
 High Data Availability
 Siloed Databases
 Existing Approaches
+Query Language
 Uncertain Data
 Spatial Uncertainty
 Uncertain Spatiotemporal Data
@@ -1148,17 +1152,13 @@ Query Language Features
 Affine Transformations
 Safe Transformations
 Prior Knowledge
-Database Concepts
-Web Data Management
-New Data Models
 Iterated Sum
 Aggregate Queries
 Complex Statistical Functions
 Expressive Power
-Consistent Wrt
-Certain Global Integrity Constraints
-Logic Programming Specifications
-Minimal Global Instances
+Database Concepts
+Web Data Management
+New Data Models
 Contentbased Image Retrieval
 Heterogeneous Features
 Texture Color
@@ -1167,24 +1167,23 @@ Markup Origins
 Data Interchange
 Highly Anticipated Application
 Electronic Data Edi
-Dimensionality Reduction
+Regression Analysis
 Classification
-Recent Decades
-Healthcare Organizations
-Information Technologies
-Smart Health
+Exploratory Data Analysis
+Predictive Modeling
 Genomic Data Collection
 Limited Resources
 Relatively Little Exposure
 Professional Development Opportunities
-Feature Engineering
+Model Evaluation
+Model Deployment
+Dimensionality Reduction
 Clustering
-Predictive Modeling
+Feature Engineering
 Laborious Tasks
 Data Scientists
 Domain Experts
 Recently Machine Learningml Researchers
-Exploratory Data Analysis
 Increasingly Larger Number
 Data Science Components
 Data Science Stages
@@ -1196,7 +1195,6 @@ Related Demand
 Human Expertise Automation
 Positive Worldwide Infections
 Tremendous Efforts
-Regression Analysis
 Natural Resources
 Planet Earth Big Earth Data Science
 Earth Observation
@@ -1205,14 +1203,12 @@ Data Science Systems
 Ongoing Forms
 Discretionary Work
 Ethnographic Fieldwork
-Model Deployment
 Fixed Point Strategies
 Advanced Convex Optimization Methods
 Recent Nonlinear Methods
 New Tools
 Unambiguous Data
 Regularized Steps
-Model Evaluation
 Temple Langs
 Statistical Education
 Response Universities
@@ -1309,39 +1305,38 @@ Ethics Codes
 Treebased Pipeline Optimization
 Machine Learningpipeline Design
 Overly Complex Pipelines
+Network Attached Storage (Nas)
 Data Archiving
-Storage Efficiency
-Data Replication
+Database Management Systems (Dbms)
 Memristive Devices
 Memory Functions
 Integrated Circuits
 Memory Applications
-Solid State Drives (Ssd)
-Hierarchical Storage Management
+File Storage
+Hard Disk Drives (Hdd)
 Worldwide Data
 Traditional Storage Methods
 Current Storage Media
 Currently Available Storage Methods
-Network Attached Storage (Nas)
-File Storage
-Object Storage
+Data Replication
 Storage Area Network (San)
+Cloud Storage
+Data Backup
+Storage Efficiency
 Abstract Dna Digital Storage
 Information Storage
 Sparsified Error Correction Codewords
 Pseudorandom Sequences
-Data Backup
-Cloud Storage
 Low Integrity High Cost
 Easy Tampering
 Storage Systems
 Distributed Data
-Block Storage
 Data Retention Policies
+Block Storage
 Iot Data
 Significant Trust Issues
 Transaction Verifications
-Distributed File Systems
+Hierarchical Storage Management
 Information Explosion
 Holographic Data Storage Technology
 Phase Modulation Technology
@@ -1349,8 +1344,9 @@ Plasmonic Color Generation
 Ultrathin Metasurfaces
 Metallic Nanoparticles
 Color Displays Data Storage
-Database Management Systems (Dbms)
-Hard Disk Drives (Hdd)
+Solid State Drives (Ssd)
+Object Storage
+Distributed File Systems
 New Storage Media Dna
 Excellent Durability
 Nature Rapid Progress
@@ -1479,75 +1475,74 @@ Multiplexed Digital Data
 Femtosecond Laser Nanostructuring
 Fused Quartz
 Unprecedented Parameters
-Artificial Neural Networks
-Computer Vision
+Time Series Analysis
+Long Short-Term Memory (Lstm)
 Keras
 Deep Learning Frameworks
 Hardware Accelerators
 Compelling Performance
 Individual Subsystems
+Speech Recognition
 Pytorch
-Generative Adversarial Networks (Gan)
-Tensorflow
+Autoencoders
 Recent Work
 Adversarial Examplesinputs
 Natural Data
-Convolutional Neural Networks (Cnn)
-Autoencoders
+Tensorflow
+Generative Adversarial Networks (Gan)
+Sequence-To-Sequence Learning
+Deep Belief Networks (Dbn)
 Deep Learning Tools
 Tremendous Attention
 Model Uncertainty
 Comparison Bayesian Models
-Sequence-To-Sequence Learning
 Remarkable Results
 Large Representative Datasets
-Attention Mechanisms
+Private Information
+Recurrent Neural Networks (Rnn)
 Face Attributes
 Complex Face Variations
 Attribute Prediction
 Attribute Tags
+Computer Vision
 Inception Modules
 Convolutional Neural Networks
 Regular Convolution
 Depthwise Separable Convolutions
-Time Series Analysis
 Deep Reinforcement Learning
 Point Cloud
 Geometric Data Structure
 Voxel Grids
 Neural Network
-Deep Belief Networks (Dbn)
+Natural Language Processing (Nlp)
 Small Generalization Error
 Extensive Systematic Experiments
 Large Neural Networks
 Stateoftheart Convolutional Networks
-Speech Recognition
-Long Short-Term Memory (Lstm)
 Epistemic Uncertainty
 New Bayesian Deep Learning Tools
 Bayesian Deep Learning Models
-Vision Tasks
-Natural Language Processing (Nlp)
+Artificial Neural Networks
 Stochastic Gradient Descent
 Slowly Increasing Schedule
 Longterm Dependencies
 Large Datasets
 Computationally Efficient Training Algorithms
 Adversarial Samples Inputs
+Attention Mechanisms
 Design Pointnet
 Local Structures
 Finegrained Patterns
 Complex Scenes
-Transfer Learning
 Image Segmentation
 Image Processing
 Important Applications
-Medical Image Analysis Robotic Perception Video Surveillance
-Recurrent Neural Networks (Rnn)
+Transfer Learning
 Convergence Properties
 Meticulous Hyperparameter
 Complex Realworld Domains
 Expected Reward
+Convolutional Neural Networks (Cnn)
 Recent Progress
 Large Networks
 Abundant Data
@@ -1564,17 +1559,17 @@ Asynchronous Variants
 Person Reidentification Reid
 Multiple Nonoverlapping Cameras
 Increasing Demand
-Convolutional Networks Cnns
-Huge Adoption
-Computer Vision Applications
-Deep Qlearning
-Continuous Action Spaces
-Algorithm Network Architecture
-Simulated Physics Tasks
 Deeper Neural Networks
 Residual Functions
 Unreferenced Functions
 Comprehensive Empirical Evidence
+Deep Qlearning
+Continuous Action Spaces
+Algorithm Network Architecture
+Simulated Physics Tasks
+Convolutional Networks Cnns
+Huge Adoption
+Computer Vision Applications
 Image Denoising
 Considerable Attentions
 Convolutional Neural Networks Dncnns
@@ -1604,6 +1599,7 @@ Selectively Pruning Components
 Sparse Networks
 Regular Networks
 Crop Diseases
+Food Security
 Global Smartphone Penetration
 Transferable Features
 Novel Tasks
@@ -1634,7 +1630,6 @@ Remarkable Progress
 Great Contributions
 Sustainable Medical Care
 Deep Learning Medical Image Processing
-Deep Convolutional Neural Networks
 Deep Learningbased Algorithms
 Larger Datasets
 Point Cloud Learning
@@ -1653,52 +1648,53 @@ Particular Simple Gradient Methods
 Nearoptimal Solutions
 Nonconvex Optimization Problems
 Graph Processing
-Centrality Measures
-Pagerank Algorithm
-Graph Analytics
+Graph Querying
+Graph Convolutional Networks (Gcn)
 Graph Processing Performance
 Dataflow Frameworks
 Specialized Graph Processing Systems
 Tailored Programming Abstractions
-Graph Visualization
-Property Graph
+Large-Scale Graph Processing
+Pagerank Algorithm
 Finegrained Parallelism Energy Efficiency
 Tremendous Interest
-Graph-Based Machine Learning
-Shortest Path Algorithms
+Property Graph
+Graph Visualization
 Graph Workloads
 Prior Accelerators
 Performance Potential
 Graph Types
+Graph Embedding
+Parallel Graph Processing
+Connected Components
 Language Extensions
 Graph Computing
 Previous Graph Processing Frameworks
-Graph Embedding
-Parallel Graph Processing
+Graph Algorithms
+Distributed Graph Processing
 Computeintensive Iterative Queries
 Best Efficiency
 Interestingly Similar Principles
 Rigorous Constraints
-Connected Components
-Large-Scale Graph Processing
-Distributed Graph Processing
+Community Detection
 Manycore Processors
 Iterative Graph Processing
 New States
 Graph Paths
-Graph Partitioning
+Centrality Measures
+Graph-Based Machine Learning
 Digital Data
 Fast Data Analysis
 Computer Systems
 Particular Largescale
-Graph Traversal
-Processinginmemory Pim
-Recent Technology
-Existing Solutions
 Largescale Graph Processing
 Data Access
 Generic Computing
-Graph Convolutional Networks (Gcn)
+Shortest Path Algorithms
+Graph Analytics
+Processinginmemory Pim
+Recent Technology
+Existing Solutions
 Gpubased Graph Processing
 Gpu Memory Oversubscription
 Data Transfer
@@ -1711,14 +1707,13 @@ Design Parameters
 Accelerator Design
 Internal Details
 Increased Data Reuse
-Community Detection
 Big Data Applications
 Traditional Relational Databases
 Singlemachine Inmemory Graph Analytics
-Graph Querying
 Critical Parameters
 Async Push
 Communication Mechanism Push
+Gpu Existing Graphprocessing Frameworks
 General Analog Memristorbased Pim
 High Parallelism
 Digital Cmosbased Pim
@@ -1728,6 +1723,7 @@ Energy Consumption
 Underlying Adjacency Matrix Computations
 Data Movements
 Processing Units
+Graph Partitioning
 Graph Processing Jobs
 Geodistributed Datacenters
 Low Latency
@@ -1735,6 +1731,7 @@ Optimization Variants
 Negligible Overhead
 Algorithmic Patterns
 Real Graphs
+Graph Traversal
 Significant Recent Interest
 Parallel Frameworks
 Processing Graphs
@@ -1742,17 +1739,12 @@ Graphs Architecture
 Current Spin Orbit Torque
 Magnetic Random Access Memory Sotmram
 Computational Units
-Traditionally Distributed Graph Processing Systems
-Unsatisfactory Overall Processing Efficiency
-Sharedmemory Graph Computing Frameworks
-Modern Multicore Processors
-Graph Algorithms
 Great Attention
 Reram Crossbars
-Graph Neural Networks
 Intensive Interests
 High Memory Bandwidth Requirement
 Conventional Architectures
+Graph Neural Networks
 Realworld Problems
 High Efficiency
 Fpgadram Platforms
@@ -1760,18 +1752,18 @@ Largescale Graph Analytics
 Programming Gpus
 Gpu Graph Analytics
 Computation Gunrock
-Iterative Graph Processing Jobs
-Existing Graph Processing Frameworks
-Concurrent Jobs
-Concurrent Iterative Graph Processing Jobs
-Realworld Graphs
-Inefficient Memory Behaviours
-Traditional Systems
-Random Memory Access Patterns
 Huge Datasets
 Considerable Latencies
 Random Accesses
 Additional Computation
+Realworld Graphs
+Inefficient Memory Behaviours
+Traditional Systems
+Random Memory Access Patterns
+Iterative Graph Processing Jobs
+Existing Graph Processing Frameworks
+Concurrent Jobs
+Concurrent Iterative Graph Processing Jobs
 Complex Problems
 Existing Graph Processing Systems Focus
 Uncommon Expertise
@@ -1780,14 +1772,14 @@ Singlemachine Shared Memory Graph Processing
 Expensive Atomic Updates
 Poor Cache Locality Data
 Atomic Updates
-Slim Graph
-Practical Lossy Graph Compression
-Highperformance Approximate Graph Processing Storage
-Numerous Compression Schemes
 Largescale Iterative Graph Analytics
 Gpu Accelerators
 Iterative Directed Graph Processing
 Gpus Existing Solutions
+Slim Graph
+Practical Lossy Graph Compression
+Highperformance Approximate Graph Processing Storage
+Numerous Compression Schemes
 Graph Processing Graph
 New Possible Solutions
 Data Layout Memory Access Pattern Workload Mapping
@@ -1815,14 +1807,14 @@ Large Graphs
 Valuable Insights
 Social Networking
 Web Companies
-Partitioning Strategies
-Distributed Graph Processing Systems
-Different Partitioning Strategies
-Execution Environments
 Outofcore Graph Processing Systems
 Certain Restrictions
 Better Locality
 Neighborhood Constraint
+Partitioning Strategies
+Distributed Graph Processing Systems
+Different Partitioning Strategies
+Execution Environments
 Fast Graph Processing
 Multiple Gpus
 Efficient Big Graph Processing
@@ -1906,14 +1898,14 @@ Large Graph Processing Jobs
 Modeling Concepts
 Diverse Problems
 Science Commerce Engineering
-Sparse Graph Processing
-Highly Irregular Memory Access Patterns Map
-Poor Cache Performance
-Cache Line Utilization
 Modern Applications
 Sophisticated Analytics
 Rdf Graphs
 Structural Queries
+Sparse Graph Processing
+Highly Irregular Memory Access Patterns Map
+Poor Cache Performance
+Cache Line Utilization
 Large External Memory
 Massive Graph Data
 Onchip Memory Power Consumption
@@ -1925,43 +1917,43 @@ Distributed Vertexcentric Model
 Similar Graph Computing Frameworks
 Competitive Performance
 Clusterbased Graph Processing Systems
-Text Indexing
-B-Tree
 Index Optimization
+Full-Text Index
+Index Maintenance
 Automatic Indexing
 Implicit Higherorder Structure
 Documents Semantic Structure
 Relevant Documents
-Inverted Index
-Full-Text Index
-Index Seek
+Secondary Index
+B-Tree
+Index Scan
 Bitmap Index
-Indexing Methods
-Index Utilization
-Non-Clustered Index
-Spatial Index
+Composite Index
+Text Indexing
+Hash Index
 Chromatin State
 Different Stages
 Previously Identified Technological Limitations
 Accessible Chromatin
-Index Structure
 Clustered Index
-Composite Index
-Secondary Index
+Spatial Index
+Database Indexing
+Non-Clustered Index
+Covering Index
 Probabilistic Latent Semantic Indexing
 Automated Document Indexing
 Factor Analysis
-Count Data
-Covering Index
-Index Scan
+Index Seek
+Index Structure
+Index Utilization
 Existing Billionscale
 Neighbor Search Systems
 Sift Vectors
 Siftlike Descriptors
-Hash Index
+Primary Index
 Similarity Search
 Large Time Series Databases
-Index Maintenance
+Indexing Methods
 Record Linkage
 Deduplication Increasingly Matched Data
 Duplicate Records
@@ -1975,11 +1967,11 @@ Current Dna
 Instruments Sample Multiplexing
 Economical Use
 Available Sequencing Capacities
+Inverted Index
 Fast Searching
 Highly Finetuned Spatial Access Methods Sams
 Example Type
 Potential Clusters Correlations
-Database Indexing
 Serial Crystallography
 Higher Symmetry
 Structure Solution
@@ -1992,10 +1984,8 @@ Dramatic Advances
 Wireless Communications
 Continuous Movement
 Future Positions
-Primary Index
 Academic Literature
 Electronic Format
-Different Formats
 Articles Citeseer
 Multiple Antibiotic Resistance
 Large Numbers
@@ -2090,36 +2080,36 @@ Visual Attention
 Visual Stimulation
 Future Visual Processing
 Neuronal Baseline Activity
-Reinforcement Learning
-Supervised Learning
-Unsupervised Learning
 Large Scale
 Heterogeneous Environments
 Dataflow Graphs
 Computation Shared State
+Random Forests
+Support Vector Machines (Svm)
+Principal Component Analysis (Pca)
 Precipitation Nowcasting
 Spatiotemporal Sequences
 Convolutional Structures
 Problem Experiments
-Random Forests
-Hyperparameter Tuning
-Semi-Supervised Learning
+K-Nearest Neighbors (K-Nn)
+Reinforcement Learning
+Unsupervised Learning
+Supervised Learning
 Computer Science
 New Learning Algorithms
-Support Vector Machines (Svm)
 Significant Importance
 Discriminatory Behavior
 Certain Groups
-Hierarchical Clustering
 Stateoftheart Machine Learning Algorithms
 Use Performance Documentation
 Api Consistency
 Minimal Dependencies
+Cross-Validation
+Hyperparameter Tuning
 Gaussian Processes Gps
 Natural Generalisations
 Multivariate Gaussian Random Variables
 Gaussian Processes
-Cross-Validation
 Research Ogb Datasets
 Billion Edges
 Biological Networks Molecular Graphs Source Code Asts
@@ -2128,8 +2118,7 @@ Machine Learning Algorithms
 Careful Tuning
 Model Hyperparameters
 Expert Experience Rules
-K-Nearest Neighbors (K-Nn)
-Principal Component Analysis (Pca)
+Semi-Supervised Learning
 Machine Learning Models
 Blackbox Access
 Membership Inference
@@ -2138,10 +2127,12 @@ Deep Neural Networks Dnns
 Adversarial Examples Malicious Inputs
 Erroneous Model Outputs
 Human Observers Potential Attacks
+Hierarchical Clustering
 Overall Sentiment
 Movie Reviews
 Standard Machine Learning Techniques
 Humanproduced Baselines
+K-Means Clustering
 Federated Learning
 Collaborative Learning
 Data Samples
@@ -2172,7 +2163,6 @@ Flavors Modality
 Multiple Modalities
 Secure Aggregation
 Large Userheld Data Vectors
-K-Means Clustering
 Study Adversarial Machine
 Learningthe Study
 Effective Machine Learning Techniques
@@ -2189,6 +2179,7 @@ Induction Classification Algorithms
 Data Processing Tasks
 Conceptual Developments
 Physical Insights Applications
+Machine Learning Systems
 Superhuman Performance
 Fluid Mechanics
 Unprecedented Volumes
@@ -2207,9 +2198,6 @@ Artificial Intelligent Systems
 Numerous Sources
 Numerous Challenges
 Knowledgebased Farming Systems
-Chemical Sciences
-Computational Algorithms
-Amplifying Insights
 Brain Tumor Classification
 Clinical Diagnosis
 Effective Treatment
@@ -2222,9 +2210,6 @@ Machine Learning Technologies
 Citizens Companies
 Gender Ethnicity
 Andor People
-Derivativefree Optimizers
-Validation Set Performance
-Standard Machine Learning Models
 Interpretability Research
 Numerous Fronts
 Interpretable Machine Learning
@@ -2241,47 +2226,55 @@ Algorithmic Predictions
 Individual Data
 Data Valuation
 Supervised Machine Learning
-Graph-Based Recommendation
+Unexpectedly Poor Behavior
+Realworld Domains
+Equivalently Strong Heldout Performance
+Deep Learning Predictors
+Heart Disease
+Today Prediction
+Cardiovascular Disease
+Recent Developments
+Graph Database
+Graph Indexing
 Graph Pattern Matching
 Property Graph Databases
 Sqlpgq Sublanguage
-Graph Indexing
-Graph Database
+Graph Modeling
+Graph Embeddings
+Graph Mining
+Property Graphs
+Interactive Processes
+Query Optimization Purposes
+Property Graph Query Languages
 Graph Processing Applications
 Interconnected Data
 Encode Multilabeled Nodes
-Property Graphs
-Graph Modeling
-Interactive Processes
-Query Optimization Purposes
-Graph Embeddings
-Graph Similarity
+Graph Storage
 Vulnerability Detection
 Software Security
 Realworld Vulnerable Code
 Vulnerable Features
-Graph Storage
+Property Graph Schema
 Static Code Analysis
 Runtime Security Assessment
 Cloud Services
 Data Flows
+Graph-Based Recommendation
 Graphlike Data
 Special Features
 Integrity Constraints
 Domainspecific Knowledge Graphs
 Multiple Sources Ontologies
-Property Graph Query Languages
 Realworld Scenarios
 Profiling Tasks
 Data Profiling Tasks
+Graph Clustering
 Graphbased Approaches
 Typical Graphstyle Applications Reachability Analysis Path Finding
-Graph Clustering
-Graph Representation Learning
 Direct Result
 Insecure Source Code
 Security Defect
-Property Graph Schema
+Graph Representation Learning
 Recent Events
 Globalscale Security Incidents
 Statesponsored Mass Surveillance Programs
@@ -2289,6 +2282,7 @@ Largescale Ddos Attacks
 Multiple Graphs
 Regular Path Queries
 Different Pattern
+Graph Similarity
 Emerging Technologies
 Treelike Molecules
 Chemical Bonds
@@ -2320,6 +2314,9 @@ Physicochemical Features
 Mpp Graph Neural Networks Gnn
 Accurate Prediction
 New Compounds Design
+Graph Kernels
+Experimental Studies
+Property Testing
 Significant Interests
 Semi Supervised Learning
 Heavy Label Reliance Poor Generalization
@@ -2327,7 +2324,6 @@ Underlying Rules
 Chemistry Biology
 Social Science Research
 Molecular Graph Generation
-Graph Mining
 Deep Models
 Continuous Latent Variables
 Inaccurate Modeling
@@ -2413,4 +2409,3 @@ Existing Systems
 Online Analytical Workloads
 Onesided Error
 Query Complexity
-Property Testing

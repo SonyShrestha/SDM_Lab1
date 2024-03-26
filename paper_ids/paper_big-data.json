@@ -136,12 +136,12 @@
         "title": "Big Data Analytics Capabilities and Innovation: The Mediating Role of Dynamic Capabilities and Moderating Effect of the Environment"
     },
     {
-        "paperId": "9e3816be8cf4821d74e258de10ee471382936a30",
-        "title": "Privacy in the age of medical big data"
-    },
-    {
         "paperId": "dbabab9bf5955558f73a37644f4bb626106a6d73",
         "title": "Big Data Analytics in Intelligent Transportation Systems: A Survey"
+    },
+    {
+        "paperId": "9e3816be8cf4821d74e258de10ee471382936a30",
+        "title": "Privacy in the age of medical big data"
     },
     {
         "paperId": "5bc511aa30f72720260d792e57537379fb04c395",
@@ -172,12 +172,12 @@
         "title": "A comprehensive survey of anomaly detection techniques for high dimensional big data"
     },
     {
-        "paperId": "3dfa820702b6181c9964931f0a4d47fd298bf429",
-        "title": "Mining Big Data in Education: Affordances and Challenges"
-    },
-    {
         "paperId": "82870bc488b57cdf5ea62877109a7278af2926b3",
         "title": "Big Data and Artificial Intelligence Modeling for Drug Discovery."
+    },
+    {
+        "paperId": "3dfa820702b6181c9964931f0a4d47fd298bf429",
+        "title": "Mining Big Data in Education: Affordances and Challenges"
     },
     {
         "paperId": "718b5a40dba91bfa0bdfb9ac9ca4381425d2ff95",
@@ -352,12 +352,12 @@
         "title": "When Gaussian Process Meets Big Data: A Review of Scalable GPs"
     },
     {
-        "paperId": "c7e10109fed73e523bf2a78b00e4b657004d41fc",
-        "title": "Big data and dynamic capabilities: a bibliometric analysis and systematic literature review"
-    },
-    {
         "paperId": "65499384f0947e223ec83f582366203e7aa64f1f",
         "title": "The state of the art and taxonomy of big data analytics: view from new big data framework"
+    },
+    {
+        "paperId": "c7e10109fed73e523bf2a78b00e4b657004d41fc",
+        "title": "Big data and dynamic capabilities: a bibliometric analysis and systematic literature review"
     },
     {
         "paperId": "243d553f1fc5b7ee8cfb6f49629f3a0a32b2c5c5",
@@ -396,7 +396,7 @@
         "title": "Big Data, new epistemologies and paradigm shifts"
     },
     {
-        "paperId": "e3d74f13374063a86909c7b0a8105be94902b7f4",
-        "title": "Role of big data analytics in developing sustainable capabilities"
+        "paperId": "6eb5744bd933dcd29ff4d79e340cf890272ef099",
+        "title": "Big Data for Health"
     }
 ]

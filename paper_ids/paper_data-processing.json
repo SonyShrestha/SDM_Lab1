@@ -96,6 +96,10 @@
         "title": "Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Agriculture and Forestry"
     },
     {
+        "paperId": "dcc8d6a87c69ca44cb6636d343347ddd6c8c3860",
+        "title": "DPI: The Data Processing Interface for Modern Networks"
+    },
+    {
         "paperId": "c1fdfcd4470c65aa1238d3a1719c60672c8a4f5b",
         "title": "Performance Analysis of IoT-Based Sensor, Big Data Processing, and Machine Learning Model for Real-Time Monitoring System in Automotive Manufacturing"
     },
@@ -112,16 +116,12 @@
         "title": "Fog computing: from architecture to edge computing and big data processing"
     },
     {
-        "paperId": "d47a6cd76bbd2defc3622e9f4baca6dbe399cfe1",
-        "title": "Exploring Google Earth Engine Platform for Big Data Processing: Classification of Multi-Temporal Satellite Imagery for Crop Mapping"
+        "paperId": "c2a448bb511ebae41a87e69891da8bbf17ddba3d",
+        "title": "KAMO: towards automated data processing for microcrystals"
     },
     {
         "paperId": "1051abf1e3dae90241ad15b3f98f2e41197ee611",
         "title": "A Personalized Healthcare Monitoring System for Diabetic Patients by Utilizing BLE-Based Sensors and Real-Time Data Processing"
-    },
-    {
-        "paperId": "c2a448bb511ebae41a87e69891da8bbf17ddba3d",
-        "title": "KAMO: towards automated data processing for microcrystals"
     },
     {
         "paperId": "27245e65a27bde90b5b0bb25d157bb75a0ad8b5a",
@@ -204,12 +204,12 @@
         "title": "Focus: The interface between data collection and data processing in cryo-EM."
     },
     {
-        "paperId": "14c9c04973ca9bd1cecf0892a9b90a54aa930098",
-        "title": "Crail: A High-Performance I/O Architecture for Distributed Data Processing"
-    },
-    {
         "paperId": "851081439f3524dee702158973d3e4dc1a4f8549",
         "title": "Big Data Processing in Cloud Computing Environments"
+    },
+    {
+        "paperId": "14c9c04973ca9bd1cecf0892a9b90a54aa930098",
+        "title": "Crail: A High-Performance I/O Architecture for Distributed Data Processing"
     },
     {
         "paperId": "ef90b423bc1e818119d3ac8d32c97659b748ceb6",
