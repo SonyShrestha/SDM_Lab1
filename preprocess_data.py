@@ -31,11 +31,18 @@ def combine_csv_files(folder_path, output_file):
     for csv_file in csv_files:
         file_path = os.path.join(folder_path, csv_file)
         df = pd.read_csv(file_path)
+        
         df_list.append(df)
     
     # Concatenate all DataFrames in df_list into a single DataFrame
     combined_df = pd.concat(df_list, ignore_index=True)
     
+    # Drop duplicates and keep only unique rows
+    combined_df = combined_df.groupby('paperId').first().reset_index()
+    #combined_df=combined_df[combined_df["paperId"]=="1ed8f456a9d95dea1d7a76725a26ffa7bf364311"]
+    
+    # Write the combined DataFrame to a new CSV file
+    combined_df.to_csv(output_file, index=False)
     return combined_df
 
 
@@ -78,10 +85,7 @@ def duplicate_rows(row):
     dup_paper = row.copy()  # Make a copy of the original row
     # Modify one column in the duplicated row, for example, double the value in column 'A'
     dup_paper['paperId'] = str(uuid.uuid4())
-    try:
-        dup_paper['title'] = ast.literal_eval(row['references'])[0]['title']
-    except Exception as e:
-        dup_paper['title'] = "Big Data Technology "+ row['title'].strip("\"")
+    dup_paper['title'] = "Big Data Technology "+ row['title'].strip("\"")
     dup_paper['edition'] = int(row['edition'])-1 if int(row['edition'])>=1 else 21
 
     return dup_paper
@@ -104,14 +108,21 @@ def preprocess_data():
     # Extract Publication Venue and Publication Type
     df['publicationVenue'] = df['publicationVenue'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
     df['publicationVenueType'] = df['publicationVenue'].apply(lambda x:x.get('type')  if isinstance(x, dict) else None)
+
+    # Identify workshop, conference or journal
+    logger.info('Identifying type of publication as Conference/Journal/Workshop')
+    df['type_indicator'] = df.apply(determine_type, axis=1)
+    df = df[df['type_indicator'] != 'Unknown']
+    paper_ids_list= df.loc[df['type_indicator'] != 'Unknown', 'paperId'].tolist()
+
     df['jcwName'] = df['publicationVenue'].apply(lambda x:x.get('name')  if isinstance(x, dict) else '')
     df['jcwName'] = df.apply(lambda x:x['venue']  if x['jcwName']=='' else x['jcwName'], axis=1)
 
     # Extract author details
     df['authors'] = df['authors'].apply(ast.literal_eval)
     df['authors'] = df['authors'].apply(lambda x: x[:10] if isinstance(x, list) else [])
-    df['authorId'] = df['authors'].apply(lambda x:  ','.join(str(author['authorId'] if author['authorId'] != None else 987654321+df.index[0]) for author in x))
-    
+    df['authorId'] = df.apply(lambda row: ','.join(str(author['authorId'] if author['authorId'] is not None else 987654321+row.name) for author in row['authors']), axis=1)
+
     df['authorId'] = df['authorId'].fillna('0')
     df = df[(df['authorId'] != '') & (df['authorId'] != 'None')]
     df['authorName'] = df['authors'].apply(lambda x: ','.join(str(author['name']) for author in x))
@@ -122,11 +133,7 @@ def preprocess_data():
 
     # Extract journal details
     df['journal'] = df['journal'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
-
-    # Identify workshop, conference or journal
-    logger.info('Identifying type of publication as Conference/Journal/Workshop')
-    df['type_indicator'] = df.apply(determine_type, axis=1)
-    paper_ids_list= df.loc[df['type_indicator'] != 'Unknown', 'paperId'].tolist()
+   
     
     # Set citationCount
     df['citationCount'] = df['citationCount'].apply(lambda x: random.randint(1, len(paper_ids_list)-1) if x > len(paper_ids_list)-1 else x)
@@ -141,7 +148,7 @@ def preprocess_data():
 
 
     df.drop(columns=['publicationVenue','authors','citations','journal','venue','publicationTypes'], inplace=True)
-    df = df[df['type_indicator'] != 'Unknown']
+    
 
     df['edition'] = df['year'].apply(extract_edition)
 

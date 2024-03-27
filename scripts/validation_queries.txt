@@ -1,3 +1,37 @@
+// ----------------------- Validation Related to Author
+//Author Id should be unique
+match (p:Author)
+with  p.authorId as authorId,count(*) as cnt
+where cnt>1
+return authorId,cnt;
+
+//Author Name should not be null 
+match (p:Author)
+with  p.authorId as authorId,p.name as authorName
+where authorName is null
+return authorId
+
+
+// ----------------------- Validation Related to Paper
+//Paper Id should not be duplicate
+match (p:Paper)
+with   p.paperId as paperId,count(*) as cnt
+where cnt>1
+return paperId;
+
+//Paper Name should not be null 
+match (p:Paper)
+with   p.paperId as paperId
+where p.title is null
+return paperId;
+
+//Keyword should not be duplicate
+match (p:Keyword)
+with   p.keyword as title,count(*) as cnt
+where cnt>1
+return title;
+
+
 // Cited Paper should be published before paper citing it
 MATCH (p:paper)-[:CITES]->(p1:paper)
 MATCH (p)-[pin1:PUBLISHED_IN]->(j1:workshop)
@@ -55,3 +89,71 @@ match (p:paper)-[:CITES]->(p1:paper{paperId:"9c96a700a7abff857df936783f9e12a1ab3
 match (p)-[:PUBLISHED_IN{year:2021}]->(j:journal)
 return count(p.paperId)
 =4+9+12+7+12+7+12
+
+
+
+
+
+
+// Recommendation
+// Conference is related to Database Community
+match(j:Conference)-[:RELATED_TO]->(c:Community)
+return j,c;
+
+
+MATCH (p:Paper)-[:PUBLISHED_IN]->(jc:Conference{name:"European Conference on Principles of Data Mining and Knowledge Discovery"})
+MATCH (p)-[:HAS_KEYWORD]->(k:Keyword)
+WITH  
+  p.title AS paper_title,
+  COLLECT(k.keyword) AS keywords
+RETURN 
+  paper_title,
+  keywords,
+  CASE 
+    WHEN SIZE(keywords) > 0 AND ANY(keyword IN keywords WHERE keyword IN ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying']) THEN 1 
+    ELSE 0 
+  END AS keyword_match_indicator
+  order by keyword_match_indicator desc
+
+
+// Journal is related to Database Community
+match(j:Journal)-[:RELATED_TO]->(c:Community)
+return j,c;
+
+MATCH (p:Paper)-[:PUBLISHED_IN]->(jc:Journal{name:"IEEE transactions on fuzzy systems"})
+MATCH (p)-[:HAS_KEYWORD]->(k:Keyword)
+WITH  
+  p.title AS paper_title,
+  COLLECT(k.keyword) AS keywords
+RETURN 
+  paper_title,
+  keywords,
+  CASE 
+    WHEN SIZE(keywords) > 0 AND ANY(keyword IN keywords WHERE keyword IN ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying']) THEN 1 
+    ELSE 0 
+  END AS keyword_match_indicator
+  order by keyword_match_indicator desc
+
+
+//Journal not related to Database Community
+MATCH (j:Journal)
+OPTIONAL match(j)-[:RELATED_TO]->(c:Community)
+with j.name as JournalName,c.name as CommunityName
+where CommunityName is null
+return JournalName,CommunityName;
+
+MATCH (p:Paper)-[:PUBLISHED_IN]->(jc:Journal{name:"IEEE Transactions on Knowledge and Data Engineering"})
+MATCH (p)-[:HAS_KEYWORD]->(k:Keyword)
+WITH  
+  p.title AS paper_title,
+  COLLECT(k.keyword) AS keywords
+RETURN 
+  paper_title,
+  keywords,
+  CASE 
+    WHEN SIZE(keywords) > 0 AND ANY(keyword IN keywords WHERE keyword IN ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying']) THEN 1 
+    ELSE 0 
+  END AS keyword_match_indicator
+  order by keyword_match_indicator desc
+
+
