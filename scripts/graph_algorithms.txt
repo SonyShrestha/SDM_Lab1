@@ -30,7 +30,7 @@ CALL gds.graph.drop('paper_cites_graph');
 
 CALL gds.graph.project(
   'paper_cites_graph',
-  'paper',
+  'Paper',
   'CITES'
 );
 

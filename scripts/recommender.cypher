@@ -1,24 +1,9 @@
 // Create node Commnity of type Database 
-CREATE (c:Community {name: 'Database Community'}) ;
-
-MATCH (c:Community {name:'Database Community'}), (k:Keyword {keyword: 'Data Management'})
-CREATE (c)-[:CONTAINS]->(k);
-
-MATCH (c:Community {name:'Database Community'}), (k:Keyword {keyword: 'Indexing'})
-CREATE (c)-[:CONTAINS]->(k);
-
-MATCH (c:Community {name:'Database Community'}), (k:Keyword {keyword: 'Big Data'})
-CREATE (c)-[:CONTAINS]->(k);
-
-MATCH (c:Community {name:'Database Community'}), (k:Keyword {keyword: 'Data Processing'})
-CREATE (c)-[:CONTAINS]->(k);
-
-MATCH (c:Community {name:'Database Community'}), (k:Keyword {keyword: 'Data Storage'})
-CREATE (c)-[:CONTAINS]->(k);
-
-MATCH (c:Community {name:'Database Community'}), (k:Keyword {keyword: 'Data Querying'})
-CREATE (c)-[:CONTAINS]->(k);
-
+CREATE (c:Commnity{name: 'Database Community'});
+UNWIND ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying'] AS keywordName
+MATCH (k:Keyword {keyword:keywordName})
+MATCH (c:Commnity{name: 'Database Community'})
+MERGE (c)-[:CONTAINS]->(k);
 
 // Find journals and conferences related to Database Community
 MATCH (p:Paper)-[:PUBLISHED_IN]->(jc)
@@ -57,16 +42,17 @@ WITH jc1.name AS conferenceName, collect({paperId: paper_Id, citationCount: cita
 WITH conferenceName AS ConferenceName, REDUCE(acc = [], paperData IN papersByConference | acc + paperData)[0..100] AS TopPapers
 UNWIND TopPapers AS paper
 MATCH (pm:Paper{paperId:paper.paperId})
-SET pm.isTopPaperDBComm = true;
+SET pm:TopDBCommpaper;
 
 
 // Identify Potential Good Match and Gurus
-MATCH (p:Paper)
-WHERE p.isTopPaperDBComm = true
-WITH p.paperId AS PaperId
-MATCH (p2:Paper{paperId: PaperId})-[:WRITTEN_BY]->(a1:Author)
-SET a1.goodMatchReview = true, 
-    a1.isGuru = CASE 
-                    WHEN SIZE([(p2)-[:WRITTEN_BY]->(:Author) | 1]) >= 2 THEN 'Yes' 
-                    ELSE 'No' 
-                END;
+MATCH (p:TopDBCommpaper)-[:WRITTEN_BY]->(a:Author)
+MATCH (c:Community{name:"Database Community"})
+MERGE (a)-[:POTENTIAL_REVIEWER_FOR]-(c);
+
+
+MATCH (p:TopDBCommpaper)-[:WRITTEN_BY]->(a:Author)
+MATCH (c:Community{name:"Database Community"})
+WITH a,count(p) as cnt
+WHERE cnt>=2
+MERGE (a)-[:GURU_FOR]-(c);
