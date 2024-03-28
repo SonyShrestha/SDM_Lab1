@@ -1,4 +1,4 @@
-// Change model to store the review sent by each reviewer along with suggested decision
+// Evolution 1: Extend the model to store the review sent by each reviewer along with suggested decision
 LOAD CSV FROM 'file:///conference_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
@@ -21,7 +21,6 @@ MERGE (p)-[rb:REVIEWED_BY]->(a)
 SET rb.reviewContent = reviews[index],
     rb.suggestedDecision = decisions[index];
 
-
 LOAD CSV FROM 'file:///workshop_paper.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1
@@ -34,14 +33,14 @@ SET rb.reviewContent = reviews[index],
     rb.suggestedDecision = decisions[index];
 
 
-// Create Organization Node and load data 
+
+// Create organization node and load data 
 LOAD CSV FROM 'file:///organizations.csv' AS  line FIELDTERMINATOR ','
 with line
 skip 1
 CREATE (o:organization{name: line[0],type: line[1]});
 
-
-// Extend the model to store the affiliation of the author
+// Evolution 2: Extend the model to store the affiliation of the author
 LOAD CSV FROM 'file:///authors.csv' AS line FIELDTERMINATOR ','
 WITH line
 SKIP 1

@@ -1,4 +1,4 @@
-// Find the top 3 most cited papers of each conference
+// Query 1: Find the top 3 most cited papers of each conference
 MATCH (p:Paper)-[:PUBLISHED_IN]->(c:Conference)
 OPTIONAL MATCH (p1:Paper)-[:CITES]->(p)
 WITH c, p.paperId AS paperId, count(distinct p1.paperId) AS citationCount
@@ -7,7 +7,7 @@ WITH c, collect({paperId: paperId, citationCount: citationCount}) AS papersByCon
 RETURN c.name AS ConferenceName, papersByConference[0..3] AS TopPapers;
 
 
-// For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
+// Query 2: For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions
 MATCH (p:Paper)-[:WRITTEN_BY]->(a:Author)
 MATCH (p)-[pi:PUBLISHED_IN]->(c:Conference)
 WITH a.authorId AS authorId, c.name AS conferenceName, COUNT(DISTINCT pi.edition) AS numDistinctEditions
@@ -15,8 +15,7 @@ WHERE numDistinctEditions >= 4
 RETURN conferenceName, COLLECT(authorId) AS community;
 
 
-
-// Find the impact factors of the journals in your graph 
+// Query 3: Find the impact factors of the journals in your graph 
 MATCH (j:Journal)
 WITH j.name AS journalName, 2021 AS year
 OPTIONAL MATCH (last1_p:Paper)-[last1:PUBLISHED_IN{year:year-1}]->(j:Journal{name:journalName})
@@ -32,7 +31,7 @@ with journalName,year,numPaperPublished_last2yrs,count(*) AS numCitations
 return journalName,year,numCitations,numPaperPublished_last2yrs,numCitations/numPaperPublished_last2yrs AS impact_factor;
 
 
-// Find the h-indexes of the authors in your graph
+// Query 4: Find the h-indexes of the authors in your graph
 MATCH (a:Author)<-[:WRITTEN_BY]-(p:Paper)
 OPTIONAL MATCH (p)<-[:CITES]-(citingPaper:Paper)
 WITH a, p, COUNT(citingPaper) AS citations
