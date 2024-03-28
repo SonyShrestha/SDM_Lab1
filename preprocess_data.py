@@ -152,13 +152,14 @@ def preprocess_data():
 
     df['edition'] = df['year'].apply(extract_edition)
 
+    # Shorten the abstract to optimize memory usage
+    df['abstract'] = df['abstract'].str[:100]
+
     # Duplicate each row in the DataFrame and apply the function
     duplicated_rows = df.apply(duplicate_rows, axis=1)
 
     # Concatenate the original DataFrame and the duplicated rows
     result_df = pd.concat([df, duplicated_rows], ignore_index=True)
-
-    
 
     result_df.to_csv(output_folder+'/papers.csv', index=False)
     
