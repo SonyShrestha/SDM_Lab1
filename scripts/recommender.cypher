@@ -1,15 +1,15 @@
 // Create node Commnity of type Database 
-CREATE (c:Commnity{name: 'Database Community'});
+CREATE (c:Community{name: 'Database Community'});
 UNWIND ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying'] AS keywordName
 MATCH (k:Keyword {keyword:keywordName})
-MATCH (c:Commnity{name: 'Database Community'})
+MATCH (c:Community{name: 'Database Community'})
 MERGE (c)-[:CONTAINS]->(k);
 
+
 // Find journals and conferences related to Database Community
-MATCH (p:Paper)-[:PUBLISHED_IN]->(jc)
+MATCH (k1:Keyword)<-[:HAS_KEYWORD]-(p:Paper)-[:PUBLISHED_IN]->(jc)
 WHERE jc:Journal OR jc:Conference
-OPTIONAL MATCH (p)-[:HAS_KEYWORD]->(k1:Keyword)
-OPTIONAL MATCH (dc:Community {name:"Database Community"})-[:CONTAINS]->(k2:Keyword{keyword:k1.keyword})
+OPTIONAL MATCH (dc:Community {name:"Database Community"})-[:CONTAINS]->(k1)
 WITH 
     jc.name AS journalOrConference,
     p.paperId AS paperId,
@@ -26,33 +26,29 @@ WITH
     numPaperPublished,
     numPaperPublishedComm,
     percentage
-MATCH (entity {name: journalOrConference}), (dc:Community {name:"Database Community"})
+MATCH (entity {name: journalOrConference})
+MATCH (dc:Community {name:"Database Community"})
 MERGE (entity)-[:RELATED_TO]->(dc);
 
 
 // Identify Top Papers of these Conference/Journal 
-MATCH (p1:Paper)-[:PUBLISHED_IN]->(jc1)
-MATCH (p2:Paper)-[:PUBLISHED_IN]->(jc2)
-MATCH (jc1)-[:RELATED_TO]->(dc:Community)
-MATCH (jc2)-[:RELATED_TO]->(dc:Community)
-MATCH (p2:Paper)-[:CITES]->(p1:Paper)
-WITH jc1, p1.paperId AS paper_Id, count(distinct p2.paperId) AS citationCount
-ORDER BY jc1.name ASC, citationCount DESC
-WITH jc1.name AS conferenceName, collect({paperId: paper_Id, citationCount: citationCount}) AS papersByConference
-WITH conferenceName AS ConferenceName, REDUCE(acc = [], paperData IN papersByConference | acc + paperData)[0..100] AS TopPapers
-UNWIND TopPapers AS paper
-MATCH (pm:Paper{paperId:paper.paperId})
-SET pm:TopDBCommpaper;
+MATCH (p1:Paper)-[:PUBLISHED_IN]->(jc1)-[:RELATED_TO]->(dc:Community {name:"Database Community"})
+MATCH (p2:Paper)-[:PUBLISHED_IN]->(jc2)-[:RELATED_TO]->(dc:Community {name:"Database Community"})
+MATCH (p2)-[:CITES]->(p1)
+WITH p1, count(distinct p2.paperId) AS citationCount
+ORDER BY citationCount DESC
+LIMIT 100
+SET p1:TopDBCommpaper;
 
 
 // Identify Potential Good Match and Gurus
 MATCH (p:TopDBCommpaper)-[:WRITTEN_BY]->(a:Author)
 MATCH (c:Community{name:"Database Community"})
-MERGE (a)-[:POTENTIAL_REVIEWER_FOR]-(c);
+MERGE (a)-[:POTENTIAL_REVIEWER]-(c);
 
 
 MATCH (p:TopDBCommpaper)-[:WRITTEN_BY]->(a:Author)
 MATCH (c:Community{name:"Database Community"})
 WITH a,count(p) as cnt
 WHERE cnt>=2
-MERGE (a)-[:GURU_FOR]-(c);
+MERGE (a)-[:GURU]-(c);
