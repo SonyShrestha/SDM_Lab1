@@ -122,7 +122,7 @@ if __name__ == "__main__":
     if new_data == "yes":
         logger.info("--------------------- CLEARING DIRECTORIES ---------------------")
         clear_directory('paper_ids')
-        clear_directory('paper_idetails')
+        clear_directory('paper_details')
         clear_directory('preprocessed')
         clear_directory('splitted_files')
 
