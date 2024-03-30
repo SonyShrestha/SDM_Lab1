@@ -28,7 +28,8 @@ with journalName,year, paperId, numPaperPublished_last2yrs
 MATCH (p1:Paper)-[:CITES]->(p2:Paper{paperId:paperId})
 MATCH (p1)-[:PUBLISHED_IN{year:year}]->(j:Journal)
 with journalName,year,numPaperPublished_last2yrs,count(*) AS numCitations
-return journalName,year,numCitations,numPaperPublished_last2yrs,numCitations/numPaperPublished_last2yrs AS impact_factor;
+return journalName, numCitations/numPaperPublished_last2yrs AS impact_factor
+ORDER BY impact_factor DESC;
 
 
 // Query 4: Find the h-indexes of the authors in your graph
