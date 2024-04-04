@@ -11,11 +11,14 @@ This repository contains the implementation of a research publication graph mode
     - Finding similarity between two papers.
     - Finding PageRank of publications.
 
+<br>
+
 ## Installation 
 All required libraries can be installed using requirements.txt file.
 ```
 pip install -r requirements.txt
 ```
+<br>
 
 ## Code Execution 
 ```
