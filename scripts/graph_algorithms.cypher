@@ -3,7 +3,7 @@ CALL gds.graph.drop('paper_has_keyword_graph');
 
 CALL gds.graph.project(
     'paper_has_keyword_graph',
-    ['paper', 'keyword'],
+    ['Paper', 'Keyword'],
     {
         HAS_KEYWORD: {
             properties: {

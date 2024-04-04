@@ -132,7 +132,7 @@ RETURN
     WHEN SIZE(keywords) > 0 AND ANY(keyword IN keywords WHERE keyword IN ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying']) THEN 1 
     ELSE 0 
   END AS keyword_match_indicator
-  order by keyword_match_indicator desc
+  order by keyword_match_indicator desc;
 
 
 //Journal not related to Database Community
