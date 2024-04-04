@@ -24,8 +24,13 @@ pip install -r requirements.txt
 ```
 python lab1_a2.py --field field1,field2 --new_data yes/no
 ```
-Argument field contains comma separated fields to search for papers <br>
-Argument new_data specifies whether you want to generate new data from Schemantic Scholar
+
+```
+python lab1_a2.py --field big-data,graph-processing --new_data yes
+```
+
+Argument **field** contains **comma separated fields to search for papers **<br>
+Argument **new_data** specifies **whether you want to generate new data from Schemantic Scholar or not**
 
 ```
 python lab1_a3.py
