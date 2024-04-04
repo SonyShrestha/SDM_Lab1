@@ -29,7 +29,7 @@ python lab1_a2.py --field field1,field2 --new_data yes/no
 python lab1_a2.py --field big-data,graph-processing --new_data yes
 ```
 
-Argument **field** contains **comma separated fields to search for papers **<br>
+Argument **field** contains **comma separated fields to search for papers** <br>
 Argument **new_data** specifies **whether you want to generate new data from Schemantic Scholar or not**
 
 ```
