@@ -1,4 +1,4 @@
-// Create node Commnity of type Database 
+// Create node Community of type Database 
 CREATE (c:Community{name: 'Database Community'});
 UNWIND ['Data Management', 'Indexing', 'Big Data', 'Data Processing','Data Storage', 'Data Querying'] AS keywordName
 MATCH (k:Keyword {keyword:keywordName})
@@ -38,7 +38,7 @@ MATCH (p2)-[:CITES]->(p1)
 WITH p1, count(distinct p2.paperId) AS citationCount
 ORDER BY citationCount DESC
 LIMIT 100
-SET p1:TopDBCommpaper;
+SET p1:TopDBCommPaper;
 
 
 // Identify Potential Good Match and Gurus
