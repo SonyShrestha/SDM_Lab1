@@ -1,5 +1,9 @@
 // Find similarity between papers based on keywords they have 
-CALL gds.graph.drop('paper_has_keyword_graph');
+CALL gds.graph.exists('paper_has_keyword_graph') YIELD exists
+WITH exists
+WHERE exists
+CALL gds.graph.drop('paper_has_keyword_graph') YIELD graphName
+RETURN graphName + ' dropped' AS status;
 
 CALL gds.graph.project(
     'paper_has_keyword_graph',
@@ -25,7 +29,11 @@ ORDER BY similarity DESCENDING, Paper1, Paper2;
 
 
 // PageRank Algorithm Need to Validate
-CALL gds.graph.drop('paper_cites_graph');
+CALL gds.graph.exists('paper_cites_graph') YIELD exists
+WITH exists
+WHERE exists
+CALL gds.graph.drop('paper_cites_graph') YIELD graphName
+RETURN graphName + ' dropped' AS status;
 
 
 CALL gds.graph.project(

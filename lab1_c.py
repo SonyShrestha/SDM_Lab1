@@ -1,7 +1,7 @@
 import argparse
 import logging
 import configparser
-from neo4j_connector import Neo4jConnector
+from scripts.python.neo4j_connector import Neo4jConnector
 
 
 
@@ -28,5 +28,5 @@ if __name__ == "__main__":
     connector.connect()
 
     logger.info("--------------------- EXECUTING RECOMMENDER QUERIES ---------------------")
-    connector.execute_commands_from_file("scripts/recommender.cypher", False)
+    connector.execute_commands_from_file("scripts/cypher/recommender.cypher", False)
     connector.close()

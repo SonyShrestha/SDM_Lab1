@@ -2,10 +2,10 @@ import argparse
 import json
 import logging
 import configparser
-import get_paper_ids, get_paper_details, preprocess_data, split_files
+from scripts.python import get_paper_ids, get_paper_details, preprocess_data, split_files
 import os
 import shutil
-from neo4j_connector import Neo4jConnector
+from scripts.python.neo4j_connector import Neo4jConnector
 
 
 
@@ -130,6 +130,6 @@ if __name__ == "__main__":
     logger.info("--------------------- Load data into NEO4J Graph ---------------------")
     connector = Neo4jConnector(uri, user, password)
     connector.connect()
-    connector.execute_commands_from_file("scripts/load_data.cypher", False)
+    connector.execute_commands_from_file("scripts/cypher/load_data.cypher", False)
 
     connector.close()

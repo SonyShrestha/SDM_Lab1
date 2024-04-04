@@ -2,7 +2,7 @@ import pandas as pd
 import argparse
 import logging
 import configparser
-from neo4j_connector import Neo4jConnector
+from scripts.python.neo4j_connector import Neo4jConnector
 
 
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     connector.connect()
 
     logger.info("--------------------- EXECUTING QUERIES ---------------------")
-    query_exec_time,number_of_rows = connector.execute_commands_from_file("scripts/queries.cypher",True)
+    query_exec_time,number_of_rows = connector.execute_commands_from_file("scripts/cypher/queries.cypher",True)
     df = pd.DataFrame({'EXECUTION TIME (in seconds)': query_exec_time, 'NUMBER_OF_ROWS': number_of_rows})
     df['QUERY'] = df.index+1
     df = df[['QUERY', 'EXECUTION TIME (in seconds)','NUMBER_OF_ROWS']]
