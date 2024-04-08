@@ -28,7 +28,7 @@ ORDER BY similarity DESCENDING, Paper1, Paper2;
 
 
 
-// PageRank Algorithm Need to Validate
+// PageRank Algorithm 
 CALL gds.graph.exists('paper_cites_graph') YIELD exists
 WITH exists
 WHERE exists
