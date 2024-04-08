@@ -42,12 +42,12 @@ SET p1:TopDBCommPaper;
 
 
 // Identify Potential Good Match and Gurus
-MATCH (p:TopDBCommpaper)-[:WRITTEN_BY]->(a:Author)
+MATCH (p:TopDBCommPaper)-[:WRITTEN_BY]->(a:Author)
 MATCH (c:Community{name:"Database Community"})
 MERGE (a)-[:POTENTIAL_REVIEWER]-(c);
 
 
-MATCH (p:TopDBCommpaper)-[:WRITTEN_BY]->(a:Author)
+MATCH (p:TopDBCommPaper)-[:WRITTEN_BY]->(a:Author)
 MATCH (c:Community{name:"Database Community"})
 WITH a,count(p) as cnt
 WHERE cnt>=2
