@@ -8,8 +8,8 @@ This repository contains the implementation of a research publication graph mode
 4. Evolution section: Modifications made to adapt the graph model to changes.
 5. Recommender section: Cypher query to identify potential reviewers for the database community.
 6. Implementation of graph algorithms:
-    - Finding similarity between two papers.
-    - Finding PageRank of publications.
+    - Finding Similarity between two papers
+    - Finding PageRank of publications
 
 <br>
 
@@ -22,28 +22,28 @@ pip install -r requirements.txt
 
 ## Code Execution 
 ```
-python lab1_a2.py --field field1,field2 --new_data yes/no
+python PartA2_ShresthaRaza.py --field field1,field2 --new_data yes/no
 ```
 
 ```
-python lab1_a2.py --field big-data,graph-processing --new_data yes
+python PartA2_ShresthaRaza.py --field big-data,graph-processing --new_data yes
 ```
 
 Argument **field** contains **comma separated fields to search for papers** <br>
 Argument **new_data** specifies **whether you want to generate new data from Schemantic Scholar or not**
 
 ```
-python lab1_a3.py
+python PartA3_ShresthaRaza.py
 ```
 
 ```
-python lab1_b.py
+python PartB_ShresthaRaza.py
 ```
 
 ```
-python lab1_c.py
+python PartC_ShresthaRaza.py
 ```
 
 ```
-python lab1_d.py
+python PartD_ShresthaRaza.py
 ```
