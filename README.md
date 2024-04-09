@@ -21,6 +21,8 @@ pip install -r requirements.txt
 <br>
 
 ## Code Execution 
+
+### Instantiating and Loading
 ```
 python PartA2_ShresthaRaza.py --field field1,field2 --new_data yes/no
 ```
@@ -32,18 +34,22 @@ python PartA2_ShresthaRaza.py --field big-data,graph-processing --new_data yes
 Argument **field** contains **comma separated fields to search for papers** <br>
 Argument **new_data** specifies **whether you want to generate new data from Schemantic Scholar or not**
 
+###  Graph Evolution
 ```
 python PartA3_ShresthaRaza.py
 ```
 
+### Querying
 ```
 python PartB_ShresthaRaza.py
 ```
 
+### Recommender
 ```
 python PartC_ShresthaRaza.py
 ```
 
+###  Graph Algorithms
 ```
 python PartD_ShresthaRaza.py
 ```
