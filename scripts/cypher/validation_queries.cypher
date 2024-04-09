@@ -33,7 +33,7 @@ return title;
 
 
 // Cited Paper should be published before paper citing it
-MATCH (p:paper)-[:CITES]->(p1:paper)
+MATCH (p:Paper)-[:CITES]->(p1:Paper)
 MATCH (p)-[pin1:PUBLISHED_IN]->(j1:workshop)
 MATCH (p1)-[pin2:PUBLISHED_IN]->(j2:workshop)
 WHERE pin2.year<pin1.year
@@ -42,7 +42,7 @@ RETURN p.paperId,p1.paperId,pin1.year,pin2.year
 
 
 // authorId should be unique for an author
-match (a:author)
+match (a:Author)
 with a.authorId as authorId,count(a.name) as cnt
 where cnt>1
 return authorId, cnt
@@ -50,7 +50,7 @@ return authorId, cnt
 
 
 // Validation of top 3 cited paper of a conference 
-match (p1:paper)-[:CITES]->(p:paper)-[:PUBLISHED_IN]->(c:conference{name:"ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems"})
+match (p1:Paper)-[:CITES]->(p:Paper)-[:PUBLISHED_IN]->(c:conference{name:"ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems"})
 return p.paperId, count(distinct p1.paperId) as citation_cnt
 order by citation_cnt desc
 
@@ -61,32 +61,32 @@ return count(c.name)
 
 
 // Validation for finding community
-MATCH (a:author)<-[:WRITTEN_BY]-(p:paper)-[pi:PUBLISHED_IN]->(c:conference{name:"Knowledge Discovery and Data Mining"}) 
+MATCH (a:Author)<-[:WRITTEN_BY]-(p:Paper)-[pi:PUBLISHED_IN]->(c:conference{name:"Knowledge Discovery and Data Mining"}) 
 return a.authorId,collect(pi.edition),count(pi.edition) as cnt
 order by cnt desc
 
 
 
 // Validation of h-indexes
-match (p:paper)-[:WRITTEN_BY]->(a:author{authorId:"143824511"}),
-(p1:paper)-[:CITES]->(p)
+match (p:Paper)-[:WRITTEN_BY]->(a:Author{authorId:"143824511"}),
+(p1:Paper)-[:CITES]->(p)
 return p.paperId,count(distinct p1.paperId) as numOfCitations
 order by numOfCitations desc
 
 
 
 // Query to validate impact factor
-match (p:paper)-[:PUBLISHED_IN{year:2019}]->(j:journal{name:"IEEE Access"})
+match (p:Paper)-[:PUBLISHED_IN{year:2019}]->(j:Journal{name:"IEEE Access"})
 return COLLECT(distinct p.paperId)
 // ["4bad6ed9a4cdec5912dcd21d12c0cf9291fe04c8", "ae81b867d8788ab94ae69ff2d178132bd2259546"]
 
-match (p:paper)-[:PUBLISHED_IN{year:2020}]->(j:journal{name:"IEEE Access"})
+match (p:Paper)-[:PUBLISHED_IN{year:2020}]->(j:Journal{name:"IEEE Access"})
 return COLLECT(distinct p.paperId)
 // ["0456ed94f6c455f99cb67abe8a28aeb3ef9f489b", "b34fc78de28be598e21118d7cb9d84d63374addc", "96f20779771c81109f6b07ab8faff33b13c68d9b", "30acd43e62dbbdbe823bcc321ca1a1660ec7a622", "2d95c27d4ed8cfb8379164888cd79c6b239250b4"]
 
 
-match (p:paper)-[:CITES]->(p1:paper{paperId:"9c96a700a7abff857df936783f9e12a1ab38eee5"})
-match (p)-[:PUBLISHED_IN{year:2021}]->(j:journal)
+match (p:Paper)-[:CITES]->(p1:Paper{paperId:"9c96a700a7abff857df936783f9e12a1ab38eee5"})
+match (p)-[:PUBLISHED_IN{year:2021}]->(j:Journal)
 return count(p.paperId)
 =4+9+12+7+12+7+12
 
