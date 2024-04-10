@@ -44,5 +44,5 @@ CALL gds.graph.project(
 
 CALL gds.pageRank.stream('paper_cites_graph')
 YIELD nodeId, score
-RETURN gds.util.asNode(nodeId).paperId AS title, score
-ORDER BY score DESC, title ASC
+RETURN gds.util.asNode(nodeId).paperId AS paperId, score
+ORDER BY score DESC, paperId ASC;
